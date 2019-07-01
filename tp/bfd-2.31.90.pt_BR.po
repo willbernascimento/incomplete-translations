@@ -4,7 +4,7 @@
 # Rafael Fontenelle <rafaelff@gnome.org>, 2017.
 msgid ""
 msgstr ""
-"Project-Id-Version: bfd 2.30.90\n"
+"Project-Id-Version: bfd 2.31.90\n"
 "Report-Msgid-Bugs-To: bug-binutils@gnu.org\n"
 "POT-Creation-Date: 2019-01-19 16:30+0000\n"
 "PO-Revision-Date: 2017-07-19 03:06-0200\n"
