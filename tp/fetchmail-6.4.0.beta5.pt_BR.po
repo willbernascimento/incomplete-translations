@@ -2216,8 +2216,8 @@ msgstr ""
 #: options.c:671
 msgid "      --nosslcertck skip strict server certificate check (insecure)\n"
 msgstr ""
-"      --nosslcertck pula verificação estrita de certificado do servidor
-                     (inseguro)\n"
+"      --nosslcertck pula verificação estrita de certificado do servidor\n"
+"                    (inseguro)\n"
 
 #: options.c:672
 msgid "      --sslcertfile path to trusted-CA ssl certificate file\n"
