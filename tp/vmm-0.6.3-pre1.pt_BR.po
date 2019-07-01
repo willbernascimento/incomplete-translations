@@ -1,4 +1,4 @@
-# Portuguese translations for vmm package
+# Brazilian Portuguese translations for vmm package
 # Traduções em português brasileiro para o pacote vmm.
 # This file is distributed under the same license as the vmm package.
 # Rafael Fontenelle <rafaelff@gnome.org>, 2018.

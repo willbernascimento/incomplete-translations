@@ -1,4 +1,4 @@
-# Portuguese translations for gnunet package
+# Brazilian Portuguese translations for gnunet package
 # Traduções em português brasileiro para o pacote gnunet.
 # Copyright (C) 2019 Christian Grothoff
 # This file is distributed under the same license as the gnunet package.
