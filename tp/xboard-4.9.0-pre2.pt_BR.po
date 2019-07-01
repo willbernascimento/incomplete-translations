@@ -18,8 +18,7 @@ msgstr ""
 "POT-Creation-Date: 2016-04-05 20:32-0300\n"
 "PO-Revision-Date: 2016-04-05 20:38-0300\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
-"Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge."
-"net>\n"
+"Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge.net>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -992,8 +991,7 @@ msgstr "Clonar torneio"
 
 #: dialogs.c:356
 msgid "First you must specify an existing tourney file to clone"
-msgstr ""
-"Primeiro você deve especificar um arquivo de torneio existente para clonar"
+msgstr "Primeiro você deve especificar um arquivo de torneio existente para clonar"
 
 #: dialogs.c:372 dialogs.c:1549
 msgid "# no engines are installed"
@@ -1536,8 +1534,7 @@ msgstr "Relógio de alarme"
 #: dialogs.c:705
 #, fuzzy
 msgid "Colorize Messages"
-msgstr ""
-" -L, --color[=<quando>]        coloriza mensagens (auto, always ou never)\n"
+msgstr " -L, --color[=<quando>]        coloriza mensagens (auto, always ou never)\n"
 
 #: dialogs.c:706
 #, fuzzy
@@ -1744,16 +1741,11 @@ msgstr "_Som:"
 #, fuzzy
 msgid "Default Beep"
 msgstr ""
-"Informa ao WM como implementar a indicação visual que a campainha do sistema "
-"ou outro aplicativo indicador de \"bell\" tem soado.\n"
+"Informa ao WM como implementar a indicação visual que a campainha do sistema ou outro aplicativo indicador de \"bell\" tem soado.\n"
 "\n"
-"Atualmente, há dos valores válidos: \"fullscreen-flash\", que causa um flash "
-"preto-e-branco na tela inteira, e \"frame-flash\", que causa um flash na "
-"barra de título do aplicativo que enviou o sinal de campainha.\n"
+"Atualmente, há dos valores válidos: \"fullscreen-flash\", que causa um flash preto-e-branco na tela inteira, e \"frame-flash\", que causa um flash na barra de título do aplicativo que enviou o sinal de campainha.\n"
 "\n"
-"Se o aplicativo que enviou a campainha é desconhecido (como normalmente "
-"acontece no \"system beep\" padrão), a barra de título da janela atualmente "
-"em foco sofrerá um flash."
+"Se o aplicativo que enviou a campainha é desconhecido (como normalmente acontece no \"system beep\" padrão), a barra de título da janela atualmente em foco sofrerá um flash."
 
 #: dialogs.c:804
 #, fuzzy
@@ -2180,8 +2172,7 @@ msgstr "número inválido no início do campo"
 #, fuzzy
 msgid "randomize"
 msgstr ""
-"Aleatoriza a ordem da lista de gateways (remotos) como uma forma de medida "
-"de balanceamento de carga básica.\n"
+"Aleatoriza a ordem da lista de gateways (remotos) como uma forma de medida de balanceamento de carga básica.\n"
 "config: remote-random"
 
 #: dialogs.c:1603
@@ -2574,9 +2565,7 @@ msgstr "Nome do arquivo:"
 #: dialogs.c:3114
 #, fuzzy
 msgid "New directory"
-msgstr ""
-"O novo diretório está escondido pelo filtro. Será necessário ajustar a "
-"definição do filtro para torná-lo visível"
+msgstr "O novo diretório está escondido pelo filtro. Será necessário ajustar a definição do filtro para torná-lo visível"
 
 #: dialogs.c:3115
 msgid "File type:"
@@ -2721,12 +2710,10 @@ msgid ""
 "Enhancements Copyright 1992-2016 Free Software Foundation\n"
 "Enhancements Copyright 2005 Alessandro Scotti\n"
 "\n"
-"%s is free software and carries NO WARRANTY;see the file COPYING for more "
-"information.\n"
+"%s is free software and carries NO WARRANTY;see the file COPYING for more information.\n"
 "\n"
 "Visit XBoard on the web at: http://www.gnu.org/software/xboard/\n"
-"Check out the newest features at: http://www.gnu.org/software/xboard/"
-"whats_new.html\n"
+"Check out the newest features at: http://www.gnu.org/software/xboard/whats_new.html\n"
 "\n"
 "Report bugs via email at: <bug-xboard@gnu.org>\n"
 "\n"

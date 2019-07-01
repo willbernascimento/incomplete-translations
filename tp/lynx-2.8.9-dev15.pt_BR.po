@@ -145,17 +145,14 @@ msgstr "(Área de texto) Inativo. Pressione <enter> para ativar."
 #, c-format
 #| msgid "(Textarea) Enter text. Use UP/DOWN arrows or TAB to move off (^Ve for editor)."
 msgid "(Textarea \"%s\"); Inactive.  Press <return> to activate (%s for editor)."
-msgstr ""
-"(Área de texto \"%s\") Inativo. Pressione <enter> para ativar (%s para "
-"editor)."
+msgstr "(Área de texto \"%s\") Inativo. Pressione <enter> para ativar (%s para editor)."
 
 #. #define FORM_LINK_TEXTAREA_MESSAGE_INA_E
 #: LYMessages.c:67
 #, c-format
 #| msgid "(Textarea) Enter text. Use UP/DOWN arrows or TAB to move off (^Ve for editor)."
 msgid "(Textarea) Inactive.  Press <return> to activate (%s for editor)."
-msgstr ""
-"(Área de texto) Inativo. Pressione <enter> para ativar (%s para editor)."
+msgstr "(Área de texto) Inativo. Pressione <enter> para ativar (%s para editor)."
 
 #. #define FORM_LINK_TEXT_SUBMIT_MESSAGE_INA
 #: LYMessages.c:69
@@ -168,17 +165,13 @@ msgstr "(Campo formulário) Inativo. Use <enter> para editar."
 #, c-format
 #| msgid "(Form field) Enter text.  Use <return> to submit ('x' for no cache)."
 msgid "(Form field) Inactive.  Use <return> to edit (%s to submit with no cache)."
-msgstr ""
-"(Campo formulário) Inativo. Use <enter> para editar (%s para enviar sem "
-"salvar)."
+msgstr "(Campo formulário) Inativo. Use <enter> para editar (%s para enviar sem salvar)."
 
 #. #define FORM_TEXT_RESUBMIT_MESSAGE_INA
 #: LYMessages.c:73
 #| msgid "(Form field) Enter text.  Use <return> to submit, arrows or tab to move off."
 msgid "(Form field) Inactive. Press <return> to edit, press <return> twice to submit."
-msgstr ""
-"(Campo formulário) Inativo. Pressione <enter> para editar, ou <enter> duas "
-"vezes para enviar."
+msgstr "(Campo formulário) Inativo. Pressione <enter> para editar, ou <enter> duas vezes para enviar."
 
 #. #define FORM_TEXT_SUBMIT_MAILTO_MSG_INA
 #: LYMessages.c:75
@@ -195,16 +188,12 @@ msgstr "(Campo de entrada de senha) Inativo. Pressione <enter> para ativar."
 #. #define FORM_LINK_FILE_UNM_MSG
 #: LYMessages.c:80
 msgid "UNMODIFIABLE file entry field.  Use UP or DOWN arrows or tab to move off."
-msgstr ""
-"Campo de entrada de arquivo não modificável. Use setas para cima/baixo ou "
-"TAB para sair."
+msgstr "Campo de entrada de arquivo não modificável. Use setas para cima/baixo ou TAB para sair."
 
 #. #define FORM_LINK_FILE_MESSAGE
 #: LYMessages.c:82
 msgid "(File entry field) Enter filename.  Use UP or DOWN arrows or tab to move off."
-msgstr ""
-"(Caixa de texto). Digite o nome do arquivo. Use seta para cima, para baixo "
-"ou TAB para sair."
+msgstr "(Caixa de texto). Digite o nome do arquivo. Use seta para cima, para baixo ou TAB para sair."
 
 #. #define FORM_LINK_TEXT_ADV_MSG
 #. #define FORM_LINK_TEXT_MESSAGE
@@ -212,49 +201,39 @@ msgstr ""
 #, c-format
 #| msgid "(Text entry field) Enter text.  Use UP or DOWN arrows or tab to move off."
 msgid "(Textfield \"%s\"); Enter text.  Use UP or DOWN arrows or tab to move off."
-msgstr ""
-"(Caixa de texto \"%s\"); Digite o texto. Seta para cima, para baixo ou TAB "
-"para sair."
+msgstr "(Caixa de texto \"%s\"); Digite o texto. Seta para cima, para baixo ou TAB para sair."
 
 #. #define FORM_LINK_TEXTAREA_ADV_MSG
 #: LYMessages.c:88
 #, c-format
 #| msgid "(Textarea) Enter text. Use UP/DOWN arrows or TAB to move off (^Ve for editor)."
 msgid "(Textarea \"%s\"); Enter text. Use UP/DOWN arrows or TAB to move off."
-msgstr ""
-"(Área de texto \"%s\"). Digite o texto. Setas para cima/baixo, ou TAB para "
-"sair."
+msgstr "(Área de texto \"%s\"). Digite o texto. Setas para cima/baixo, ou TAB para sair."
 
 #. #define FORM_LINK_TEXTAREA_MESSAGE
 #: LYMessages.c:90
 #| msgid "(Textarea) Enter text. Use UP/DOWN arrows or TAB to move off (^Ve for editor)."
 msgid "(Textarea) Enter text. Use UP/DOWN arrows or TAB to move off."
-msgstr ""
-"(Área de texto). Digite o texto. Setas para cima/baixo, ou TAB para sair."
+msgstr "(Área de texto). Digite o texto. Setas para cima/baixo, ou TAB para sair."
 
 #. #define FORM_LINK_TEXTAREA_ADV_MSG_E
 #: LYMessages.c:92
 #, c-format
 #| msgid "(Textarea) Enter text. Use UP/DOWN arrows or TAB to move off (^Ve for editor)."
 msgid "(Textarea \"%s\"); Enter text. Use UP/DOWN arrows or TAB to move off (%s for editor)."
-msgstr ""
-"(Área de texto \"%s\"). Digite o texto. Setas para cima/baixo, ou TAB para "
-"sair (%s para editor)."
+msgstr "(Área de texto \"%s\"). Digite o texto. Setas para cima/baixo, ou TAB para sair (%s para editor)."
 
 #. #define FORM_LINK_TEXTAREA_MESSAGE_E
 #: LYMessages.c:94
 #, c-format
 #| msgid "(Textarea) Enter text. Use UP/DOWN arrows or TAB to move off (^Ve for editor)."
 msgid "(Textarea) Enter text. Use UP/DOWN arrows or TAB to move off (%s for editor)."
-msgstr ""
-"(Área de texto). Digite o texto. Setas para cima/baixo, ou TAB para sair (%s "
-"para editor)."
+msgstr "(Área de texto). Digite o texto. Setas para cima/baixo, ou TAB para sair (%s para editor)."
 
 #. #define FORM_LINK_TEXT_UNM_MSG
 #: LYMessages.c:96
 msgid "UNMODIFIABLE form text field.  Use UP or DOWN arrows or tab to move off."
-msgstr ""
-"Caixa de texto não modificável. Setas para cima/baixo, ou TAB para sair."
+msgstr "Caixa de texto não modificável. Setas para cima/baixo, ou TAB para sair."
 
 #. #define FORM_LINK_TEXT_SUBMIT_MESSAGE
 #: LYMessages.c:98
@@ -272,47 +251,39 @@ msgstr "(Campo de formulário). Use <enter> para enviar (%s para não salvar)."
 #. #define FORM_LINK_TEXT_RESUBMIT_MESSAGE
 #: LYMessages.c:102
 msgid "(Form field) Enter text.  Use <return> to submit, arrows or tab to move off."
-msgstr ""
-"(Campo de formulário) Digite o texto. Use <enter> para enviar, setas ou TAB "
-"para sair."
+msgstr "(Campo de formulário) Digite o texto. Use <enter> para enviar, setas ou TAB para sair."
 
 #. #define FORM_LINK_TEXT_SUBMIT_UNM_MSG
 #: LYMessages.c:104
 msgid "UNMODIFIABLE form field.  Use UP or DOWN arrows or tab to move off."
-msgstr ""
-"Campo de texto não modificável. Use setas para cima/baixo ou TAB para sair."
+msgstr "Campo de texto não modificável. Use setas para cima/baixo ou TAB para sair."
 
 #. #define FORM_LINK_TEXT_SUBMIT_MAILTO_MSG
 #: LYMessages.c:106
 msgid "(mailto form field) Enter text.  Use <return> to submit, arrows to move off."
-msgstr ""
-"(Campo de e-mail) Digite o texto. Use <enter> para enviar, setas para sair."
+msgstr "(Campo de e-mail) Digite o texto. Use <enter> para enviar, setas para sair."
 
 #. #define FORM_LINK_TEXT_SUBMIT_MAILTO_DIS_MSG
 #: LYMessages.c:108
 msgid "(mailto form field) Mail is disallowed so you cannot submit."
-msgstr ""
-"(Campo de e-mail) E-mail está desabilitado, portanto você não pode enviar."
+msgstr "(Campo de e-mail) E-mail está desabilitado, portanto você não pode enviar."
 
 #. #define FORM_LINK_PASSWORD_MESSAGE
 #: LYMessages.c:110
 msgid "(Password entry field) Enter text.  Use UP or DOWN arrows or tab to move off."
-msgstr ""
-"(Campo de entrada de senha). Use setas para cima/baixo ou TAB para sair."
+msgstr "(Campo de entrada de senha). Use setas para cima/baixo ou TAB para sair."
 
 #. #define FORM_LINK_PASSWORD_UNM_MSG
 #: LYMessages.c:112
 msgid "UNMODIFIABLE form password.  Use UP or DOWN arrows or tab to move off."
-msgstr ""
-"Campo de senha não modificável. Use setas para cima/baixo ou TAB para sair."
+msgstr "Campo de senha não modificável. Use setas para cima/baixo ou TAB para sair."
 
 #. #define FORM_LINK_CHECKBOX_ADV_MSG
 #: LYMessages.c:114
 #, c-format
 #| msgid "(Checkbox Field)   Use right-arrow or <return> to toggle."
 msgid "(Checkbox \"%s\");   Use right-arrow or <return> to toggle."
-msgstr ""
-"(Caixa de seleção \"%s\"); Use seta para a direita ou <enter> para marcar."
+msgstr "(Caixa de seleção \"%s\"); Use seta para a direita ou <enter> para marcar."
 
 #. #define FORM_LINK_CHECKBOX_MESSAGE
 #: LYMessages.c:116
@@ -322,16 +293,14 @@ msgstr "(Caixa de seleção) Use seta para a direita ou <enter> para marcar."
 #. #define FORM_LINK_CHECKBOX_UNM_MSG
 #: LYMessages.c:118
 msgid "UNMODIFIABLE form checkbox.  Use UP or DOWN arrows or tab to move off."
-msgstr ""
-"Caixa de seleção não modificável. Setas para cima/baixo ou TAB para sair."
+msgstr "Caixa de seleção não modificável. Setas para cima/baixo ou TAB para sair."
 
 #. #define FORM_LINK_RADIO_ADV_MSG
 #: LYMessages.c:120
 #, c-format
 #| msgid "(Radio Button)   Use right-arrow or <return> to toggle."
 msgid "(Radio Button \"%s\");   Use right-arrow or <return> to toggle."
-msgstr ""
-"(Botão de opção \"%s\"); Use seta para a direita ou <enter> para marcar."
+msgstr "(Botão de opção \"%s\"); Use seta para a direita ou <enter> para marcar."
 
 #. #define FORM_LINK_RADIO_MESSAGE
 #: LYMessages.c:122
@@ -341,8 +310,7 @@ msgstr "(Botão de opção) Use seta para a direita ou <enter> para marcar."
 #. #define FORM_LINK_RADIO_UNM_MSG
 #: LYMessages.c:124
 msgid "UNMODIFIABLE form radio button.  Use UP or DOWN arrows or tab to move off."
-msgstr ""
-"Botão de opção não modificável. Use setas para cima/baixo ou TAB para sair."
+msgstr "Botão de opção não modificável. Use setas para cima/baixo ou TAB para sair."
 
 #. #define FORM_LINK_SUBMIT_PREFIX
 #: LYMessages.c:126
@@ -357,9 +325,7 @@ msgstr "Enviar para "
 #. #define FORM_LINK_SUBMIT_MESSAGE
 #: LYMessages.c:130
 msgid "(Form submit button) Use right-arrow or <return> to submit ('x' for no cache)."
-msgstr ""
-"(Botão de envio)Seta para direita ou <enter> para enviar ('x' para não "
-"salvar)."
+msgstr "(Botão de envio)Seta para direita ou <enter> para enviar ('x' para não salvar)."
 
 #. #define FORM_LINK_RESUBMIT_MESSAGE
 #: LYMessages.c:132
@@ -369,8 +335,7 @@ msgstr "(Botão de envio) Use seta para a direita ou <enter> para enviar."
 #. #define FORM_LINK_SUBMIT_DIS_MSG
 #: LYMessages.c:134
 msgid "DISABLED form submit button.  Use UP or DOWN arrows or tab to move off."
-msgstr ""
-"Botão de opção desabilitado. Seta para cima ou para baixo ou TAB para sair."
+msgstr "Botão de opção desabilitado. Seta para cima ou para baixo ou TAB para sair."
 
 #. #define FORM_LINK_SUBMIT_MAILTO_PREFIX
 #: LYMessages.c:136
@@ -380,27 +345,22 @@ msgstr "Enviar formulário de e-mail para "
 #. #define FORM_LINK_SUBMIT_MAILTO_MSG
 #: LYMessages.c:138
 msgid "(mailto form submit button) Use right-arrow or <return> to submit."
-msgstr ""
-"(Botão de envio de email) Use seta para a direita ou <enter> para enviar."
+msgstr "(Botão de envio de email) Use seta para a direita ou <enter> para enviar."
 
 #. #define FORM_LINK_SUBMIT_MAILTO_DIS_MSG
 #: LYMessages.c:140
 msgid "(mailto form submit button) Mail is disallowed so you cannot submit."
-msgstr ""
-"(Botão de envio de email) E-mail desabilitado, então você não pode enviar."
+msgstr "(Botão de envio de email) E-mail desabilitado, então você não pode enviar."
 
 #. #define FORM_LINK_RESET_MESSAGE
 #: LYMessages.c:142
 msgid "(Form reset button)   Use right-arrow or <return> to reset form to defaults."
-msgstr ""
-"(Botão de limpar).Seta para a direita ou<enter> para voltar aos valores "
-"padrão"
+msgstr "(Botão de limpar).Seta para a direita ou<enter> para voltar aos valores padrão"
 
 #. #define FORM_LINK_RESET_DIS_MSG
 #: LYMessages.c:144
 msgid "DISABLED form reset button.  Use UP or DOWN arrows or tab to move off."
-msgstr ""
-"Botão de limpar desabilitado. Seta para cima ou para baixo ou TAB para sair."
+msgstr "Botão de limpar desabilitado. Seta para cima ou para baixo ou TAB para sair."
 
 #. #define FORM_LINK_BUTTON_MESSAGE
 #: LYMessages.c:146
@@ -413,16 +373,13 @@ msgstr "(Botão de script) Use a seta para cima ou para baixo ou TAB para sair."
 #, c-format
 #| msgid "DISABLED form submit button.  Use UP or DOWN arrows or tab to move off."
 msgid "(Script button \"%s\");   Use UP or DOWN arrows or tab to move off."
-msgstr ""
-"(Botão de script \"%s\"); Use a seta para cima ou para baixo ou TAB para "
-"sair."
+msgstr "(Botão de script \"%s\"); Use a seta para cima ou para baixo ou TAB para sair."
 
 #. #define FORM_LINK_BUTTON_DIS_MSG
 #: LYMessages.c:150
 #| msgid "DISABLED form submit button.  Use UP or DOWN arrows or tab to move off."
 msgid "DISABLED Script button.  Use UP or DOWN arrows or tab to move off."
-msgstr ""
-"Botão de script desabilitado. Seta para cima ou para baixo ou TAB para sair."
+msgstr "Botão de script desabilitado. Seta para cima ou para baixo ou TAB para sair."
 
 #. #define FORM_LINK_OPTION_LIST_ADV_MSG
 #: LYMessages.c:152
@@ -434,23 +391,19 @@ msgstr "(Lista de opções \"%s\"); Tecle enter para selecionar."
 #. #define FORM_LINK_OPTION_LIST_MESSAGE
 #: LYMessages.c:154
 msgid "(Option list) Hit return and use arrow keys and return to select option."
-msgstr ""
-"(Lista de opções) Tecle enter, use as setas e enter para selecionar a opção."
+msgstr "(Lista de opções) Tecle enter, use as setas e enter para selecionar a opção."
 
 #. #define CHOICE_LIST_ADV_MSG
 #: LYMessages.c:156
 #, c-format
 #| msgid "(Choice list) Hit return and use arrow keys and return to select option."
 msgid "(Choice entry \"%s\"); Use arrow keys and return to select option."
-msgstr ""
-"(Lista de escolhas \"%s\"); Use as setas e enter para selecionar a opção."
+msgstr "(Lista de escolhas \"%s\"); Use as setas e enter para selecionar a opção."
 
 #. #define CHOICE_LIST_MESSAGE
 #: LYMessages.c:158
 msgid "(Choice list) Hit return and use arrow keys and return to select option."
-msgstr ""
-"(Lista de escolhas) Tecle enter, use as setas e enter para selecionar a "
-"opção."
+msgstr "(Lista de escolhas) Tecle enter, use as setas e enter para selecionar a opção."
 
 #. #define MOUSE_CHOICE_MESSAGE
 #: LYMessages.c:160
@@ -465,8 +418,7 @@ msgstr "Lista de opções não modificável. Use enter ou setas para rever ou sa
 #. #define CHOICE_LIST_UNM_MSG
 #: LYMessages.c:164
 msgid "UNMODIFIABLE choice list.  Use return or arrow keys to review or leave."
-msgstr ""
-"Lista de escolhas não modificável. Use enter ou setas para rever ou sair."
+msgstr "Lista de escolhas não modificável. Use enter ou setas para rever ou sair."
 
 #: LYMessages.c:165
 msgid "Submitting form..."
@@ -565,15 +517,12 @@ msgstr "Vendo a fonte do documento. Pressione '\\' para voltar ao documento."
 #. #define NOVICE_LINE_ONE
 #: LYMessages.c:192
 msgid "  Arrow keys: Up and Down to move.  Right to follow a link; Left to go back.  \n"
-msgstr ""
-"Setas para cima/baixo move.A direita segue um link; A esquerda para voltar.\n"
+msgstr "Setas para cima/baixo move.A direita segue um link; A esquerda para voltar.\n"
 
 #. #define NOVICE_LINE_TWO
 #: LYMessages.c:194
 msgid " H)elp O)ptions P)rint G)o M)ain screen Q)uit /=search [delete]=history list \n"
-msgstr ""
-"H)Ajuda O)Opções P)Imprimir G)Segue M)Principal Q)Sair /=procura [delete]="
-"Histórico \n"
+msgstr "H)Ajuda O)Opções P)Imprimir G)Segue M)Principal Q)Sair /=procura [delete]=Histórico \n"
 
 #. #define NOVICE_LINE_TWO_A
 #: LYMessages.c:196

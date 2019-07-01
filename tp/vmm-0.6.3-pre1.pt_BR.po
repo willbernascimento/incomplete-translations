@@ -9,8 +9,7 @@ msgstr ""
 "POT-Creation-Date: 2014-03-23 20:10+0000\n"
 "PO-Revision-Date: 2018-04-03 06:03-0200\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
-"Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge.net>"
-"\n"
+"Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge.net>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -31,8 +30,7 @@ msgstr "O domínio \"%s\" não existe."
 #: VirtualMailManager/account.py:123
 #, python-format
 msgid "The mailbox format '%(mbfmt)s' requires Dovecot >= v%(version)s."
-msgstr ""
-"A caixa de correio no formato \"%(mbfmt)s\" requer Dovecot >= v%(version)s."
+msgstr "A caixa de correio no formato \"%(mbfmt)s\" requer Dovecot >= v%(version)s."
 
 #: VirtualMailManager/account.py:166 VirtualMailManager/cli/handler.py:93
 #: VirtualMailManager/handler.py:683 VirtualMailManager/handler.py:789
@@ -109,8 +107,7 @@ msgid ""
 "%(count_new)i additional destination(s) will render this alias unusable.\n"
 "Hint: Increase Postfix' virtual_alias_expansion_limit"
 msgstr ""
-"Falha ao adicionar %(count_new)i novo(s) destino(s) ao alias \"%(address)s"
-"\".\n"
+"Falha ao adicionar %(count_new)i novo(s) destino(s) ao alias \"%(address)s\".\n"
 "Atualmente esse alias expande em %(count)i/%(limit)i destinatários.\n"
 "%(count_new)i destino(s) adicional(is) tornará(ão) esse alias não usável.\n"
 "Dica: Aumente o virtual_alias_expansion_limit do Postfix"
@@ -123,8 +120,7 @@ msgid ""
 "So its unusable, all messages addressed to this alias will be bounced.\n"
 "Hint: Delete some destination addresses."
 msgstr ""
-"Falha ao adicionar %(count_new)i novo(s) destino(s) ao alias \"%(address)s"
-"\".\n"
+"Falha ao adicionar %(count_new)i novo(s) destino(s) ao alias \"%(address)s\".\n"
 "Esse alias já excede seu limite de expansão (%(count)i/%(limit)i).\n"
 "Então, não é usável, todas as mensagens endereçadas a este alias serão\n"
 "devolvidas.\n"
@@ -173,10 +169,8 @@ msgstr "Não há domínio primário para o domínio alias \"%s\"."
 
 #: VirtualMailManager/aliasdomain.py:115
 #, python-format
-msgid ""
-"The alias domain '%(alias)s' is already assigned to the domain '%(domain)s'."
-msgstr ""
-"O domínio alias \"%(alias)s\" já está atribuído ao domínio \"%(domain)s\"."
+msgid "The alias domain '%(alias)s' is already assigned to the domain '%(domain)s'."
+msgstr "O domínio alias \"%(alias)s\" já está atribuído ao domínio \"%(domain)s\"."
 
 #: VirtualMailManager/catchall.py:69
 #, python-format
@@ -197,8 +191,7 @@ msgstr ""
 #, python-format
 msgid ""
 "Cannot add %(count_new)i new destination(s) to catch-all alias for domain\n"
-"'%(domain)s'. This alias already exceeds its expansion limit (%(count)i/"
-"%(limit)i).\n"
+"'%(domain)s'. This alias already exceeds its expansion limit (%(count)i/%(limit)i).\n"
 "So its unusable, all messages addressed to this alias will be bounced.\n"
 "Hint: Delete some destination addresses."
 msgstr ""
@@ -216,12 +209,8 @@ msgstr "Não há aliases catch-all definidos para o domínio \"%s\"."
 
 #: VirtualMailManager/catchall.py:159
 #, python-format
-msgid ""
-"No suitable destinations left to remove from the catch-all alias of domain "
-"'%s'."
-msgstr ""
-"Nenhum destino adequado restante para remover do alias catch-all do domínio "
-"\"%s\"."
+msgid "No suitable destinations left to remove from the catch-all alias of domain '%s'."
+msgstr "Nenhum destino adequado restante para remover do alias catch-all do domínio \"%s\"."
 
 #. TP: Please preserve the trailing space.
 #: VirtualMailManager/cli/__init__.py:78
@@ -292,8 +281,7 @@ msgstr ""
 msgid ""
 "In this process the currently set value of each option will be displayed\n"
 "in square brackets. If no value is configured, the default value of each\n"
-"option will be displayed in square brackets. Press the return key, to "
-"accept\n"
+"option will be displayed in square brackets. Press the return key, to accept\n"
 "the displayed value."
 msgstr ""
 "Nesse processo, o valor atualmente definido de cada opção será exibido\n"
@@ -335,10 +323,8 @@ msgid ""
 "The output can be limited with an optional <pattern>."
 msgstr ""
 "Este comando lista todos os endereços definidos.\n"
-"Endereços pertencentes a alias-domains são prefixados com um \"-\", "
-"endereços\n"
-"de domínios regulares com um \"+\". Além disso, as letras \"u\", \"a\" e \""
-"r\"\n"
+"Endereços pertencentes a alias-domains são prefixados com um \"-\", endereços\n"
+"de domínios regulares com um \"+\". Além disso, as letras \"u\", \"a\" e \"r\"\n"
 "indicam o tipo de cada endereço: user, alias e relocated, respectivamente.\n"
 "A saída pode ser limitada com um <padrão> opcional."
 
@@ -375,8 +361,7 @@ msgid ""
 msgstr ""
 "Este subcomando lista todos os domínios disponíveis.\n"
 "Todos os nomes de domínio serão prefixados com \"[+]\", se o domínio for um\n"
-"domínio primário, ou com \"[-]\", se for um nome de domínio de alias. A "
-"saída\n"
+"domínio primário, ou com \"[-]\", se for um nome de domínio de alias. A saída\n"
 "pode ser limitada com um <padrão> opcional."
 
 #. TP: description of subcommand listpwschemes
@@ -405,14 +390,12 @@ msgstr ""
 #: VirtualMailManager/cli/clihelp.py:78
 msgid ""
 "This command lists all defined relocated addresses.\n"
-"Relocated entries belonging to alias-domains are prefixed with a '-', "
-"addresses\n"
+"Relocated entries belonging to alias-domains are prefixed with a '-', addresses\n"
 "of regular domains with a '+'. The output can be limited with an optional\n"
 "<pattern>."
 msgstr ""
 "Este comando lista todos os endereços realocados definidos.\n"
-"As entradas realocadas pertencentes a alias-domains são prefixados com um \"-"
-"\",\n"
+"As entradas realocadas pertencentes a alias-domains são prefixados com um \"-\",\n"
 "endereços de domínios regulares com um \"+\". A saída pode ser limitada\n"
 "com um <padrão> opcional."
 
@@ -425,8 +408,7 @@ msgid ""
 msgstr ""
 "Este comando lista todas as contas de usuários.\n"
 "As contas de usuários pertencentes a alias-domains são prefixados com um\n"
-"\"-\", endereços de domínios regulares com um \"+\". A saída pode ser "
-"limitada\n"
+"\"-\", endereços de domínios regulares com um \"+\". A saída pode ser limitada\n"
 "com um <padrão> opcional."
 
 #. TP: description of subcommand version
@@ -450,8 +432,7 @@ msgstr ""
 #: VirtualMailManager/cli/clihelp.py:96
 msgid ""
 "If the optional argument <transport> is given, it will override the\n"
-"default transport (domain.transport) from vmm.cfg. The specified "
-"<transport>\n"
+"default transport (domain.transport) from vmm.cfg. The specified <transport>\n"
 "will be the default transport for all new accounts in this domain."
 msgstr ""
 "Se o argumento <transporte> opcional for fornecido, ele substituirá\n"
@@ -466,8 +447,7 @@ msgstr "Comportamento relacionado à configuração:"
 #: VirtualMailManager/cli/clihelp.py:101
 msgid ""
 "When that option is set to true (default) vmm will automatically create\n"
-"the postmaster account for the new domain and prompt for "
-"postmaster@<fqdn>'s\n"
+"the postmaster account for the new domain and prompt for postmaster@<fqdn>'s\n"
 "password."
 msgstr ""
 "Quando essa opção estiver definida como true (padrão), o vmm criará\n"
@@ -497,8 +477,7 @@ msgstr ""
 msgid ""
 "If there are accounts, aliases and/or relocated users assigned to the\n"
 "given domain, vmm will abort the requested operation and show an error\n"
-"message. If you know, what you are doing, you can specify the optional "
-"keyword\n"
+"message. If you know, what you are doing, you can specify the optional keyword\n"
 "'force'."
 msgstr ""
 "Se houver contas, aliases e/ou usuários realocados designados para o\n"
@@ -553,17 +532,13 @@ msgstr ""
 #: VirtualMailManager/cli/clihelp.py:129
 msgid ""
 "The new quota limit will affect only those accounts for which the limit\n"
-"has not been overridden. If you want to restore the default to all "
-"accounts,\n"
-"you may pass the keyword 'force'. When the argument <messages> was omitted "
-"the\n"
+"has not been overridden. If you want to restore the default to all accounts,\n"
+"you may pass the keyword 'force'. When the argument <messages> was omitted the\n"
 "default number of messages 0 (zero) will be applied."
 msgstr ""
 "O novo limite de cota afetará apenas as contas para as quais o limite\n"
-"não foi substituído. Se você quiser restaurar o padrão para todas as contas,"
-"\n"
-"você pode passar a palavra-chave \"force\". Quando o argumento <mensagens> "
-"for\n"
+"não foi substituído. Se você quiser restaurar o padrão para todas as contas,\n"
+"você pode passar a palavra-chave \"force\". Quando o argumento <mensagens> for\n"
 "omitido, o número padrão de mensagens 0 (zero) será aplicado."
 
 #. TP: description of subcommand domainservices
@@ -586,13 +561,11 @@ msgstr ""
 #: VirtualMailManager/cli/clihelp.py:139
 msgid ""
 "The new service set will affect only those accounts for which the set has\n"
-"not been overridden. If you want to restore the default to all accounts, "
-"you\n"
+"not been overridden. If you want to restore the default to all accounts, you\n"
 "may pass the keyword 'force'."
 msgstr ""
 "O novo serviço definido afetará apenas as contas para as quais a definição\n"
-"não foi substituída. Se você quiser restaurar o padrão para todas as contas,"
-"\n"
+"não foi substituída. Se você quiser restaurar o padrão para todas as contas,\n"
 "pode passar a palavra-chave \"force\"."
 
 #. TP: description of subcommand domaintransport
@@ -607,8 +580,7 @@ msgstr ""
 #: VirtualMailManager/cli/clihelp.py:145
 msgid ""
 "The new transport will affect only those accounts for which the transport\n"
-"has not been overridden. If you want to restore the default to all "
-"accounts,\n"
+"has not been overridden. If you want to restore the default to all accounts,\n"
 "you may pass the keyword 'force'."
 msgstr ""
 "O novo transporte afetará apenas as contas para as quais o transporte não\n"
@@ -662,10 +634,8 @@ msgstr ""
 #: VirtualMailManager/cli/clihelp.py:168
 msgid ""
 "If the <password> is not provided, vmm will prompt for it interactively.\n"
-"When no <password> is provided and account.random_password is set to true, "
-"vmm\n"
-"will generate a random password and print it to stdout after the account "
-"has\n"
+"When no <password> is provided and account.random_password is set to true, vmm\n"
+"will generate a random password and print it to stdout after the account has\n"
 "been created."
 msgstr ""
 
@@ -679,8 +649,7 @@ msgstr ""
 #: VirtualMailManager/cli/clihelp.py:175
 msgid ""
 "If there are one or more aliases with an identical destination address,\n"
-"vmm will abort the requested operation and show an error message. To "
-"prevent\n"
+"vmm will abort the requested operation and show an error message. To prevent\n"
 "this, specify the optional keyword 'force'."
 msgstr ""
 
@@ -788,10 +757,8 @@ msgstr ""
 #: VirtualMailManager/cli/clihelp.py:220
 msgid ""
 "Within the destination address, the placeholders '%n', '%d', and '%='\n"
-"will be replaced by the local part, the domain, or the email address with "
-"'@'\n"
-"replaced by '=' respectively. In combination with alias domains, this "
-"enables\n"
+"will be replaced by the local part, the domain, or the email address with '@'\n"
+"replaced by '=' respectively. In combination with alias domains, this enables\n"
 "domain-specific destinations."
 msgstr ""
 
@@ -848,8 +815,7 @@ msgstr ""
 msgid ""
 "This subcommand allows to specify destination\n"
 "addresses for a domain, which shall receive mail addressed to unknown\n"
-"local-parts within that domain. Those catch-all aliases hence \"catch all\" "
-"mail\n"
+"local-parts within that domain. Those catch-all aliases hence \"catch all\" mail\n"
 "to any address in the domain (unless a more specific alias, mailbox or\n"
 "relocated user exists)."
 msgstr ""
@@ -872,8 +838,7 @@ msgstr ""
 #: VirtualMailManager/cli/clihelp.py:257
 msgid ""
 "With this subcommand, catch-all aliases defined\n"
-"for a domain can be removed, either all of them, or those <destination>s "
-"which\n"
+"for a domain can be removed, either all of them, or those <destination>s which\n"
 "were specified explicitly."
 msgstr ""
 
@@ -1269,9 +1234,7 @@ msgstr "atualiza o limite de cota para o endereço dado"
 
 #: VirtualMailManager/cli/subcommands.py:817
 msgid "enables the specified services and disables all not specified services"
-msgstr ""
-"habilita os serviços especificados e desabilita todos os serviços não "
-"especificados"
+msgstr "habilita os serviços especificados e desabilita todos os serviços não especificados"
 
 #: VirtualMailManager/cli/subcommands.py:821
 msgid "update the transport of the given address"
@@ -1317,8 +1280,7 @@ msgid "add one or more catch-all destinations for a domain"
 msgstr ""
 
 #: VirtualMailManager/cli/subcommands.py:852
-msgid ""
-"delete the specified catch-all destination or all of a domain's destinations"
+msgid "delete the specified catch-all destination or all of a domain's destinations"
 msgstr ""
 
 #: VirtualMailManager/cli/subcommands.py:855
@@ -1344,9 +1306,7 @@ msgid "update the quota limit of the specified domain"
 msgstr ""
 
 #: VirtualMailManager/cli/subcommands.py:869
-msgid ""
-"enables the specified services and disables all not specified services of "
-"the given domain"
+msgid "enables the specified services and disables all not specified services of the given domain"
 msgstr ""
 
 #: VirtualMailManager/cli/subcommands.py:873
@@ -1675,9 +1635,7 @@ msgstr "diretiva \"domain %s\" ignorada"
 
 #: VirtualMailManager/domain.py:119
 #, python-format
-msgid ""
-"There are %(account_count)u accounts, %(alias_count)u aliases and "
-"%(relocated_count)u relocated users."
+msgid "There are %(account_count)u accounts, %(alias_count)u aliases and %(relocated_count)u relocated users."
 msgstr ""
 
 #: VirtualMailManager/domain.py:134
@@ -1727,9 +1685,7 @@ msgstr ""
 
 #: VirtualMailManager/ext/postconf.py:84
 #, python-format
-msgid ""
-"The value '%s' does not look like a valid Postfix configuration parameter "
-"name."
+msgid "The value '%s' does not look like a valid Postfix configuration parameter name."
 msgstr ""
 
 #: VirtualMailManager/handler.py:54
@@ -1812,8 +1768,7 @@ msgstr "Pulado"
 
 #: VirtualMailManager/handler.py:355
 #, python-format
-msgid ""
-"UID '%(uid)u' and/or GID '%(gid)u' are less than %(min_uid)u/%(min_gid)u."
+msgid "UID '%(uid)u' and/or GID '%(gid)u' are less than %(min_uid)u/%(min_gid)u."
 msgstr ""
 
 #: VirtualMailManager/handler.py:360 VirtualMailManager/handler.py:393

@@ -44,8 +44,7 @@ msgstr "lordsawar.nongnu.org"
 #: ../dat/glade/about-dialog.ui.h:8
 msgid ""
 "LordsAWar! is licensed under the GNU General Public License version 3,\n"
-"or (at your option) any later version of the license.  This license "
-"extends \n"
+"or (at your option) any later version of the license.  This license extends \n"
 "to all source code, artwork assets and music and sound assets.\n"
 "\n"
 "To see the terms of the license, visit: http://www.gnu.org/licenses/gpl"
@@ -1737,11 +1736,7 @@ msgstr ""
 #: ../dat/glade/editor/armyset-window.ui.h:52
 #, fuzzy
 msgid "Sight"
-msgstr ""
-"Você pode usar este exercício para praticar solfejo: Quando você começa o "
-"exercício, pressione Mostrar e tente cantar a música. Então você pode usar o "
-"botão 'Tocar a música inteira' ou os botões com as semínimas para deixar o "
-"programa tocar a música. Você tem que decidir por si mesmo se teve sucesso."
+msgstr "Você pode usar este exercício para praticar solfejo: Quando você começa o exercício, pressione Mostrar e tente cantar a música. Então você pode usar o botão 'Tocar a música inteira' ou os botões com as semínimas para deixar o programa tocar a música. Você tem que decidir por si mesmo se teve sucesso."
 
 #: ../dat/glade/editor/armyset-window.ui.h:53
 msgid "ID"
@@ -2926,16 +2921,7 @@ msgstr "Herói"
 #: ../dat/glade/editor/battle-calculator-dialog.ui.h:10
 #, fuzzy
 msgid "Defenders"
-msgstr ""
-"<b>QUESTÃO</b>: Uma analogia que foi sugerida recentemente a mim para toda a "
-"questão do Napster foi a analogia de uma biblioteca pública. Suponho que "
-"alguns de vocês que tenham ouvido os argumentos do Napster tenham ouvido "
-"esta analogia. Imagino se você gostaria de comentar sobre isso. Os "
-"defensores das pessoas que dizem que o Napster deveria continuar e que não "
-"deveriam haver restrições sobre ele dizem mais ou menos isso: “Quando as "
-"pessoas vão a bibliotecas públicas e pegam um livro, eles não estão pagando "
-"por ele, e ele pode ser emprestado dezenas de vezes, centenas de vezes, sem "
-"qualquer pagamento adicional. Por que o Napster é diferente?”"
+msgstr "<b>QUESTÃO</b>: Uma analogia que foi sugerida recentemente a mim para toda a questão do Napster foi a analogia de uma biblioteca pública. Suponho que alguns de vocês que tenham ouvido os argumentos do Napster tenham ouvido esta analogia. Imagino se você gostaria de comentar sobre isso. Os defensores das pessoas que dizem que o Napster deveria continuar e que não deveriam haver restrições sobre ele dizem mais ou menos isso: “Quando as pessoas vão a bibliotecas públicas e pegam um livro, eles não estão pagando por ele, e ele pode ser emprestado dezenas de vezes, centenas de vezes, sem qualquer pagamento adicional. Por que o Napster é diferente?”"
 
 #: ../dat/glade/editor/battle-calculator-dialog.ui.h:12
 #, fuzzy
@@ -2950,9 +2936,7 @@ msgstr "Terreno"
 #: ../dat/glade/editor/battle-calculator-dialog.ui.h:14
 #, fuzzy
 msgid "Fight"
-msgstr ""
-"Junte-se à luta: subscreva-se em <a href=\"http://DefectiveByDesign.org/"
-"ebooks.html\">http://DefectiveByDesign.org/ebooks.html</a>."
+msgstr "Junte-se à luta: subscreva-se em <a href=\"http://DefectiveByDesign.org/ebooks.html\">http://DefectiveByDesign.org/ebooks.html</a>."
 
 #: ../dat/glade/editor/battle-calculator-dialog.ui.h:15
 #, fuzzy
@@ -2977,8 +2961,7 @@ msgstr "Pequeno - \\,"
 #: ../src/editor/media-dialog.cpp:109
 #, fuzzy
 msgid "override default"
-msgstr ""
-" -O, --backup-file <caminho>  sobrescreve o nome do arquivo backup padrão\n"
+msgstr " -O, --backup-file <caminho>  sobrescreve o nome do arquivo backup padrão\n"
 
 #: ../dat/glade/editor/media-dialog.ui.h:4
 #, fuzzy
@@ -2994,28 +2977,11 @@ msgstr "Cidade"
 #, fuzzy
 msgid "Won Game"
 msgstr ""
-"Você pode ver as cartas, mas não o que está do outro lado. Cada carta "
-"esconde uma adição ou a resposta de uma adição.\n"
+"Você pode ver as cartas, mas não o que está do outro lado. Cada carta esconde uma adição ou a resposta de uma adição.\n"
 "Uma adição se parece com isso: 2+2=4.\n"
-"Os números de um lado do sinal de igual (=) devem produzir o resultado que "
-"se encontra do outro lado. Assim 2 (1,2) e mais 2 (3,4) produzem 4. Conte "
-"alto e usando os seus dedos quando estiver trabalhando nisso, porque quanto "
-"mais maneiras diferentes você usar para fazer alguma coisa, melhor você se "
-"lembrará dela. Você também pode usar blocos ou botões ou qualquer coisa que "
-"possa contar. Se você tiver vários irmãos e irmãs você pode contar até eles! "
-"Ou os seus colegas de turma. Cante canções de contagem. Conte várias coisas, "
-"para praticar e você ficara muito bom em adições!\n"
+"Os números de um lado do sinal de igual (=) devem produzir o resultado que se encontra do outro lado. Assim 2 (1,2) e mais 2 (3,4) produzem 4. Conte alto e usando os seus dedos quando estiver trabalhando nisso, porque quanto mais maneiras diferentes você usar para fazer alguma coisa, melhor você se lembrará dela. Você também pode usar blocos ou botões ou qualquer coisa que possa contar. Se você tiver vários irmãos e irmãs você pode contar até eles! Ou os seus colegas de turma. Cante canções de contagem. Conte várias coisas, para praticar e você ficara muito bom em adições!\n"
 "\n"
-"Nesse jogo, as cartas estão escondendo as duas partes da adição: uma carta "
-"possui a operação (por exemplo 2+2) e a outra o resultado (por exemplo, 4). "
-"Você precisa encontrar essas duas partes. Clique em uma carta para ver o que "
-"ela esconde e, então, tente encontrar a carta que a complementa. Você só "
-"pode virar duas cartas de cada vez, então você deverá lembrar onde a "
-"operação/resultado está, enquanto você procura pelo seu par. Você estará "
-"fazendo o papel dos sinais de igual e os números precisam de você para "
-"colocá-los juntos e fazer a soma correta. Quando você encontra o par, ambas "
-"as cartas desaparecem. Quando todas desaparecerem, você encontrou todas as "
-"somas e ganhou o jogo!"
+"Nesse jogo, as cartas estão escondendo as duas partes da adição: uma carta possui a operação (por exemplo 2+2) e a outra o resultado (por exemplo, 4). Você precisa encontrar essas duas partes. Clique em uma carta para ver o que ela esconde e, então, tente encontrar a carta que a complementa. Você só pode virar duas cartas de cada vez, então você deverá lembrar onde a operação/resultado está, enquanto você procura pelo seu par. Você estará fazendo o papel dos sinais de igual e os números precisam de você para colocá-los juntos e fazer a soma correta. Quando você encontra o par, ambas as cartas desaparecem. Quando todas desaparecerem, você encontrou todas as somas e ganhou o jogo!"
 
 #: ../dat/glade/editor/media-dialog.ui.h:8
 #, fuzzy
@@ -3215,9 +3181,7 @@ msgstr ""
 
 #: ../dat/army/bigdefault/bigdefault.lwa.in.h:2
 #: ../dat/army/default/default.lwa.in.h:2
-msgid ""
-"The default armyset of LordsAWar! Initally created by Sune Theodorsen of "
-"Fata Morgana in 2007 specifically for this game."
+msgid "The default armyset of LordsAWar! Initally created by Sune Theodorsen of Fata Morgana in 2007 specifically for this game."
 msgstr ""
 
 #: ../dat/army/bigdefault/bigdefault.lwa.in.h:3
@@ -3323,25 +3287,13 @@ msgstr ""
 #: ../dat/army/default/default.lwa.in.h:22
 #, fuzzy
 msgid "Ghosts"
-msgstr ""
-"<ulink url=\"http://www.nongnu.org/ghosts/\">Ghosts GEDCOM Viewer</ulink> "
-"visualização de banco de dados de genealogia"
+msgstr "<ulink url=\"http://www.nongnu.org/ghosts/\">Ghosts GEDCOM Viewer</ulink> visualização de banco de dados de genealogia"
 
 #: ../dat/army/bigdefault/bigdefault.lwa.in.h:23
 #: ../dat/army/default/default.lwa.in.h:23
 #, fuzzy
 msgid "Wizards"
-msgstr ""
-"Não leve usuários por meio de etapas desnecessárias. Por exemplo, "
-"assistentes são úteis para usuários que tem dificuldade em lidar com grande "
-"quantidade de opções de uma só vez, mas outros usuários podem precisar "
-"minimizar a quantidade de tempo ou teclas pressionadas que eles usam. Tais "
-"usuários se beneficiam de serem capaz de pular etapas desnecessárias ou de "
-"irem diretamente à etapa que eles desejam. Considere fornecer um botão "
-"<guibutton>Finalizar</guibutton> em assistentes que pula direto para o fim e "
-"presume as respostas padrões para as etapas intermediárias. Se o processo "
-"possui muitas etapas, considere perguntar ao usuário no começo se ele deseja "
-"seguir por todos as etapas, apenas aquelas mais comumente usadas."
+msgstr "Não leve usuários por meio de etapas desnecessárias. Por exemplo, assistentes são úteis para usuários que tem dificuldade em lidar com grande quantidade de opções de uma só vez, mas outros usuários podem precisar minimizar a quantidade de tempo ou teclas pressionadas que eles usam. Tais usuários se beneficiam de serem capaz de pular etapas desnecessárias ou de irem diretamente à etapa que eles desejam. Considere fornecer um botão <guibutton>Finalizar</guibutton> em assistentes que pula direto para o fim e presume as respostas padrões para as etapas intermediárias. Se o processo possui muitas etapas, considere perguntar ao usuário no começo se ele deseja seguir por todos as etapas, apenas aquelas mais comumente usadas."
 
 #: ../dat/army/bigdefault/bigdefault.lwa.in.h:24
 #: ../dat/army/default/default.lwa.in.h:24
@@ -3490,8 +3442,7 @@ msgid "saved game file has wrong version.  expecting %1 but got %2."
 msgstr ""
 
 #: ../src/GameScenario.cpp:998
-msgid ""
-"Error! can't rename the temporary file `%1' to the autosave file `%2'.  %3"
+msgid "Error! can't rename the temporary file `%1' to the autosave file `%2'.  %3"
 msgstr ""
 
 #: ../src/GameScenario.cpp:1040
@@ -3627,11 +3578,7 @@ msgstr ""
 #: ../src/QEnemyArmies.cpp:129
 #, fuzzy
 msgid "Well done!"
-msgstr ""
-"<em>É certo que o Projeto GNU merece crédito pelo seu trabalho, mas vale a "
-"pena fazer barulho quando as pessoas não lhe dão o crédito? O importante não "
-"é que o trabalho está feito, e não quem o fez? Vocês deveriam relaxar e se "
-"orgulhar do trabalho bem feito e não se preocupar com os créditos.</em>"
+msgstr "<em>É certo que o Projeto GNU merece crédito pelo seu trabalho, mas vale a pena fazer barulho quando as pessoas não lhe dão o crédito? O importante não é que o trabalho está feito, e não quem o fez? Vocês deveriam relaxar e se orgulhar do trabalho bem feito e não se preocupar com os créditos.</em>"
 
 #: ../src/QEnemyArmytype.cpp:135
 msgid "You must destroy a unit of enemy %1."
@@ -3677,9 +3624,7 @@ msgid "unknown"
 msgstr "Desconhecidas"
 
 #: ../src/GameMap.cpp:255
-msgid ""
-"Error!  Map Generator and Game Map tile sizes differ.  %1 != %2 || %3 != "
-"%4.  Exiting."
+msgid "Error!  Map Generator and Game Map tile sizes differ.  %1 != %2 || %3 != %4.  Exiting."
 msgstr ""
 
 #: ../src/QPillageGold.cpp:75
@@ -4134,21 +4079,7 @@ msgstr "De computador para computador (PC-To-PC)"
 #: ../src/gui/preferences-dialog.cpp:73
 #, fuzzy
 msgid "Networked"
-msgstr ""
-"Porque o <a href=\"/philosophy/free-sw.html\">software livre</a> é um "
-"coneito nada ortodoxo na sociedade contemporânea, as pessoas tendem a "
-"assumir que seus objetivos atípicos devem ser perseguidos por meios "
-"incomuns, e portanto frágeis perante o aparato legal. Mas a assumpção é "
-"falsa. O objetivo da Fundação para o Software Livre ao desenvolver e publica "
-"a GPL <em>é</em> infelizmente incomum: nós estamos remodelando a maneira "
-"como os programas são feitos de modo que todas as pessoas tenham o direito "
-"de entender, reparar, aperfeiçoar e redistribuir o software com a melhor "
-"qualidade na face da Terra. Este é um empreendimento transformador; ele "
-"mostra que na nova sociedade conectada os modos tradicionais de se fazer "
-"negócios podem ser superados por modelos completamente diferentes de "
-"produção e distribuição. Mas a GPL, o dispositivo legal que torna tudo isso "
-"possível, é uma máquina bastante robusta precisamente porque ela é feita das "
-"partes mais simples."
+msgstr "Porque o <a href=\"/philosophy/free-sw.html\">software livre</a> é um coneito nada ortodoxo na sociedade contemporânea, as pessoas tendem a assumir que seus objetivos atípicos devem ser perseguidos por meios incomuns, e portanto frágeis perante o aparato legal. Mas a assumpção é falsa. O objetivo da Fundação para o Software Livre ao desenvolver e publica a GPL <em>é</em> infelizmente incomum: nós estamos remodelando a maneira como os programas são feitos de modo que todas as pessoas tenham o direito de entender, reparar, aperfeiçoar e redistribuir o software com a melhor qualidade na face da Terra. Este é um empreendimento transformador; ele mostra que na nova sociedade conectada os modos tradicionais de se fazer negócios podem ser superados por modelos completamente diferentes de produção e distribuição. Mas a GPL, o dispositivo legal que torna tudo isso possível, é uma máquina bastante robusta precisamente porque ela é feita das partes mais simples."
 
 #: ../src/gui/quest-completed-dialog.cpp:48
 #: ../src/gui/quest-assigned-dialog.cpp:45
@@ -4607,9 +4538,7 @@ msgstr "não salvo, "
 #: ../src/gui/game-window.cpp:815 ../src/editor/main-window.cpp:910
 #, fuzzy
 msgid "Choose a Name"
-msgstr ""
-"Já existe uma nota com o título <b>{0}</b>. Por favor, escolha um outro nome "
-"para esta nota antes de continuar."
+msgstr "Já existe uma nota com o título <b>{0}</b>. Por favor, escolha um outro nome para esta nota antes de continuar."
 
 #: ../src/gui/game-window.cpp:842
 #, fuzzy
@@ -4927,8 +4856,7 @@ msgid "A battle here would be as simple as butchering sleeping cattle!"
 msgstr ""
 
 #: ../src/gui/game-window.cpp:2552
-msgid ""
-"I believe this battle will surely be as simple as butchering sleeping cattle!"
+msgid "I believe this battle will surely be as simple as butchering sleeping cattle!"
 msgstr ""
 
 #: ../src/gui/game-window.cpp:2554
@@ -5000,8 +4928,7 @@ msgid "A battle here would be a hard fought victory! But we shall win!"
 msgstr ""
 
 #: ../src/gui/game-window.cpp:2603
-msgid ""
-"I believe this battle will surely be a hard fought victory! But we shall win!"
+msgid "I believe this battle will surely be a hard fought victory! But we shall win!"
 msgstr ""
 
 #: ../src/gui/game-window.cpp:2605
@@ -5049,8 +4976,7 @@ msgid "A battle here would be difficult but not impossible to win!"
 msgstr ""
 
 #: ../src/gui/game-window.cpp:2637
-msgid ""
-"I believe this battle will surely be difficult but not impossible to win!"
+msgid "I believe this battle will surely be difficult but not impossible to win!"
 msgstr ""
 
 #: ../src/gui/game-window.cpp:2639
@@ -5074,8 +5000,7 @@ msgid "A battle here would be a brave choice! I leave it to thee!"
 msgstr ""
 
 #: ../src/gui/game-window.cpp:2654
-msgid ""
-"I believe this battle will surely be a brave choice! I leave it to thee!"
+msgid "I believe this battle will surely be a brave choice! I leave it to thee!"
 msgstr ""
 
 #: ../src/gui/game-window.cpp:2656
@@ -5123,9 +5048,7 @@ msgid "A battle here would be sheerest folly!  Thou shouldst not attack!"
 msgstr ""
 
 #: ../src/gui/game-window.cpp:2688
-msgid ""
-"I believe this battle will surely be sheerest folly!  Thou shouldst not "
-"attack!"
+msgid "I believe this battle will surely be sheerest folly!  Thou shouldst not attack!"
 msgstr ""
 
 #: ../src/gui/game-window.cpp:2690
@@ -5133,8 +5056,7 @@ msgid "This battle would be sheerest folly!  Thou shouldst not attack!"
 msgstr ""
 
 #: ../src/gui/game-window.cpp:2694
-msgid ""
-"I believe this battle will be sheerest folly!  Thou shouldst not attack!"
+msgid "I believe this battle will be sheerest folly!  Thou shouldst not attack!"
 msgstr ""
 
 #: ../src/gui/game-window.cpp:2696
@@ -5262,14 +5184,8 @@ msgid "Random Scenario"
 msgstr "Cenário aleatório"
 
 #: ../src/gui/load-scenario-dialog.cpp:124
-msgid ""
-"Play a new scenario with a random map.  You get to decide the number of "
-"players, and number of cities on the map.  You can also control the amount "
-"of the map that is covered in forest, water, swamps and mountains."
-msgstr ""
-"Jogar em um novo cenário com um mapa aleatório. Você decide o número de "
-"jogadores e número de cidades no mapa. Você também pode controlar a "
-"quantidade de mapa que é coberta em floresta, água, pântanos e montanhas."
+msgid "Play a new scenario with a random map.  You get to decide the number of players, and number of cities on the map.  You can also control the amount of the map that is covered in forest, water, swamps and mountains."
+msgstr "Jogar em um novo cenário com um mapa aleatório. Você decide o número de jogadores e número de cidades no mapa. Você também pode controlar a quantidade de mapa que é coberta em floresta, água, pântanos e montanhas."
 
 #: ../src/gui/load-scenario-dialog.cpp:162
 msgid "Select a scenario file to add to the library"
@@ -5399,12 +5315,7 @@ msgstr "_Lugar:"
 #: ../src/gui/ruin-report-dialog.cpp:144
 #, fuzzy
 msgid "It is guarded."
-msgstr ""
-"Comunismo como praticado na União Soviética era um sistema de controle "
-"central onde toda atividade era regimentada, supostamente para o bem comum, "
-"mas na prática em pról dos membros do partido Comunista. E onde os "
-"equipamentos de cópia eram guardados herméticamente para evitar cópias "
-"ilegais."
+msgstr "Comunismo como praticado na União Soviética era um sistema de controle central onde toda atividade era regimentada, supostamente para o bem comum, mas na prática em pról dos membros do partido Comunista. E onde os equipamentos de cópia eram guardados herméticamente para evitar cópias ilegais."
 
 #: ../src/gui/splash-window.cpp:88
 #, fuzzy
@@ -5704,9 +5615,7 @@ msgid "There must be at least one hero in the armyset."
 msgstr "Pelo menos uma variável deve ser especificada."
 
 #: ../src/editor/armyset-window.cpp:524
-msgid ""
-"There must be at least one army unit with a production cost of more than "
-"zero."
+msgid "There must be at least one army unit with a production cost of more than zero."
 msgstr ""
 
 #: ../src/editor/armyset-window.cpp:527
@@ -6017,31 +5926,12 @@ msgstr "_Itens"
 #: ../src/editor/reward-editor-dialog.cpp:293
 #, fuzzy
 msgid "No ally"
-msgstr ""
-"Então, se gostar do trabalho que está lendo ou assistindo, eventualmente "
-"você irá pensar, “Por que eu não deveria dar a essas pessoas um dólar? É "
-"apenas um dólar. O que é isso? Não irá fazer falta para mim.” E as pessoas "
-"vão começar a enviar um dólar. A coisa boa disso é que torna a cópia aliada "
-"dos escritores e músicos. Quando alguém envia por e-mail para um amigo uma "
-"cópia, este amigo pode enviar um dólar, também. Se realmente gostou, pode "
-"enviar este dólar várias vezes, e este dólar é mais do que eles receberiam "
-"hoje se comprasse um livro ou um CD porque eles recebem apenas uma pequena "
-"fração das vendas. Os mesmos editores que estão exigindo poder total sobre o "
-"público em nome dos autores e músicos estão dando banana a estes autores e "
-"músicos o tempo todo."
+msgstr "Então, se gostar do trabalho que está lendo ou assistindo, eventualmente você irá pensar, “Por que eu não deveria dar a essas pessoas um dólar? É apenas um dólar. O que é isso? Não irá fazer falta para mim.” E as pessoas vão começar a enviar um dólar. A coisa boa disso é que torna a cópia aliada dos escritores e músicos. Quando alguém envia por e-mail para um amigo uma cópia, este amigo pode enviar um dólar, também. Se realmente gostou, pode enviar este dólar várias vezes, e este dólar é mais do que eles receberiam hoje se comprasse um livro ou um CD porque eles recebem apenas uma pequena fração das vendas. Os mesmos editores que estão exigindo poder total sobre o público em nome dos autores e músicos estão dando banana a estes autores e músicos o tempo todo."
 
 #: ../src/editor/reward-editor-dialog.cpp:347
 #, fuzzy
 msgid "No Ruin"
-msgstr ""
-"Mas nós rejeitamos certos compromissos, embora muitos outros em nossa "
-"comunidade estão dispostos a aceitá-los. Por exemplo, nós <a href=\"/"
-"philosophy/free-system-distribution-guidelines.html\">endossamos apenas "
-"distribuições GNU/Linux</a> que possuem a política de não incluir software "
-"não-livre ou levar usuários a instalá-lo. Endossar distribuições não-livres "
-"seria um compromisso <acronym title=\"ruinoso adj. 1. Que ameaça ruir; que "
-"está em ruínas, arruinado.  2. Que acarreta ruína, perda ou destruição; "
-"nefasto, prejudicial; nocivo: despesas ruinosas.\">ruinoso</acronym>."
+msgstr "Mas nós rejeitamos certos compromissos, embora muitos outros em nossa comunidade estão dispostos a aceitá-los. Por exemplo, nós <a href=\"/philosophy/free-system-distribution-guidelines.html\">endossamos apenas distribuições GNU/Linux</a> que possuem a política de não incluir software não-livre ou levar usuários a instalá-lo. Endossar distribuições não-livres seria um compromisso <acronym title=\"ruinoso adj. 1. Que ameaça ruir; que está em ruínas, arruinado.  2. Que acarreta ruína, perda ou destruição; nefasto, prejudicial; nocivo: despesas ruinosas.\">ruinoso</acronym>."
 
 #: ../src/editor/tileset-window.cpp:84
 #, fuzzy
@@ -6203,11 +6093,7 @@ msgstr ""
 #: ../src/editor/tileset-window.cpp:999
 #, fuzzy
 msgid "Choose an Image"
-msgstr ""
-"(Em vez disso, você poderia escolher <gui>Arquivo de imagem</gui>. Isso vai "
-"colocar os arquivos em uma <em>imagem de disco</em>, a qual será armazenada "
-"no seu computador. Você pode, então, gravar aquela imagem de disco em um "
-"disco vazio, noutra data.)"
+msgstr "(Em vez disso, você poderia escolher <gui>Arquivo de imagem</gui>. Isso vai colocar os arquivos em uma <em>imagem de disco</em>, a qual será armazenada no seu computador. Você pode, então, gravar aquela imagem de disco em um disco vazio, noutra data.)"
 
 #: ../src/editor/tileset-window.cpp:1002 ../src/editor/shieldset-window.cpp:769
 #: ../src/editor/tileset-selector-editor-dialog.cpp:303
@@ -6280,9 +6166,7 @@ msgid "There must be at least one tilestyleset in the %1 tile."
 msgstr ""
 
 #: ../src/editor/tileset-window.cpp:1476
-msgid ""
-"The image %1.png file of the %2 tile does not have a width as a multiple of "
-"its height."
+msgid "The image %1.png file of the %2 tile does not have a width as a multiple of its height."
 msgstr ""
 
 #: ../src/editor/tileset-window.cpp:1488 ../src/editor/tileset-window.cpp:1495
@@ -6964,11 +6848,7 @@ msgstr "Batalha"
 #: ../src/ItemProto.cpp:245
 #, fuzzy
 msgid "+%1 Command"
-msgstr ""
-"No Unix/Linux, arquivos codificados em UTF-16 são convertidos para a "
-"codificação de caracteres do localização. Use o comando locale(1) para "
-"descobrir qual é a codificação de caracteres da localização. Quando a "
-"conversão não for possível, ocorrerá um erro e o arquivo será ignorado."
+msgstr "No Unix/Linux, arquivos codificados em UTF-16 são convertidos para a codificação de caracteres do localização. Use o comando locale(1) para descobrir qual é a codificação de caracteres da localização. Quando a conversão não for possível, ocorrerá um erro e o arquivo será ignorado."
 
 #: ../src/ItemProto.cpp:247
 msgid "+%1 Gold per City"
@@ -7078,8 +6958,7 @@ msgstr "Entrada do usuário requisitada em modo não interativo\n"
 #: ../src/main.cpp:179
 #, fuzzy
 msgid "Non-interactive network stress test"
-msgstr ""
-"GNU Wget %s, um programa não interativo para baixar arquivos da rede.\n"
+msgstr "GNU Wget %s, um programa não interativo para baixar arquivos da rede.\n"
 
 #: ../src/main.cpp:180
 #, fuzzy
@@ -7308,21 +7187,17 @@ msgstr ""
 #: ../src/gls/gls-client-main.cpp:122 ../src/ghs/ghs-client-main.cpp:114
 #, fuzzy
 msgid "Stop the server"
-msgstr ""
-"Inicia/interrompe um servidor HTTP embutido (na porta especificada ou na "
-"12345 por padrão) "
+msgstr "Inicia/interrompe um servidor HTTP embutido (na porta especificada ou na 12345 por padrão) "
 
 #: ../src/gls/gls-client-main.cpp:124
 msgid ""
-"Specifying a profile id of -1 to the --remove-all option will remove all "
-"games \n"
+"Specifying a profile id of -1 to the --remove-all option will remove all games \n"
 "from the game list."
 msgstr ""
 
 #: ../src/gls/gls-client-main.cpp:126
 msgid ""
-"If HOST is not specified on the command-line, this tool will try to connect "
-"to \n"
+"If HOST is not specified on the command-line, this tool will try to connect to \n"
 "the game-list server at 127.0.0.1."
 msgstr ""
 
@@ -7430,8 +7305,7 @@ msgstr "_Jogo"
 
 #: ../src/ghs/ghs-client-main.cpp:116
 msgid ""
-"If HOST is not specified on the command-line, this tool will try to connect "
-"to \n"
+"If HOST is not specified on the command-line, this tool will try to connect to \n"
 "the game-host server at 127.0.0.1."
 msgstr ""
 
@@ -7532,8 +7406,7 @@ msgstr ""
 "%1"
 
 #: ../src/utils/upgrade-file.cpp:169
-msgid ""
-"Error: The --identify and --rewrite options cannot be used at the same time."
+msgid "Error: The --identify and --rewrite options cannot be used at the same time."
 msgstr ""
 
 #: ../src/file-compat.cpp:454 ../src/file-compat.cpp:466
@@ -8355,8 +8228,7 @@ msgstr "Ordenar por"
 #: ../dat/templenames.xml.in.h:12
 #, fuzzy
 msgid "Cathedral"
-msgstr ""
-"Catedral de Notre Dame de Paris, na ilha Île de la Cité em Paris, França"
+msgstr "Catedral de Notre Dame de Paris, na ilha Île de la Cité em Paris, França"
 
 #: ../dat/templenames.xml.in.h:13
 #, fuzzy
@@ -8450,32 +8322,21 @@ msgid "Beware!"
 msgstr ""
 "\n"
 "Note que muitos operadores precisam ser \"escapados\" ou postos entre aspas\n"
-"para shells.Comparações são aritméticas se ambos os ARGumentos forem "
-"números;\n"
+"para shells.Comparações são aritméticas se ambos os ARGumentos forem números;\n"
 "de outra forma, serão lexicográficas.\n"
-"A ocorrência de padrões retorna o texto coincidente entre \\( e \\) ou "
-"nulo;\n"
+"A ocorrência de padrões retorna o texto coincidente entre \\( e \\) ou nulo;\n"
 "se \\( e \\) não forem usados, elas retornarão o número de caracteres\n"
 "coincidentes ou 0.\n"
 
 #: ../dat/signposts.xml.in.h:2
 #, fuzzy
 msgid "Danger!"
-msgstr ""
-"<a href=\"/philosophy/the-danger-of-ebooks.html\">O Perigo dos e-books</a>"
+msgstr "<a href=\"/philosophy/the-danger-of-ebooks.html\">O Perigo dos e-books</a>"
 
 #: ../dat/signposts.xml.in.h:3
 #, fuzzy
 msgid "Keep out!"
-msgstr ""
-"Na desculpa das mais esfarrapadas, um muro foi construído em torno do centro "
-"de Quebec para ser utilizado como uma fortaleza para manter os manifestantes "
-"fora. Vimos uma grande quantidade de trapaças diferentes sendo utilizadas "
-"contra o protesto do provo contra essas ameaças. Então, qualquer democracia "
-"que tenha permanecido conosco depois que os poderes do governo foram "
-"retirados dos governantes eleitos democraticamente e entregues a organismos "
-"internacionais não-eleitos, qualquer uma que ainda reste, pode não "
-"sobreviver à supressão do protesto público contra ele."
+msgstr "Na desculpa das mais esfarrapadas, um muro foi construído em torno do centro de Quebec para ser utilizado como uma fortaleza para manter os manifestantes fora. Vimos uma grande quantidade de trapaças diferentes sendo utilizadas contra o protesto do provo contra essas ameaças. Então, qualquer democracia que tenha permanecido conosco depois que os poderes do governo foram retirados dos governantes eleitos democraticamente e entregues a organismos internacionais não-eleitos, qualquer uma que ainda reste, pode não sobreviver à supressão do protesto público contra ele."
 
 #: ../dat/signposts.xml.in.h:4
 msgid "Here lies a foolish warrior."

@@ -130,16 +130,12 @@ msgstr ""
 
 #: camlibs/canon/canon.c:1489
 #, c-format
-msgid ""
-"canon_int_capture_image: initial canon_usb_list_all_dirs() failed with "
-"status %li"
+msgid "canon_int_capture_image: initial canon_usb_list_all_dirs() failed with status %li"
 msgstr ""
 
 #: camlibs/canon/canon.c:1632
 #, c-format
-msgid ""
-"canon_int_capture_image: final canon_usb_list_all_dirs() failed with status "
-"%i"
+msgid "canon_int_capture_image: final canon_usb_list_all_dirs() failed with status %i"
 msgstr ""
 
 #: camlibs/canon/canon.c:2571
@@ -154,14 +150,11 @@ msgstr ""
 
 #: camlibs/canon/canon.c:3167
 #, c-format
-msgid ""
-"canon_int_list_directory: ERROR: initial message too short (%i < minimum %i)"
+msgid "canon_int_list_directory: ERROR: initial message too short (%i < minimum %i)"
 msgstr ""
 
 #: camlibs/canon/canon.c:3189
-msgid ""
-"canon_int_list_directory: Reached end of packet while examining the first "
-"dirent"
+msgid "canon_int_list_directory: Reached end of packet while examining the first dirent"
 msgstr ""
 
 #: camlibs/canon/canon.c:3274
@@ -174,8 +167,7 @@ msgstr ""
 
 #: camlibs/canon/canon.c:3734
 #, c-format
-msgid ""
-"canon_int_get_info_func: ERROR: initial message too short (%i < minimum %i)"
+msgid "canon_int_get_info_func: ERROR: initial message too short (%i < minimum %i)"
 msgstr ""
 
 #: camlibs/canon/canon.c:4038
@@ -193,8 +185,7 @@ msgstr ""
 
 #: camlibs/canon/canon.h:638
 #, c-format
-msgid ""
-"Don't know how to handle camera->port->type value %i aka 0x%x in %s line %i."
+msgid "Don't know how to handle camera->port->type value %i aka 0x%x in %s line %i."
 msgstr ""
 
 #: camlibs/canon/crc.c:234
@@ -209,9 +200,7 @@ msgstr ""
 
 #: camlibs/canon/crc.c:274
 #, c-format
-msgid ""
-"warning: CRC not checked (add len %d, value 0x%04x) "
-"#########################\n"
+msgid "warning: CRC not checked (add len %d, value 0x%04x) #########################\n"
 msgstr ""
 
 #: camlibs/canon/library.c:96 camlibs/canon/library.c:1608
@@ -629,8 +618,7 @@ msgid "Error deleting associated thumbnail file"
 msgstr ""
 
 #: camlibs/canon/library.c:1331 camlibs/canon/library.c:1464
-msgid ""
-"Speeds greater than 57600 are not supported for uploading to this camera"
+msgid "Speeds greater than 57600 are not supported for uploading to this camera"
 msgstr ""
 
 #: camlibs/canon/library.c:1348 camlibs/canon/library.c:1482
@@ -1018,15 +1006,12 @@ msgid "Getting file..."
 msgstr ""
 
 #: camlibs/canon/serial.c:1123
-msgid ""
-"canon_serial_get_dirents: canon_serial_dialogue failed to fetch directory "
-"entries"
+msgid "canon_serial_get_dirents: canon_serial_dialogue failed to fetch directory entries"
 msgstr ""
 
 #: camlibs/canon/serial.c:1131
 #, c-format
-msgid ""
-"canon_serial_get_dirents: Initial dirent packet too short (only %i bytes)"
+msgid "canon_serial_get_dirents: Initial dirent packet too short (only %i bytes)"
 msgstr ""
 
 #: camlibs/canon/serial.c:1149
@@ -1162,37 +1147,27 @@ msgstr ""
 
 #: camlibs/canon/usb.c:263
 #, c-format
-msgid ""
-"Step #2 of initialization failed: (\"%s\" on read of %i). Camera not "
-"operational"
+msgid "Step #2 of initialization failed: (\"%s\" on read of %i). Camera not operational"
 msgstr ""
 
 #: camlibs/canon/usb.c:268
 #, c-format
-msgid ""
-"Step #2 of initialization failed! (returned %i bytes, expected %i). Camera "
-"not operational"
+msgid "Step #2 of initialization failed! (returned %i bytes, expected %i). Camera not operational"
 msgstr ""
 
 #: camlibs/canon/usb.c:287
 #, c-format
-msgid ""
-"Step #3 of initialization failed: \"%s\" on read of %i. Camera not "
-"operational"
+msgid "Step #3 of initialization failed: \"%s\" on read of %i. Camera not operational"
 msgstr ""
 
 #: camlibs/canon/usb.c:294 camlibs/canon/usb.c:321
 #, c-format
-msgid ""
-"Step #3 of initialization failed! (returned %i, expected %i). Camera not "
-"operational"
+msgid "Step #3 of initialization failed! (returned %i, expected %i). Camera not operational"
 msgstr ""
 
 #: camlibs/canon/usb.c:314
 #, c-format
-msgid ""
-"Step #3 of initialization failed: \"%s\" on write of %i. Camera not "
-"operational"
+msgid "Step #3 of initialization failed: \"%s\" on write of %i. Camera not operational"
 msgstr ""
 
 #: camlibs/canon/usb.c:352 camlibs/canon/usb.c:393
@@ -1217,9 +1192,7 @@ msgstr ""
 
 #: camlibs/canon/usb.c:631
 #, c-format
-msgid ""
-"canon_usb_lock_keys: Unexpected length returned from \"lock keys\" function "
-"(%i bytes, expected %i)"
+msgid "canon_usb_lock_keys: Unexpected length returned from \"lock keys\" function (%i bytes, expected %i)"
 msgstr ""
 
 #: camlibs/canon/usb.c:653 camlibs/canon/usb.c:679 camlibs/canon/usb.c:719
@@ -1229,15 +1202,12 @@ msgstr ""
 
 #: camlibs/canon/usb.c:762 camlibs/canon/usb.c:778
 #, c-format
-msgid ""
-"canon_usb_unlock_keys: Unexpected length returned (%i bytes, expected %i)"
+msgid "canon_usb_unlock_keys: Unexpected length returned (%i bytes, expected %i)"
 msgstr ""
 
 #: camlibs/canon/usb.c:834 camlibs/canon/usb.c:853
 #, c-format
-msgid ""
-"canon_usb_get_body_id: Unexpected data length returned (%i bytes, expected "
-"%i)"
+msgid "canon_usb_get_body_id: Unexpected data length returned (%i bytes, expected %i)"
 msgstr ""
 
 #: camlibs/canon/usb.c:1717
@@ -1255,9 +1225,7 @@ msgstr ""
 
 #: camlibs/canon/usb.c:2172
 #, c-format
-msgid ""
-"Warning in canon_usb_set_file_attributes: canon_usb_dialogue returned error "
-"status 0x%08x from camera"
+msgid "Warning in canon_usb_set_file_attributes: canon_usb_dialogue returned error status 0x%08x from camera"
 msgstr ""
 
 #: camlibs/canon/usb.c:2262
@@ -1276,37 +1244,27 @@ msgid "File upload failed."
 msgstr ""
 
 #: camlibs/canon/usb.c:2406
-msgid ""
-"File was too big. You may have to turn your camera off and back on before "
-"uploading more files."
+msgid "File was too big. You may have to turn your camera off and back on before uploading more files."
 msgstr ""
 
 #: camlibs/canon/usb.c:2453
 #, c-format
-msgid ""
-"canon_usb_get_dirents: Couldn't fit payload into buffer, '%.96s' (truncated) "
-"too long."
+msgid "canon_usb_get_dirents: Couldn't fit payload into buffer, '%.96s' (truncated) too long."
 msgstr ""
 
 #: camlibs/canon/usb.c:2470
 #, c-format
-msgid ""
-"canon_usb_get_dirents: canon_usb_long_dialogue failed to fetch direntries, "
-"returned %i"
+msgid "canon_usb_get_dirents: canon_usb_long_dialogue failed to fetch direntries, returned %i"
 msgstr ""
 
 #: camlibs/canon/usb.c:2524
 #, c-format
-msgid ""
-"canon_usb_list_all_dirs: Couldn't fit payload into buffer, "
-"'%.96s' (truncated) too long."
+msgid "canon_usb_list_all_dirs: Couldn't fit payload into buffer, '%.96s' (truncated) too long."
 msgstr ""
 
 #: camlibs/canon/usb.c:2543
 #, c-format
-msgid ""
-"canon_usb_list_all_dirs: canon_usb_long_dialogue failed to fetch direntries, "
-"returned %i"
+msgid "canon_usb_list_all_dirs: canon_usb_long_dialogue failed to fetch direntries, returned %i"
 msgstr ""
 
 #: camlibs/canon/usb.c:2620
@@ -1332,8 +1290,7 @@ msgstr ""
 #: camlibs/casio/casio-qv.c:187
 msgid ""
 "Driver framework written by Lutz Mueller <lutz@users.sf.net>.\n"
-"This software has QVplay's source code, written by Ken-ichi HAYASHI <xg2k-"
-"hys@asahi-net.or.jp> and Jun-ichiro \"itojun\" Itoh <itojun@itojun.org>.\n"
+"This software has QVplay's source code, written by Ken-ichi HAYASHI <xg2k-hys@asahi-net.or.jp> and Jun-ichiro \"itojun\" Itoh <itojun@itojun.org>.\n"
 "Integration of QVplay by Michael Haardt <michael@moria.de>."
 msgstr ""
 
@@ -1447,8 +1404,7 @@ msgstr ""
 
 #: camlibs/dimera/dimera3500.c:161
 #, c-format
-msgid ""
-"Only root folder is supported - you requested a file listing for folder '%s'."
+msgid "Only root folder is supported - you requested a file listing for folder '%s'."
 msgstr ""
 
 #: camlibs/dimera/dimera3500.c:169 camlibs/dimera/dimera3500.c:430
@@ -1677,8 +1633,7 @@ msgid "Could not open '%s'."
 msgstr ""
 
 #: camlibs/directory/directory.c:613
-msgid ""
-"The Directory Browse \"camera\" lets you index photos on your hard drive."
+msgid "The Directory Browse \"camera\" lets you index photos on your hard drive."
 msgstr ""
 
 #: camlibs/directory/directory.c:622
@@ -1691,10 +1646,7 @@ msgid "Could not delete file '%s' in folder '%s' (error code %i: %s)."
 msgstr ""
 
 #: camlibs/enigma13/enigma13.c:69
-msgid ""
-"Download program for Digital Dream Enigma 1.3. by <olivier@aixmarseille."
-"com>, and adapted from spca50x driver. Thank you, spca50x team, it was easy "
-"to port your driver on this cam! "
+msgid "Download program for Digital Dream Enigma 1.3. by <olivier@aixmarseille.com>, and adapted from spca50x driver. Thank you, spca50x team, it was easy to port your driver on this cam! "
 msgstr ""
 
 #: camlibs/fuji/fuji.c:86
@@ -1824,8 +1776,7 @@ msgid ""
 "Till Adam <till@adam-lilienthal.de>\n"
 "Jerome Lodewyck <jerome.lodewyck@ens.fr>\n"
 "Support for Mustek gSmart 300 digital cameras\n"
-"based on several other gphoto2 camlib modules and the specifications kindly "
-"provided by Mustek.\n"
+"based on several other gphoto2 camlib modules and the specifications kindly provided by Mustek.\n"
 "\n"
 msgstr ""
 
@@ -1840,9 +1791,7 @@ msgstr ""
 
 #: camlibs/gsmart300/library.c:335 camlibs/spca50x/library.c:504
 #, c-format
-msgid ""
-"Your camera only supports deleting the last file on the camera. In this "
-"case, this is file '%s'."
+msgid "Your camera only supports deleting the last file on the camera. In this case, this is file '%s'."
 msgstr ""
 
 #: camlibs/hp215/hp215.c:458
@@ -2007,11 +1956,7 @@ msgid "CompactFlash Card"
 msgstr ""
 
 #: camlibs/kodak/dc120/dc120.c:382
-msgid ""
-"The Kodak DC120 camera uses the KDC file format for storing images. If you "
-"want to view the images you download from your camera, you will need to "
-"download the \"kdc2tiff\" program. It is available from http://kdc2tiff."
-"sourceforge.net"
+msgid "The Kodak DC120 camera uses the KDC file format for storing images. If you want to view the images you download from your camera, you will need to download the \"kdc2tiff\" program. It is available from http://kdc2tiff.sourceforge.net"
 msgstr ""
 
 #: camlibs/kodak/dc120/dc120.c:394
@@ -2467,11 +2412,7 @@ msgid ""
 msgstr ""
 
 #: camlibs/kodak/dc210/dc210.c:645
-msgid ""
-"This library has been tested with a Kodak DC 215 Zoom camera. It might work "
-"also with DC 200 and DC 210 cameras. If you happen to have such a camera, "
-"please send a message to koltan@gmx.de to let me know, if you have any "
-"troubles with this driver library or if everything is okay."
+msgid "This library has been tested with a Kodak DC 215 Zoom camera. It might work also with DC 200 and DC 210 cameras. If you happen to have such a camera, please send a message to koltan@gmx.de to let me know, if you have any troubles with this driver library or if everything is okay."
 msgstr ""
 
 #: camlibs/kodak/dc210/dc210.c:657
@@ -2534,8 +2475,7 @@ msgstr ""
 #: camlibs/kodak/dc240/dc240.c:233
 msgid ""
 "Kodak DC240 Camera Library\n"
-"Scott Fritzinger <scottf@gphoto.net> and Hubert Figuiere <hfiguiere@teaser."
-"fr>\n"
+"Scott Fritzinger <scottf@gphoto.net> and Hubert Figuiere <hfiguiere@teaser.fr>\n"
 "Camera Library for the Kodak DC240, DC280, DC3400 and DC5000 cameras.\n"
 "Rewritten and updated for gPhoto2."
 msgstr ""
@@ -2579,9 +2519,7 @@ msgid "No card"
 msgstr ""
 
 #: camlibs/kodak/dc3200/dc3200.c:63
-msgid ""
-"There is currently an operation in progress. This camera only supports one "
-"operation at a time. Please wait until the current operation has finished."
+msgid "There is currently an operation in progress. This camera only supports one operation at a time. Please wait until the current operation has finished."
 msgstr ""
 
 #: camlibs/kodak/dc3200/dc3200.c:166
@@ -2593,10 +2531,7 @@ msgstr ""
 msgid ""
 "Known problems:\n"
 "\n"
-"1. If the Kodak DC3200 does not receive a command at least every 10 seconds, "
-"it will time out, and will have to be re-initialized. If you notice the "
-"camera does not respond, simply re-select the camera. This will cause it to "
-"reinitialize."
+"1. If the Kodak DC3200 does not receive a command at least every 10 seconds, it will time out, and will have to be re-initialized. If you notice the camera does not respond, simply re-select the camera. This will cause it to reinitialize."
 msgstr ""
 
 #: camlibs/kodak/dc3200/dc3200.c:468
@@ -2722,10 +2657,7 @@ msgstr ""
 
 #: camlibs/konica/konica.c:137
 #, c-format
-msgid ""
-"The camera has just sent an error that has not yet been discovered. Please "
-"report the following to %s with additional information how you got this "
-"error: (0x%x,0x%x). Thank you very much!"
+msgid "The camera has just sent an error that has not yet been discovered. Please report the following to %s with additional information how you got this error: (0x%x,0x%x). Thank you very much!"
 msgstr ""
 
 #: camlibs/konica/library.c:157 camlibs/pccam300/library.c:118
@@ -2737,9 +2669,7 @@ msgid "Testing different speeds..."
 msgstr ""
 
 #: camlibs/konica/library.c:338
-msgid ""
-"The camera could not be contacted. Please make sure it is connected to the "
-"computer and turned on."
+msgid "The camera could not be contacted. Please make sure it is connected to the computer and turned on."
 msgstr ""
 
 #: camlibs/konica/library.c:422
@@ -3497,9 +3427,7 @@ msgstr ""
 
 #: camlibs/panasonic/dc1000.c:455 camlibs/panasonic/dc1580.c:576
 #, c-format
-msgid ""
-"File size is %ld bytes. The size of the largest file possible to upload is: "
-"%i bytes."
+msgid "File size is %ld bytes. The size of the largest file possible to upload is: %i bytes."
 msgstr ""
 
 #: camlibs/panasonic/dc1000.c:468 camlibs/panasonic/dc1580.c:587
@@ -3546,22 +3474,14 @@ msgstr ""
 msgid ""
 "Panasonic PV-L859-K/PV-L779-K Palmcorder\n"
 "\n"
-"Panasonic introduced image capturing technology called PHOTOSHOT for the "
-"first time, in this series of Palmcorders.  Images are stored in JPEG format "
-"on an internal flashcard and can be transferred to a computer through the "
-"built-in serial port.  Images are saved in one of two resolutions; NORMAL is "
-"320x240 and FINE is 640x480.  The CCD device which captures the images from "
-"the lens is only 300K and thus produces only low quality pictures."
+"Panasonic introduced image capturing technology called PHOTOSHOT for the first time, in this series of Palmcorders.  Images are stored in JPEG format on an internal flashcard and can be transferred to a computer through the built-in serial port.  Images are saved in one of two resolutions; NORMAL is 320x240 and FINE is 640x480.  The CCD device which captures the images from the lens is only 300K and thus produces only low quality pictures."
 msgstr ""
 
 #: camlibs/panasonic/l859/l859.c:600
 msgid ""
 "Known problems:\n"
 "\n"
-"If communications problems occur, reset the camera and restart the "
-"application.  The driver is not robust enough yet to recover from these "
-"situations, especially if a problem occurs and the camera is not properly "
-"shutdown at speeds faster than 9600."
+"If communications problems occur, reset the camera and restart the application.  The driver is not robust enough yet to recover from these situations, especially if a problem occurs and the camera is not properly shutdown at speeds faster than 9600."
 msgstr ""
 
 #: camlibs/panasonic/l859/l859.c:614
@@ -3624,10 +3544,7 @@ msgstr ""
 
 #: camlibs/polaroid/pdc320.c:461
 msgid ""
-"Download program for several Polaroid cameras. Originally written by Peter "
-"Desnoyers <pjd@fred.cambridge.ma.us>, and adapted for gphoto2 by Nathan "
-"Stenzel <nathanstenzel@users.sourceforge.net> and Lutz Mueller <lutz@users."
-"sf.net>.\n"
+"Download program for several Polaroid cameras. Originally written by Peter Desnoyers <pjd@fred.cambridge.ma.us>, and adapted for gphoto2 by Nathan Stenzel <nathanstenzel@users.sourceforge.net> and Lutz Mueller <lutz@users.sf.net>.\n"
 "Polaroid 640SE testing was done by Michael Golden <naugrim@juno.com>."
 msgstr ""
 
@@ -3637,12 +3554,7 @@ msgid "Model: %x, %x, %x, %x"
 msgstr ""
 
 #: camlibs/polaroid/pdc640.c:889
-msgid ""
-"Download program for GrandTek 98x based cameras. Originally written by Chris "
-"Byrne <adapt@ihug.co.nz>, and adapted for gphoto2 by Lutz Mueller "
-"<lutz@users.sf.net>.Protocol enhancements and postprocessing for Jenoptik "
-"JD350e by Michael Trawny <trawny99@users.sourceforge.net>. Bugfixes by "
-"Marcus Meissner <marcus@jet.franken.de>."
+msgid "Download program for GrandTek 98x based cameras. Originally written by Chris Byrne <adapt@ihug.co.nz>, and adapted for gphoto2 by Lutz Mueller <lutz@users.sf.net>.Protocol enhancements and postprocessing for Jenoptik JD350e by Michael Trawny <trawny99@users.sourceforge.net>. Bugfixes by Marcus Meissner <marcus@jet.franken.de>."
 msgstr ""
 
 #: camlibs/polaroid/pdc700.c:161 camlibs/ptp2/config.c:8195
@@ -3751,23 +3663,16 @@ msgstr ""
 
 #: camlibs/polaroid/pdc700.c:457
 #, c-format
-msgid ""
-"Requested information about picture %i (= 0x%x), but got information about "
-"picture %i back"
+msgid "Requested information about picture %i (= 0x%x), but got information about picture %i back"
 msgstr ""
 
 #: camlibs/polaroid/pdc700.c:920
 #, c-format
-msgid ""
-"%i bytes of an unknown image format have been received. Please write to %s "
-"and ask for assistance."
+msgid "%i bytes of an unknown image format have been received. Please write to %s and ask for assistance."
 msgstr ""
 
 #: camlibs/polaroid/pdc700.c:945
-msgid ""
-"Download program for Polaroid DC700 camera. Originally written by Ryan "
-"Lantzer <rlantzer@umr.edu> for gphoto-4.x. Adapted for gphoto2 by Lutz "
-"Mueller <lutz@users.sf.net>."
+msgid "Download program for Polaroid DC700 camera. Originally written by Ryan Lantzer <rlantzer@umr.edu> for gphoto-4.x. Adapted for gphoto2 by Lutz Mueller <lutz@users.sf.net>."
 msgstr ""
 
 #: camlibs/polaroid/pdc700.c:988
@@ -4591,9 +4496,7 @@ msgid "Continuous silent"
 msgstr ""
 
 #: camlibs/ptp2/config.c:2488 camlibs/ptp2/config.c:7336
-msgid ""
-"For bulb capture to work, make sure the mode dial is switched to 'M' and set "
-"'shutterspeed' to 'bulb'."
+msgid "For bulb capture to work, make sure the mode dial is switched to 'M' and set 'shutterspeed' to 'bulb'."
 msgstr ""
 
 #: camlibs/ptp2/config.c:2549 camlibs/ptp2/config.c:2567
@@ -7595,9 +7498,7 @@ msgid "Sorry, your Nikon camera does not support LiveView mode"
 msgstr ""
 
 #: camlibs/ptp2/library.c:3043 camlibs/ptp2/library.c:3059
-msgid ""
-"Sorry, your Nikon camera does not seem to return a JPEG image in LiveView "
-"mode"
+msgid "Sorry, your Nikon camera does not seem to return a JPEG image in LiveView mode"
 msgstr ""
 
 #: camlibs/ptp2/library.c:3080
@@ -7605,14 +7506,11 @@ msgid "Nikon disable liveview failed"
 msgstr ""
 
 #: camlibs/ptp2/library.c:3114 camlibs/ptp2/library.c:3130
-msgid ""
-"Sorry, your Sony camera does not seem to return a JPEG image in LiveView mode"
+msgid "Sorry, your Sony camera does not seem to return a JPEG image in LiveView mode"
 msgstr ""
 
 #: camlibs/ptp2/library.c:3232 camlibs/ptp2/library.c:3248
-msgid ""
-"Sorry, your Panasonic camera does not seem to return a JPEG image in "
-"LiveView mode"
+msgid "Sorry, your Panasonic camera does not seem to return a JPEG image in LiveView mode"
 msgstr ""
 
 #: camlibs/ptp2/library.c:3435
@@ -8004,15 +7902,11 @@ msgstr ""
 
 #: camlibs/ptp2/library.c:8322
 #, c-format
-msgid ""
-"Currently, PTP is only implemented for USB and PTP/IP cameras currently, "
-"port type %x"
+msgid "Currently, PTP is only implemented for USB and PTP/IP cameras currently, port type %x"
 msgstr ""
 
 #: camlibs/ptp2/library.c:8405
-msgid ""
-"Olympus wrapped XML support is currently only available with libxml2 support "
-"built in."
+msgid "Olympus wrapped XML support is currently only available with libxml2 support built in."
 msgstr ""
 
 #: camlibs/ptp2/ptp.c:5041
@@ -10437,16 +10331,11 @@ msgstr ""
 
 #: camlibs/ricoh/ricoh.c:833
 #, c-format
-msgid ""
-"The filename's length must not exceed 12 characters ('%s' has %i characters)."
+msgid "The filename's length must not exceed 12 characters ('%s' has %i characters)."
 msgstr ""
 
 #: camlibs/samsung/samsung.c:243
-msgid ""
-"The Samsung digimax 800k driver has been written by James McKenzie "
-"<james@fishsoup.dhs.org> for gphoto. Lutz Mueller <lutz@users.sourceforge."
-"net> ported it to gphoto2. Marcus Meissner <marcus@jet.franken.de> fixed and "
-"enhanced the port."
+msgid "The Samsung digimax 800k driver has been written by James McKenzie <james@fishsoup.dhs.org> for gphoto. Lutz Mueller <lutz@users.sourceforge.net> ported it to gphoto2. Marcus Meissner <marcus@jet.franken.de> fixed and enhanced the port."
 msgstr ""
 
 #: camlibs/sierra/epson-desc.c:85 camlibs/sierra/nikon-desc.c:92
@@ -10572,8 +10461,7 @@ msgstr ""
 
 #: camlibs/sierra/library.c:311
 #, c-format
-msgid ""
-"The battery level of the camera is too low (%d%%). The operation is aborted."
+msgid "The battery level of the camera is too low (%d%%). The operation is aborted."
 msgstr ""
 
 #: camlibs/sierra/library.c:335
@@ -10591,8 +10479,7 @@ msgstr ""
 
 #: camlibs/sierra/library.c:741
 #, c-format
-msgid ""
-"Transmission of packet timed out even after %i retries. Please contact %s."
+msgid "Transmission of packet timed out even after %i retries. Please contact %s."
 msgstr ""
 
 #: camlibs/sierra/library.c:776 camlibs/sierra/library.c:801
@@ -10638,8 +10525,7 @@ msgstr ""
 
 #: camlibs/sierra/library.c:1229
 #, c-format
-msgid ""
-"recursive calls are not supported by the sierra driver! Please contact %s."
+msgid "recursive calls are not supported by the sierra driver! Please contact %s."
 msgstr ""
 
 #: camlibs/sierra/library.c:1283
@@ -11016,9 +10902,7 @@ msgid "Auto Off (host) (in seconds)"
 msgstr ""
 
 #: camlibs/sierra/sierra.c:1194 camlibs/sierra/sierra.c:1670
-msgid ""
-"How long will it take until the camera powers off when connected to the "
-"computer?"
+msgid "How long will it take until the camera powers off when connected to the computer?"
 msgstr ""
 
 #: camlibs/sierra/sierra.c:1206 camlibs/sierra/sierra.c:1460
@@ -11027,9 +10911,7 @@ msgid "Auto Off (field) (in seconds)"
 msgstr ""
 
 #: camlibs/sierra/sierra.c:1208 camlibs/sierra/sierra.c:1684
-msgid ""
-"How long will it take until the camera powers off when not connected to the "
-"computer?"
+msgid "How long will it take until the camera powers off when not connected to the computer?"
 msgstr ""
 
 #: camlibs/sierra/sierra.c:1230 camlibs/sierra/sierra.c:1481
@@ -11607,15 +11489,12 @@ msgstr ""
 
 #: libgphoto2/gphoto2-filesys.c:1122
 #, c-format
-msgid ""
-"You have been trying to delete '%s' from folder '%s', but the filesystem "
-"does not support deletion of files."
+msgid "You have been trying to delete '%s' from folder '%s', but the filesystem does not support deletion of files."
 msgstr ""
 
 #: libgphoto2/gphoto2-filesys.c:1259
 #, c-format
-msgid ""
-"There are still subfolders in folder '%s/%s' that you are trying to remove."
+msgid "There are still subfolders in folder '%s/%s' that you are trying to remove."
 msgstr ""
 
 #: libgphoto2/gphoto2-filesys.c:1264
@@ -11629,8 +11508,7 @@ msgstr ""
 
 #: libgphoto2/gphoto2-filesys.c:1359
 #, c-format
-msgid ""
-"Folder '%s' only contains %i files, but you requested a file with number %i."
+msgid "Folder '%s' only contains %i files, but you requested a file with number %i."
 msgstr ""
 
 #: libgphoto2/gphoto2-filesys.c:1407

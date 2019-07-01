@@ -11,8 +11,7 @@ msgstr ""
 "POT-Creation-Date: 2009-09-08 21:57-0700\n"
 "PO-Revision-Date: 2018-11-09 10:08-0200\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
-"Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge.net>"
-"\n"
+"Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge.net>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -41,43 +40,33 @@ msgstr "O formato %s não pode ser usado como entrada."
 #: src/data/format.c:349
 #, c-format
 msgid "%s specifies width %d, but %s requires an even width."
-msgstr ""
-"%s especifica o tamanho %d, mas %s requer um comprimento de tamanho par."
+msgstr "%s especifica o tamanho %d, mas %s requer um comprimento de tamanho par."
 
 #: src/data/format.c:358
 #, c-format
 msgid "%s %s specifies width %d, but %s requires a width between %d and %d."
-msgstr ""
-"%s %s especifica o tamanho %d, mas %s requer um comprimento entre %d e %d."
+msgstr "%s %s especifica o tamanho %d, mas %s requer um comprimento entre %d e %d."
 
 #: src/data/format.c:367
 #, c-format
 msgid "%s %s specifies %d decimal place, but %s does not allow any decimals."
 msgid_plural "%s %s specifies %d decimal places, but %s does not allow any decimals."
-msgstr[0] ""
-"%s %s especifica %d casa decimal, mas %s não permite quaisquer decimais."
-msgstr[1] ""
-"%s %s especifica %d casas decimais, mas %s não permite quaisquer decimais."
+msgstr[0] "%s %s especifica %d casa decimal, mas %s não permite quaisquer decimais."
+msgstr[1] "%s %s especifica %d casas decimais, mas %s não permite quaisquer decimais."
 
 #: src/data/format.c:378
 #, c-format
 msgid "%s %s specifies %d decimal place, but the given width allows at most %d decimals."
 msgid_plural "%s %s specifies %d decimal places, but the given width allows at most %d decimals."
-msgstr[0] ""
-"%s %s especifica %d casa decimal, mas a largura dada permite até %d decimais."
-msgstr[1] ""
-"%s %s especifica %d casas decimais, mas a largura dada permite até %d "
-"decimais."
+msgstr[0] "%s %s especifica %d casa decimal, mas a largura dada permite até %d decimais."
+msgstr[1] "%s %s especifica %d casas decimais, mas a largura dada permite até %d decimais."
 
 #: src/data/format.c:385
 #, c-format
 msgid "%s %s specifies %d decimal place, but the given width does not allow for any decimals."
 msgid_plural "%s %s specifies %d decimal places, but the given width does not allow for any decimals."
-msgstr[0] ""
-"%s %s especifica %d casa decimal, mas a largura dada permite nenhum decimal."
-msgstr[1] ""
-"%s %s especifica %d casas decimais, mas a largura dada permite nenhum "
-"decimal."
+msgstr[0] "%s %s especifica %d casa decimal, mas a largura dada permite nenhum decimal."
+msgstr[1] "%s %s especifica %d casas decimais, mas a largura dada permite nenhum decimal."
 
 #: src/data/format.c:424
 #, c-format
@@ -166,8 +155,7 @@ msgstr "Ir para"
 msgid "Continue"
 msgstr "Continuar"
 
-#: src/ui/gui/psppire-buttonbox.c:368
-#: src/ui/gui/psppire-import-assistant.c:739
+#: src/ui/gui/psppire-buttonbox.c:368 src/ui/gui/psppire-import-assistant.c:739
 msgid "Paste"
 msgstr "Colar"
 
@@ -184,8 +172,7 @@ msgstr "Cancelar"
 msgid "Close"
 msgstr "Fechar"
 
-#: src/ui/gui/psppire-buttonbox.c:387
-#: src/ui/gui/psppire-import-assistant.c:740
+#: src/ui/gui/psppire-buttonbox.c:387 src/ui/gui/psppire-import-assistant.c:740
 msgid "Reset"
 msgstr "Redefinir"
 
@@ -303,9 +290,7 @@ msgstr "O arquivo em linha não é permitido aqui."
 #, c-format
 #| msgid "Can't read from %s as a %s because it is already being read as a %s."
 msgid "Cannot read from dataset %s because no dictionary or data has been written to it yet."
-msgstr ""
-"Não foi possível ler o conjunto de dados %s porque nenhum dicionário ou dado "
-"foi escrito nele ainda."
+msgstr "Não foi possível ler o conjunto de dados %s porque nenhum dicionário ou dado foi escrito nele ainda."
 
 #: src/data/any-reader.c:256 src/language/data-io/dataset.c:257
 #| msgid "_Data"
@@ -325,15 +310,11 @@ msgstr "O dia %d não está no intervalo aceitável de 0 a 31."
 #: src/data/calendar.c:119
 #, c-format
 msgid "Date %04d-%d-%d is before the earliest acceptable date of 1582-10-15."
-msgstr ""
-"A data %04d-%d-%d é anterior à data mais antiga aceitável de 1582-10-15."
+msgstr "A data %04d-%d-%d é anterior à data mais antiga aceitável de 1582-10-15."
 
 #: src/data/casereader-filter.c:221
 msgid "At least one case in the data read had a weight value that was user-missing, system-missing, zero, or negative.  These case(s) were ignored."
-msgstr ""
-"Pelo menos um caso nos dados lidos tinha uma ponderação que era user-"
-"missing, system-missing, zero ou negativo. Este(s) caso(s) foi(foram) "
-"ignorado(s)."
+msgstr "Pelo menos um caso nos dados lidos tinha uma ponderação que era user-missing, system-missing, zero ou negativo. Este(s) caso(s) foi(foram) ignorado(s)."
 
 #. TRANSLATORS: this fragment will be interpolated into messages in fh_lock()
 #. that identify types of files.
@@ -421,9 +402,7 @@ msgstr "Delimitador esperado entre campos na data."
 
 #: src/data/data-in.c:906
 msgid "Unrecognized month format.  Months may be specified as Arabic or Roman numerals or as at least 3 letters of their English names."
-msgstr ""
-"Formato de mês não reconhecido. Meses devem ser especificados como números "
-"rábicos ou romanos, ou com pelo menos 3 letras de seus nomes em inglês."
+msgstr "Formato de mês não reconhecido. Meses devem ser especificados como números rábicos ou romanos, ou com pelo menos 3 letras de seus nomes em inglês."
 
 #: src/data/data-in.c:933
 #, c-format
@@ -467,9 +446,7 @@ msgstr "Minute (%ld) deve estar entre 0 e 59."
 
 #: src/data/data-in.c:1075
 msgid "Unrecognized weekday name.  At least the first two letters of an English weekday name must be specified."
-msgstr ""
-"Dia da semana não reconhecido. Pelo menos duas letras do nome em inglês "
-"devem ser especificadas."
+msgstr "Dia da semana não reconhecido. Pelo menos duas letras do nome em inglês devem ser especificadas."
 
 #: src/data/data-in.c:1210
 #, c-format
@@ -523,16 +500,12 @@ msgstr "conjunto de dados ativos"
 #: src/data/file-handle-def.c:509
 #, c-format
 msgid "Can't read from %s as a %s because it is already being read as a %s."
-msgstr ""
-"Não foi possível ler de %s como um %s porque ele já está sendo lido como um "
-"%s."
+msgstr "Não foi possível ler de %s como um %s porque ele já está sendo lido como um %s."
 
 #: src/data/file-handle-def.c:513
 #, c-format
 msgid "Can't write to %s as a %s because it is already being written as a %s."
-msgstr ""
-"Não foi possível escrever em %s como um %s porque ele já está sendo escrito "
-"como um %s."
+msgstr "Não foi possível escrever em %s como um %s porque ele já está sendo escrito como um %s."
 
 #: src/data/file-handle-def.c:520
 #, c-format
@@ -548,22 +521,17 @@ msgstr "Não abrindo arquivo pipe \"%s\" porque a opção %s está ativada."
 #: src/data/gnumeric-reader.c:478 src/data/ods-reader.c:501
 #, c-format
 msgid "Cannot convert the value in the spreadsheet cell %s to format (%s): %s"
-msgstr ""
-"Não foi possível converter o valor na célula da planilha %s para o formato "
-"(%s): %s"
+msgstr "Não foi possível converter o valor na célula da planilha %s para o formato (%s): %s"
 
 #: src/data/gnumeric-reader.c:501 src/data/ods-reader.c:556
 #, c-format
 msgid "There was a problem whilst reading the %s file `%s' (near line %d): `%s'"
-msgstr ""
-"Houve um problema ao ler o arquivo %s \"%s\" (próximo à linha %d): \"%s\""
+msgstr "Houve um problema ao ler o arquivo %s \"%s\" (próximo à linha %d): \"%s\""
 
 #: src/data/gnumeric-reader.c:596
 #, c-format
 msgid "The gnumeric file `%s' is encoded as %s instead of the usual UTF-8 encoding. Any non-ascii characters will be incorrectly imported."
-msgstr ""
-"O arquivo gnumeric `%s' está codificado como %s em vez da codificação usual "
-"UTF-8. Qualquer caractere não ascii será importado incorretamente."
+msgstr "O arquivo gnumeric `%s' está codificado como %s em vez da codificação usual UTF-8. Qualquer caractere não ascii será importado incorretamente."
 
 #: src/data/gnumeric-reader.c:640 src/data/ods-reader.c:687
 #, c-format
@@ -575,9 +543,7 @@ msgstr "Intervalo de células \"%s\" inválido"
 #: src/data/ods-reader.c:848
 #, c-format
 msgid "Selected sheet or range of spreadsheet `%s' is empty."
-msgstr ""
-"A planilha selecionada ou o intervalo selecionado da planilha \"%s\" está "
-"vazio."
+msgstr "A planilha selecionada ou o intervalo selecionado da planilha \"%s\" está vazio."
 
 #: src/data/identifier2.c:60
 #, c-format
@@ -594,24 +560,19 @@ msgstr "Um identificador não pode ser uma string vazia."
 #, c-format
 #| msgid "`%s' may not be used as a variable name because it is a reserved word."
 msgid "`%s' may not be used as an identifier because it is a reserved word."
-msgstr ""
-"\"%s\" não pode ser usado como identificador por ser uma palavra reservada."
+msgstr "\"%s\" não pode ser usado como identificador por ser uma palavra reservada."
 
 #: src/data/identifier2.c:103
 #, c-format
 #| msgid "`%s' may not be used as a variable name because it is a reserved word."
 msgid "`%s' may not be used as an identifier because it contains ill-formed UTF-8 at byte offset %tu."
-msgstr ""
-"\"%s\" não pode ser usada como um identificador por conter UTF-8 malformado "
-"na posição de byte %tu."
+msgstr "\"%s\" não pode ser usada como um identificador por conter UTF-8 malformado na posição de byte %tu."
 
 #: src/data/identifier2.c:114
 #, c-format
 #| msgid "Character `%c' (in %s) may not appear as the first character in a variable name."
 msgid "Character %s (in `%s') may not appear as the first character in a identifier."
-msgstr ""
-"Caractere %s (em \"%s\") não pode aparecer como o primeiro caractere em um "
-"identificador."
+msgstr "Caractere %s (em \"%s\") não pode aparecer como o primeiro caractere em um identificador."
 
 #: src/data/identifier2.c:126
 #, c-format
@@ -680,9 +641,7 @@ msgstr "Removendo %s: %s."
 #: src/data/mrset.c:83
 #, c-format
 msgid "%s is not a valid name for a multiple response set.  Multiple response set names must begin with `$'."
-msgstr ""
-"%s não é um nome válido para um conjunto de múltiplas respostas. Nomes de "
-"conjuntos de respostas múltiplas devem começar com \"$\"."
+msgstr "%s não é um nome válido para um conjunto de múltiplas respostas. Nomes de conjuntos de respostas múltiplas devem começar com \"$\"."
 
 #: src/data/ods-reader.c:608
 #, c-format
@@ -701,8 +660,7 @@ msgstr "arquivo de sistema SPSS/PC+"
 #, c-format
 #| msgid "Error opening \"%s\" for reading as a system file: %s."
 msgid "Error opening `%s' for reading as an SPSS/PC+ system file: %s."
-msgstr ""
-"Erro ao abrir \"%s\" para leitura como um arquivo de sistema SPSS/PC+: %s."
+msgstr "Erro ao abrir \"%s\" para leitura como um arquivo de sistema SPSS/PC+: %s."
 
 #: src/data/pc+-file-reader.c:224 src/data/sys-file-reader.c:3512
 #, c-format
@@ -719,9 +677,7 @@ msgstr "%s: arquivo muito grande."
 #: src/data/pc+-file-reader.c:257
 #, c-format
 msgid "Directory entry is for a %u-byte record starting at offset %u but file is only %u bytes long."
-msgstr ""
-"A entrada de diretório é para um registro de %u bytes começando na posição %"
-"u, mas o arquivo tem apenas %u bytes."
+msgstr "A entrada de diretório é para um registro de %u bytes começando na posição %u, mas o arquivo tem apenas %u bytes."
 
 #: src/data/pc+-file-reader.c:275
 #, c-format
@@ -765,10 +721,7 @@ msgstr "Rótulo de arquivo"
 #: src/data/pc+-file-reader.c:427
 #, c-format
 msgid "Using default encoding %s to read this SPSS/PC+ system file.  For best results, specify an encoding explicitly.  Use SYSFILE INFO with ENCODING=\"DETECT\" to analyze the possible encodings."
-msgstr ""
-"Usando a codificação padrão %s para ler este arquivo do sistema SPSS/PC+. "
-"Para melhores resultados, especifique uma codificação explicitamente. Use "
-"INFO SYSFILE com ENCODING=\"DETECT\" para analisar as possíveis codificações."
+msgstr "Usando a codificação padrão %s para ler este arquivo do sistema SPSS/PC+. Para melhores resultados, especifique uma codificação explicitamente. Use INFO SYSFILE com ENCODING=\"DETECT\" para analisar as possíveis codificações."
 
 #: src/data/pc+-file-reader.c:483 src/data/sys-file-reader.c:913
 #, c-format
@@ -789,15 +742,12 @@ msgstr "O registro 0 tem tamanho inesperado %u."
 #: src/data/pc+-file-reader.c:572
 #, c-format
 msgid "Record 0 specifies unexpected system missing value %g (%a)."
-msgstr ""
-"O registro 0 especifica o valor inesperadamente em falta do sistema %g (%a)."
+msgstr "O registro 0 especifica o valor inesperadamente em falta do sistema %g (%a)."
 
 #: src/data/pc+-file-reader.c:577
 #, c-format
 msgid "Record 0 reserved fields have unexpected values (%u,%u,%u,%u,%u,%u)."
-msgstr ""
-"Os campos reservados do registro 0 possuem valores inesperados "
-"(%u,%u,%u,%u,%u,%u)."
+msgstr "Os campos reservados do registro 0 possuem valores inesperados (%u,%u,%u,%u,%u,%u)."
 
 #: src/data/pc+-file-reader.c:581
 #, c-format
@@ -813,30 +763,22 @@ msgstr "Tipo de compressão inválido %u."
 #: src/data/pc+-file-reader.c:596
 #, c-format
 msgid "Record 0 claims %u cases with %u values per case (requiring at least %zu bytes) but data record is only %u bytes long."
-msgstr ""
-"O registro 0 declara %u casos com valores de %u por caso (exigindo pelo "
-"menos %zu bytes), mas o registro de dados tem apenas %u bytes."
+msgstr "O registro 0 declara %u casos com valores de %u por caso (exigindo pelo menos %zu bytes), mas o registro de dados tem apenas %u bytes."
 
 #: src/data/pc+-file-reader.c:618
 #, c-format
 msgid "Value labels claimed to end at offset %u in labels record but labels record is only %u bytes."
-msgstr ""
-"Os rótulos de valor declaram terminar na posição %u no registro de rótulos, "
-"mas o registro de rótulos é de apenas %u bytes."
+msgstr "Os rótulos de valor declaram terminar na posição %u no registro de rótulos, mas o registro de rótulos é de apenas %u bytes."
 
 #: src/data/pc+-file-reader.c:629
 #, c-format
 msgid "Value labels claimed to be at offset %u with length %u but file size is only %u bytes."
-msgstr ""
-"Os rótulos de valor declaram estar na posição %u com comprimento %u, mas o "
-"tamanho do arquivo é de apenas %u bytes."
+msgstr "Os rótulos de valor declaram estar na posição %u com comprimento %u, mas o tamanho do arquivo é de apenas %u bytes."
 
 #: src/data/pc+-file-reader.c:656
 #, c-format
 msgid "Value labels end with partial label (%u bytes left in record, label length %<PRIu8>)."
-msgstr ""
-"Os rótulos de valor terminam com o rótulo parcial (%u bytes restantes no "
-"registro, comprimento do rótulo %<PRIu8>)."
+msgstr "Os rótulos de valor terminam com o rótulo parcial (%u bytes restantes no registro, comprimento do rótulo %<PRIu8>)."
 
 #: src/data/pc+-file-reader.c:669
 #, c-format
@@ -846,16 +788,12 @@ msgstr "%u bytes restantes seguindo os rótulos de valor."
 #: src/data/pc+-file-reader.c:685
 #, c-format
 msgid "Variable label claimed to start at offset %u in labels record but labels record is only %u bytes."
-msgstr ""
-"O rótulo da variável declara iniciar na posição %u no registro de rótulos, "
-"mas o registro de rótulos é de apenas %u bytes."
+msgstr "O rótulo da variável declara iniciar na posição %u no registro de rótulos, mas o registro de rótulos é de apenas %u bytes."
 
 #: src/data/pc+-file-reader.c:697
 #, c-format
 msgid "Variable label with length %u starting at offset %u in labels record overruns end of %u-byte labels record."
-msgstr ""
-"O rótulo variável com tamanho %u iniciando na posição %u no registro de "
-"rótulos ultrapassa o fim do registro de rótulos de %u bytes."
+msgstr "O rótulo variável com tamanho %u iniciando na posição %u no registro de rótulos ultrapassa o fim do registro de rótulos de %u bytes."
 
 #: src/data/pc+-file-reader.c:719
 #, c-format
@@ -2475,8 +2413,7 @@ msgstr ""
 msgid "Multiple category set"
 msgstr ""
 
-#: src/language/dictionary/mrsets.c:567
-#: src/language/dictionary/split-file.c:84
+#: src/language/dictionary/mrsets.c:567 src/language/dictionary/split-file.c:84
 #: src/language/dictionary/sys-file-info.c:444
 #: src/language/dictionary/sys-file-info.c:543
 #: src/ui/gui/psppire-var-sheet-header.c:67 src/ui/gui/compute.ui:157
@@ -2540,12 +2477,11 @@ msgstr ""
 
 #: src/language/dictionary/split-file.c:83
 #: src/language/dictionary/sys-file-info.c:491
-#: src/language/dictionary/sys-file-info.c:542
-#: src/language/stats/cochran.c:172 src/language/stats/examine.c:1135
-#: src/language/stats/frequencies.c:293 src/language/stats/reliability.c:803
-#: src/language/stats/reliability.c:812 src/language/stats/crosstabs.q:1311
-#: src/language/stats/crosstabs.q:1341 src/language/stats/crosstabs.q:1365
-#: src/language/stats/crosstabs.q:1391
+#: src/language/dictionary/sys-file-info.c:542 src/language/stats/cochran.c:172
+#: src/language/stats/examine.c:1135 src/language/stats/frequencies.c:293
+#: src/language/stats/reliability.c:803 src/language/stats/reliability.c:812
+#: src/language/stats/crosstabs.q:1311 src/language/stats/crosstabs.q:1341
+#: src/language/stats/crosstabs.q:1365 src/language/stats/crosstabs.q:1391
 msgid "Value"
 msgstr "Valor"
 
@@ -2587,8 +2523,7 @@ msgstr "Little Endian."
 
 #: src/language/dictionary/sys-file-info.c:195
 #: src/language/dictionary/sys-file-info.c:204
-#: src/language/dictionary/sys-file-info.c:211
-#: src/language/utilities/set.q:942
+#: src/language/dictionary/sys-file-info.c:211 src/language/utilities/set.q:942
 msgid "Unknown"
 msgstr "Desconhecido"
 
@@ -3317,8 +3252,8 @@ msgstr "Intervalo"
 
 #: src/language/stats/descriptives.c:117 src/language/stats/examine.c:994
 #: src/language/stats/frequencies.c:152 src/language/stats/graph.c:215
-#: src/language/stats/ks-one-sample.c:311
-#: src/language/stats/npar-summary.c:132 src/language/stats/oneway.c:1092
+#: src/language/stats/ks-one-sample.c:311 src/language/stats/npar-summary.c:132
+#: src/language/stats/oneway.c:1092
 #: src/ui/gui/psppire-dialog-action-descriptives.c:41
 #: src/ui/gui/psppire-dialog-action-frequencies.c:42
 msgid "Minimum"
@@ -3326,8 +3261,8 @@ msgstr "Mínimo"
 
 #: src/language/stats/descriptives.c:118 src/language/stats/examine.c:1008
 #: src/language/stats/frequencies.c:153 src/language/stats/graph.c:214
-#: src/language/stats/ks-one-sample.c:313
-#: src/language/stats/npar-summary.c:135 src/language/stats/oneway.c:1093
+#: src/language/stats/ks-one-sample.c:313 src/language/stats/npar-summary.c:135
+#: src/language/stats/oneway.c:1093
 #: src/ui/gui/psppire-dialog-action-descriptives.c:42
 #: src/ui/gui/psppire-dialog-action-frequencies.c:43
 msgid "Maximum"
@@ -3692,8 +3627,7 @@ msgstr "Chi-quadrado de Pearson"
 #: src/language/stats/logistic.c:1225 src/language/stats/oneway.c:986
 #: src/language/stats/oneway.c:1234 src/language/stats/oneway.c:1600
 #: src/language/stats/regression.c:860 src/language/stats/regression.c:976
-#: src/language/stats/t-test-indep.c:291
-#: src/language/stats/t-test-paired.c:235
+#: src/language/stats/t-test-indep.c:291 src/language/stats/t-test-paired.c:235
 msgid "Sig."
 msgstr ""
 
@@ -5287,8 +5221,7 @@ msgstr ""
 
 #. TRANSLATORS: this fragment will be interpolated into
 #. messages in fh_lock() that identify types of files.
-#: src/language/data-io/data-reader.c:136
-#: src/language/data-io/data-writer.c:79
+#: src/language/data-io/data-reader.c:136 src/language/data-io/data-writer.c:79
 msgid "data file"
 msgstr "arquivo de dados"
 
@@ -7344,8 +7277,8 @@ msgstr "Ordenar Descendentemente"
 msgid "{%s, %s}..."
 msgstr ""
 
-#: src/ui/gui/psppire-var-sheet-header.c:58
-#: src/language/stats/crosstabs.q:1390 src/ui/gui/compute.ui:303
+#: src/ui/gui/psppire-var-sheet-header.c:58 src/language/stats/crosstabs.q:1390
+#: src/ui/gui/compute.ui:303
 msgid "Type"
 msgstr "Tipo"
 

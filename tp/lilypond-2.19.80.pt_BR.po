@@ -10,8 +10,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: lilypond 2.19.80\n"
-"Report-Msgid-Bugs-To: http://post.gmane.org/"
-"post.php?group=gmane.comp.gnu.lilypond.bugs\n"
+"Report-Msgid-Bugs-To: http://post.gmane.org/post.php?group=gmane.comp.gnu.lilypond.bugs\n"
 "POT-Creation-Date: 2017-10-15 17:36+0100\n"
 "PO-Revision-Date: 2018-10-14 20:18-0200\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
@@ -40,9 +39,7 @@ msgstr "não foi possível localizar \\begin{document} no documento LaTeX"
 #: book_latex.py:190
 #, python-format
 msgid "Running `%s' on file `%s' to detect default page settings.\n"
-msgstr ""
-"Executando \"%s\" no arquivo \"%s\" para detectar configurações de página "
-"padrão.\n"
+msgstr "Executando \"%s\" no arquivo \"%s\" para detectar configurações de página padrão.\n"
 
 #: book_latex.py:219 book_texinfo.py:230
 msgid "Unable to auto-detect default settings:\n"
@@ -130,8 +127,7 @@ msgid ""
 "%s: duplicate filename but different contents of converted lilypond file,\n"
 "printing diff against existing file."
 msgstr ""
-"%s: arquivo duplicado, mas conteúdo diferente do arquivo lilypond "
-"convertido,\n"
+"%s: arquivo duplicado, mas conteúdo diferente do arquivo lilypond convertido,\n"
 "imprimindo diferença para o arquivo existente."
 
 #. Work around a texi2pdf bug: if LANG=C is not given, a broken regexp is
@@ -140,9 +136,7 @@ msgstr ""
 #: book_texinfo.py:208
 #, python-format
 msgid "Running texi2pdf on file %s to detect default page settings.\n"
-msgstr ""
-"Executando texi2pdf no arquivo %s para detectar configurações de página "
-"padrão.\n"
+msgstr "Executando texi2pdf no arquivo %s para detectar configurações de página padrão.\n"
 
 #: convertrules.py:13
 #, python-format
@@ -192,8 +186,7 @@ msgstr "sintaxe de \\translator"
 
 #: convertrules.py:176
 msgid "\\repeat NUM Music Alternative -> \\repeat FOLDSTR Music Alternative"
-msgstr ""
-"\\repeat NUM Alternativa musical -> \\repeat FOLDSTR Alternativa musical"
+msgstr "\\repeat NUM Alternativa musical -> \\repeat FOLDSTR Alternativa musical"
 
 #: convertrules.py:206 convertrules.py:679 convertrules.py:1351
 #: convertrules.py:2318
@@ -208,9 +201,7 @@ msgstr "%s obsoleto "
 
 #: convertrules.py:306
 msgid "new \\notenames format"
-msgstr ""
-"novo formato de \\n"
-"otenames"
+msgstr "novo formato de \\notenames"
 
 #: convertrules.py:322
 msgid "new tremolo format"
@@ -222,9 +213,7 @@ msgstr "Staff_margin_engraver obsoleto, use Instrument_name_engraver"
 
 #: convertrules.py:377
 msgid "change property definition case (eg. onevoice -> oneVoice)"
-msgstr ""
-"alteração de maiúsculo de letra de definição de propriedade (p.ex., onevoice "
-"-> oneVoice)"
+msgstr "alteração de maiúsculo de letra de definição de propriedade (p.ex., onevoice -> oneVoice)"
 
 #: convertrules.py:438
 msgid "new \\textscript markup text"
@@ -277,8 +266,7 @@ msgid ""
 "Postfix articulations, new text markup syntax, new chord syntax."
 msgstr ""
 "Novo modo relativo,\n"
-"articulações de Postfix, nova sintaxe de marcação de texto, nova sintaxe de "
-"acorde."
+"articulações de Postfix, nova sintaxe de marcação de texto, nova sintaxe de acorde."
 
 #: convertrules.py:1260
 msgid "Remove - before articulation"
@@ -315,24 +303,21 @@ msgid ""
 "\\outputproperty found,\n"
 "Please hand-edit, using\n"
 "\n"
-"  \\applyoutput #(outputproperty-compatibility %s '%s <GROB PROPERTY "
-"VALUE>)\n"
+"  \\applyoutput #(outputproperty-compatibility %s '%s <GROB PROPERTY VALUE>)\n"
 "\n"
 "as a substitution text."
 msgstr ""
 "\\outputproperty localizado,\n"
 "Por favor edite manualmente, usando\n"
 "\n"
-"  \\applyoutput #(outputproperty-compatibility %s '%s <VALOR PROPRIEDADE "
-"GROB>)\n"
+"  \\applyoutput #(outputproperty-compatibility %s '%s <VALOR PROPRIEDADE GROB>)\n"
 "\n"
 "como um texto substituto."
 
 #: convertrules.py:1407
 msgid ""
 "The alteration field of Scheme pitches was multiplied by 2\n"
-"to support quarter tone accidentals.  You must update the following "
-"constructs manually:\n"
+"to support quarter tone accidentals.  You must update the following constructs manually:\n"
 "\n"
 "* calls of ly:make-pitch and ly:pitch-alteration\n"
 "* keySignature settings made with \\property\n"
@@ -350,17 +335,14 @@ msgstr "remoção de automaticMelismata; use melismaBusyProperties."
 
 #: convertrules.py:1557
 msgid "\\partcombine syntax change to \\newpartcombine"
-msgstr ""
-"alteração de sintaxe de \\partcombine para \\n"
-"ewpartcombine"
+msgstr "alteração de sintaxe de \\partcombine para \\newpartcombine"
 
 #: convertrules.py:1582
 msgid ""
 "Drum notation changes, Removing \\chordmodifiers, \\notenames.\n"
 "Harmonic notes. Thread context removed. Lyrics context removed."
 msgstr ""
-"Alterações de notação de tambor, Removendo \\chordmodifiers, \\n"
-"otenames.\n"
+"Alterações de notação de tambor, Removendo \\chordmodifiers, \\notenames.\n"
 "Notas harmônicas. Contexto de segmento removido. Contexto de letras removido."
 
 #: convertrules.py:1586
@@ -416,8 +398,7 @@ msgid ""
 "fold \\new FooContext \\foomode into \\foo."
 msgstr ""
 "\\foo -> \\foomode (para acordes, notas, etc.)\n"
-"mude \\n"
-"ew FooContext \\foomode para \\foo."
+"mude \\new FooContext \\foomode para \\foo."
 
 #: convertrules.py:1996
 msgid ""
@@ -439,9 +420,7 @@ msgstr "regularize outros identificadores"
 
 #: convertrules.py:2084
 msgid "\\encoding: smart recode latin1..utf-8. Remove ly:point-and-click"
-msgstr ""
-"\\encoding: recodificação inteligente latin1..utf-8. Remova ly:point-and-"
-"click"
+msgstr "\\encoding: recodificação inteligente latin1..utf-8. Remova ly:point-and-click"
 
 #: convertrules.py:2095
 msgid "LilyPond source must be UTF-8"
@@ -485,8 +464,7 @@ msgstr "verticalAlignmentChildCallback está obsoleto"
 
 #: convertrules.py:2277
 msgid "Remove callbacks property, deprecate XY-extent-callback."
-msgstr ""
-"Remoção de propriedade de retornos de chamada, XY-extent-callback obsoleto."
+msgstr "Remoção de propriedade de retornos de chamada, XY-extent-callback obsoleto."
 
 #: convertrules.py:2298
 msgid "Use grob closures iso. XY-offset-callbacks."
@@ -537,9 +515,7 @@ msgstr "para definir distâncias fixas entre pautas.\n"
 
 #: convertrules.py:2639
 msgid "Use #'style not #'dash-fraction to select solid/dashed lines."
-msgstr ""
-"Use #'style, e não #'dash-fraction, para selecionar linhas "
-"sólidas/tracejadas."
+msgstr "Use #'style, e não #'dash-fraction, para selecionar linhas sólidas/tracejadas."
 
 #: convertrules.py:2645
 msgid "all settings related to dashed lines"
@@ -651,9 +627,7 @@ msgstr "\\bar \".\" agora produz uma linha de compasso.\n"
 
 #: convertrules.py:2849
 msgid "Dash parameters for slurs and ties are now in 'dash-definition.\n"
-msgstr ""
-"Parâmetros de traço para legatos e ligaduras estão agora em 'dash-definition."
-"\n"
+msgstr "Parâmetros de traço para legatos e ligaduras estão agora em 'dash-definition.\n"
 
 #: convertrules.py:2854
 msgid ""
@@ -683,9 +657,7 @@ msgstr ""
 
 #: convertrules.py:2868
 msgid "    Autobeam settings are now overriden with \\overrideBeamSettings.\n"
-msgstr ""
-"    Configurações de barra de ligação automática agora foram substituídas "
-"com \\overrideBeamSettings.\n"
+msgstr "    Configurações de barra de ligação automática agora foram substituídas com \\overrideBeamSettings.\n"
 
 #: convertrules.py:2873
 msgid "    Autobeam settings are now reverted with \\revertBeamSettings.\n"
@@ -702,12 +674,8 @@ msgstr ""
 "    com \\overrideBeamSettings.\n"
 
 #: convertrules.py:2885
-msgid ""
-"alignment-offsets has been changed to alignment-distances: you must now "
-"specify the distances between staves rather than the offset of staves.\n"
-msgstr ""
-"alignment-offsets foi alterado para alignment-distances: agora você deve "
-"especificar as distâncias entre pautas em vez do deslocamento de pautas.\n"
+msgid "alignment-offsets has been changed to alignment-distances: you must now specify the distances between staves rather than the offset of staves.\n"
+msgstr "alignment-offsets foi alterado para alignment-distances: agora você deve especificar as distâncias entre pautas em vez do deslocamento de pautas.\n"
 
 #: convertrules.py:2896
 msgid ""
@@ -722,11 +690,8 @@ msgstr ""
 "Novas variáveis de espaçamento vertical."
 
 #: convertrules.py:2927
-msgid ""
-"Vertical spacing no longer depends on the Y-extent of a VerticalAxisGroup.\n"
-msgstr ""
-"Espaçamento vertical não mais depende da extensão Y de uma VerticalAxisGroup."
-"\n"
+msgid "Vertical spacing no longer depends on the Y-extent of a VerticalAxisGroup.\n"
+msgstr "Espaçamento vertical não mais depende da extensão Y de uma VerticalAxisGroup.\n"
 
 #: convertrules.py:2933
 msgid "Unify fetaNumber and fetaDynamic encodings"
@@ -742,12 +707,10 @@ msgstr "\\cresc etc. são agora operadores sufixos"
 
 #: convertrules.py:2961
 msgid ""
-"Eliminate beamSettings, beatLength, \\setBeatGrouping, "
-"\\overrideBeamSettings and \\revertBeamSettings.\n"
+"Eliminate beamSettings, beatLength, \\setBeatGrouping, \\overrideBeamSettings and \\revertBeamSettings.\n"
 "\"accordion.accEtcbase\" -> \"accordion.etcbass\""
 msgstr ""
-"Eliminação de beamSettings, beatLength, \\setBeatGrouping, \\"
-"overrideBeamSettings e \\revertBeamSettings.\n"
+"Eliminação de beamSettings, beatLength, \\setBeatGrouping, \\overrideBeamSettings e \\revertBeamSettings.\n"
 "\"accordion.accEtcbase\" -> \"accordion.etcbass\""
 
 #: convertrules.py:2979
@@ -768,23 +731,15 @@ msgstr "Use baseMoment e beatStructure.\n"
 
 #: convertrules.py:3000
 msgid ""
-"Woodwind diagrams: Move size, thickness, and graphic from argument list to "
-"properties.\n"
-"Deprecate negative dash-period for hidden lines: use #'style = #'none "
-"instead."
+"Woodwind diagrams: Move size, thickness, and graphic from argument list to properties.\n"
+"Deprecate negative dash-period for hidden lines: use #'style = #'none instead."
 msgstr ""
-"Diagramas de madeira: Mova o tamanho, a espessura e o gráfico da lista de "
-"argumentos para as propriedades.\n"
-"Torna obsoleto o período de traço negativo para linhas ocultas: use #'style ="
-" #'none em vez disso."
+"Diagramas de madeira: Mova o tamanho, a espessura e o gráfico da lista de argumentos para as propriedades.\n"
+"Torna obsoleto o período de traço negativo para linhas ocultas: use #'style = #'none em vez disso."
 
 #: convertrules.py:3005
-msgid ""
-"Move size, thickness, and graphic to properties.  Argument should be just "
-"the key list.\n"
-msgstr ""
-"Movido tamanho, espessura e gráfico para propriedades. O argumento deve ser "
-"apenas a lista de chaves.\n"
+msgid "Move size, thickness, and graphic to properties.  Argument should be just the key list.\n"
+msgstr "Movido tamanho, espessura e gráfico para propriedades. O argumento deve ser apenas a lista de chaves.\n"
 
 #: convertrules.py:3013
 msgid ""
@@ -827,12 +782,8 @@ msgid "Harmonic parentheses are part of the TabNoteHead grob.\n"
 msgstr "Parênteses harmônicos são parte do grob de TabNoteHead.\n"
 
 #: convertrules.py:3074
-msgid ""
-"Remove context from overrideTimeSignatureSettings and "
-"revertTimeSignatureSettings.\n"
-msgstr ""
-"Remoção de contexto de overrideTimeSignatureSettings e "
-"revertTimeSignatureSettings.\n"
+msgid "Remove context from overrideTimeSignatureSettings and revertTimeSignatureSettings.\n"
+msgstr "Remoção de contexto de overrideTimeSignatureSettings e revertTimeSignatureSettings.\n"
 
 #: convertrules.py:3081
 msgid ""
@@ -840,17 +791,13 @@ msgid ""
 "Change tenor and baritone ukulele names in string tunings.\n"
 "Generate messages for manual conversion of vertical spacing if required."
 msgstr ""
-"Alteração de stringTunings de uma lista de semitons para uma lista de "
-"alturas.\n"
+"Alteração de stringTunings de uma lista de semitons para uma lista de alturas.\n"
 "Mudança dos nomes de ukulele de tenor e barítono em afinações de cordas.\n"
-"Geração de mensagens para conversão manual de espaçamento vertical, se "
-"necessário."
+"Geração de mensagens para conversão manual de espaçamento vertical, se necessário."
 
 #: convertrules.py:3124
 msgid "Vertical spacing changes might affect user-defined contexts."
-msgstr ""
-"Alterações de espaçamento vertical podem afetar os contextos definidos pelo "
-"usuário."
+msgstr "Alterações de espaçamento vertical podem afetar os contextos definidos pelo usuário."
 
 #: convertrules.py:3130
 msgid "Replace bar-size with bar-extent."
@@ -862,55 +809,35 @@ msgstr "Diagramas de madeira: Alterações ao diagrama de clarinete."
 
 #: convertrules.py:3146
 msgid "Clarinet fingering changed to reflect actual anatomy of instrument.\n"
-msgstr ""
-"O digitação de clarinete foi alterada para refletir a anatomia real do "
-"instrumento.\n"
+msgstr "O digitação de clarinete foi alterada para refletir a anatomia real do instrumento.\n"
 
 #: convertrules.py:3156
 msgid "Handling of non-automatic footnotes."
 msgstr "Tratamento de notas de rodapé não automáticas."
 
 #: convertrules.py:3160
-msgid ""
-"If you are using non-automatic footnotes, make sure to set footnote-auto-"
-"numbering = ##f in the paper block.\n"
-msgstr ""
-"Se você estiver usando notas de rodapé não automáticas, certifique-se de "
-"definir footnote-auto-numbering = ##f no bloco paper.\n"
+msgid "If you are using non-automatic footnotes, make sure to set footnote-auto-numbering = ##f in the paper block.\n"
+msgstr "Se você estiver usando notas de rodapé não automáticas, certifique-se de definir footnote-auto-numbering = ##f no bloco paper.\n"
 
 #: convertrules.py:3165
 msgid "Change in internal property for MultiMeasureRest"
 msgstr "Alteração na propriedade interna do MultiMeasureRest"
 
 #: convertrules.py:3169
-msgid ""
-"This internal property has been replaced by round-up-to-longer-rest, round-"
-"up-exceptions and usable-duration-logs.\n"
-msgstr ""
-"Essa propriedade interna foi substituída por round-up-to-longer-rest, round-"
-"up-exceptions and usable-duration-logs.\n"
+msgid "This internal property has been replaced by round-up-to-longer-rest, round-up-exceptions and usable-duration-logs.\n"
+msgstr "Essa propriedade interna foi substituída por round-up-to-longer-rest, round-up-exceptions and usable-duration-logs.\n"
 
 #: convertrules.py:3174
-msgid ""
-"Creation of a Flag grob and moving of certain Stem properties to this grob"
-msgstr ""
-"Criação de um grob Flag e movimentação de certas propriedades do Stem para "
-"este grob"
+msgid "Creation of a Flag grob and moving of certain Stem properties to this grob"
+msgstr "Criação de um grob Flag e movimentação de certas propriedades do Stem para este grob"
 
 #: convertrules.py:3210
-msgid ""
-"consistent-broken-slope is now handled through the positions callback.\n"
-msgstr ""
-"consistent-broken-slope é agora tratado através do retorno de chamada das "
-"posições.\n"
+msgid "consistent-broken-slope is now handled through the positions callback.\n"
+msgstr "consistent-broken-slope é agora tratado através do retorno de chamada das posições.\n"
 
 #: convertrules.py:3211
-msgid ""
-"input/regression/beam-broken-classic.ly shows how broken beams are now "
-"handled.\n"
-msgstr ""
-"input/regression/beam-broken-classic.ly mostra como as barras de ligações "
-"quebradas agora são tratadas.\n"
+msgid "input/regression/beam-broken-classic.ly shows how broken beams are now handled.\n"
+msgstr "input/regression/beam-broken-classic.ly mostra como as barras de ligações quebradas agora são tratadas.\n"
 
 #: convertrules.py:3372
 msgid "beamExceptions controls whole-measure beaming."
@@ -921,18 +848,12 @@ msgid "Flag.transparent and Flag.color inherit from Stem"
 msgstr "Herança de Flag.transparent e Flag.color de Stem"
 
 #: convertrules.py:3675
-msgid ""
-"Staff-padding now controls the distance to the baseline, not the nearest "
-"point."
-msgstr ""
-"Staff-padding agora controla distância para a linha de base, e não o ponto "
-"mais próximo."
+msgid "Staff-padding now controls the distance to the baseline, not the nearest point."
+msgstr "Staff-padding agora controla distância para a linha de base, e não o ponto mais próximo."
 
 #: convertrules.py:3918
 msgid "Previously the \"id\" grob property (string) was used for SVG output."
-msgstr ""
-"Anteriormente, a propriedade \"id\" (string) de grob era usada para saída em "
-"SVG."
+msgstr "Anteriormente, a propriedade \"id\" (string) de grob era usada para saída em SVG."
 
 #: convertrules.py:3919
 msgid "Now \"output-attributes\" (association list) is used instead."
@@ -1014,9 +935,7 @@ msgstr "Nota ornamental com nenhuma música: %s"
 #: musicexp.py:1204
 #, python-format
 msgid "Invalid octave shift size found: %s. Using no shift."
-msgstr ""
-"Tamanho do deslocamento de oitava inválido encontrado: %s. Usando nenhuma "
-"deslocamento."
+msgstr "Tamanho do deslocamento de oitava inválido encontrado: %s. Usando nenhuma deslocamento."
 
 #: musicexp.py:1803
 #, python-format
@@ -1034,12 +953,8 @@ msgstr "Não foi possível interpretar tempo! Recorrendo a 4/4."
 
 #: musicxml.py:589
 #, python-format
-msgid ""
-"Key alteration octave given for a non-existing alteration nr. %s, available "
-"numbers: %s!"
-msgstr ""
-"Oitava de alteração do tom dada para uma alteração não existente nº %s, "
-"números disponíveis:%s!"
+msgid "Key alteration octave given for a non-existing alteration nr. %s, available numbers: %s!"
+msgstr "Oitava de alteração do tom dada para uma alteração não existente nº %s, números disponíveis:%s!"
 
 #: musicxml.py:825
 #, python-format
@@ -1049,9 +964,7 @@ msgstr "Nota encontrada em %s sem tipo e duração(=%s)"
 #: musicxml.py:867
 #, python-format
 msgid "drum %s type unknown, please add to instrument_drumtype_dict"
-msgstr ""
-"tipo de tambor %s desconhecido, por favor adicione ao "
-"instrument_drumtype_dict"
+msgstr "tipo de tambor %s desconhecido, por favor adicione ao instrument_drumtype_dict"
 
 #: musicxml.py:888
 msgid "cannot find suitable event"
@@ -1064,12 +977,8 @@ msgstr "Não foi possível localizar o instrumento para ID=%s\n"
 
 #: musicxml2ly_conversion.py:23
 #, python-format
-msgid ""
-"Encountered rational duration with denominator %s, unable to convert to "
-"lilypond duration"
-msgstr ""
-"Duração proporcional encontrada com denominador %s, não foi possível "
-"converter para a duração lilypond"
+msgid "Encountered rational duration with denominator %s, unable to convert to lilypond duration"
+msgstr "Duração proporcional encontrada com denominador %s, não foi possível converter para a duração lilypond"
 
 #: musicxml2ly_conversion.py:42
 #, python-format
@@ -1168,12 +1077,8 @@ msgid "edit in place"
 msgstr "edita no lugar"
 
 #: convert-ly.py:109 lilypond-book.py:179 musicxml2ly.py:2811
-msgid ""
-"Print log messages according to LOGLEVEL (NONE, ERROR, WARNING, PROGRESS "
-"(default), DEBUG)"
-msgstr ""
-"Emite mensagens de log de acordo com o NÍVELLOG (NONE, ERROR, WARNING, PROGRESS "
-"(PADRÃO), DEBUG)"
+msgid "Print log messages according to LOGLEVEL (NONE, ERROR, WARNING, PROGRESS (default), DEBUG)"
+msgstr "Emite mensagens de log de acordo com o NÍVELLOG (NONE, ERROR, WARNING, PROGRESS (PADRÃO), DEBUG)"
 
 #: convert-ly.py:111 lilypond-book.py:163 lilypond-book.py:181
 #: musicxml2ly.py:2813 main.cc:177
@@ -1243,12 +1148,10 @@ msgstr "%s: Não foi possível determinar a versão. Ignorando"
 #, python-format
 msgid ""
 "%s: Invalid version string `%s' \n"
-"Valid version strings consist of three numbers, separated by dots, e.g. "
-"`2.8.12'"
+"Valid version strings consist of three numbers, separated by dots, e.g. `2.8.12'"
 msgstr ""
 "%s: String de versão inválida \"%s\" \n"
-"Strings de versão válidas consistem em três números, separados por pontos, "
-"p.ex., 2.8.12"
+"Strings de versão válidas consistem em três números, separados por pontos, p.ex., 2.8.12"
 
 #: convert-ly.py:384
 #, python-format
@@ -1265,8 +1168,7 @@ msgstr " %s [ARQUIVO]...ARQUIVO-ETF"
 #: etf2ly.py:1198
 msgid ""
 "Enigma Transport Format is a format used by Coda Music Technology's\n"
-"Finale product.  etf2ly converts a subset of ETF to a ready-to-use LilyPond "
-"file.\n"
+"Finale product.  etf2ly converts a subset of ETF to a ready-to-use LilyPond file.\n"
 msgstr ""
 "Enigma Transport Format é um formato usado pelo produto Finale da\n"
 "Coda Music Technology. etf2ly converte um subconjunto de ETF para\n"
@@ -1278,10 +1180,8 @@ msgid "FILE"
 msgstr "ARQUIVO"
 
 #: lilypond-book.py:80
-msgid ""
-"Process LilyPond snippets in hybrid HTML, LaTeX, texinfo or DocBook document."
-msgstr ""
-"Processa trechos do Lilypond em um documento híbrido HTML, LaTeX, texinfo ou DocBook."
+msgid "Process LilyPond snippets in hybrid HTML, LaTeX, texinfo or DocBook document."
+msgstr "Processa trechos do Lilypond em um documento híbrido HTML, LaTeX, texinfo ou DocBook."
 
 #: lilypond-book.py:87
 msgid "BOOK"
@@ -1301,10 +1201,8 @@ msgid "pipe snippets through FILTER [default: `convert-ly -n -']"
 msgstr "passa trechos por FILTRO [padrão: \"convert-ly -n -\"]"
 
 #: lilypond-book.py:134
-msgid ""
-"use output format FORMAT (texi [default], texi-html, latex, html, docbook)"
-msgstr ""
-"usa o formato de saída FORMATO (texi [padrão], texi-html, latex, html, docbook)"
+msgid "use output format FORMAT (texi [default], texi-html, latex, html, docbook)"
+msgstr "usa o formato de saída FORMATO (texi [padrão], texi-html, latex, html, docbook)"
 
 #: lilypond-book.py:135
 msgid "FORMAT"
@@ -1328,11 +1226,8 @@ msgid "PAD"
 msgstr "PAD"
 
 #: lilypond-book.py:157
-msgid ""
-"pad left side of music to align music in spite of uneven bar numbers (in mm)"
-msgstr ""
-"ajusta o lado esquerdo da música para alinhar a música apesar dos números de "
-"compasso irregulares (em mm)"
+msgid "pad left side of music to align music in spite of uneven bar numbers (in mm)"
+msgstr "ajusta o lado esquerdo da música para alinhar a música apesar dos números de compasso irregulares (em mm)"
 
 #: lilypond-book.py:162
 msgid "Print lilypond log messages according to LOGLEVEL"
@@ -1343,10 +1238,8 @@ msgid "write lily-XXX files to DIR, link into --output dir"
 msgstr "escreve arquivos lily-XXX para DIR, vincula para dir --output"
 
 #: lilypond-book.py:173
-msgid ""
-"Load the additional python PACKAGE (containing e.g. a custom output format)"
-msgstr ""
-"Carrega o PACOTE python adicional (contendo, p. ex., um formato de saída personalizado)"
+msgid "Load the additional python PACKAGE (containing e.g. a custom output format)"
+msgstr "Carrega o PACOTE python adicional (contendo, p. ex., um formato de saída personalizado)"
 
 #: lilypond-book.py:174
 msgid "PACKAGE"
@@ -1474,17 +1367,12 @@ msgstr "Definindo o nível de log do LilyPond para %s"
 
 #: lilypond-book.py:731
 #, python-format
-msgid ""
-"Setting LilyPond's loglevel to %s (from environment variable "
-"LILYPOND_LOGLEVEL)"
-msgstr ""
-"Definindo o nível de log do LilyPond para %s (da variável de ambiente LILYPOND_LOGLEVEL)"
+msgid "Setting LilyPond's loglevel to %s (from environment variable LILYPOND_LOGLEVEL)"
+msgstr "Definindo o nível de log do LilyPond para %s (da variável de ambiente LILYPOND_LOGLEVEL)"
 
 #: lilypond-book.py:734
-msgid ""
-"Setting LilyPond's output to --verbose, implied by lilypond-book's setting"
-msgstr ""
-"Definindo a saída do LilyPond para --verbose, implicando pela configuração do lilypond-book"
+msgid "Setting LilyPond's output to --verbose, implied by lilypond-book's setting"
+msgstr "Definindo a saída do LilyPond para --verbose, implicando pela configuração do lilypond-book"
 
 #: midi2ly.py:89
 msgid "warning: "
@@ -1582,13 +1470,8 @@ msgstr "nenhum arquivo especificado na linha de comando."
 
 #: musicxml2ly.py:260
 #, python-format
-msgid ""
-"Encountered file created by %s, containing wrong beaming information. All "
-"beaming information in the MusicXML file will be ignored"
-msgstr ""
-"Encontrado arquivo criado por %s, contendo informações erradas de barra de "
-"ligação. Todas as informações de barras de ligação no arquivo MusicXML serão "
-"ignoradas"
+msgid "Encountered file created by %s, containing wrong beaming information. All beaming information in the MusicXML file will be ignored"
+msgstr "Encontrado arquivo criado por %s, contendo informações erradas de barra de ligação. Todas as informações de barras de ligação no arquivo MusicXML serão ignoradas"
 
 #: musicxml2ly.py:302 musicxml2ly.py:304
 #, python-format
@@ -1603,8 +1486,7 @@ msgstr "Não foi possível extrair a armadura!"
 #: musicxml2ly.py:819
 #, python-format
 msgid "unknown mode %s, expecting 'major' or 'minor' or a church mode!"
-msgstr ""
-"modo desconhecido %s, esperando \"major\" ou \"minor\" ou um modo grego!"
+msgstr "modo desconhecido %s, esperando \"major\" ou \"minor\" ou um modo grego!"
 
 #: musicxml2ly.py:988
 #, python-format
@@ -1622,12 +1504,8 @@ msgstr "marca de metrônomo desconhecido, ignorando"
 
 #. TODO: Implement the other (more complex) way for tempo marks!
 #: musicxml2ly.py:1502
-msgid ""
-"Metronome marks with complex relations (<metronome-note> in MusicXML) are "
-"not yet implemented."
-msgstr ""
-"Marcas de metrônomo com relações complexas (<metronome-note> no MusicXML) "
-"ainda não estão implementadas."
+msgid "Metronome marks with complex relations (<metronome-note> in MusicXML) are not yet implemented."
+msgstr "Marcas de metrônomo com relações complexas (<metronome-note> no MusicXML) ainda não estão implementadas."
 
 #: musicxml2ly.py:1653
 #, python-format
@@ -1755,29 +1633,20 @@ msgid "ignore page margins"
 msgstr "ignora margens de página"
 
 #: musicxml2ly.py:2852
-msgid ""
-"do not convert the exact page layout and breaks (shortcut for \"--nsb --npb "
-"--npm\" options)"
-msgstr ""
-"não converte o layout e quebras exatas de página (atalho para opções \"--nsb --npb --npm\""
+msgid "do not convert the exact page layout and breaks (shortcut for \"--nsb --npb --npm\" options)"
+msgstr "não converte o layout e quebras exatas de página (atalho para opções \"--nsb --npb --npm\""
 
 #: musicxml2ly.py:2858
-msgid ""
-"ignore stem directions from MusicXML, use lilypond's automatic stemming "
-"instead"
-msgstr ""
-"ignora direções de haste do MusicXML, usa o hasteamento automático do lilypond"
+msgid "ignore stem directions from MusicXML, use lilypond's automatic stemming instead"
+msgstr "ignora direções de haste do MusicXML, usa o hasteamento automático do lilypond"
 
 #: musicxml2ly.py:2864
-msgid ""
-"do not convert beaming information, use lilypond's automatic beaming instead"
-msgstr ""
-"não converter informação de linha de união, usa a linha de união automática do lilypond"
+msgid "do not convert beaming information, use lilypond's automatic beaming instead"
+msgstr "não converter informação de linha de união, usa a linha de união automática do lilypond"
 
 #: musicxml2ly.py:2872
 msgid "set output filename to FILE, stdout if -"
-msgstr ""
-"define nome de arquivo de saída para ARQUIVO, stdout se -"
+msgstr "define nome de arquivo de saída para ARQUIVO, stdout se -"
 
 #: musicxml2ly.py:2878
 msgid "activate midi-block in .ly file"
@@ -1796,11 +1665,8 @@ msgid "BEATS/BEATTYPE"
 msgstr "BATIDAS/TIPOBATIDAS"
 
 #: musicxml2ly.py:2892
-msgid ""
-"change the length|duration of notes as a function of a given time signature "
-"to make the score look faster or slower, (eg. '4/4' or '2/2')"
-msgstr ""
-"altera o comprimento|duração das notas como uma função de uma dada assinatura de tempo para fazer a pontuação parecer mais rápida ou mais lenta (por exemplo, '4/4' ou '2/2')"
+msgid "change the length|duration of notes as a function of a given time signature to make the score look faster or slower, (eg. '4/4' or '2/2')"
+msgstr "altera o comprimento|duração das notas como uma função de uma dada assinatura de tempo para fazer a pontuação parecer mais rápida ou mais lenta (por exemplo, '4/4' ou '2/2')"
 
 #: musicxml2ly.py:2896
 msgid "TABCLEFNAME"
@@ -1808,27 +1674,20 @@ msgstr "NOMECLAVETAB"
 
 #: musicxml2ly.py:2899
 msgid "switch between two versions of tab clefs (\"tab\" and \"moderntab\")"
-msgstr ""
-"alterna entre duas versões de claves de tablatura (\"tab\" e \"moderntab\")"
+msgstr "alterna entre duas versões de claves de tablatura (\"tab\" e \"moderntab\")"
 
 #: musicxml2ly.py:2903
 msgid "t[rue]/f[alse]"
 msgstr "t[rue]/f[alse]"
 
 #: musicxml2ly.py:2906
-msgid ""
-"deactivate string number stencil with --string-numbers f[alse]. Default is "
-"t[rue]"
-msgstr ""
-"desativa o estêncil do número de corda com --string-numbers f[alse]. O "
-"padrão é t[rue]"
+msgid "deactivate string number stencil with --string-numbers f[alse]. Default is t[rue]"
+msgstr "desativa o estêncil do número de corda com --string-numbers f[alse]. O padrão é t[rue]"
 
 # escala é onde ficam as cordas e os trastes (fret) de instrumentos musicais
 #: musicxml2ly.py:2913
-msgid ""
-"converts '<frame>' events to a separate FretBoards voice instead of markups"
-msgstr ""
-"converte eventos de \"<frame>\" para uma voz de Escala separada em vez de marcações"
+msgid "converts '<frame>' events to a separate FretBoards voice instead of markups"
+msgstr "converte eventos de \"<frame>\" para uma voz de Escala separada em vez de marcações"
 
 #: musicxml2ly.py:2987
 #, python-format
@@ -1995,19 +1854,13 @@ msgstr "volume alvo inválido: %f"
 
 #: audio-item.cc:174
 #, c-format
-msgid ""
-"asked to compute volume at %f for dynamic span of duration %f starting at %s"
-msgstr ""
-"pediu para calcular o volume em %f para o período dinâmico de duração %f "
-"começando em %s"
+msgid "asked to compute volume at %f for dynamic span of duration %f starting at %s"
+msgstr "pediu para calcular o volume em %f para o período dinâmico de duração %f começando em %s"
 
 #: audio-item.cc:182
 #, c-format
-msgid ""
-"asked to compute volume at +%f for dynamic span of duration %f starting at %s"
-msgstr ""
-"pediu para calcular o volume em +%f para o período dinâmico de duração %f "
-"começando em %s"
+msgid "asked to compute volume at +%f for dynamic span of duration %f starting at %s"
+msgstr "pediu para calcular o volume em +%f para o período dinâmico de duração %f começando em %s"
 
 #: axis-group-engraver.cc:155
 msgid "Axis_group_engraver: vertical group already has a parent"
@@ -2058,9 +1911,7 @@ msgstr "a barra de ligação foi iniciada aqui"
 #. We are completely screwed.
 #: beam-quanting.cc:850
 msgid "no viable initial configuration found: may not find good beam slope"
-msgstr ""
-"nenhuma configuração inicial viável localizada: pode não encontrado declive "
-"de barra de ligação bom"
+msgstr "nenhuma configuração inicial viável localizada: pode não encontrado declive de barra de ligação bom"
 
 #: beam.cc:183
 msgid "removing beam with no stems"
@@ -2113,8 +1964,7 @@ msgstr "descartando cluster vazio"
 #: coherent-ligature-engraver.cc:110
 #, c-format
 msgid "Coherent_ligature_engraver: setting `spacing-increment=0.01': ptr=%ul"
-msgstr ""
-"Coherent_ligature_engraver: definindo \"spacing-increment=0.01\": ptr=%ul"
+msgstr "Coherent_ligature_engraver: definindo \"spacing-increment=0.01\": ptr=%ul"
 
 #: constrained-breaking.cc:187 constrained-breaking.cc:206
 msgid "cannot find line breaking that satisfies constraints"
@@ -2313,9 +2163,7 @@ msgstr "interface SQL desconhecida \"%s\""
 #: grob-interface.cc:79
 #, fuzzy, c-format
 msgid "Grob `%s' has no interface for property `%s'"
-msgstr ""
-"%s focalizável possui uma interface de tabela, mas não uma interface de "
-"seleção"
+msgstr "%s focalizável possui uma interface de tabela, mas não uma interface de seleção"
 
 #: grob-property.cc:32
 #, fuzzy, c-format
@@ -2505,15 +2353,11 @@ msgid "Processing `%s'"
 msgstr "Ocorreu um erro durante o processamento: %s"
 
 #: lily-parser-scheme.cc:210
-msgid ""
-"ly:parser-parse-string is only valid with a new parser.  Use ly:parser-"
-"include-string instead."
+msgid "ly:parser-parse-string is only valid with a new parser.  Use ly:parser-include-string instead."
 msgstr ""
 
 #: lily-parser-scheme.cc:241
-msgid ""
-"ly:parse-string-expression is only valid with a new parser.  Use ly:parser-"
-"include-string instead."
+msgid "ly:parse-string-expression is only valid with a new parser.  Use ly:parser-include-string instead."
 msgstr ""
 
 #: lily-parser.cc:106
@@ -2574,8 +2418,7 @@ msgstr ""
 "COMERCIALIZAÇÃO OU ADEQUAÇÃO A UM DETERMINADO PROPÓSITO. Veja a\n"
 "Licença Pública Geral GNU para obter mais detalhes.\n"
 "\n"
-"   Você deve ter recebido uma cópia da "
-"Licença Pública Geral GNU junto com este programa. Se não, escreva\n"
+"   Você deve ter recebido uma cópia da Licença Pública Geral GNU junto com este programa. Se não, escreva\n"
 "para a Free Software Foundation, Inc., 59 Temple Place - Suite 330,\n"
 "Boston, MA 02111-1307, USA.\n"
 
@@ -2851,8 +2694,7 @@ msgid "Calculating page breaks..."
 msgstr "Calculando..."
 
 #: multi-measure-rest.cc:152
-msgid ""
-"usable-duration-logs must be a non-empty list.  Falling back to whole rests."
+msgid "usable-duration-logs must be a non-empty list.  Falling back to whole rests."
 msgstr ""
 
 #: music.cc:153
@@ -3002,9 +2844,7 @@ msgid "Finding the ideal number of pages..."
 msgstr "Localizando as páginas de manual:"
 
 #: optimal-page-breaking.cc:94
-msgid ""
-"could not satisfy systems-per-page and page-count at the same time, ignoring "
-"systems-per-page"
+msgid "could not satisfy systems-per-page and page-count at the same time, ignoring systems-per-page"
 msgstr ""
 
 #: optimal-page-breaking.cc:116
@@ -3038,21 +2878,15 @@ msgid "margins do not fit with line-width, setting default values"
 msgstr ""
 
 #: output-def.cc:236
-msgid ""
-"systems run off the page due to improper paper settings, setting default "
-"values"
+msgid "systems run off the page due to improper paper settings, setting default values"
 msgstr ""
 
 #: page-breaking.cc:276
-msgid ""
-"ignoring min-systems-per-page and max-systems-per-page because systems-per-"
-"page was set"
+msgid "ignoring min-systems-per-page and max-systems-per-page because systems-per-page was set"
 msgstr ""
 
 #: page-breaking.cc:281
-msgid ""
-"min-systems-per-page is larger than max-systems-per-page, ignoring both "
-"values"
+msgid "min-systems-per-page is larger than max-systems-per-page, ignoring both values"
 msgstr ""
 
 #: page-breaking.cc:636
@@ -3061,8 +2895,7 @@ msgid "page %d has been compressed"
 msgstr "A página que você solicitou não foi encontrada neste servidor."
 
 #: page-layout-problem.cc:400
-msgid ""
-"A page layout problem has been initiated that cannot accommodate footnotes."
+msgid "A page layout problem has been initiated that cannot accommodate footnotes."
 msgstr ""
 
 #: page-layout-problem.cc:729
@@ -3084,9 +2917,7 @@ msgid "page-turn-page-breaking: breaking from %d to %d"
 msgstr ""
 
 #: page-turn-page-breaking.cc:218
-msgid ""
-"cannot fit the first page turn onto a single page.  Consider setting first-"
-"page-number to an even number."
+msgid "cannot fit the first page turn onto a single page.  Consider setting first-page-number to an even number."
 msgstr ""
 
 #: page-turn-page-breaking.cc:231
@@ -3142,9 +2973,7 @@ msgstr ""
 
 #: pango-font.cc:410
 #, c-format
-msgid ""
-"OpenType font feature `%s' cannot be used since this binary is configured "
-"without feature support."
+msgid "OpenType font feature `%s' cannot be used since this binary is configured without feature support."
 msgstr ""
 
 #: paper-book.cc:200
@@ -3158,9 +2987,7 @@ msgid "program option -dpreview not supported by backend `%s'"
 msgstr ""
 
 #: paper-column-engraver.cc:274
-msgid ""
-"forced break was overridden by some other event, should you be using bar "
-"checks?"
+msgid "forced break was overridden by some other event, should you be using bar checks?"
 msgstr ""
 
 #: paper-outputter-scheme.cc:41
@@ -3396,8 +3223,7 @@ msgstr "Direção (%s)"
 #: slur-engraver.cc:239
 #, fuzzy, c-format
 msgid "already have %s"
-msgstr ""
-"Você já tem o arquivo %s que não é um arquivo normal ou um link simbólico."
+msgstr "Você já tem o arquivo %s que não é um arquivo normal ou um link simbólico."
 
 #: slur-engraver.cc:256
 #, fuzzy, c-format
@@ -3527,21 +3353,15 @@ msgstr "no final"
 
 #: vaticana-ligature-engraver.cc:385
 #, c-format
-msgid ""
-"ignored prefix(es) `%s' of this head according to restrictions of the "
-"selected ligature style"
+msgid "ignored prefix(es) `%s' of this head according to restrictions of the selected ligature style"
 msgstr ""
 
 #: vaticana-ligature-engraver.cc:451
-msgid ""
-"Ambiguous use of dots in ligature: there are multiple dotted notes with the "
-"same pitch.  The ligature should be split."
+msgid "Ambiguous use of dots in ligature: there are multiple dotted notes with the same pitch.  The ligature should be split."
 msgstr ""
 
 #: vaticana-ligature-engraver.cc:509
-msgid ""
-"This ligature has a dotted head followed by a non-dotted head.  The ligature "
-"should be split after the last dotted head before this head."
+msgid "This ligature has a dotted head followed by a non-dotted head.  The ligature should be split after the last dotted head before this head."
 msgstr ""
 
 #: vaticana-ligature-engraver.cc:721
@@ -3828,8 +3648,7 @@ msgid "file too old: %s (oldest supported: %s)"
 msgstr ""
 "\n"
 "\n"
-"O arquivo “%s” pode não ter suporte no ou ser muito grande para essa "
-"instalação do Gallery3."
+"O arquivo “%s” pode não ter suporte no ou ser muito grande para essa instalação do Gallery3."
 
 #: lexer.ll:1319
 msgid "consider updating the input with the convert-ly script"
@@ -3894,22 +3713,17 @@ msgstr ""
 
 #: bar-line.scm:170
 #, scheme-format
-msgid ""
-"Annotation '~a' is allowed in the first argument of a bar line definition "
-"only."
+msgid "Annotation '~a' is allowed in the first argument of a bar line definition only."
 msgstr ""
 
 #: bar-line.scm:178
 #, scheme-format
-msgid ""
-"Replacement '~a' is allowed in the last argument of a bar line definition "
-"only."
+msgid "Replacement '~a' is allowed in the last argument of a bar line definition only."
 msgstr ""
 
 #: bar-line.scm:239
 #, scheme-format
-msgid ""
-"add-bar-glyph-print-procedure: glyph '~a' has to be a single ASCII character."
+msgid "add-bar-glyph-print-procedure: glyph '~a' has to be a single ASCII character."
 msgstr ""
 
 #: bar-line.scm:807
@@ -4056,9 +3870,7 @@ msgstr ""
 
 #: framework-ps.scm:268
 #, scheme-format
-msgid ""
-"Different CFF fonts which have the same name `~a' has been detected. The "
-"font cannot be embedded."
+msgid "Different CFF fonts which have the same name `~a' has been detected. The font cannot be embedded."
 msgstr ""
 
 #: framework-ps.scm:272
@@ -4072,23 +3884,17 @@ msgstr ""
 
 #: framework-ps.scm:331
 #, scheme-format
-msgid ""
-"Font ~a cannot be loaded via Ghostscript because its font-index (~a) is not "
-"zero."
+msgid "Font ~a cannot be loaded via Ghostscript because its font-index (~a) is not zero."
 msgstr ""
 
 #: framework-ps.scm:337
 #, scheme-format
-msgid ""
-"Font ~a cannot be loaded via Ghostscript because it is an OpenType/CFF "
-"Collection (OTC) font."
+msgid "Font ~a cannot be loaded via Ghostscript because it is an OpenType/CFF Collection (OTC) font."
 msgstr ""
 
 #: framework-ps.scm:343
 #, scheme-format
-msgid ""
-"Font ~a cannot be used via Ghostscript because it is a TrueType font that "
-"does not have glyph names."
+msgid "Font ~a cannot be used via Ghostscript because it is a TrueType font that does not have glyph names."
 msgstr ""
 
 #: framework-ps.scm:365
@@ -4099,8 +3905,7 @@ msgstr "%s: impossível ler: %s"
 #: framework-ps.scm:408
 #, fuzzy, scheme-format
 msgid "cannot extract file matching ~a from ~a"
-msgstr ""
-"Erro: o arquivo '%s' não foi encontrado!  Não é possível extrair dados."
+msgstr "Erro: o arquivo '%s' não foi encontrado!  Não é possível extrair dados."
 
 #: framework-ps.scm:427
 #, fuzzy, scheme-format
@@ -4151,10 +3956,7 @@ msgstr ""
 #: framework-svg.scm:84
 #, fuzzy, scheme-format
 msgid "Updating font into: ~a"
-msgstr ""
-"Se você está usando um diretório alternativo, lembre-se de especificar o "
-"nome do diretório quando atualizar o cache de fontes com o comando <cmd>fc-"
-"cache</cmd>:"
+msgstr "Se você está usando um diretório alternativo, lembre-se de especificar o nome do diretório quando atualizar o cache de fontes com o comando <cmd>fc-cache</cmd>:"
 
 #: graphviz.scm:64
 #, fuzzy, scheme-format

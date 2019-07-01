@@ -70,8 +70,7 @@ msgstr "tentativa de realocar memória não alocada"
 #: cobc/cobc.c:1049 cobc/cobc.c:1165
 #, c-format
 msgid "call to %s with invalid pointer, as it is missing in list"
-msgstr ""
-"chamada para %s com ponteiro inválido, pois ele não está presente na lista"
+msgstr "chamada para %s com ponteiro inválido, pois ele não está presente na lista"
 
 #: cobc/cobc.c:1334
 #, c-format
@@ -156,19 +155,15 @@ msgid "aborting"
 msgstr "abortando"
 
 #: cobc/cobc.c:1926 bin/cobcrun.c:97
-msgid ""
-"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>"
-msgstr ""
-"Licença GPLv3+: GNU GPL versão 3 ou posterior "
-"<http://gnu.org/licenses/gpl.html>"
+msgid "License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>"
+msgstr "Licença GPLv3+: GNU GPL versão 3 ou posterior <http://gnu.org/licenses/gpl.html>"
 
 #: cobc/cobc.c:1927 libcob/common.c:6017 bin/cobcrun.c:98
 msgid ""
 "This is free software; see the source for copying conditions.  There is NO\n"
 "warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE."
 msgstr ""
-"Esse é um software livre; veja o código-fonte para obter as condições de "
-"cópia.\n"
+"Esse é um software livre; veja o código-fonte para obter as condições de cópia.\n"
 "Não há NENHUMA garantia; nem mesmo para o COMÉRCIO ou ADEQUAÇÃO PARA UM\n"
 "PROPÓSITO PARTICULAR."
 
@@ -284,8 +279,7 @@ msgstr "padrão"
 
 #: cobc/cobc.c:2186
 msgid "GnuCOBOL compiler for most COBOL dialects with lots of extensions"
-msgstr ""
-"Compilador GnuCOBOL para a maioria de dialetos COBOL com muitas extensões"
+msgstr "Compilador GnuCOBOL para a maioria de dialetos COBOL com muitas extensões"
 
 #: cobc/cobc.c:2188
 #, c-format
@@ -309,8 +303,7 @@ msgid ""
 "  -i, -info             display compiler information (build/environment)\n"
 "                        and exit"
 msgstr ""
-"  -i, -info             exibe informações do compilador (compilação/ambiente)"
-"\n"
+"  -i, -info             exibe informações do compilador (compilação/ambiente)\n"
 "                        e sai"
 
 #: cobc/cobc.c:2196
@@ -339,8 +332,7 @@ msgstr ""
 
 #: cobc/cobc.c:2202
 msgid "  -q, -brief            reduced displays, commands invoked not shown"
-msgstr ""
-"  -q, -brief            exibições reduzidas, comandos chamados não mostrados"
+msgstr "  -q, -brief            exibições reduzidas, comandos chamados não mostrados"
 
 #: cobc/cobc.c:2203
 msgid "  -###                 like -v but commands not executed"
@@ -352,8 +344,7 @@ msgstr "  -x                    compila um programa executável"
 
 #: cobc/cobc.c:2205
 msgid "  -m                    build a dynamically loadable module (default)"
-msgstr ""
-"  -m                    compila um módulo carregável dinamicamente (padrão)"
+msgstr "  -m                    compila um módulo carregável dinamicamente (padrão)"
 
 #: cobc/cobc.c:2206
 msgid "  -j [<args>], -job[=<args>]\trun program after build, passing <args>"
@@ -399,9 +390,7 @@ msgstr ""
 
 #: cobc/cobc.c:2218
 msgid "  -d, -debug            enable all run-time error checking"
-msgstr ""
-"  -d, -debug            habilita toda verificação de erro de tempo de "
-"execução"
+msgstr "  -d, -debug            habilita toda verificação de erro de tempo de execução"
 
 #: cobc/cobc.c:2219
 msgid "  -o <file>             place the output into <file>"
@@ -432,23 +421,16 @@ msgid "  -c                    compile and assemble, but do not link"
 msgstr "  -c                    compila e monta, mas não vincula"
 
 #: cobc/cobc.c:2226
-msgid ""
-"  -T <file>             generate and place a wide program listing into <file>"
-msgstr ""
-"  -T <arquivo>          gera e coloca uma listagem ampla de programas em "
-"<arquivo>"
+msgid "  -T <file>             generate and place a wide program listing into <file>"
+msgstr "  -T <arquivo>          gera e coloca uma listagem ampla de programas em <arquivo>"
 
 #: cobc/cobc.c:2227
-msgid ""
-"  -t <file>             generate and place a program listing into <file>"
-msgstr ""
-"  -t <arquivo>          gera e coloca uma listagem ampla de programas em "
-"<arquivo>"
+msgid "  -t <file>             generate and place a program listing into <file>"
+msgstr "  -t <arquivo>          gera e coloca uma listagem ampla de programas em <arquivo>"
 
 #: cobc/cobc.c:2228
 msgid "  --tlines=<lines>      specify lines per page in listing, default = 55"
-msgstr ""
-"  --tlines=<linhas>     especifica linhas por página na lista, padrão = 55"
+msgstr "  --tlines=<linhas>     especifica linhas por página na lista, padrão = 55"
 
 #: cobc/cobc.c:2229
 msgid "  --tsymbols            specify symbols in listing"
@@ -456,8 +438,7 @@ msgstr "  --tsymbols            especifica símbolos na listagem"
 
 #: cobc/cobc.c:2230
 msgid "  -P[=<dir or file>]    generate preprocessed program listing (.lst)"
-msgstr ""
-"  -P[=<dir ou arquivo>] gera listagem de programas pré-processados (.lst)"
+msgstr "  -P[=<dir ou arquivo>] gera listagem de programas pré-processados (.lst)"
 
 #: cobc/cobc.c:2232
 msgid ""
@@ -505,9 +486,7 @@ msgstr "  -K <entrada>          gera chamada para <entrada> como estática"
 
 #: cobc/cobc.c:2244
 msgid "  -conf=<file>          user-defined dialect configuration; see -std"
-msgstr ""
-"  -conf=<arquivo>       configuração de dialeto definida pelo usuário; ver "
-"-std"
+msgstr "  -conf=<arquivo>       configuração de dialeto definida pelo usuário; ver -std"
 
 #: cobc/cobc.c:2245
 msgid "  -list-reserved        display reserved words"
@@ -542,11 +521,8 @@ msgid "  -W                    enable all warnings"
 msgstr "  -W                    habilita todos avisos"
 
 #: cobc/cobc.c:2256
-msgid ""
-"  -Wall                 enable most warnings (all except as noted below)"
-msgstr ""
-"  -Wall                 habilita a maioria dos aviso (todos, exceto como "
-"observado abaixo)"
+msgid "  -Wall                 enable most warnings (all except as noted below)"
+msgstr "  -Wall                 habilita a maioria dos aviso (todos, exceto como observado abaixo)"
 
 #: cobc/cobc.c:2257
 msgid "  -Wno-<warning>        disable warning enabled by -W or -Wall"
@@ -611,8 +587,7 @@ msgstr "Ajuda para uso de softwares GNU: <http://www.gnu.org/gethelp/>"
 
 #: cobc/cobc.c:2326
 msgid "only one of options 'E', 'S', 'C', 'c' may be specified"
-msgstr ""
-"apenas uma das opções \"E\", \"S\", \"C\" e \"c\" podem ser especificadas"
+msgstr "apenas uma das opções \"E\", \"S\", \"C\" e \"c\" podem ser especificadas"
 
 #: cobc/cobc.c:2332
 msgid "only one of options 'm', 'x', 'b' may be specified"
@@ -644,9 +619,7 @@ msgstr "aviso: \"%s\" não é um diretório, usando como padrão o diretório at
 #: cobc/cobc.c:2835
 #, c-format
 msgid "warning: assuming '%s' is a DEFINE - did you intend to use -debug?"
-msgstr ""
-"aviso: presumindo que \"%s\" seja um DEFINE - você tem a intenção de usar "
-"-debug?"
+msgstr "aviso: presumindo que \"%s\" seja um DEFINE - você tem a intenção de usar -debug?"
 
 #: cobc/cobc.c:3046
 #, c-format
@@ -1269,8 +1242,7 @@ msgstr "\"%s\" não pode ter S na string PICTURE e BLANK WHEN ZERO"
 
 #: cobc/field.c:1058
 #, c-format
-msgid ""
-"'%s' cannot have BLANK WHEN ZERO without being USAGE DISPLAY or NATIONAL"
+msgid "'%s' cannot have BLANK WHEN ZERO without being USAGE DISPLAY or NATIONAL"
 msgstr "\"%s\" não pode ter BLANK WHEN ZERO sem ser USAGE DISPLAY ou NATIONAL"
 
 #: cobc/field.c:1115
@@ -1339,8 +1311,7 @@ msgstr "não é possível usar RENAMES na parte da tabela \"%s\""
 #: cobc/field.c:1912
 #, c-format
 msgid "RENAMES may not contain '%s' as it is a pointer or object reference"
-msgstr ""
-"RENAMES não pode conter \"%s\", pois ele é um ponteiro ou referência a objeto"
+msgstr "RENAMES não pode conter \"%s\", pois ele é um ponteiro ou referência a objeto"
 
 #: cobc/field.c:1916
 #, c-format
@@ -1428,11 +1399,8 @@ msgid "output static function calls for the CALL statement"
 msgstr "emite chamadas de função estáticas para instrução CALL"
 
 #: cobc/flag.def:72
-msgid ""
-"disable generation of C function declations for subroutines with static CALL"
-msgstr ""
-"desabilita geração de declarações de função C para sub-rotinas com CALL "
-"estática"
+msgid "disable generation of C function declations for subroutines with static CALL"
+msgstr "desabilita geração de declarações de função C para sub-rotinas com CALL estática"
 
 #: cobc/flag.def:75
 msgid "generate WinMain instead of main when compiling as executable"
@@ -1799,8 +1767,7 @@ msgstr "cláusulas de tela podem ser usadas apenas para DISPLAY em CRT"
 
 #: parser.y:1664
 msgid "ambiguous DISPLAY; put items to display on device in separate DISPLAY"
-msgstr ""
-"DISPLAY ambíguo; coloque itens para exibir no dispositivo em DISPLAY separado"
+msgstr "DISPLAY ambíguo; coloque itens para exibir no dispositivo em DISPLAY separado"
 
 #: parser.y:1680
 #, c-format
@@ -1923,8 +1890,7 @@ msgstr "cláusula LINAGE com tipo de arquivo errado"
 
 #: parser.y:4620
 msgid "RECORDING MODE U or S can only be used with RECORD SEQUENTIAL files"
-msgstr ""
-"RECORDING MODE U ou S só pode ser usado com arquivos de RECORD SEQUENTIAL"
+msgstr "RECORDING MODE U ou S só pode ser usado com arquivos de RECORD SEQUENTIAL"
 
 #: parser.y:4652
 #, c-format
@@ -2004,8 +1970,7 @@ msgstr "sobrescrevendo a convenção especificada em ENTRY-CONVENTION"
 
 #: parser.y:6671
 msgid "executable program requested but PROCEDURE/ENTRY has USING clause"
-msgstr ""
-"programa executável requisitado, mas PROCEDURE/ENTRY possui cláusula USING"
+msgstr "programa executável requisitado, mas PROCEDURE/ENTRY possui cláusula USING"
 
 #: parser.y:6745 parser.y:6762 parser.y:8014
 #, c-format
@@ -2047,14 +2012,11 @@ msgstr "a cláusula RETURNING é exigida para uma função FUNCTION"
 
 #: parser.y:6909
 msgid "RETURNING clause cannot be OMITTED for main program"
-msgstr ""
-"a cláusula RETURNING não pode ser omitida (OMITTED) para o programa principal"
+msgstr "a cláusula RETURNING não pode ser omitida (OMITTED) para o programa principal"
 
 #: parser.y:6912
 msgid "RETURNING clause cannot be OMITTED for a FUNCTION"
-msgstr ""
-"a cláusula RETURNING não pode ser omitida (OMITTED) para uma função "
-"(FUNCTION)"
+msgstr "a cláusula RETURNING não pode ser omitida (OMITTED) para uma função (FUNCTION)"
 
 #: parser.y:6925
 msgid "RETURNING item is not defined in LINKAGE SECTION"
@@ -2149,9 +2111,7 @@ msgstr "frase NESTED é apenas válida com literal"
 
 #: parser.y:8032
 msgid "OMITTED only allowed when parameters are passed BY REFERENCE"
-msgstr ""
-"OMITTED permitido apenas quando parâmetros são passados por referência BY "
-"REFERENCE"
+msgstr "OMITTED permitido apenas quando parâmetros são passados por referência BY REFERENCE"
 
 #: parser.y:8045
 msgid "invalid file name reference"
@@ -2167,8 +2127,7 @@ msgstr "item de RETURNING deve ser ter nível 01 ou 77"
 
 #: parser.y:8115
 msgid "RETURNING item must be a LINKAGE SECTION item or have BASED clause"
-msgstr ""
-"item de RETURNING deve ser um item da LINKAGE SECTION ou ter cláusula BASED"
+msgstr "item de RETURNING deve ser um item da LINKAGE SECTION ou ter cláusula BASED"
 
 #: parser.y:8149 parser.y:11658 parser.y:11713
 msgid "NOT EXCEPTION before EXCEPTION"
@@ -2539,9 +2498,7 @@ msgstr ""
 #: pplex.l:1374 pplex.l:1382
 #, fuzzy
 msgid "line not terminated by a newline"
-msgstr ""
-"Digite cada string de entrada em uma linha, terminada por um caractere de "
-"linha nova.\n"
+msgstr "Digite cada string de entrada em uma linha, terminada por um caractere de linha nova.\n"
 
 #: pplex.l:1377 pplex.l:1385
 #, c-format
@@ -2717,12 +2674,7 @@ msgstr "Variável de sistema %s desconhecida."
 #: cobc/reserved.c:3594
 #, fuzzy
 msgid "System names"
-msgstr ""
-"O I<sistema> especificado pode ser uma combinação de nomes de sistemas "
-"operacionais delimitados por vírgula. Para incluir uma pesquisa às páginas "
-"de manual do sistema operacional nativo, inclua B<man> como nome do sistema "
-"no texto do argumento. Essa opção vai sobrescrever a variável de ambiente "
-"$B<SYSTEM>."
+msgstr "O I<sistema> especificado pode ser uma combinação de nomes de sistemas operacionais delimitados por vírgula. Para incluir uma pesquisa às páginas de manual do sistema operacional nativo, inclua B<man> como nome do sistema no texto do argumento. Essa opção vai sobrescrever a variável de ambiente $B<SYSTEM>."
 
 #: cobc/reserved.c:3614
 #, fuzzy
@@ -3015,8 +2967,7 @@ msgstr ""
 msgid "B, 0 or /"
 msgstr ""
 "<big>O banco de dados remete a arquivos contidos na pasta <b>{0}</b>.\n"
-" Por favor, selecione esta pasta para que eu possa realizar o mapeamento.</"
-"big>"
+" Por favor, selecione esta pasta para que eu possa realizar o mapeamento.</big>"
 
 #: cobc/tree.c:2215
 #, fuzzy
@@ -3122,8 +3073,7 @@ msgid "unbalanced parentheses"
 msgstr "pilha não balanceada em %s"
 
 #: cobc/tree.c:2450
-msgid ""
-"parentheses must contain (a constant-name defined as) a positive integer"
+msgid "parentheses must contain (a constant-name defined as) a positive integer"
 msgstr ""
 
 #: cobc/tree.c:2470
@@ -3186,15 +3136,11 @@ msgstr "`%c': caractere de formato inválido"
 
 #: cobc/tree.c:2786
 #, c-format
-msgid ""
-"PICTURE string may not contain more than %d characters; contains %d "
-"characters"
+msgid "PICTURE string may not contain more than %d characters; contains %d characters"
 msgstr ""
 
 #: cobc/tree.c:2791
-msgid ""
-"PICTURE string must contain at least one of the set A, N, X, Z, 1, 9 and *; "
-"or at least two of the set +, - and the currency symbol"
+msgid "PICTURE string must contain at least one of the set A, N, X, Z, 1, 9 and *; or at least two of the set +, - and the currency symbol"
 msgstr ""
 
 #: cobc/tree.c:2819
@@ -3209,9 +3155,7 @@ msgstr "estilo inválido para \"--key\": \"%s\""
 
 #: cobc/tree.c:3138
 #, c-format
-msgid ""
-"minimal record length %d can not hold the key item '%s'; needs to be at "
-"least %d"
+msgid "minimal record length %d can not hold the key item '%s'; needs to be at least %d"
 msgstr ""
 
 #: cobc/tree.c:3185
@@ -3377,9 +3321,7 @@ msgstr "%s: os argumentos não são vetores apenas numéricos"
 #: cobc/typeck.c:698
 #, fuzzy, c-format
 msgid "'%s' is not a numeric value"
-msgstr ""
-"Incompatibilidade de tipos: expressão tem tipo %s, mas um valor numérico é "
-"requerido aqui."
+msgstr "Incompatibilidade de tipos: expressão tem tipo %s, mas um valor numérico é requerido aqui."
 
 #: cobc/typeck.c:747
 #, fuzzy, c-format
@@ -3506,8 +3448,7 @@ msgid "VALUE of '%s': %s target '%s' is invalid"
 msgstr "%s: %s: O valor %s é inválido.\n"
 
 #: cobc/typeck.c:2093 cobc/typeck.c:2163
-msgid ""
-"target must be in FILE SECTION or LINKAGE SECTION or have the EXTERNAL clause"
+msgid "target must be in FILE SECTION or LINKAGE SECTION or have the EXTERNAL clause"
 msgstr ""
 
 #: cobc/typeck.c:2106 cobc/typeck.c:2114 cobc/typeck.c:2181
@@ -3565,9 +3506,7 @@ msgstr ""
 
 #: cobc/typeck.c:2834 cobc/typeck.c:2837
 #, c-format
-msgid ""
-"RECORD DEPENDING item '%s' should be defined in WORKING-STORAGE, LOCAL-"
-"STORAGE or LINKAGE SECTION"
+msgid "RECORD DEPENDING item '%s' should be defined in WORKING-STORAGE, LOCAL-STORAGE or LINKAGE SECTION"
 msgstr ""
 
 #: cobc/typeck.c:2917
@@ -3653,9 +3592,7 @@ msgid "internal decimal structure size exceeded: %d"
 msgstr ""
 
 #: cobc/typeck.c:3799
-msgid ""
-"Try to minimize the number of parentheses or split into multiple "
-"computations."
+msgid "Try to minimize the number of parentheses or split into multiple computations."
 msgstr ""
 
 #: cobc/typeck.c:3848
@@ -4116,8 +4053,7 @@ msgstr "parâmetro inválido: %s"
 #: cobc/typeck.c:9785
 #, fuzzy
 msgid "invalid SORT GIVING parameter"
-msgstr ""
-"O critério de ordenação \"%s\" é desconhecido para o parâmetro \"%s\"\n"
+msgstr "O critério de ordenação \"%s\" é desconhecido para o parâmetro \"%s\"\n"
 
 #: cobc/typeck.c:9831 cobc/typeck.c:9844 cobc/typeck.c:9864
 #, fuzzy
@@ -4477,8 +4413,7 @@ msgstr "o máximo de argumentos de --%s com o rlimit atual é %s"
 
 #: libcob/common.c:2538
 #, c-format
-msgid ""
-"EXTERNAL item '%s' previously allocated with size %d, requested size is %d"
+msgid "EXTERNAL item '%s' previously allocated with size %d, requested size is %d"
 msgstr ""
 
 #: libcob/common.c:3039
@@ -4527,8 +4462,7 @@ msgstr "O kernel está pressupondo um valor de epoch de %lu\n"
 #: libcob/common.c:5159 libcob/common.c:5644 libcob/common.c:5658
 #, fuzzy, c-format
 msgid "should not contain '%c'"
-msgstr ""
-"mensagens internacionalizadas não devem conter o caractere de escape \"\\%c\""
+msgstr "mensagens internacionalizadas não devem conter o caractere de escape \"\\%c\""
 
 #: libcob/common.c:5366
 #, fuzzy, c-format
@@ -4643,8 +4577,7 @@ msgstr "Um novo arquivo deve abrir no editor"
 #: libcob/common.c:5882
 #, fuzzy
 msgid "READ must be executed first"
-msgstr ""
-"Os argumentos \"primeiro\", \"segundo\" e \"terceiro\" devem ser diferentes"
+msgstr "Os argumentos \"primeiro\", \"segundo\" e \"terceiro\" devem ser diferentes"
 
 #: libcob/common.c:5885
 #, fuzzy
@@ -4686,9 +4619,7 @@ msgstr "Caso seja habilitado, executa o compartilhamento de arquivos pessoais"
 #: libcob/common.c:5909
 #, fuzzy
 msgid "runtime library is not configured for this operation"
-msgstr ""
-"Não monitora o diretório da biblioteca durante o tempo de execução para "
-"mudanças"
+msgstr "Não monitora o diretório da biblioteca durante o tempo de execução para mudanças"
 
 #: libcob/common.c:5912
 #, fuzzy
@@ -4716,9 +4647,7 @@ msgid "environment variables"
 msgstr "Define as variáveis de ambiente LOGNAME e USER"
 
 #: libcob/common.c:6016
-msgid ""
-"License LGPLv3+: GNU LGPL version 3 or later <http://gnu.org/licenses/lgpl."
-"html>"
+msgid "License LGPLv3+: GNU LGPL version 3 or later <http://gnu.org/licenses/lgpl.html>"
 msgstr ""
 
 #: libcob/common.c:6059 libcob/common.c:6061
@@ -4837,15 +4766,11 @@ msgstr ""
 
 #: bin/cobcrun.c:122
 #, fuzzy
-msgid ""
-"  -V, -version                   display cobcrun and runtime version and exit"
-msgstr ""
-"  -v, --version              exibe a versão do programa e, então, sai\n"
+msgid "  -V, -version                   display cobcrun and runtime version and exit"
+msgstr "  -v, --version              exibe a versão do programa e, então, sai\n"
 
 #: bin/cobcrun.c:123
-msgid ""
-"  -i, -info                      display runtime information (build/"
-"environment)"
+msgid "  -i, -info                      display runtime information (build/environment)"
 msgstr ""
 
 #: bin/cobcrun.c:125
@@ -4864,13 +4789,10 @@ msgstr ""
 
 #: bin/cobcrun.c:130
 msgid ""
-"  -M <module>, -module=<module>  set entry point module name and/or load "
-"path\n"
-"                                 where -M module prepends any directory to "
-"the\n"
+"  -M <module>, -module=<module>  set entry point module name and/or load path\n"
+"                                 where -M module prepends any directory to the\n"
 "                                 dynamic link loader library search path\n"
-"                                 and any basename to the module preload "
-"list\n"
+"                                 and any basename to the module preload list\n"
 "                                 (COB_LIBRARY_PATH and/or COB_PRELOAD)"
 msgstr ""
 

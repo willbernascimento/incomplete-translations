@@ -9,8 +9,7 @@ msgstr ""
 "POT-Creation-Date: 2019-01-19 16:32+0000\n"
 "PO-Revision-Date: 2018-12-26 11:14-0200\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
-"Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge."
-"net>\n"
+"Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge.net>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -30,12 +29,8 @@ msgstr " Converte endereços em pares de número de linha/nome de arquivo.\n"
 
 #: addr2line.c:89
 #, c-format
-msgid ""
-" If no addresses are specified on the command line, they will be read from "
-"stdin\n"
-msgstr ""
-" Se nenhum endereço for especificado na linha de comando, eles serão lidos "
-"da entrada padrão\n"
+msgid " If no addresses are specified on the command line, they will be read from stdin\n"
+msgstr " Se nenhum endereço for especificado na linha de comando, eles serão lidos da entrada padrão\n"
 
 #: addr2line.c:90
 #, fuzzy, c-format
@@ -46,8 +41,7 @@ msgstr ""
 #| "  -b --target=<bfdname>  Set the binary file format\n"
 #| "  -e --exe=<executable>  Set the input file name (default is a.out)\n"
 #| "  -i --inlines           Unwind inlined functions\n"
-#| "  -j --section=<name>    Read section-relative offsets instead of "
-#| "addresses\n"
+#| "  -j --section=<name>    Read section-relative offsets instead of addresses\n"
 #| "  -p --pretty-print      Make the output easier to read for humans\n"
 #| "  -s --basenames         Strip directory names\n"
 #| "  -f --functions         Show function names\n"
@@ -67,8 +61,7 @@ msgid ""
 "  -s --basenames         Strip directory names\n"
 "  -f --functions         Show function names\n"
 "  -C --demangle[=style]  Demangle function names\n"
-"  -R --recurse-limit     Enable a limit on recursion whilst demangling.  "
-"[Default]\n"
+"  -R --recurse-limit     Enable a limit on recursion whilst demangling.  [Default]\n"
 "  -r --no-recurse-limit  Disable a limit on recursion whilst demangling\n"
 "  -h --help              Display this information\n"
 "  -v --version           Display the program's version\n"
@@ -78,11 +71,9 @@ msgstr ""
 "  @<arquivo>             Lê as opções a partir do <arquivo>\n"
 "  -a --addresses         Mostra os endereços\n"
 "  -b --target=<nomebfd>  Define o formato de arquivo binário\n"
-"  -e --exe=<executável>  Define o nome do arquivo de entrada (padrão é a."
-"out)\n"
+"  -e --exe=<executável>  Define o nome do arquivo de entrada (padrão é a.out)\n"
 "  -i --inlines           Desenrola funções em-linha\n"
-"  -j --section=<nome>    Lê posições relativas a seção ao invés de "
-"endereços\n"
+"  -j --section=<nome>    Lê posições relativas a seção ao invés de endereços\n"
 "  -p --pretty-print      Torna a saída legível para humanos\n"
 "  -s --basenames         Remove nomes de diretório\n"
 "  -f --functions         Mostra nomes de função\n"
@@ -147,21 +138,13 @@ msgstr "nenhuma entrada %s no pacote\n"
 
 #: ar.c:274
 #, c-format
-msgid ""
-"Usage: %s [emulation options] [-]{dmpqrstx}[abcDfilMNoOPsSTuvV] [--plugin "
-"<name>] [member-name] [count] archive-file file...\n"
-msgstr ""
-"Uso: %s [opções de emulação] [-]{dmpqrstx}[abcDfilMNoOPsSTuvV] [--plugin "
-"<nome>] [nome-membro] [quantidade] arquivo-pacote arquivo...\n"
+msgid "Usage: %s [emulation options] [-]{dmpqrstx}[abcDfilMNoOPsSTuvV] [--plugin <name>] [member-name] [count] archive-file file...\n"
+msgstr "Uso: %s [opções de emulação] [-]{dmpqrstx}[abcDfilMNoOPsSTuvV] [--plugin <nome>] [nome-membro] [quantidade] arquivo-pacote arquivo...\n"
 
 #: ar.c:280
 #, c-format
-msgid ""
-"Usage: %s [emulation options] [-]{dmpqrstx}[abcDfilMNoOPsSTuvV] [member-"
-"name] [count] archive-file file...\n"
-msgstr ""
-"Uso: %s [opções de emulação] [-]{dmpqrstx}[abcDfilMNoOPsSTuvV] [nome-membro] "
-"[quantidade] arquivo-pacote arquivo...\n"
+msgid "Usage: %s [emulation options] [-]{dmpqrstx}[abcDfilMNoOPsSTuvV] [member-name] [count] archive-file file...\n"
+msgstr "Uso: %s [opções de emulação] [-]{dmpqrstx}[abcDfilMNoOPsSTuvV] [nome-membro] [quantidade] arquivo-pacote arquivo...\n"
 
 #: ar.c:288
 #, c-format
@@ -195,10 +178,8 @@ msgstr "  q[f]         - anexamento rápido arquivo(s) ao pacote\n"
 
 #: ar.c:294
 #, c-format
-msgid ""
-"  r[ab][f][u]  - replace existing or insert new file(s) into the archive\n"
-msgstr ""
-"  r[ab][f][u]  - substitui arquivo(s) existente ou insere um novo no pacote\n"
+msgid "  r[ab][f][u]  - replace existing or insert new file(s) into the archive\n"
+msgstr "  r[ab][f][u]  - substitui arquivo(s) existente ou insere um novo no pacote\n"
 
 #: ar.c:295
 #, c-format
@@ -228,8 +209,7 @@ msgstr "  [a]          - coloca arquivo(s) após [nome-membro]\n"
 #: ar.c:300
 #, c-format
 msgid "  [b]          - put file(s) before [member-name] (same as [i])\n"
-msgstr ""
-"  [b]          - coloca arquivo(s) antes [nome-membro] (o mesmo que [i])\n"
+msgstr "  [b]          - coloca arquivo(s) antes [nome-membro] (o mesmo que [i])\n"
 
 #: ar.c:303
 #, c-format
@@ -278,12 +258,8 @@ msgstr "  [O]          - exibe deslocamentos de arquivos no pacote\n"
 
 #: ar.c:320
 #, c-format
-msgid ""
-"  [u]          - only replace files that are newer than current archive "
-"contents\n"
-msgstr ""
-"  [u]          - só substitui arquivos cujo conteúdo seja mais novo que do "
-"pacote\n"
+msgid "  [u]          - only replace files that are newer than current archive contents\n"
+msgstr "  [u]          - só substitui arquivos cujo conteúdo seja mais novo que do pacote\n"
 
 #: ar.c:321
 #, c-format
@@ -370,8 +346,7 @@ msgid ""
 "  -D                           Use zero for symbol map timestamp (default)\n"
 "  -U                           Use an actual symbol map timestamp\n"
 msgstr ""
-"  -D                           Usa zero para marca de tempo de mapa de "
-"símbolos (padrão)\n"
+"  -D                           Usa zero para marca de tempo de mapa de símbolos (padrão)\n"
 "  -U                           Usa marca de tempo atual de mapa de símbolos\n"
 
 #: ar.c:366
@@ -380,10 +355,8 @@ msgid ""
 "  -D                           Use zero for symbol map timestamp\n"
 "  -U                           Use actual symbol map timestamp (default)\n"
 msgstr ""
-"  -D                           Usa zero para marca de tempo de mapa de "
-"símbolos\n"
-"  -U                           Usa marca de tempo atual de mapa de símbolos "
-"(padrão)\n"
+"  -D                           Usa zero para marca de tempo de mapa de símbolos\n"
+"  -U                           Usa marca de tempo atual de mapa de símbolos (padrão)\n"
 
 #: ar.c:369
 #, c-format
@@ -392,8 +365,7 @@ msgid ""
 "  -h --help                    Print this help message\n"
 "  -v --version                 Print version information\n"
 msgstr ""
-"  -t                           Atualiza a marca de tempo do mapa de símbolos "
-"do pacote\n"
+"  -t                           Atualiza a marca de tempo do mapa de símbolos do pacote\n"
 "  -h --help                    Emite esta mensagem de ajuda\n"
 "  -v --version                 Emite informação da versão\n"
 
@@ -455,14 +427,12 @@ msgstr "criando %s"
 #: ar.c:970
 #, c-format
 msgid "Cannot convert existing library %s to thin format"
-msgstr ""
-"Não foi possível converter biblioteca existente %s para formato mínimo (thin)"
+msgstr "Não foi possível converter biblioteca existente %s para formato mínimo (thin)"
 
 #: ar.c:976
 #, c-format
 msgid "Cannot convert existing thin library %s to normal format"
-msgstr ""
-"Não foi possível converter biblioteca mínima (thin) %s para formato normal"
+msgstr "Não foi possível converter biblioteca mínima (thin) %s para formato normal"
 
 #: ar.c:1008 ar.c:1072 ar.c:1402 objcopy.c:3357
 #, c-format
@@ -481,8 +451,7 @@ msgstr "nome de caminho ilegal localizada no membro do pacote: %s"
 
 #: ar.c:1163
 msgid "could not create temporary file whilst writing archive"
-msgstr ""
-"não foi possível criar um arquivo temporário enquanto escrevia o pacote"
+msgstr "não foi possível criar um arquivo temporário enquanto escrevia o pacote"
 
 #: ar.c:1307
 #, c-format
@@ -654,8 +623,7 @@ msgstr "Aviso: \"%s\" não é um arquivo comum"
 #: bucomm.c:616
 #, c-format
 msgid "Warning: '%s' has negative size, probably it is too large"
-msgstr ""
-"Aviso: \"%s\" possui tamanho negativo, provavelmente ele é grande demais"
+msgstr "Aviso: \"%s\" possui tamanho negativo, provavelmente ele é grande demais"
 
 #: coffdump.c:106
 #, c-format
@@ -824,8 +792,7 @@ msgstr "Uso: %s [opção(ões)] arquivo-entrada\n"
 #: coffdump.c:465
 #, c-format
 msgid " Print a human readable interpretation of a COFF object file\n"
-msgstr ""
-" Emite uma interpretação legível por humanos de um arquivo de objeto COFF\n"
+msgstr " Emite uma interpretação legível por humanos de um arquivo de objeto COFF\n"
 
 #: coffdump.c:466
 #, c-format
@@ -1190,8 +1157,7 @@ msgstr "Varrendo arquivo de objeto %s"
 #: dlltool.c:1692
 #, c-format
 msgid "Cannot produce mcore-elf dll from archive file: %s"
-msgstr ""
-"Não foi possível produzir dll de mcore-elf a partir do arquivo de pacote: %s"
+msgstr "Não foi possível produzir dll de mcore-elf a partir do arquivo de pacote: %s"
 
 #: dlltool.c:1794
 msgid "Adding exports to output file"
@@ -1296,9 +1262,7 @@ msgstr "Biblioteca de importação \"%s\" especifica duas ou mais dlls"
 #: dlltool.c:3572
 #, c-format
 msgid "Unable to determine dll name for `%s' (not an import library?)"
-msgstr ""
-"Não foi possível determinar o nome da dll para \"%s\" (não é uma biblioteca "
-"de importação?)"
+msgstr "Não foi possível determinar o nome da dll para \"%s\" (não é uma biblioteca de importação?)"
 
 #: dlltool.c:3804
 #, c-format
@@ -1327,19 +1291,13 @@ msgstr "Uso: %s <opção(ões)> <arquivo-entrada>\n"
 #. xgetext:c-format
 #: dlltool.c:3949
 #, c-format
-msgid ""
-"   -m --machine <machine>    Create as DLL for <machine>.  [default: %s]\n"
-msgstr ""
-"   -m --machine <máquina>    Cria como DLL para <máquina>. [padrão: %s]\n"
+msgid "   -m --machine <machine>    Create as DLL for <machine>.  [default: %s]\n"
+msgstr "   -m --machine <máquina>    Cria como DLL para <máquina>. [padrão: %s]\n"
 
 #: dlltool.c:3950
 #, c-format
-msgid ""
-"        possible <machine>: arm[_interwork], i386, mcore[-elf]{-le|-be}, "
-"ppc, thumb\n"
-msgstr ""
-"        <máquina> possível: arm[_interwork], i386, mcore[-elf]{-le|-be}, "
-"ppc, thumb\n"
+msgid "        possible <machine>: arm[_interwork], i386, mcore[-elf]{-le|-be}, ppc, thumb\n"
+msgstr "        <máquina> possível: arm[_interwork], i386, mcore[-elf]{-le|-be}, ppc, thumb\n"
 
 #: dlltool.c:3951
 #, c-format
@@ -1354,24 +1312,17 @@ msgstr "   -l --output-lib <nome-saída> Gera uma biblioteca interfaceadora.\n"
 #: dlltool.c:3953
 #, c-format
 msgid "   -y --output-delaylib <outname> Create a delay-import library.\n"
-msgstr ""
-"   -y --output-delaylib <nome-saída> Cria uma biblioteca de importação "
-"adiada.\n"
+msgstr "   -y --output-delaylib <nome-saída> Cria uma biblioteca de importação adiada.\n"
 
 #: dlltool.c:3954
 #, c-format
 msgid "   -a --add-indirect         Add dll indirects to export file.\n"
-msgstr ""
-"   -a --add-indirect         Adiciona indiretas dll para arquivo de "
-"exportação.\n"
+msgstr "   -a --add-indirect         Adiciona indiretas dll para arquivo de exportação.\n"
 
 #: dlltool.c:3955
 #, c-format
-msgid ""
-"   -D --dllname <name>       Name of input dll to put into interface lib.\n"
-msgstr ""
-"   -D --dllname <nome>       Nome da dll de entrada para uma lib "
-"interfaceadora.\n"
+msgid "   -D --dllname <name>       Name of input dll to put into interface lib.\n"
+msgstr "   -D --dllname <nome>       Nome da dll de entrada para uma lib interfaceadora.\n"
 
 #: dlltool.c:3956
 #, c-format
@@ -1424,47 +1375,28 @@ msgstr "   -x --no-idata5            Não gera seção idata$5.\n"
 
 #: dlltool.c:3965
 #, c-format
-msgid ""
-"      --use-nul-prefixed-import-tables Use zero prefixed idata$4 and idata"
-"$5.\n"
-msgstr ""
-"      --use-nul-prefixed-import-tables Zero prefixando idata$4 e idata$5.\n"
+msgid "      --use-nul-prefixed-import-tables Use zero prefixed idata$4 and idata$5.\n"
+msgstr "      --use-nul-prefixed-import-tables Zero prefixando idata$4 e idata$5.\n"
 
 #: dlltool.c:3966
 #, c-format
-msgid ""
-"   -U --add-underscore       Add underscores to all symbols in interface "
-"library.\n"
-msgstr ""
-"   -U --add-underscore       Adiciona sublinhado a todos símbolos na "
-"biblioteca interfaceadora.\n"
+msgid "   -U --add-underscore       Add underscores to all symbols in interface library.\n"
+msgstr "   -U --add-underscore       Adiciona sublinhado a todos símbolos na biblioteca interfaceadora.\n"
 
 #: dlltool.c:3967
 #, c-format
-msgid ""
-"      --add-stdcall-underscore Add underscores to stdcall symbols in "
-"interface library.\n"
-msgstr ""
-"      --add-stdcall-underscore Adiciona sublinhado para todos os símbolos "
-"stdcall em biblioteca interfaceadora.\n"
+msgid "      --add-stdcall-underscore Add underscores to stdcall symbols in interface library.\n"
+msgstr "      --add-stdcall-underscore Adiciona sublinhado para todos os símbolos stdcall em biblioteca interfaceadora.\n"
 
 #: dlltool.c:3968
 #, c-format
-msgid ""
-"      --no-leading-underscore All symbols shouldn't be prefixed by an "
-"underscore.\n"
-msgstr ""
-"      --no-leading-underscore Todos símbolos não podem ser prefixados por "
-"sublinhado.\n"
+msgid "      --no-leading-underscore All symbols shouldn't be prefixed by an underscore.\n"
+msgstr "      --no-leading-underscore Todos símbolos não podem ser prefixados por sublinhado.\n"
 
 #: dlltool.c:3969
 #, c-format
-msgid ""
-"      --leading-underscore   All symbols should be prefixed by an "
-"underscore.\n"
-msgstr ""
-"      --leading-underscore   Todos símbolos devem ser prefixados por "
-"sublinhado.\n"
+msgid "      --leading-underscore   All symbols should be prefixed by an underscore.\n"
+msgstr "      --leading-underscore   Todos símbolos devem ser prefixados por sublinhado.\n"
 
 #: dlltool.c:3970
 #, c-format
@@ -1493,45 +1425,28 @@ msgstr "   -f --as-flags <opções>    Passa <opções> para o montador.\n"
 
 #: dlltool.c:3975
 #, c-format
-msgid ""
-"   -C --compat-implib        Create backward compatible import library.\n"
-msgstr ""
-"   -C --compat-implib        Cira biblioteca de importação com "
-"compatibilidade reversa.\n"
+msgid "   -C --compat-implib        Create backward compatible import library.\n"
+msgstr "   -C --compat-implib        Cira biblioteca de importação com compatibilidade reversa.\n"
 
 #: dlltool.c:3976
 #, c-format
-msgid ""
-"   -n --no-delete            Keep temp files (repeat for extra "
-"preservation).\n"
-msgstr ""
-"   -n --no-delete            Mantém arquivos temp (repetir para preservação "
-"extra).\n"
+msgid "   -n --no-delete            Keep temp files (repeat for extra preservation).\n"
+msgstr "   -n --no-delete            Mantém arquivos temp (repetir para preservação extra).\n"
 
 #: dlltool.c:3977
 #, c-format
-msgid ""
-"   -t --temp-prefix <prefix> Use <prefix> to construct temp file names.\n"
-msgstr ""
-"   -t --temp-prefix <prefixo> Usa <prefixo> para construir nomes de arquivos "
-"temporários.\n"
+msgid "   -t --temp-prefix <prefix> Use <prefix> to construct temp file names.\n"
+msgstr "   -t --temp-prefix <prefixo> Usa <prefixo> para construir nomes de arquivos temporários.\n"
 
 #: dlltool.c:3978
 #, c-format
-msgid ""
-"   -I --identify <implib>    Report the name of the DLL associated with "
-"<implib>.\n"
-msgstr ""
-"   -I --identify <bibl-imp>  Relata o nome da DLL associada com <bibl-imp>.\n"
+msgid "   -I --identify <implib>    Report the name of the DLL associated with <implib>.\n"
+msgstr "   -I --identify <bibl-imp>  Relata o nome da DLL associada com <bibl-imp>.\n"
 
 #: dlltool.c:3979
 #, c-format
-msgid ""
-"      --identify-strict      Causes --identify to report error when multiple "
-"DLLs.\n"
-msgstr ""
-"      --identify-strict      Faz --identify relatar erro com múltiplas "
-"DLLs.\n"
+msgid "      --identify-strict      Causes --identify to report error when multiple DLLs.\n"
+msgstr "      --identify-strict      Faz --identify relatar erro com múltiplas DLLs.\n"
 
 #: dlltool.c:3980
 #, c-format
@@ -1555,11 +1470,8 @@ msgstr "   @<arquivo>                Lê as opções a partir do <arquivo>.\n"
 
 #: dlltool.c:3985
 #, c-format
-msgid ""
-"   -M --mcore-elf <outname>  Process mcore-elf object files into <outname>.\n"
-msgstr ""
-"   -M --mcore-elf <nome-saída> Processa arquivos de objeto mcore-elf em "
-"<nome-saída>.\n"
+msgid "   -M --mcore-elf <outname>  Process mcore-elf object files into <outname>.\n"
+msgstr "   -M --mcore-elf <nome-saída> Processa arquivos de objeto mcore-elf em <nome-saída>.\n"
 
 #: dlltool.c:3986
 #, c-format
@@ -1694,8 +1606,7 @@ msgstr "   --dlltool-name <dlltool> Padrão é \"dlltool\"\n"
 #: dllwrap.c:488
 #, c-format
 msgid "   --entry <entry>        Specify alternate DLL entry point\n"
-msgstr ""
-"   --entry <entrada>      Especifica ponto de entrada alternativo da DLL\n"
+msgstr "   --entry <entrada>      Especifica ponto de entrada alternativo da DLL\n"
 
 #: dllwrap.c:489
 #, c-format
@@ -1744,15 +1655,12 @@ msgstr ""
 #: dllwrap.c:497
 #, c-format
 msgid "   --add-indirect         Add dll indirects to export file.\n"
-msgstr ""
-"   --add-indirect         Adiciona indiretas dll para arquivo de "
-"exportação.\n"
+msgstr "   --add-indirect         Adiciona indiretas dll para arquivo de exportação.\n"
 
 #: dllwrap.c:498
 #, c-format
 msgid "   --dllname <name>       Name of input dll to put into output lib.\n"
-msgstr ""
-"   --dllname <nome>       Nome da dll de entrada para uma lib de saída.\n"
+msgstr "   --dllname <nome>       Nome da dll de entrada para uma lib de saída.\n"
 
 #: dllwrap.c:499
 #, c-format
@@ -1896,8 +1804,7 @@ msgstr "Tamanho codificado de 0 é pequeno demais para ler\n"
 
 #: dwarf.c:369 dwarf.c:383
 #, c-format
-msgid ""
-"Internal error: %s:%d: LEB value (%s) too large for containing variable\n"
+msgid "Internal error: %s:%d: LEB value (%s) too large for containing variable\n"
 msgstr "Erro interno: %s:%d: valor LEB (%s) grande demais para a variável\n"
 
 #. Read AMOUNT bytes from PTR and store them in VAL as an unsigned value.
@@ -1906,14 +1813,9 @@ msgstr "Erro interno: %s:%d: valor LEB (%s) grande demais para a variável\n"
 #: dwarf.c:399
 #, c-format
 msgid "internal error: attempt to read %d byte of data in to %d sized variable"
-msgid_plural ""
-"internal error: attempt to read %d bytes of data in to %d sized variable"
-msgstr[0] ""
-"erro interno: tentativa de ler %d byte de dados para variável com %d de "
-"tamanho"
-msgstr[1] ""
-"erro interno: tentativa de ler %d bytes de dados para variável com %d de "
-"tamanho"
+msgid_plural "internal error: attempt to read %d bytes of data in to %d sized variable"
+msgstr[0] "erro interno: tentativa de ler %d byte de dados para variável com %d de tamanho"
+msgstr[1] "erro interno: tentativa de ler %d bytes de dados para variável com %d de tamanho"
 
 #: dwarf.c:525 dwarf.c:4422
 msgid "Badly formed extended line op encountered!\n"
@@ -2202,15 +2104,11 @@ msgstr "Forma não reconhecida: %lu\n"
 
 #: dwarf.c:2200
 msgid "More location offset attributes than DW_AT_GNU_locview attributes\n"
-msgstr ""
-"Mais atributos de deslocamento de localização que atributos "
-"DW_AT_GNU_locview\n"
+msgstr "Mais atributos de deslocamento de localização que atributos DW_AT_GNU_locview\n"
 
 #: dwarf.c:2212
 msgid "More DW_AT_GNU_locview attributes than location offset attributes\n"
-msgstr ""
-"Mais atributos DW_AT_GNU_locview que atributos de deslocamento de "
-"localização\n"
+msgstr "Mais atributos DW_AT_GNU_locview que atributos de deslocamento de localização\n"
 
 #: dwarf.c:2272 dwarf.c:2297 dwarf.c:2313
 #, c-format
@@ -2380,12 +2278,8 @@ msgstr " [sem DW_AT_frame_base]"
 
 #: dwarf.c:2664
 #, c-format
-msgid ""
-"Offset %s used as value for DW_AT_import attribute of DIE at offset 0x%lx is "
-"too big.\n"
-msgstr ""
-"Deslocamento %s usado como valor para atributo DW_AT_import de DIE no "
-"deslocamento 0x%lx é grande demais.\n"
+msgid "Offset %s used as value for DW_AT_import attribute of DIE at offset 0x%lx is too big.\n"
+msgstr "Deslocamento %s usado como valor para atributo DW_AT_import de DIE no deslocamento 0x%lx é grande demais.\n"
 
 #: dwarf.c:2674
 #, c-format
@@ -2447,9 +2341,7 @@ msgstr "Nenhuma unidade de compilação na seção %s ?\n"
 #: dwarf.c:2848
 #, c-format
 msgid "Not enough memory for a debug info array of %u entries\n"
-msgstr ""
-"Memória insuficiente para um vetor de informações de depuração de %u "
-"entradas\n"
+msgstr "Memória insuficiente para um vetor de informações de depuração de %u entradas\n"
 
 #: dwarf.c:2877
 #, c-format
@@ -2459,9 +2351,7 @@ msgstr "Não foi possível localizar a seção %s!\n"
 #: dwarf.c:2957
 #, c-format
 msgid "Invalid pointer size (%d) in compunit header, using %d instead\n"
-msgstr ""
-"Tamanho de ponteiro inválido (%d) no cabeçalho de compunit, usando %d em vez "
-"disso\n"
+msgstr "Tamanho de ponteiro inválido (%d) no cabeçalho de compunit, usando %d em vez disso\n"
 
 #: dwarf.c:3000
 #, c-format
@@ -2526,40 +2416,27 @@ msgstr "    .debug_str_offsets.dwo:  0x%s  0x%s\n"
 #: dwarf.c:3044 dwarf.c:4833 dwarf.c:6381 dwarf.c:8487
 #, c-format
 msgid "Debug info is corrupted, %s header at %#lx has length %s\n"
-msgstr ""
-"Info de depuração estão corrompidas, cabeçalho %s em %#lx tem tamanho %s\n"
+msgstr "Info de depuração estão corrompidas, cabeçalho %s em %#lx tem tamanho %s\n"
 
 #: dwarf.c:3057
 #, c-format
 msgid "CU at offset %s contains corrupt or unsupported version number: %d.\n"
-msgstr ""
-"Unidade de Compilação no deslocamento %s contém número de versão corrompida "
-"ou sem suporte: %d.\n"
+msgstr "Unidade de Compilação no deslocamento %s contém número de versão corrompida ou sem suporte: %d.\n"
 
 #: dwarf.c:3066
 #, c-format
 msgid "CU at offset %s contains corrupt or unsupported unit type: %d.\n"
-msgstr ""
-"Unidade de Compilação no deslocamento %s contém tipo de unidade corrompido "
-"ou sem suporte: %d.\n"
+msgstr "Unidade de Compilação no deslocamento %s contém tipo de unidade corrompido ou sem suporte: %d.\n"
 
 #: dwarf.c:3076
 #, c-format
-msgid ""
-"Debug info is corrupted, abbrev offset (%lx) is larger than abbrev section "
-"size (%lx)\n"
-msgstr ""
-"Informações de depuração estão corrompidas, deslocamento abreviado (%lx) é "
-"maior do que o tamanho de seção abreviada (%lx)\n"
+msgid "Debug info is corrupted, abbrev offset (%lx) is larger than abbrev section size (%lx)\n"
+msgstr "Informações de depuração estão corrompidas, deslocamento abreviado (%lx) é maior do que o tamanho de seção abreviada (%lx)\n"
 
 #: dwarf.c:3082
 #, c-format
-msgid ""
-"Debug info is corrupted, abbrev size (%lx) is larger than abbrev section "
-"size (%lx)\n"
-msgstr ""
-"Informações de depuração estão corrompidas, tamanho abreviado (%lx) é maior "
-"do que o tamanho da seção abreviada (%lx)\n"
+msgid "Debug info is corrupted, abbrev size (%lx) is larger than abbrev section size (%lx)\n"
+msgstr "Informações de depuração estão corrompidas, tamanho abreviado (%lx) é maior do que o tamanho da seção abreviada (%lx)\n"
 
 #: dwarf.c:3128
 #, c-format
@@ -2569,9 +2446,7 @@ msgstr " <%d><%lx>: Número abrev.: 0\n"
 #: dwarf.c:3138
 #, c-format
 msgid "Bogus end-of-siblings marker detected at offset %lx in %s section\n"
-msgstr ""
-"Detectado marcador falho \"end-of-siblings\" no deslocamento %lx na seção "
-"%s\n"
+msgstr "Detectado marcador falho \"end-of-siblings\" no deslocamento %lx na seção %s\n"
 
 #: dwarf.c:3142
 msgid "Further warnings about bogus end-of-sibling markers suppressed\n"
@@ -2589,11 +2464,8 @@ msgstr " <%d><%lx>: ...\n"
 
 #: dwarf.c:3184
 #, c-format
-msgid ""
-"DIE at offset 0x%lx refers to abbreviation number %lu which does not exist\n"
-msgstr ""
-"DIE no deslocamento 0x%lx faz referência ao número de abreviação %lu que não "
-"existe\n"
+msgid "DIE at offset 0x%lx refers to abbreviation number %lu which does not exist\n"
+msgstr "DIE no deslocamento 0x%lx faz referência ao número de abreviação %lu que não existe\n"
 
 #: dwarf.c:3257
 msgid "DIE has locviews without loclist\n"
@@ -2601,17 +2473,12 @@ msgstr "DIE possui locviews sem loclist\n"
 
 #: dwarf.c:3372
 #, c-format
-msgid ""
-"The length field (0x%lx) in the debug_line header is wrong - the section is "
-"too small\n"
-msgstr ""
-"O campo de tamanho (0x%lx) no cabeçalho debug_line está errado - a seção é "
-"pequena demais\n"
+msgid "The length field (0x%lx) in the debug_line header is wrong - the section is too small\n"
+msgstr "O campo de tamanho (0x%lx) no cabeçalho debug_line está errado - a seção é pequena demais\n"
 
 #: dwarf.c:3386
 msgid "Only DWARF version 2, 3, 4 and 5 line info is currently supported.\n"
-msgstr ""
-"Há suporte apenas a informações de linha no DWARF versão 2, 3, 4 e 5.\n"
+msgstr "Há suporte apenas a informações de linha no DWARF versão 2, 3, 4 e 5.\n"
 
 #: dwarf.c:3398 dwarf.c:6048 dwarf.c:6794
 #, c-format
@@ -2733,12 +2600,8 @@ msgid "Corrupt file name entries list\n"
 msgstr "Lista de nome de arquivo corrompida\n"
 
 #: dwarf.c:3614 dwarf.c:4030
-msgid ""
-"Partial .debug_line. section encountered without a prior full .debug_line "
-"section\n"
-msgstr ""
-"Seção .debug_line. parcial encontrada sem uma seção .debug_line completa "
-"anterior\n"
+msgid "Partial .debug_line. section encountered without a prior full .debug_line section\n"
+msgstr "Seção .debug_line. parcial encontrada sem uma seção .debug_line completa anterior\n"
 
 #: dwarf.c:3627 dwarf.c:5151
 #, c-format
@@ -2841,8 +2704,7 @@ msgstr " (redefinir visão)"
 #: dwarf.c:3797
 #, c-format
 msgid "  Special opcode %d: advance Address by %s to 0x%s[%d]%s"
-msgstr ""
-"  Código de operação especial %d: avançar Endereço por %s para 0x%s[%d]%s"
+msgstr "  Código de operação especial %d: avançar Endereço por %s para 0x%s[%d]%s"
 
 #: dwarf.c:3807
 #, c-format
@@ -2877,8 +2739,7 @@ msgstr "  Avançar Linha por %s para %d\n"
 #: dwarf.c:3879
 #, c-format
 msgid "  Set File Name to entry %s in the File Name Table\n"
-msgstr ""
-"  Definir Nome de Arquivo para entrada %s na tabela de Nome de Arquivo\n"
+msgstr "  Definir Nome de Arquivo para entrada %s na tabela de Nome de Arquivo\n"
 
 #: dwarf.c:3887
 #, c-format
@@ -2933,8 +2794,7 @@ msgstr "  Código de operação desconhecido %d com operandos: "
 #: dwarf.c:4059
 #, c-format
 msgid "opcode base of %d extends beyond end of section\n"
-msgstr ""
-"Base de código de operação de %d se estende para além do fim da seção\n"
+msgstr "Base de código de operação de %d se estende para além do fim da seção\n"
 
 #: dwarf.c:4087 dwarf.c:4110 dwarf.c:4140
 msgid "Corrupt directories list\n"
@@ -2974,15 +2834,9 @@ msgstr "UC: %s/%s:\n"
 
 #: dwarf.c:4360
 #, fuzzy, c-format
-#| msgid ""
-#| "File name                            Line number    Starting address    "
-#| "View\n"
-msgid ""
-"File name                            Line number    Starting address    "
-"View    Stmt\n"
-msgstr ""
-"Nome de arquivo                      Núm de linha   Endereço inicial    "
-"Visão\n"
+#| msgid "File name                            Line number    Starting address    View\n"
+msgid "File name                            Line number    Starting address    View    Stmt\n"
+msgstr "Nome de arquivo                      Núm de linha   Endereço inicial    Visão\n"
 
 #: dwarf.c:4476
 #, c-format
@@ -3074,11 +2928,8 @@ msgstr "sem uso7"
 
 #: dwarf.c:4849 dwarf.c:6394
 #, c-format
-msgid ""
-".debug_info offset of 0x%lx in %s section does not point to a CU header.\n"
-msgstr ""
-"Deslocamento de .debug_info de 0x%lx na seção %s não aponta para cabeçalho "
-"de Unidade de Compilação.\n"
+msgid ".debug_info offset of 0x%lx in %s section does not point to a CU header.\n"
+msgstr "Deslocamento de .debug_info de 0x%lx na seção %s não aponta para cabeçalho de Unidade de Compilação.\n"
 
 #: dwarf.c:4854
 #, c-format
@@ -3304,23 +3155,18 @@ msgstr "par de visão de localização\n"
 #: dwarf.c:5508
 #, c-format
 msgid "No debug information available for loc lists of entry: %u\n"
-msgstr ""
-"Nenhuma informação de depuração disponível para listas de localização de "
-"entrada: %u\n"
+msgstr "Nenhuma informação de depuração disponível para listas de localização de entrada: %u\n"
 
 #: dwarf.c:5520 dwarf.c:5672 dwarf.c:5842
 #, c-format
 msgid "Invalid pointer size (%d) in debug info for entry %d\n"
-msgstr ""
-"Tamanho de ponteiro inválido (%d) nas informações de depuração para a "
-"entrada %d\n"
+msgstr "Tamanho de ponteiro inválido (%d) nas informações de depuração para a entrada %d\n"
 
 #: dwarf.c:5532 dwarf.c:5589 dwarf.c:5598 dwarf.c:5684 dwarf.c:5752
 #: dwarf.c:5853 dwarf.c:5932 dwarf.c:5940
 #, c-format
 msgid "Location list starting at offset 0x%lx is not terminated.\n"
-msgstr ""
-"Lista de localização iniciando no deslocamento 0x%lx não está terminada.\n"
+msgstr "Lista de localização iniciando no deslocamento 0x%lx não está terminada.\n"
 
 #: dwarf.c:5553 dwarf.c:5712 dwarf.c:5893 dwarf.c:6616 dwarf.c:6672
 #, c-format
@@ -3352,9 +3198,7 @@ msgstr " (início > fim)"
 #: dwarf.c:5659
 #, c-format
 msgid "No debug information available for loclists lists of entry: %u\n"
-msgstr ""
-"Nenhuma informação de depuração disponível para listas de localização de "
-"entrada: %u\n"
+msgstr "Nenhuma informação de depuração disponível para listas de localização de entrada: %u\n"
 
 #: dwarf.c:5729
 #, c-format
@@ -3379,9 +3223,7 @@ msgstr "Par de visão ao final não usado em um intervalo"
 #: dwarf.c:5830
 #, c-format
 msgid "No debug information for loc lists of entry: %u\n"
-msgstr ""
-"Nenhuma informação de depuração disponível para listas de localização de "
-"entrada: %u\n"
+msgstr "Nenhuma informação de depuração disponível para listas de localização de entrada: %u\n"
 
 #: dwarf.c:5900
 #, c-format
@@ -3410,17 +3252,12 @@ msgstr "A seção %s contém número de versão corrompida ou sem suporte: %d.\n
 #: dwarf.c:6057
 #, c-format
 msgid "The %s section contains unsupported offset entry count: %d.\n"
-msgstr ""
-"A seção %s contém contagem de entradas de deslocamento sem suporte: %d.\n"
+msgstr "A seção %s contém contagem de entradas de deslocamento sem suporte: %d.\n"
 
 #: dwarf.c:6068 dwarf.c:6497 dwarf.c:6812
 #, c-format
-msgid ""
-"Unable to load/parse the .debug_info section, so cannot interpret the %s "
-"section.\n"
-msgstr ""
-"Não foi possível carregar/analisar a seção .debug_info, então não é possível "
-"interpretar a seção %s.\n"
+msgid "Unable to load/parse the .debug_info section, so cannot interpret the %s section.\n"
+msgstr "Não foi possível carregar/analisar a seção .debug_info, então não é possível interpretar a seção %s.\n"
 
 #: dwarf.c:6116
 msgid "No location lists in .debug_info section!\n"
@@ -3434,12 +3271,10 @@ msgstr "Listas de localização na seção %s iniciam em 0x%s\n"
 #: dwarf.c:6131
 #, c-format
 msgid ""
-" Warning: This section has relocations - addresses seen here may not be "
-"accurate.\n"
+" Warning: This section has relocations - addresses seen here may not be accurate.\n"
 "\n"
 msgstr ""
-" Aviso: Essa seção possui realocações - endereços vistos aqui podem não "
-"estar precisos.\n"
+" Aviso: Essa seção possui realocações - endereços vistos aqui podem não estar precisos.\n"
 "\n"
 
 #: dwarf.c:6133
@@ -3465,8 +3300,7 @@ msgstr "O deslocamento 0x%lx é maior que o tamanho da seção .debug_loc.\n"
 #: dwarf.c:6208
 #, c-format
 msgid "View Offset 0x%lx is bigger than .debug_loc section size.\n"
-msgstr ""
-"O deslocamento de visão 0x%lx é maior que o tamanho da seção .debug_loc.\n"
+msgstr "O deslocamento de visão 0x%lx é maior que o tamanho da seção .debug_loc.\n"
 
 #: dwarf.c:6225
 msgid "DWO is not yet supported.\n"
@@ -3474,9 +3308,7 @@ msgstr "Ainda não há suporte a DWO.\n"
 
 #: dwarf.c:6242
 msgid "Hole and overlap detection requires adjacent view lists and loclists.\n"
-msgstr ""
-"A detecção de buraco e sobreposição requer listas e loclists de visão "
-"adjacente.\n"
+msgstr "A detecção de buraco e sobreposição requer listas e loclists de visão adjacente.\n"
 
 #: dwarf.c:6251
 #, c-format
@@ -3521,8 +3353,7 @@ msgstr "Tamanho de endereço inválido na seção %s!\n"
 
 #: dwarf.c:6434
 msgid "Pointer size + Segment size is not a power of two.\n"
-msgstr ""
-"Tamanho de ponteiro + Tamanho de segmento não é uma potência de dois.\n"
+msgstr "Tamanho de ponteiro + Tamanho de segmento não é uma potência de dois.\n"
 
 #: dwarf.c:6439
 #, c-format
@@ -3545,8 +3376,7 @@ msgstr ""
 #: dwarf.c:6517
 #, c-format
 msgid "Corrupt address base (%lx) found in debug section %u\n"
-msgstr ""
-"Base de endereço corrompido (%lx) localizado na seção de depuração %u\n"
+msgstr "Base de endereço corrompido (%lx) localizado na seção de depuração %u\n"
 
 #: dwarf.c:6533
 #, c-format
@@ -3574,8 +3404,7 @@ msgstr "(início > fim)"
 #: dwarf.c:6660
 #, c-format
 msgid "Range list starting at offset 0x%lx is not terminated.\n"
-msgstr ""
-"Lista de intervalo iniciando no deslocamento 0x%lx não está terminada.\n"
+msgstr "Lista de intervalo iniciando no deslocamento 0x%lx não está terminada.\n"
 
 #: dwarf.c:6696
 #, c-format
@@ -3584,24 +3413,17 @@ msgstr "Tipo de entrada de lista de intervalo inválido %d\n"
 
 #: dwarf.c:6773
 #, c-format
-msgid ""
-"The length field (0x%lx) in the debug_rnglists header is wrong - the section "
-"is too small\n"
-msgstr ""
-"O campo de tamanho (0x%lx) no cabeçalho debug_rnglists está errado - a seção "
-"é pequena demais\n"
+msgid "The length field (0x%lx) in the debug_rnglists header is wrong - the section is too small\n"
+msgstr "O campo de tamanho (0x%lx) no cabeçalho debug_rnglists está errado - a seção é pequena demais\n"
 
 #: dwarf.c:6784
 msgid "Only DWARF version 5 debug_rnglists info is currently supported.\n"
-msgstr ""
-"Há suporte apenas a informações de debug_rnglists no DWARF versão 2, 3, 4 e "
-"5.\n"
+msgstr "Há suporte apenas a informações de debug_rnglists no DWARF versão 2, 3, 4 e 5.\n"
 
 #: dwarf.c:6803
 #, c-format
 msgid "The %s section contains unsupported offset entry count: %u.\n"
-msgstr ""
-"A seção %s contém contagem de entradas de deslocamento sem suporte: %u.\n"
+msgstr "A seção %s contém contagem de entradas de deslocamento sem suporte: %u.\n"
 
 #. This can happen when the file was compiled with -gsplit-debug
 #. which removes references to range lists from the primary .o file.
@@ -3623,9 +3445,7 @@ msgstr "    Desloc.  Início   Fim\n"
 #: dwarf.c:6874
 #, c-format
 msgid "Corrupt pointer size (%d) in debug entry at offset %8.8lx\n"
-msgstr ""
-"Tamanho de ponteiro corrompido (%d) na entrada de depuração no deslocamento "
-"%8.8lx\n"
+msgstr "Tamanho de ponteiro corrompido (%d) na entrada de depuração no deslocamento %8.8lx\n"
 
 #: dwarf.c:6881
 #, fuzzy, c-format
@@ -3651,8 +3471,7 @@ msgstr "Número de registro inviavelmente grande: %u\n"
 #: dwarf.c:6982
 #, c-format
 msgid "Out of memory allocating %u columns in dwarf frame arrays\n"
-msgstr ""
-"Memória insuficiente ao alocar %u colunas em vetores de quadros do dwarf\n"
+msgstr "Memória insuficiente ao alocar %u colunas em vetores de quadros do dwarf\n"
 
 #: dwarf.c:7325
 msgid "No terminator for augmentation name\n"
@@ -3735,8 +3554,7 @@ msgstr "  DW_CFA_??? (op de quadro de chamada definido pelo usuário: %#x)\n"
 #: dwarf.c:8395
 #, c-format
 msgid "Unsupported or unknown Dwarf Call Frame Instruction number: %#x\n"
-msgstr ""
-"Número de Dwarf Call Frame Instruction sem suporte ou desconhecido: %#x\n"
+msgstr "Número de Dwarf Call Frame Instruction sem suporte ou desconhecido: %#x\n"
 
 #: dwarf.c:8496 dwarf.c:8893
 #, c-format
@@ -3758,12 +3576,8 @@ msgstr "Contagem de unidade de compilação deve ser >= 1 em .debug_names\n"
 
 #: dwarf.c:8525
 #, c-format
-msgid ""
-"Augmentation string length %u must be rounded up to a multiple of 4 in ."
-"debug_names.\n"
-msgstr ""
-"Tamanho da string de acréscimo %u deve ser arredondado para um múltiplo de 4 "
-"em .debug_names.\n"
+msgid "Augmentation string length %u must be rounded up to a multiple of 4 in .debug_names.\n"
+msgstr "Tamanho da string de acréscimo %u deve ser arredondado para um múltiplo de 4 em .debug_names.\n"
 
 #: dwarf.c:8530
 #, c-format
@@ -3797,12 +3611,8 @@ msgstr "[%3u] "
 
 #: dwarf.c:8587
 #, c-format
-msgid ""
-"Entry pool offset (0x%lx) exceeds unit size 0x%lx for unit 0x%lx in the "
-"debug_names\n"
-msgstr ""
-"Deslocamento de pool de entrada (0x%lx) excede o tamanho da unidade 0x%lx "
-"para unidade 0x%lx nos debug_names\n"
+msgid "Entry pool offset (0x%lx) exceeds unit size 0x%lx for unit 0x%lx in the debug_names\n"
+msgstr "Deslocamento de pool de entrada (0x%lx) excede o tamanho da unidade 0x%lx para unidade 0x%lx nos debug_names\n"
 
 #: dwarf.c:8604
 #, c-format
@@ -3813,8 +3623,7 @@ msgstr[1] ""
 
 #: dwarf.c:8631
 #, c-format
-msgid ""
-"Out of %lu items there are %zu bucket clashes (longest of %zu entries).\n"
+msgid "Out of %lu items there are %zu bucket clashes (longest of %zu entries).\n"
 msgstr ""
 
 #: dwarf.c:8669
@@ -4132,21 +3941,17 @@ msgstr ""
 
 #: dwarf.c:9590
 #, c-format
-msgid ""
-"Attempt to allocate an array with an excessive number of elements: 0x%lx\n"
+msgid "Attempt to allocate an array with an excessive number of elements: 0x%lx\n"
 msgstr ""
 
 #: dwarf.c:9608
 #, c-format
-msgid ""
-"Attempt to re-allocate an array with an excessive number of elements: 0x%lx\n"
+msgid "Attempt to re-allocate an array with an excessive number of elements: 0x%lx\n"
 msgstr ""
 
 #: dwarf.c:9624
 #, c-format
-msgid ""
-"Attempt to allocate a zero'ed array with an excessive number of elements: 0x"
-"%lx\n"
+msgid "Attempt to allocate a zero'ed array with an excessive number of elements: 0x%lx\n"
 msgstr ""
 
 #: dwarf.c:9722
@@ -4180,9 +3985,7 @@ msgstr "não foi possível abrir o arquivo de despejo %s para saída"
 #: dwarf.c:9937 dwarf.c:9940
 #, fuzzy, c-format
 msgid "tried: %s\n"
-msgstr ""
-"Foram esgotados todos mecanismos de autenticação disponíveis (tentado: %s) "
-"(disponível: %s)"
+msgstr "Foram esgotados todos mecanismos de autenticação disponíveis (tentado: %s) (disponível: %s)"
 
 #: dwarf.c:9952
 #, fuzzy, c-format
@@ -4203,8 +4006,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Out of memory allocating %u columns in dwarf frame arrays\n"
 msgid "Out of memory allocating dwo filename\n"
-msgstr ""
-"Memória insuficiente ao alocar %u colunas em vetores de quadros do dwarf\n"
+msgstr "Memória insuficiente ao alocar %u colunas em vetores de quadros do dwarf\n"
 
 #: dwarf.c:9985
 #, fuzzy, c-format
@@ -4267,9 +4069,7 @@ msgstr "%s: erro na exclusão da partição %d"
 #: elfcomm.c:56
 #, fuzzy, c-format
 msgid "%s: Warning: "
-msgstr ""
-"%s: Aviso: o arquivo não cabe em um setor de 512 bytes; o final do arquivo "
-"será ignorado."
+msgstr "%s: Aviso: o arquivo não cabe em um setor de 512 bytes; o final do arquivo será ignorado."
 
 #: elfcomm.c:88 elfcomm.c:123 elfcomm.c:228 elfcomm.c:338
 #, fuzzy, c-format
@@ -4308,9 +4108,7 @@ msgstr "Atualizando índices para o arquivo [%(archive)s]"
 
 #: elfcomm.c:529
 #, c-format
-msgid ""
-"%s: the archive index is supposed to have 0x%lx entries of %d bytes, but the "
-"size is only 0x%lx\n"
+msgid "%s: the archive index is supposed to have 0x%lx entries of %d bytes, but the size is only 0x%lx\n"
 msgstr ""
 
 #: elfcomm.c:539
@@ -4622,22 +4420,17 @@ msgid ""
 "  -a, --debug-syms       Display debugger-only symbols\n"
 "  -A, --print-file-name  Print name of the input file before every symbol\n"
 "  -B                     Same as --format=bsd\n"
-"  -C, --demangle[=STYLE] Decode low-level symbol names into user-level "
-"names\n"
-"                          The STYLE, if specified, can be `auto' (the "
-"default),\n"
-"                          `gnu', `lucid', `arm', `hp', `edg', `gnu-v3', "
-"`java'\n"
+"  -C, --demangle[=STYLE] Decode low-level symbol names into user-level names\n"
+"                          The STYLE, if specified, can be `auto' (the default),\n"
+"                          `gnu', `lucid', `arm', `hp', `edg', `gnu-v3', `java'\n"
 "                          or `gnat'\n"
 "      --no-demangle      Do not demangle low-level symbol names\n"
-"      --recurse-limit    Enable a demangling recursion limit.  This is the "
-"default.\n"
+"      --recurse-limit    Enable a demangling recursion limit.  This is the default.\n"
 "      --no-recurse-limit Disable a demangling recursion limit.\n"
 "  -D, --dynamic          Display dynamic symbols instead of normal symbols\n"
 "      --defined-only     Display only defined symbols\n"
 "  -e                     (ignored)\n"
-"  -f, --format=FORMAT    Use the output format FORMAT.  FORMAT can be "
-"`bsd',\n"
+"  -f, --format=FORMAT    Use the output format FORMAT.  FORMAT can be `bsd',\n"
 "                           `sysv' or `posix'.  The default is `bsd'\n"
 "  -g, --extern-only      Display only external symbols\n"
 "  -l, --line-numbers     Use debugging information to find a filename and\n"
@@ -4736,16 +4529,14 @@ msgstr "Símbolos"
 #: nm.c:1380 nm.c:1431
 #, c-format
 msgid ""
-"Name                  Value   Class        Type         Size     Line  "
-"Section\n"
+"Name                  Value   Class        Type         Size     Line  Section\n"
 "\n"
 msgstr ""
 
 #: nm.c:1383 nm.c:1434
 #, c-format
 msgid ""
-"Name                  Value           Class        Type         "
-"Size             Line  Section\n"
+"Name                  Value           Class        Type         Size             Line  Section\n"
 "\n"
 msgstr ""
 
@@ -4799,23 +4590,18 @@ msgstr ""
 #, c-format
 msgid ""
 "  -I --input-target <bfdname>      Assume input file is in format <bfdname>\n"
-"  -O --output-target <bfdname>     Create an output file in format "
-"<bfdname>\n"
+"  -O --output-target <bfdname>     Create an output file in format <bfdname>\n"
 "  -B --binary-architecture <arch>  Set output arch, when input is arch-less\n"
-"  -F --target <bfdname>            Set both input and output format to "
-"<bfdname>\n"
-"     --debugging                   Convert debugging information, if "
-"possible\n"
-"  -p --preserve-dates              Copy modified/access timestamps to the "
-"output\n"
+"  -F --target <bfdname>            Set both input and output format to <bfdname>\n"
+"     --debugging                   Convert debugging information, if possible\n"
+"  -p --preserve-dates              Copy modified/access timestamps to the output\n"
 msgstr ""
 
 #: objcopy.c:548 objcopy.c:683
 #, c-format
 msgid ""
 "  -D --enable-deterministic-archives\n"
-"                                   Produce deterministic output when "
-"stripping archives (default)\n"
+"                                   Produce deterministic output when stripping archives (default)\n"
 "  -U --disable-deterministic-archives\n"
 "                                   Disable -D behavior\n"
 msgstr ""
@@ -4824,8 +4610,7 @@ msgstr ""
 #, c-format
 msgid ""
 "  -D --enable-deterministic-archives\n"
-"                                   Produce deterministic output when "
-"stripping archives\n"
+"                                   Produce deterministic output when stripping archives\n"
 "  -U --disable-deterministic-archives\n"
 "                                   Disable -D behavior (default)\n"
 msgstr ""
@@ -4834,95 +4619,70 @@ msgstr ""
 #, c-format
 msgid ""
 "  -j --only-section <name>         Only copy section <name> into the output\n"
-"     --add-gnu-debuglink=<file>    Add section .gnu_debuglink linking to "
-"<file>\n"
+"     --add-gnu-debuglink=<file>    Add section .gnu_debuglink linking to <file>\n"
 "  -R --remove-section <name>       Remove section <name> from the output\n"
 "     --remove-relocations <name>   Remove relocations from section <name>\n"
-"  -S --strip-all                   Remove all symbol and relocation "
-"information\n"
+"  -S --strip-all                   Remove all symbol and relocation information\n"
 "  -g --strip-debug                 Remove all debugging symbols & sections\n"
 "     --strip-dwo                   Remove all DWO sections\n"
-"     --strip-unneeded              Remove all symbols not needed by "
-"relocations\n"
+"     --strip-unneeded              Remove all symbols not needed by relocations\n"
 "  -N --strip-symbol <name>         Do not copy symbol <name>\n"
 "     --strip-unneeded-symbol <name>\n"
-"                                   Do not copy symbol <name> unless needed "
-"by\n"
+"                                   Do not copy symbol <name> unless needed by\n"
 "                                     relocations\n"
-"     --only-keep-debug             Strip everything but the debug "
-"information\n"
+"     --only-keep-debug             Strip everything but the debug information\n"
 "     --extract-dwo                 Copy only DWO sections\n"
 "     --extract-symbol              Remove section contents but keep symbols\n"
 "  -K --keep-symbol <name>          Do not strip symbol <name>\n"
 "     --keep-file-symbols           Do not strip file symbol(s)\n"
 "     --localize-hidden             Turn all ELF hidden symbols into locals\n"
-"  -L --localize-symbol <name>      Force symbol <name> to be marked as a "
-"local\n"
-"     --globalize-symbol <name>     Force symbol <name> to be marked as a "
-"global\n"
+"  -L --localize-symbol <name>      Force symbol <name> to be marked as a local\n"
+"     --globalize-symbol <name>     Force symbol <name> to be marked as a global\n"
 "  -G --keep-global-symbol <name>   Localize all symbols except <name>\n"
-"  -W --weaken-symbol <name>        Force symbol <name> to be marked as a "
-"weak\n"
-"     --weaken                      Force all global symbols to be marked as "
-"weak\n"
+"  -W --weaken-symbol <name>        Force symbol <name> to be marked as a weak\n"
+"     --weaken                      Force all global symbols to be marked as weak\n"
 "  -w --wildcard                    Permit wildcard in symbol comparison\n"
 "  -x --discard-all                 Remove all non-global symbols\n"
 "  -X --discard-locals              Remove any compiler-generated symbols\n"
 "  -i --interleave[=<number>]       Only copy N out of every <number> bytes\n"
 "     --interleave-width <number>   Set N for --interleave\n"
-"  -b --byte <num>                  Select byte <num> in every interleaved "
-"block\n"
+"  -b --byte <num>                  Select byte <num> in every interleaved block\n"
 "     --gap-fill <val>              Fill gaps between sections with <val>\n"
-"     --pad-to <addr>               Pad the last section up to address "
-"<addr>\n"
+"     --pad-to <addr>               Pad the last section up to address <addr>\n"
 "     --set-start <addr>            Set the start address to <addr>\n"
 "    {--change-start|--adjust-start} <incr>\n"
 "                                   Add <incr> to the start address\n"
 "    {--change-addresses|--adjust-vma} <incr>\n"
-"                                   Add <incr> to LMA, VMA and start "
-"addresses\n"
+"                                   Add <incr> to LMA, VMA and start addresses\n"
 "    {--change-section-address|--adjust-section-vma} <name>{=|+|-}<val>\n"
-"                                   Change LMA and VMA of section <name> by "
-"<val>\n"
+"                                   Change LMA and VMA of section <name> by <val>\n"
 "     --change-section-lma <name>{=|+|-}<val>\n"
-"                                   Change the LMA of section <name> by "
-"<val>\n"
+"                                   Change the LMA of section <name> by <val>\n"
 "     --change-section-vma <name>{=|+|-}<val>\n"
-"                                   Change the VMA of section <name> by "
-"<val>\n"
+"                                   Change the VMA of section <name> by <val>\n"
 "    {--[no-]change-warnings|--[no-]adjust-warnings}\n"
 "                                   Warn if a named section does not exist\n"
 "     --set-section-flags <name>=<flags>\n"
-"                                   Set section <name>'s properties to "
-"<flags>\n"
-"     --add-section <name>=<file>   Add section <name> found in <file> to "
-"output\n"
+"                                   Set section <name>'s properties to <flags>\n"
+"     --add-section <name>=<file>   Add section <name> found in <file> to output\n"
 "     --update-section <name>=<file>\n"
 "                                   Update contents of section <name> with\n"
 "                                   contents found in <file>\n"
-"     --dump-section <name>=<file>  Dump the contents of section <name> into "
-"<file>\n"
+"     --dump-section <name>=<file>  Dump the contents of section <name> into <file>\n"
 "     --rename-section <old>=<new>[,<flags>] Rename section <old> to <new>\n"
 "     --long-section-names {enable|disable|keep}\n"
-"                                   Handle long section names in Coff "
-"objects.\n"
-"     --change-leading-char         Force output format's leading character "
-"style\n"
-"     --remove-leading-char         Remove leading character from global "
-"symbols\n"
-"     --reverse-bytes=<num>         Reverse <num> bytes at a time, in output "
-"sections with content\n"
+"                                   Handle long section names in Coff objects.\n"
+"     --change-leading-char         Force output format's leading character style\n"
+"     --remove-leading-char         Remove leading character from global symbols\n"
+"     --reverse-bytes=<num>         Reverse <num> bytes at a time, in output sections with content\n"
 "     --redefine-sym <old>=<new>    Redefine symbol name <old> to <new>\n"
 "     --redefine-syms <file>        --redefine-sym for all symbol pairs \n"
 "                                     listed in <file>\n"
-"     --srec-len <number>           Restrict the length of generated "
-"Srecords\n"
-"     --srec-forceS3                Restrict the type of generated Srecords "
-"to S3\n"
+"     --srec-len <number>           Restrict the length of generated Srecords\n"
+"     --srec-forceS3                Restrict the type of generated Srecords to S3\n"
 "     --strip-symbols <file>        -N for all symbols listed in <file>\n"
 "     --strip-unneeded-symbols <file>\n"
-"                                   --strip-unneeded-symbol for all symbols "
-"listed\n"
+"                                   --strip-unneeded-symbol for all symbols listed\n"
 "                                     in <file>\n"
 "     --keep-symbols <file>         -K for all symbols listed in <file>\n"
 "     --localize-symbols <file>     -L for all symbols listed in <file>\n"
@@ -4930,47 +4690,37 @@ msgid ""
 "     --keep-global-symbols <file>  -G for all symbols listed in <file>\n"
 "     --weaken-symbols <file>       -W for all symbols listed in <file>\n"
 "     --add-symbol <name>=[<section>:]<value>[,<flags>]  Add a symbol\n"
-"     --alt-machine-code <index>    Use the target's <index>'th alternative "
-"machine\n"
+"     --alt-machine-code <index>    Use the target's <index>'th alternative machine\n"
 "     --writable-text               Mark the output text as writable\n"
 "     --readonly-text               Make the output text write protected\n"
 "     --pure                        Mark the output file as demand paged\n"
 "     --impure                      Mark the output file as impure\n"
-"     --prefix-symbols <prefix>     Add <prefix> to start of every symbol "
-"name\n"
-"     --prefix-sections <prefix>    Add <prefix> to start of every section "
-"name\n"
+"     --prefix-symbols <prefix>     Add <prefix> to start of every symbol name\n"
+"     --prefix-sections <prefix>    Add <prefix> to start of every section name\n"
 "     --prefix-alloc-sections <prefix>\n"
-"                                   Add <prefix> to start of every "
-"allocatable\n"
+"                                   Add <prefix> to start of every allocatable\n"
 "                                     section name\n"
 "     --file-alignment <num>        Set PE file alignment to <num>\n"
 "     --heap <reserve>[,<commit>]   Set PE reserve/commit heap to <reserve>/\n"
 "                                   <commit>\n"
 "     --image-base <address>        Set PE image base to <address>\n"
 "     --section-alignment <num>     Set PE section alignment to <num>\n"
-"     --stack <reserve>[,<commit>]  Set PE reserve/commit stack to "
-"<reserve>/\n"
+"     --stack <reserve>[,<commit>]  Set PE reserve/commit stack to <reserve>/\n"
 "                                   <commit>\n"
 "     --subsystem <name>[:<version>]\n"
 "                                   Set PE subsystem to <name> [& <version>]\n"
 "     --compress-debug-sections[={none|zlib|zlib-gnu|zlib-gabi}]\n"
 "                                   Compress DWARF debug sections using zlib\n"
-"     --decompress-debug-sections   Decompress DWARF debug sections using "
-"zlib\n"
-"     --elf-stt-common=[yes|no]     Generate ELF common symbols with "
-"STT_COMMON\n"
+"     --decompress-debug-sections   Decompress DWARF debug sections using zlib\n"
+"     --elf-stt-common=[yes|no]     Generate ELF common symbols with STT_COMMON\n"
 "                                     type\n"
-"  -M  --merge-notes                Remove redundant entries in note "
-"sections\n"
-"      --no-merge-notes             Do not attempt to remove redundant notes "
-"(default)\n"
+"  -M  --merge-notes                Remove redundant entries in note sections\n"
+"      --no-merge-notes             Do not attempt to remove redundant notes (default)\n"
 "  -v --verbose                     List all object files modified\n"
 "  @<file>                          Read options from <file>\n"
 "  -V --version                     Display this program's version number\n"
 "  -h --help                        Display this output\n"
-"     --info                        List object formats & architectures "
-"supported\n"
+"     --info                        List object formats & architectures supported\n"
 msgstr ""
 
 #: objcopy.c:673
@@ -4987,30 +4737,22 @@ msgstr ""
 #, c-format
 msgid ""
 "  -I --input-target=<bfdname>      Assume input file is in format <bfdname>\n"
-"  -O --output-target=<bfdname>     Create an output file in format "
-"<bfdname>\n"
-"  -F --target=<bfdname>            Set both input and output format to "
-"<bfdname>\n"
-"  -p --preserve-dates              Copy modified/access timestamps to the "
-"output\n"
+"  -O --output-target=<bfdname>     Create an output file in format <bfdname>\n"
+"  -F --target=<bfdname>            Set both input and output format to <bfdname>\n"
+"  -p --preserve-dates              Copy modified/access timestamps to the output\n"
 msgstr ""
 
 #: objcopy.c:694
 #, c-format
 msgid ""
-"  -R --remove-section=<name>       Also remove section <name> from the "
-"output\n"
+"  -R --remove-section=<name>       Also remove section <name> from the output\n"
 "     --remove-relocations <name>   Remove relocations from section <name>\n"
-"  -s --strip-all                   Remove all symbol and relocation "
-"information\n"
+"  -s --strip-all                   Remove all symbol and relocation information\n"
 "  -g -S -d --strip-debug           Remove all debugging symbols & sections\n"
 "     --strip-dwo                   Remove all DWO sections\n"
-"     --strip-unneeded              Remove all symbols not needed by "
-"relocations\n"
-"     --only-keep-debug             Strip everything but the debug "
-"information\n"
-"  -M  --merge-notes                Remove redundant entries in note sections "
-"(default)\n"
+"     --strip-unneeded              Remove all symbols not needed by relocations\n"
+"     --only-keep-debug             Strip everything but the debug information\n"
+"  -M  --merge-notes                Remove redundant entries in note sections (default)\n"
 "      --no-merge-notes             Do not attempt to remove redundant notes\n"
 "  -N --strip-symbol=<name>         Do not copy symbol <name>\n"
 "  -K --keep-symbol=<name>          Do not strip symbol <name>\n"
@@ -5021,8 +4763,7 @@ msgid ""
 "  -v --verbose                     List all object files modified\n"
 "  -V --version                     Display this program's version number\n"
 "  -h --help                        Display this output\n"
-"     --info                        List object formats & architectures "
-"supported\n"
+"     --info                        List object formats & architectures supported\n"
 "  -o <file>                        Place stripped output into <file>\n"
 msgstr ""
 
@@ -5190,8 +4931,7 @@ msgstr ""
 
 #: objcopy.c:2495
 #, c-format
-msgid ""
-"--compress-debug-sections=[zlib|zlib-gnu|zlib-gabi] is unsupported on `%s'"
+msgid "--compress-debug-sections=[zlib|zlib-gnu|zlib-gabi] is unsupported on `%s'"
 msgstr ""
 
 #: objcopy.c:2502
@@ -5390,8 +5130,7 @@ msgstr "Contagem"
 #. User must pad the section up in order to do this.
 #: objcopy.c:4140
 #, c-format
-msgid ""
-"cannot reverse bytes: length of section %s must be evenly divisible by %d"
+msgid "cannot reverse bytes: length of section %s must be evenly divisible by %d"
 msgstr ""
 
 #: objcopy.c:4345
@@ -5539,8 +5278,7 @@ msgstr ""
 
 #: objcopy.c:5566
 #, c-format
-msgid ""
-"warning: could not create temporary file whilst copying '%s', (error: %s)"
+msgid "warning: could not create temporary file whilst copying '%s', (error: %s)"
 msgstr ""
 
 #: objcopy.c:5599 objcopy.c:5613
@@ -5568,24 +5306,20 @@ msgstr ""
 msgid ""
 "  -a, --archive-headers    Display archive header information\n"
 "  -f, --file-headers       Display the contents of the overall file header\n"
-"  -p, --private-headers    Display object format specific file header "
-"contents\n"
+"  -p, --private-headers    Display object format specific file header contents\n"
 "  -P, --private=OPT,OPT... Display object format specific contents\n"
 "  -h, --[section-]headers  Display the contents of the section headers\n"
 "  -x, --all-headers        Display the contents of all headers\n"
-"  -d, --disassemble        Display assembler contents of executable "
-"sections\n"
+"  -d, --disassemble        Display assembler contents of executable sections\n"
 "  -D, --disassemble-all    Display assembler contents of all sections\n"
 "      --disassemble=<sym>  Display assembler contents from <sym>\n"
 "  -S, --source             Intermix source code with disassembly\n"
-"  -s, --full-contents      Display the full contents of all sections "
-"requested\n"
+"  -s, --full-contents      Display the full contents of all sections requested\n"
 "  -g, --debugging          Display debug information in object file\n"
 "  -e, --debugging-tags     Display debug information using ctags style\n"
 "  -G, --stabs              Display (in raw form) any STABS info in the file\n"
 "  -W[lLiaprmfFsoRtUuTgAckK] or\n"
-"  --dwarf[=rawline,=decodedline,=info,=abbrev,=pubnames,=aranges,=macro,"
-"=frames,\n"
+"  --dwarf[=rawline,=decodedline,=info,=abbrev,=pubnames,=aranges,=macro,=frames,\n"
 "          =frames-interp,=str,=loc,=Ranges,=pubtypes,\n"
 "          =gdb_index,=trace_info,=trace_abbrev,=trace_aranges,\n"
 "          =addr,=cu_index,=links,=follow-links]\n"
@@ -5593,8 +5327,7 @@ msgid ""
 "  -t, --syms               Display the contents of the symbol table(s)\n"
 "  -T, --dynamic-syms       Display the contents of the dynamic symbol table\n"
 "  -r, --reloc              Display the relocation entries in the file\n"
-"  -R, --dynamic-reloc      Display the dynamic relocation entries in the "
-"file\n"
+"  -R, --dynamic-reloc      Display the dynamic relocation entries in the file\n"
 "  @<file>                  Read options from <file>\n"
 "  -v, --version            Display this program's version number\n"
 "  -i, --info               List object formats and architectures supported\n"
@@ -5611,47 +5344,32 @@ msgstr "opcional"
 #: objdump.c:242
 #, c-format
 msgid ""
-"  -b, --target=BFDNAME           Specify the target object format as "
-"BFDNAME\n"
+"  -b, --target=BFDNAME           Specify the target object format as BFDNAME\n"
 "  -m, --architecture=MACHINE     Specify the target architecture as MACHINE\n"
 "  -j, --section=NAME             Only display information for section NAME\n"
 "  -M, --disassembler-options=OPT Pass text OPT on to the disassembler\n"
-"  -EB --endian=big               Assume big endian format when "
-"disassembling\n"
-"  -EL --endian=little            Assume little endian format when "
-"disassembling\n"
-"      --file-start-context       Include context from start of file (with -"
-"S)\n"
+"  -EB --endian=big               Assume big endian format when disassembling\n"
+"  -EL --endian=little            Assume little endian format when disassembling\n"
+"      --file-start-context       Include context from start of file (with -S)\n"
 "  -I, --include=DIR              Add DIR to search list for source files\n"
-"  -l, --line-numbers             Include line numbers and filenames in "
-"output\n"
-"  -F, --file-offsets             Include file offsets when displaying "
-"information\n"
+"  -l, --line-numbers             Include line numbers and filenames in output\n"
+"  -F, --file-offsets             Include file offsets when displaying information\n"
 "  -C, --demangle[=STYLE]         Decode mangled/processed symbol names\n"
-"                                  The STYLE, if specified, can be `auto', "
-"`gnu',\n"
-"                                  `lucid', `arm', `hp', `edg', `gnu-v3', "
-"`java'\n"
+"                                  The STYLE, if specified, can be `auto', `gnu',\n"
+"                                  `lucid', `arm', `hp', `edg', `gnu-v3', `java'\n"
 "                                  or `gnat'\n"
-"      --recurse-limit            Enable a limit on recursion whilst "
-"demangling.  [Default]\n"
-"      --no-recurse-limit         Disable a limit on recursion whilst "
-"demangling\n"
+"      --recurse-limit            Enable a limit on recursion whilst demangling.  [Default]\n"
+"      --no-recurse-limit         Disable a limit on recursion whilst demangling\n"
 "  -w, --wide                     Format output for more than 80 columns\n"
-"  -z, --disassemble-zeroes       Do not skip blocks of zeroes when "
-"disassembling\n"
+"  -z, --disassemble-zeroes       Do not skip blocks of zeroes when disassembling\n"
 "      --start-address=ADDR       Only process data whose address is >= ADDR\n"
 "      --stop-address=ADDR        Only process data whose address is <= ADDR\n"
-"      --prefix-addresses         Print complete address alongside "
-"disassembly\n"
+"      --prefix-addresses         Print complete address alongside disassembly\n"
 "      --[no-]show-raw-insn       Display hex alongside symbolic disassembly\n"
-"      --insn-width=WIDTH         Display WIDTH bytes on a single line for -"
-"d\n"
-"      --adjust-vma=OFFSET        Add OFFSET to all displayed section "
-"addresses\n"
+"      --insn-width=WIDTH         Display WIDTH bytes on a single line for -d\n"
+"      --adjust-vma=OFFSET        Add OFFSET to all displayed section addresses\n"
 "      --special-syms             Include special symbols in symbol dumps\n"
-"      --inlines                  Print all inlines for source line (with -"
-"l)\n"
+"      --inlines                  Print all inlines for source line (with -l)\n"
 "      --prefix=PREFIX            Add PREFIX to absolute paths for -S\n"
 "      --prefix-strip=LEVEL       Strip initial directory names for -S\n"
 msgstr ""
@@ -5660,11 +5378,9 @@ msgstr ""
 #, c-format
 msgid ""
 "      --dwarf-depth=N        Do not display DIEs at depth N or greater\n"
-"      --dwarf-start=N        Display DIEs starting with N, at the same "
-"depth\n"
+"      --dwarf-start=N        Display DIEs starting with N, at the same depth\n"
 "                             or deeper\n"
-"      --dwarf-check          Make additional dwarf internal consistency "
-"checks.      \n"
+"      --dwarf-check          Make additional dwarf internal consistency checks.      \n"
 "\n"
 msgstr ""
 
@@ -6233,8 +5949,7 @@ msgstr "Solicita ao cabeçalho de seção a se ocultar se houver apenas uma seç
 #: od-xcoff.c:535 od-xcoff.c:547 od-xcoff.c:602
 #, fuzzy
 msgid "cannot read section header"
-msgstr ""
-"Não foi possível ler o arquivo de cópia de segurança de cabeçalho %s.\n"
+msgstr "Não foi possível ler o arquivo de cópia de segurança de cabeçalho %s.\n"
 
 #: od-xcoff.c:561
 #, fuzzy, c-format
@@ -6447,8 +6162,7 @@ msgid "Import files:\n"
 msgstr ""
 "Bem-vindo ao Evolution.\n"
 "\n"
-"As próximas telas permitirão que o Evolution conecte-se às suas contas de e-"
-"mail e importe arquivos de outros aplicativos."
+"As próximas telas permitirão que o Evolution conecte-se às suas contas de e-mail e importe arquivos de outros aplicativos."
 
 #: od-xcoff.c:1198
 #, fuzzy, c-format
@@ -6523,8 +6237,7 @@ msgstr ""
 #: od-xcoff.c:1643
 #, fuzzy
 msgid "cannot read header"
-msgstr ""
-"Não foi possível ler o arquivo de cópia de segurança de cabeçalho %s.\n"
+msgstr "Não foi possível ler o arquivo de cópia de segurança de cabeçalho %s.\n"
 
 #: od-xcoff.c:1651
 #, fuzzy, c-format
@@ -6576,8 +6289,7 @@ msgstr ""
 #: od-xcoff.c:1787
 #, fuzzy
 msgid "cannot core read header"
-msgstr ""
-"Não foi possível ler o arquivo de cópia de segurança de cabeçalho %s.\n"
+msgstr "Não foi possível ler o arquivo de cópia de segurança de cabeçalho %s.\n"
 
 #: od-xcoff.c:1794
 #, fuzzy, c-format
@@ -6693,8 +6405,7 @@ msgstr "Erro de leitura: não foi possível buscar bloco no arquivo \"%s\"\n"
 #, fuzzy, c-format
 #| msgid "Out of memory allocating %u columns in dwarf frame arrays\n"
 msgid "Out of memory allocating %s bytes for %s\n"
-msgstr ""
-"Memória insuficiente ao alocar %u colunas em vetores de quadros do dwarf\n"
+msgstr "Memória insuficiente ao alocar %u colunas em vetores de quadros do dwarf\n"
 
 #: readelf.c:442
 #, fuzzy, c-format
@@ -6722,8 +6433,7 @@ msgstr "Sistema 64 bits x86"
 
 #: readelf.c:1175
 #, c-format
-msgid ""
-" Offset     Info    Type                Sym. Value  Symbol's Name + Addend\n"
+msgid " Offset     Info    Type                Sym. Value  Symbol's Name + Addend\n"
 msgstr ""
 
 #: readelf.c:1177
@@ -6743,29 +6453,22 @@ msgstr ""
 
 #: readelf.c:1192
 #, c-format
-msgid ""
-"    Offset             Info             Type               Symbol's Value  "
-"Symbol's Name + Addend\n"
+msgid "    Offset             Info             Type               Symbol's Value  Symbol's Name + Addend\n"
 msgstr ""
 
 #: readelf.c:1194
 #, c-format
-msgid ""
-"  Offset          Info           Type           Sym. Value    Sym. Name + "
-"Addend\n"
+msgid "  Offset          Info           Type           Sym. Value    Sym. Name + Addend\n"
 msgstr ""
 
 #: readelf.c:1199
 #, c-format
-msgid ""
-"    Offset             Info             Type               Symbol's Value  "
-"Symbol's Name\n"
+msgid "    Offset             Info             Type               Symbol's Value  Symbol's Name\n"
 msgstr ""
 
 #: readelf.c:1201
 #, c-format
-msgid ""
-"  Offset          Info           Type           Sym. Value    Sym. Name\n"
+msgid "  Offset          Info           Type           Sym. Value    Sym. Name\n"
 msgstr ""
 
 #: readelf.c:1586 readelf.c:1776 readelf.c:1784
@@ -6988,21 +6691,16 @@ msgid ""
 "  -V --version-info      Display the version sections (if present)\n"
 "  -A --arch-specific     Display architecture specific information (if any)\n"
 "  -c --archive-index     Display the symbol/file index in an archive\n"
-"  -D --use-dynamic       Use the dynamic section info when displaying "
-"symbols\n"
+"  -D --use-dynamic       Use the dynamic section info when displaying symbols\n"
 "  -x --hex-dump=<number|name>\n"
-"                         Dump the contents of section <number|name> as "
-"bytes\n"
+"                         Dump the contents of section <number|name> as bytes\n"
 "  -p --string-dump=<number|name>\n"
-"                         Dump the contents of section <number|name> as "
-"strings\n"
+"                         Dump the contents of section <number|name> as strings\n"
 "  -R --relocated-dump=<number|name>\n"
-"                         Dump the contents of section <number|name> as "
-"relocated bytes\n"
+"                         Dump the contents of section <number|name> as relocated bytes\n"
 "  -z --decompress        Decompress section before dumping it\n"
 "  -w[lLiaprmfFsoRtUuTgAckK] or\n"
-"  --debug-dump[=rawline,=decodedline,=info,=abbrev,=pubnames,=aranges,=macro,"
-"=frames,\n"
+"  --debug-dump[=rawline,=decodedline,=info,=abbrev,=pubnames,=aranges,=macro,=frames,\n"
 "               =frames-interp,=str,=loc,=Ranges,=pubtypes,\n"
 "               =gdb_index,=trace_info,=trace_abbrev,=trace_aranges,\n"
 "               =addr,=cu_index,=links,=follow-links]\n"
@@ -7072,8 +6770,7 @@ msgstr "Habilitar ou desabilitar a barra de espaço mágica"
 #: readelf.c:4782
 #, fuzzy, c-format
 msgid "  Class:                             %s\n"
-msgstr ""
-"Esta função não está implementada para componentes (widgets) da classe \"%s\""
+msgstr "Esta função não está implementada para componentes (widgets) da classe \"%s\""
 
 #: readelf.c:4784
 #, fuzzy, c-format
@@ -7187,15 +6884,11 @@ msgid " <corrupt: out of range>"
 msgstr "Caractere fora do limite para UTF-8"
 
 #: readelf.c:4892 readelf.c:4939
-msgid ""
-"The e_phentsize field in the ELF header is less than the size of an ELF "
-"program header\n"
+msgid "The e_phentsize field in the ELF header is less than the size of an ELF program header\n"
 msgstr ""
 
 #: readelf.c:4896 readelf.c:4943
-msgid ""
-"The e_phentsize field in the ELF header is larger than the size of an ELF "
-"program header\n"
+msgid "The e_phentsize field in the ELF header is larger than the size of an ELF program header\n"
 msgstr ""
 
 #: readelf.c:4899 readelf.c:4946
@@ -7214,9 +6907,7 @@ msgid "Out of memory reading %u program headers\n"
 msgstr ""
 
 #: readelf.c:5025
-msgid ""
-"possibly corrupt ELF header - it has a non-zero program header offset, but "
-"no program headers\n"
+msgid "possibly corrupt ELF header - it has a non-zero program header offset, but no program headers\n"
 msgstr ""
 
 #: readelf.c:5030
@@ -7254,15 +6945,12 @@ msgstr "_Programa:"
 
 #: readelf.c:5057
 #, c-format
-msgid ""
-"  Type           Offset   VirtAddr   PhysAddr   FileSiz MemSiz  Flg Align\n"
+msgid "  Type           Offset   VirtAddr   PhysAddr   FileSiz MemSiz  Flg Align\n"
 msgstr ""
 
 #: readelf.c:5060
 #, c-format
-msgid ""
-"  Type           Offset   VirtAddr           PhysAddr           FileSiz  "
-"MemSiz   Flg Align\n"
+msgid "  Type           Offset   VirtAddr           PhysAddr           FileSiz  MemSiz   Flg Align\n"
 msgstr ""
 
 #: readelf.c:5064
@@ -7318,9 +7006,7 @@ msgid "Unable to find program interpreter name\n"
 msgstr ""
 
 #: readelf.c:5255
-msgid ""
-"Internal error: failed to create format string to display program "
-"interpreter\n"
+msgid "Internal error: failed to create format string to display program interpreter\n"
 msgstr ""
 
 #: readelf.c:5259
@@ -7354,15 +7040,11 @@ msgid "Virtual address 0x%lx not located in any PT_LOAD segment.\n"
 msgstr ""
 
 #: readelf.c:5351 readelf.c:5416
-msgid ""
-"The e_shentsize field in the ELF header is less than the size of an ELF "
-"section header\n"
+msgid "The e_shentsize field in the ELF header is less than the size of an ELF section header\n"
 msgstr ""
 
 #: readelf.c:5355 readelf.c:5421
-msgid ""
-"The e_shentsize field in the ELF header is larger than the size of an ELF "
-"section header\n"
+msgid "The e_shentsize field in the ELF header is larger than the size of an ELF section header\n"
 msgstr ""
 
 #: readelf.c:5359 readelf.c:5426
@@ -7397,8 +7079,7 @@ msgstr ""
 
 #: readelf.c:5506 readelf.c:5623
 #, c-format
-msgid ""
-"Size (0x%lx) of section %s is not a multiple of its sh_entsize (0x%lx)\n"
+msgid "Size (0x%lx) of section %s is not a multiple of its sh_entsize (0x%lx)\n"
 msgstr ""
 
 #: readelf.c:5514 readelf.c:5631
@@ -7407,9 +7088,7 @@ msgid "symbols"
 msgstr "Símbolos"
 
 #: readelf.c:5526 readelf.c:5643
-msgid ""
-"Multiple symbol table index sections associated with the same symbol "
-"section\n"
+msgid "Multiple symbol table index sections associated with the same symbol section\n"
 msgstr ""
 
 #: readelf.c:5533 readelf.c:5650
@@ -7441,9 +7120,7 @@ msgid "Compressed section is too small even for a compression header\n"
 msgstr ""
 
 #: readelf.c:6024
-msgid ""
-"possibly corrupt ELF file header - it has a non-zero section header offset, "
-"but no section headers\n"
+msgid "possibly corrupt ELF file header - it has a non-zero section header offset, but no section headers\n"
 msgstr ""
 
 #: readelf.c:6029
@@ -7517,9 +7194,7 @@ msgstr ""
 
 #: readelf.c:6278
 #, c-format
-msgid ""
-"  [Nr] Name              Type            Addr     Off    Size   ES Flg Lk "
-"Inf Al\n"
+msgid "  [Nr] Name              Type            Addr     Off    Size   ES Flg Lk Inf Al\n"
 msgstr ""
 
 #: readelf.c:6285
@@ -7529,9 +7204,7 @@ msgstr ""
 
 #: readelf.c:6289
 #, c-format
-msgid ""
-"  [Nr] Name              Type            Address          Off    Size   ES "
-"Flg Lk Inf Al\n"
+msgid "  [Nr] Name              Type            Address          Off    Size   ES Flg Lk Inf Al\n"
 msgstr ""
 
 #: readelf.c:6296
@@ -7687,8 +7360,7 @@ msgstr ""
 
 #: readelf.c:6850
 #, c-format
-msgid ""
-"Section %s has sh_entsize (0x%lx) which is larger than its size (0x%lx)\n"
+msgid "Section %s has sh_entsize (0x%lx) which is larger than its size (0x%lx)\n"
 msgstr ""
 
 #: readelf.c:6859
@@ -7716,8 +7388,7 @@ msgstr ""
 #: readelf.c:6894
 #, fuzzy
 #| msgid "Further warnings about bogus end-of-sibling markers suppressed\n"
-msgid ""
-"Further error messages about overlarge group section indices suppressed\n"
+msgid "Further error messages about overlarge group section indices suppressed\n"
 msgstr "Avisos posteriores sobre marcadores end-of-sibling falhos suprimidos\n"
 
 #: readelf.c:6907
@@ -7726,8 +7397,7 @@ msgid "section [%5u] in group section [%5u] already in group section [%5u]\n"
 msgstr ""
 
 #: readelf.c:6911
-msgid ""
-"Further error messages about already contained group sections suppressed\n"
+msgid "Further error messages about already contained group sections suppressed\n"
 msgstr ""
 
 #: readelf.c:6923
@@ -7769,8 +7439,7 @@ msgstr "Não é uma imagem"
 
 #: readelf.c:7046
 #, c-format
-msgid ""
-"Seg Offset   Type                            Addend            Seg Sym Off\n"
+msgid "Seg Offset   Type                            Addend            Seg Sym Off\n"
 msgstr ""
 
 #: readelf.c:7102
@@ -7804,12 +7473,8 @@ msgstr "Seção"
 #| msgid "CU at offset %s contains corrupt or unsupported unit type: %d.\n"
 msgid " at offset 0x%lx contains %lu entry:\n"
 msgid_plural " at offset 0x%lx contains %lu entries:\n"
-msgstr[0] ""
-"Unidade de Compilação no deslocamento %s contém tipo de unidade corrompido "
-"ou sem suporte: %d.\n"
-msgstr[1] ""
-"Unidade de Compilação no deslocamento %s contém tipo de unidade corrompido "
-"ou sem suporte: %d.\n"
+msgstr[0] "Unidade de Compilação no deslocamento %s contém tipo de unidade corrompido ou sem suporte: %d.\n"
+msgstr[1] "Unidade de Compilação no deslocamento %s contém tipo de unidade corrompido ou sem suporte: %d.\n"
 
 #: readelf.c:7314
 #, fuzzy, c-format
@@ -8067,8 +7732,7 @@ msgstr "Microsoft reservado"
 
 #: readelf.c:9089
 #, c-format
-msgid ""
-"Unsupported architecture type %d encountered when decoding unwind table\n"
+msgid "Unsupported architecture type %d encountered when decoding unwind table\n"
 msgstr ""
 
 #: readelf.c:9144
@@ -8088,8 +7752,7 @@ msgstr ""
 
 #: readelf.c:9245
 #, c-format
-msgid ""
-"Unsupported architecture type %d encountered when processing unwind table\n"
+msgid "Unsupported architecture type %d encountered when processing unwind table\n"
 msgstr ""
 
 #: readelf.c:9267
@@ -8100,8 +7763,7 @@ msgstr ""
 #, c-format
 msgid ""
 "\n"
-"The decoding of unwind sections for machine type %s is not currently "
-"supported.\n"
+"The decoding of unwind sections for machine type %s is not currently supported.\n"
 msgstr ""
 
 #: readelf.c:9345
@@ -8565,8 +8227,7 @@ msgstr "Falha ao carregar dados da imagem"
 #, fuzzy, c-format
 #| msgid "Out of memory allocating %u columns in dwarf frame arrays\n"
 msgid "Out of memory allocating space for %s dynamic entries\n"
-msgstr ""
-"Memória insuficiente ao alocar %u colunas em vetores de quadros do dwarf\n"
+msgstr "Memória insuficiente ao alocar %u colunas em vetores de quadros do dwarf\n"
 
 #: readelf.c:11304
 #, c-format
@@ -8795,9 +8456,7 @@ msgstr ""
 
 #: readelf.c:12542
 #, c-format
-msgid ""
-"Missing knowledge of 32-bit reloc types used in DWARF sections of machine "
-"number %d\n"
+msgid "Missing knowledge of 32-bit reloc types used in DWARF sections of machine number %d\n"
 msgstr ""
 
 #: readelf.c:13209
@@ -8856,9 +8515,7 @@ msgstr ""
 
 #: readelf.c:13499
 #, c-format
-msgid ""
-"  Note: This section has relocations against it, but these have NOT been "
-"applied to this dump.\n"
+msgid "  Note: This section has relocations against it, but these have NOT been applied to this dump.\n"
 msgstr ""
 
 #: readelf.c:13532 readelf.c:14621 readelf.c:14664 readelf.c:14712
@@ -8881,9 +8538,7 @@ msgstr "\"%s\" não é um caracter hexadecimal válido"
 
 #: readelf.c:13650
 #, c-format
-msgid ""
-" NOTE: This section has relocations against it, but these have NOT been "
-"applied to this dump.\n"
+msgid " NOTE: This section has relocations against it, but these have NOT been applied to this dump.\n"
 msgstr ""
 
 #: readelf.c:13719
@@ -9445,8 +9100,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: readelf.c:16094
-msgid ""
-"     Library              Time Stamp          Checksum   Version Flags\n"
+msgid "     Library              Time Stamp          Checksum   Version Flags\n"
 msgstr ""
 
 #: readelf.c:16120
@@ -9533,8 +9187,7 @@ msgstr "Cabeçalho da imagem corrompido"
 
 #: readelf.c:16488
 #, c-format
-msgid ""
-"The GOT symbol offset (%lu) is greater than the symbol table size (%lu)\n"
+msgid "The GOT symbol offset (%lu) is greater than the symbol table size (%lu)\n"
 msgstr ""
 
 #: readelf.c:16497
@@ -9850,8 +9503,7 @@ msgstr ""
 #: readelf.c:16929
 #, fuzzy
 msgid "NT_FILE (mapped files)"
-msgstr ""
-"Arquivos serão organizados em catálogos. Nenhum arquivo será movido no disco."
+msgstr "Arquivos serão organizados em catálogos. Nenhum arquivo será movido no disco."
 
 #: readelf.c:16937
 #, fuzzy
@@ -10507,8 +10159,7 @@ msgstr "Tamanho dos dados"
 #: readelf.c:18674 readelf.c:18703
 #, c-format
 msgid "Corrupt note: only %ld byte remains, not enough for a full note\n"
-msgid_plural ""
-"Corrupt note: only %ld bytes remain, not enough for a full note\n"
+msgid_plural "Corrupt note: only %ld bytes remain, not enough for a full note\n"
 msgstr[0] ""
 msgstr[1] ""
 
@@ -10534,8 +10185,7 @@ msgstr ""
 #, c-format
 msgid ""
 "\n"
-"Displaying contents of Renesas V850 notes section at offset 0x%lx with "
-"length 0x%lx:\n"
+"Displaying contents of Renesas V850 notes section at offset 0x%lx with length 0x%lx:\n"
 msgstr ""
 
 #: readelf.c:18838
@@ -10608,12 +10258,8 @@ msgstr ""
 
 #: readelf.c:19462
 #, c-format
-msgid ""
-"%s: %ld byte remains in the symbol table, but without corresponding entries "
-"in the index table\n"
-msgid_plural ""
-"%s: %ld bytes remain in the symbol table, but without corresponding entries "
-"in the index table\n"
+msgid "%s: %ld byte remains in the symbol table, but without corresponding entries in the index table\n"
+msgid_plural "%s: %ld bytes remain in the symbol table, but without corresponding entries in the index table\n"
 msgstr[0] ""
 msgstr[1] ""
 
@@ -10641,8 +10287,7 @@ msgstr "%s: busca falhou em write_tables"
 #, fuzzy
 #| msgid "Out of memory allocating %u columns in dwarf frame arrays\n"
 msgid "Out of memory allocating file data structure\n"
-msgstr ""
-"Memória insuficiente ao alocar %u colunas em vetores de quadros do dwarf\n"
+msgstr "Memória insuficiente ao alocar %u colunas em vetores de quadros do dwarf\n"
 
 #: readelf.c:19702
 #, c-format
@@ -11046,9 +10691,7 @@ msgstr ""
 #: resrc.c:408
 #, fuzzy, c-format
 msgid "Tried `%s'\n"
-msgstr ""
-"Foram esgotados todos mecanismos de autenticação disponíveis (tentado: %s) "
-"(disponível: %s)"
+msgstr "Foram esgotados todos mecanismos de autenticação disponíveis (tentado: %s) (disponível: %s)"
 
 #: resrc.c:419
 #, fuzzy, c-format
@@ -11078,8 +10721,7 @@ msgstr "Falha ao obter estado do arquivo de chave/certificado %s: %s\n"
 #: resrc.c:773
 #, fuzzy, c-format
 msgid "cursor file `%s' does not contain cursor data"
-msgstr ""
-"O arquivo/URL %s não contém dados do GnuCash ou os dados estão corrompidos."
+msgstr "O arquivo/URL %s não contém dados do GnuCash ou os dados estão corrompidos."
 
 #: resrc.c:805 resrc.c:1205
 #, fuzzy, c-format
@@ -11103,8 +10745,7 @@ msgstr "Falha ao obter estado do arquivo de chave/certificado %s: %s\n"
 #: resrc.c:1174
 #, fuzzy, c-format
 msgid "icon file `%s' does not contain icon data"
-msgstr ""
-"O arquivo/URL %s não contém dados do GnuCash ou os dados estão corrompidos."
+msgstr "O arquivo/URL %s não contém dados do GnuCash ou os dados estão corrompidos."
 
 #: resrc.c:1723 resrc.c:1758
 #, fuzzy, c-format
@@ -11131,10 +10772,8 @@ msgstr ""
 msgid ""
 " The options are:\n"
 "  -A|-B     --format={sysv|berkeley}  Select output style (default is %s)\n"
-"  -o|-d|-x  --radix={8|10|16}         Display numbers in octal, decimal or "
-"hex\n"
-"  -t        --totals                  Display the total sizes (Berkeley "
-"only)\n"
+"  -o|-d|-x  --radix={8|10|16}         Display numbers in octal, decimal or hex\n"
+"  -t        --totals                  Display the total sizes (Berkeley only)\n"
 "            --common                  Display total size for *COM* syms\n"
 "            --target=<bfdname>        Set the binary file format\n"
 "            @<file>                   Read options from <file>\n"
@@ -11210,8 +10849,7 @@ msgstr ""
 #: srconv.c:1696
 #, fuzzy, c-format
 msgid "Convert a COFF object file into a SYSROFF object file\n"
-msgstr ""
-" Emite uma interpretação legível por humanos de um arquivo de objeto COFF\n"
+msgstr " Emite uma interpretação legível por humanos de um arquivo de objeto COFF\n"
 
 #: srconv.c:1697
 #, c-format
@@ -11395,8 +11033,7 @@ msgstr ""
 #: strings.c:703
 #, c-format
 msgid ""
-"  -a - --all                Scan the entire file, not just the data section "
-"[default]\n"
+"  -a - --all                Scan the entire file, not just the data section [default]\n"
 "  -d --data                 Only scan the data sections in the file\n"
 msgstr ""
 
@@ -11404,26 +11041,21 @@ msgstr ""
 #, c-format
 msgid ""
 "  -a - --all                Scan the entire file, not just the data section\n"
-"  -d --data                 Only scan the data sections in the file "
-"[default]\n"
+"  -d --data                 Only scan the data sections in the file [default]\n"
 msgstr ""
 
 #: strings.c:711
 #, c-format
 msgid ""
 "  -f --print-file-name      Print the name of the file before each string\n"
-"  -n --bytes=[number]       Locate & print any NUL-terminated sequence of "
-"at\n"
+"  -n --bytes=[number]       Locate & print any NUL-terminated sequence of at\n"
 "  -<number>                   least [number] characters (default 4).\n"
-"  -t --radix={o,d,x}        Print the location of the string in base 8, 10 "
-"or 16\n"
-"  -w --include-all-whitespace Include all whitespace as valid string "
-"characters\n"
+"  -t --radix={o,d,x}        Print the location of the string in base 8, 10 or 16\n"
+"  -w --include-all-whitespace Include all whitespace as valid string characters\n"
 "  -o                        An alias for --radix=o\n"
 "  -T --target=<BFDNAME>     Specify the binary file format\n"
 "  -e --encoding={s,S,b,l,B,L} Select character size and endianness:\n"
-"                            s = 7-bit, S = 8-bit, {b,l} = 16-bit, {B,L} = 32-"
-"bit\n"
+"                            s = 7-bit, S = 8-bit, {b,l} = 16-bit, {B,L} = 32-bit\n"
 "  -s --output-separator=<string> String used to separate strings in output.\n"
 "  @<file>                   Read options from <file>\n"
 "  -h --help                 Display this information\n"
@@ -11483,8 +11115,7 @@ msgstr "[ módulo ]"
 #: sysdump.c:642
 #, fuzzy, c-format
 msgid "Print a human readable interpretation of a SYSROFF object file\n"
-msgstr ""
-" Emite uma interpretação legível por humanos de um arquivo de objeto COFF\n"
+msgstr " Emite uma interpretação legível por humanos de um arquivo de objeto COFF\n"
 
 #: sysdump.c:643
 #, c-format
@@ -11508,8 +11139,7 @@ msgstr "Copyright (C) 2014 Free Software Foundation, Inc."
 #, c-format
 msgid ""
 "This program is free software; you may redistribute it under the terms of\n"
-"the GNU General Public License version 3 or (at your option) any later "
-"version.\n"
+"the GNU General Public License version 3 or (at your option) any later version.\n"
 "This program has absolutely no warranty.\n"
 msgstr ""
 
@@ -11529,26 +11159,22 @@ msgid ""
 " The options are:\n"
 "  -a --ascii_in                Read input file as ASCII file\n"
 "  -A --ascii_out               Write binary messages as ASCII\n"
-"  -b --binprefix               .bin filename is prefixed by .mc filename_ "
-"for uniqueness.\n"
+"  -b --binprefix               .bin filename is prefixed by .mc filename_ for uniqueness.\n"
 "  -c --customflag              Set custom flags for messages\n"
 "  -C --codepage_in=<val>       Set codepage when reading mc text file\n"
 "  -d --decimal_values          Print values to text files decimal\n"
-"  -e --extension=<extension>   Set header extension used on export header "
-"file\n"
+"  -e --extension=<extension>   Set header extension used on export header file\n"
 "  -F --target <target>         Specify output target for endianness.\n"
 "  -h --headerdir=<directory>   Set the export directory for headers\n"
 "  -u --unicode_in              Read input file as UTF16 file\n"
 "  -U --unicode_out             Write binary messages as UFT16\n"
 "  -m --maxlength=<val>         Set the maximal allowed message length\n"
 "  -n --nullterminate           Automatic add a zero termination to strings\n"
-"  -o --hresult_use             Use HRESULT definition instead of status code "
-"definition\n"
+"  -o --hresult_use             Use HRESULT definition instead of status code definition\n"
 "  -O --codepage_out=<val>      Set codepage used for writing text file\n"
 "  -r --rcdir=<directory>       Set the export directory for rc files\n"
 "  -x --xdbg=<directory>        Where to create the .dbg C include file\n"
-"                               that maps message ID's to their symbolic "
-"name.\n"
+"                               that maps message ID's to their symbolic name.\n"
 msgstr ""
 
 #: windmc.c:219
@@ -11562,9 +11188,7 @@ msgstr ""
 #: windmc.c:260 windres.c:404
 #, fuzzy, c-format
 msgid "%s: warning: "
-msgstr ""
-"%s: Aviso: o arquivo não cabe em um setor de 512 bytes; o final do arquivo "
-"será ignorado."
+msgstr "%s: Aviso: o arquivo não cabe em um setor de 512 bytes; o final do arquivo será ignorado."
 
 #: windmc.c:261
 #, c-format
@@ -11653,8 +11277,7 @@ msgid ""
 "  -v --verbose                 Verbose - tells you what it's doing\n"
 "  -c --codepage=<codepage>     Specify default codepage\n"
 "  -l --language=<val>          Set language when reading rc file\n"
-"     --use-temp-file           Use a temporary file instead of popen to "
-"read\n"
+"     --use-temp-file           Use a temporary file instead of popen to read\n"
 "                               the preprocessor output\n"
 "     --no-use-temp-file        Use popen (default)\n"
 msgstr ""
@@ -11697,9 +11320,7 @@ msgstr ""
 
 #: windres.c:954
 #, c-format
-msgid ""
-"Option -I is deprecated for setting the input format, please use -J "
-"instead.\n"
+msgid "Option -I is deprecated for setting the input format, please use -J instead.\n"
 msgstr ""
 
 #: windres.c:1067
@@ -11781,8 +11402,7 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "unsupported IEEE expression operator"
-#~ msgstr ""
-#~ "A expressão coordenada terminou com um operador, em vez de com um operando"
+#~ msgstr "A expressão coordenada terminou com um operador, em vez de com um operando"
 
 #, fuzzy
 #~ msgid "unknown section"
@@ -11866,8 +11486,7 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "unexpected string in C++ misc"
-#~ msgstr ""
-#~ "encontrado EOF inesperado enquanto procurava por `%c' correspondente"
+#~ msgstr "encontrado EOF inesperado enquanto procurava por `%c' correspondente"
 
 #, fuzzy
 #~ msgid "bad misc record"
@@ -12050,9 +11669,7 @@ msgstr ""
 #~ msgstr "A execução do filtro \"%s\" falhou: "
 
 #~ msgid "Debug info is corrupt.  CU at %s extends beyond end of section"
-#~ msgstr ""
-#~ "Informações de depuração estão corrompidas. A Unidade de Compilação em %s "
-#~ "se estende para além do fim da seção"
+#~ msgstr "Informações de depuração estão corrompidas. A Unidade de Compilação em %s se estende para além do fim da seção"
 
 #~ msgid ""
 #~ "Decoded dump of debug contents of section %s:\n"
@@ -12073,12 +11690,8 @@ msgstr ""
 #~ msgid "Contents of the %s section:\n"
 #~ msgstr "Conteúdos da seção %s:\n"
 
-#~ msgid ""
-#~ "The length field (0x%lx) for unit 0x%lx in the debug_names header is "
-#~ "wrong - the section is too small\n"
-#~ msgstr ""
-#~ "O campo de tamanho (0x%lx) para unidade 0x%lx no cabeçalho debug_names "
-#~ "está errado - a seção é pequena demais\n"
+#~ msgid "The length field (0x%lx) for unit 0x%lx in the debug_names header is wrong - the section is too small\n"
+#~ msgstr "O campo de tamanho (0x%lx) para unidade 0x%lx no cabeçalho debug_names está errado - a seção é pequena demais\n"
 
 #, fuzzy
 #~ msgid "data size %ld"
