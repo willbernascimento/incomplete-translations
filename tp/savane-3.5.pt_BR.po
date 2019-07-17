@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: savane 3.5\n"
 "Report-Msgid-Bugs-To: savannah-hackers-public@gnu.org\n"
 "POT-Creation-Date: 2019-07-05 08:01+0000\n"
-"PO-Revision-Date: 2019-07-16 07:57-0200\n"
+"PO-Revision-Date: 2019-07-17 09:09-0200\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Brazilian Portuguese <pt@li.org>\n"
 "Language: pt_BR\n"
@@ -737,7 +737,7 @@ msgstr ""
 #, php-format
 #| msgid "Project Help Wanted"
 msgid "Project Help Wanted for %s"
-msgstr "Procura-se ajuda para o projeto %s"
+msgstr "Precisa-se de ajuda para o projeto %s"
 
 #: frontend/site-specific/gnu-content/people/index_group.php:30
 #| msgid ""
@@ -6995,167 +6995,163 @@ msgid ""
 "email\n"
 "addresses (comma separated list)."
 msgstr ""
+"Como administrador do projeto, você deve decidir se a lista de pessoas\n"
+"a ser sistematicamente notificada sobre novos envios de %s (e possivelmente\n"
+"atualizações) depende das categorias ou não, e você deve fornecer os "
+"endereços\n"
+"de e-mail correspondentes (lista separada por vírgulas)."
 
 #: frontend/php/include/trackers/data.php:193
 msgid "Notify persons in the global list only"
-msgstr ""
+msgstr "Notificar pessoas na lista global apenas"
 
 #: frontend/php/include/trackers/data.php:197
 msgid "Notify persons in the category related list instead of the global list"
 msgstr ""
+"Notificar pessoas na lista relacionado à categoria em vez da lista global"
 
 #: frontend/php/include/trackers/data.php:202
 msgid ""
 "Notify persons in the category related list in addition to the global list"
-msgstr ""
+msgstr "Notificar pessoas na lista relacionado à categoria além da lista global"
 
 #: frontend/php/include/trackers/data.php:205
-#, fuzzy
 msgid "Category related lists"
-msgstr "Categoria Inserida"
+msgstr "Listas relacionadas à categoria"
 
 #: frontend/php/include/trackers/data.php:226
 #: frontend/php/include/trackers/data.php:254
-#, fuzzy
 msgid "Send on all updates"
-msgstr "enviar em todas as atualizações"
+msgstr "Enviar em todas as atualizações"
 
 #: frontend/php/include/trackers/data.php:229
-#, fuzzy
 msgid "Global list"
-msgstr "Configurações Globais"
+msgstr "Lista global"
 
 #: frontend/php/include/trackers/data.php:244
-#, fuzzy
 msgid "Global List:"
-msgstr "Configurações Globais"
+msgstr "Lista global:"
 
 #: frontend/php/include/trackers/data.php:257
 msgid "Private items exclude list"
-msgstr ""
+msgstr "Lista de exclusão de itens privados"
 
 #: frontend/php/include/trackers/data.php:260
 msgid ""
 "Addresses registered in this list will be excluded from default mail\n"
 "notification for private items."
 msgstr ""
+"Endereços registrados nestas lista serão excluídos da notificação de\n"
+"e-mail padrão para itens privados."
 
 #: frontend/php/include/trackers/data.php:265
 msgid "Exclude List:"
-msgstr ""
+msgstr "Lista de exclusão:"
 
 #. TRANSLATORS: the argument is table name (like groups);
 #. the string shall be followed by database error message.
 #: frontend/php/include/trackers/data.php:327
 #: frontend/php/include/trackers/data.php:356
-#, fuzzy, php-format
+#, php-format
 msgid "%s table Update failed:"
-msgstr " - Atualização Falhou"
+msgstr "Atualização da tabela %s falhou:"
 
 #: frontend/php/include/trackers/data.php:1064
 msgid "Insert of default value failed."
-msgstr ""
+msgstr "Inserção de valor padrão falhou."
 
 #: frontend/php/include/trackers/data.php:1114
 #: frontend/php/include/trackers/data.php:1173
-#, fuzzy
 msgid "Empty field value not allowed"
-msgstr "Erro: valor de campo vazio não permitido!"
+msgstr "Valor de campo vazio não permitido"
 
 #: frontend/php/include/trackers/data.php:1157
-#, fuzzy
 msgid "Insert failed."
-msgstr "INSERÇÃO de novo bug falhou."
+msgstr "Inserção falhou."
 
 #: frontend/php/include/trackers/data.php:1161
-#, fuzzy
 msgid "New field value inserted."
-msgstr "Novo valor do campo inserido"
+msgstr "Novo valor do campo inserido."
 
 #: frontend/php/include/trackers/data.php:1210
-#, fuzzy
 msgid "Update of field value failed."
-msgstr "Atualizar um valor de campo"
+msgstr "Atualização de valor de campo falhou."
 
 #: frontend/php/include/trackers/data.php:1214
-#, fuzzy
 msgid "New field value updated."
-msgstr "Novo valor de campo atualizado"
+msgstr "Novo valor do campo atualizado."
 
 #: frontend/php/include/trackers/data.php:1230
 msgid "Field value successfully reset to defaults."
-msgstr "Valor do campo modificado para os padrões."
+msgstr "Valor do campo redefinido com sucesso para o padrão."
 
 #: frontend/php/include/trackers/data.php:1319
-#, fuzzy
 msgid "Update of field usage failed."
-msgstr "Atualizar um valor de campo"
+msgstr "Atualização de uso de campo falhou."
 
 #: frontend/php/include/trackers/data.php:1321
 msgid "Field usage updated."
-msgstr "Utilização do campo atualizada."
+msgstr "Uso do campo atualizado."
 
 #: frontend/php/include/trackers/data.php:1864
-#, fuzzy
 msgid "Canned response used"
-msgstr "Utilizada Resposta Pré-definida"
+msgstr "Resposta pré-definida usada"
 
 #: frontend/php/include/trackers/data.php:1868
-#, fuzzy
 msgid "Unable to use canned response"
-msgstr "Não é possível usar Resposta Pré-definida"
+msgstr "Não foi possível usar resposta pré-definida"
 
 #: frontend/php/include/trackers/data.php:2020
-#, fuzzy
 msgid "No field to update"
-msgstr "Utilização do campo atualizada."
+msgstr "Nenhum campo para atualizar"
 
 #: frontend/php/include/trackers/data.php:2027
-#, fuzzy
 msgid "Item Update failed"
-msgstr " - Atualização Falhou"
+msgstr "Atualização de item dalhou"
 
 #: frontend/php/include/trackers/data.php:2030
-#, fuzzy
 msgid "Item Successfully Updated"
-msgstr "Atualizado com Sucesso."
+msgstr "Item atualizado com sucesso"
 
 #: frontend/php/include/trackers/data.php:2057
 msgid "No reassignation required or possible."
-msgstr ""
+msgstr "Nenhuma reatribuição exigida ou possível."
 
 #: frontend/php/include/trackers/data.php:2079
 msgid ""
 "Unable to find out to which artifact the item is to be\n"
 "reassigned, exiting."
 msgstr ""
+"Não foi possível localizar a qual artefato o item deve\n"
+"ser reatribuído, saindo."
 
 #: frontend/php/include/trackers/data.php:2103
-#, fuzzy
 msgid "Unable to create a new item."
-msgstr "Incapaz de abrir arquivo remoto."
+msgstr "Não foi possível criar um novo item."
 
 #: frontend/php/include/trackers/data.php:2106
-#, fuzzy
 msgid "New item created."
-msgstr "Novo valor de campo atualizado"
+msgstr "Novo item criado."
 
 #: frontend/php/include/trackers/data.php:2112
-#, fuzzy
 msgid "Unable to find the ID of the new item."
-msgstr "Incapaz de abrir arquivo remoto."
+msgstr "Não foi possível localizar o ID do novo item."
 
 #: frontend/php/include/trackers/data.php:2158
 msgid ""
 "Unable to duplicate a comment from the original item\n"
 "report information."
 msgstr ""
+"Não foi possível duplicar um comentário das informações\n"
+"do relatório do item original."
 
 #: frontend/php/include/trackers/data.php:2207
 msgid ""
 "Unable to add a comment with the original item report\n"
 "information."
 msgstr ""
+"Não foi possível adicionar um comentário com as informações\n"
+"do relatório do item original."
 
 #: frontend/php/include/trackers/data.php:2225
 #, php-format
@@ -7163,6 +7159,8 @@ msgid ""
 "Unable to duplicate an attached file (%s) from the\n"
 "original item report information."
 msgstr ""
+"Não foi possível duplicar um arquivo anexado (%s)\n"
+"das informações do relatório do item original."
 
 #: frontend/php/include/trackers/data.php:2246
 #, php-format
@@ -7170,122 +7168,118 @@ msgid ""
 "Unable to duplicate a CC address (%s) from the\n"
 "original item report information."
 msgstr ""
+"Não foi possível duplicar um endereço de CC (%s)\n"
+"das informações do relatório do item original."
 
 #: frontend/php/include/trackers/data.php:2269
 msgid "Unable to close the original item report."
-msgstr ""
+msgstr "Não foi possível fechar o relatório do item original."
 
 #: frontend/php/include/trackers/data.php:2273
 msgid "Original item is now closed."
-msgstr ""
+msgstr "Item original agora está fechado."
 
 #: frontend/php/include/trackers/data.php:2326
-#, fuzzy
 msgid "Error inserting dependency"
-msgstr "Erro inserindo valor"
+msgstr "Erro ao inserir dependência"
 
 #: frontend/php/include/trackers/data.php:2330
-#, fuzzy
 msgid "Dependency added"
-msgstr "Dependencias do Bug"
+msgstr "Dependências adicionadas"
 
 #: frontend/php/include/trackers/data.php:2489
-#, fuzzy
 msgid ""
 "New item insertion failed, please report this issue to the\n"
 "administrator"
-msgstr "Avisar o Administrador"
+msgstr ""
+"Inserção de novo item falhou, relate esse problema para o\n"
+"administrador"
 
 #: frontend/php/include/trackers/data.php:2496
-#, fuzzy, php-format
+#, php-format
 msgid "New item posted (%1$s #%2$s)"
-msgstr "Novo valor de campo atualizado"
+msgstr "Novo iten enviado (%1$s #%2$s)"
 
 #. TRANSLATORS: the argument is item id (a number).
 #: frontend/php/include/trackers/data.php:2747
 #, php-format
 msgid "Item #%s doesn't belong to project"
-msgstr ""
+msgstr "O item #%s não pertence ao projeto"
 
 #. TRANSLATORS: the argument is file id (a number); the string
 #. shall be followed by database error message.
 #: frontend/php/include/trackers/data.php:2761
-#, fuzzy, php-format
+#, php-format
 msgid "Can't delete attachment #%s:"
-msgstr "Apagar esse favorito?"
+msgstr "Não foi possível excluir o anexo #%s:"
 
 #: frontend/php/include/trackers/data.php:2766
-#, fuzzy
 msgid "File successfully deleted"
-msgstr "Atualizado com Sucesso."
+msgstr "Arquivo excluído com sucesso"
 
 #: frontend/php/include/trackers/show.php:59
 #: frontend/php/include/trackers/show.php:71
-#, fuzzy
 msgid "Begin"
-msgstr "login"
+msgstr "Início"
 
 #: frontend/php/include/trackers/show.php:63
 #: frontend/php/include/trackers/show.php:74 frontend/php/include/html.php:178
 #: frontend/php/include/html.php:184
 msgid "Previous Results"
-msgstr "Resultados Anteriores"
+msgstr "Resultados anteriores"
 
 #: frontend/php/include/trackers/show.php:81
-#, fuzzy, php-format
+#, php-format
 msgid "%d matching item"
 msgid_plural "%d matching items"
-msgstr[0] "bug correspondente"
-msgstr[1] "bug correspondente"
+msgstr[0] "%d item correspondente"
+msgstr[1] "%d itens correspondentes"
 
 #. TRANSLATORS: the arguments are offsets of items in the list.
 #: frontend/php/include/trackers/show.php:85
-#, fuzzy, php-format
+#, php-format
 msgid "Items %1$s to %2$s"
-msgstr "Enviado por"
+msgstr "Itens %1$s até %2$s"
 
 #: frontend/php/include/trackers/show.php:101
 #: frontend/php/include/trackers/show.php:113 frontend/php/include/html.php:194
 #: frontend/php/include/html.php:199
 msgid "Next Results"
-msgstr "Próximos Resultados"
+msgstr "Próximos resultados"
 
 #: frontend/php/include/trackers/show.php:106
 #: frontend/php/include/trackers/show.php:116
 msgid "End"
-msgstr ""
+msgstr "Fim"
 
 #: frontend/php/include/trackers/show.php:260
 msgid "For Everybody"
-msgstr ""
+msgstr "Para todos"
 
 #: frontend/php/include/trackers/show.php:261
-#, fuzzy
 msgid "For Project Members Only"
-msgstr "Lista de Membros do Projeto"
+msgstr "Para membros do projeto apenas"
 
 #: frontend/php/include/trackers/show.php:264
-#, fuzzy
 msgid "Other audience"
-msgstr "Outros comentários:"
+msgstr "Outra audiência"
 
 #: frontend/php/include/trackers/show.php:265
-#, fuzzy
 msgid "Undefined audience"
-msgstr " - Atualização Falhou"
+msgstr "Audiência não definida"
 
 #. TRANSLATORS: the argument is site name (like Savannah).
 #: frontend/php/include/trackers/show.php:409
-#, fuzzy, php-format
+#, php-format
 msgid "From %s User Docs"
-msgstr "Documentos de Usuário (FAQ)"
+msgstr "Da documentação de usuário do %s"
 
 #: frontend/php/include/trackers/show.php:454
-#, fuzzy, php-format
+#, php-format
 msgid "Follows %s latest change."
 msgid_plural "Follow %s latest changes."
-msgstr[0] "Troca de Senha %s"
-msgstr[1] "Troca de Senha %s"
+msgstr[0] "Segue %s última alteração."
+msgstr[1] "Segue %s últimas alterações."
 
 #: frontend/php/include/trackers/show.php:460
 #: frontend/php/include/project/admin.php:43
@@ -7295,223 +7289,209 @@ msgid "Date"
 msgstr "Data"
 
 #: frontend/php/include/trackers/show.php:461
-#, fuzzy
 msgid "Changed by"
-msgstr "Mudar Chave GPG"
+msgstr "Alterado por"
 
 #: frontend/php/include/trackers/show.php:462
-#, fuzzy
 msgid "Updated Field"
-msgstr " - Atualização Falhou"
+msgstr "Campo atualizado"
 
 #: frontend/php/include/trackers/show.php:463
-#, fuzzy
 msgid "Previous Value"
-msgstr "Resultados Anteriores"
+msgstr "Valor anterior"
 
 #: frontend/php/include/trackers/show.php:465
-#, fuzzy
 msgid "Replaced by"
-msgstr "Responder"
+msgstr "Substituído por"
 
 #: frontend/php/include/trackers/show.php:524
 msgid "Automatic update due to transitions settings"
-msgstr ""
+msgstr "Atualização automática em razão de configurações de transição"
 
 #: frontend/php/include/trackers/show.php:569
-#, fuzzy
 msgid "No changes have been made to this item"
-msgstr "Nenhuma Mudança foi Feita Nesse Bug"
+msgstr "Nenhuma alteração foi feita neste item"
 
 #: frontend/php/include/trackers/show.php:607
-#, fuzzy
 msgid "Items that depend on this one"
-msgstr "Outros Bugs que Dependem desse Bug"
+msgstr "Itens que dependem deste"
 
 #: frontend/php/include/trackers/show.php:609
 msgid "Depends on the following items"
-msgstr ""
+msgstr "Depende dos seguintes itens"
 
 #: frontend/php/include/trackers/show.php:741
-#, fuzzy
 msgid "Delete this dependency"
-msgstr "Apagar esse favorito?"
+msgstr "Excluir esta dependência"
 
 #: frontend/php/include/trackers/show.php:765
 msgid "---- Private ----"
-msgstr ""
+msgstr "---- Privado ----"
 
 #: frontend/php/include/trackers/show.php:791
 msgid "Digest:"
 msgstr "Resumo:"
 
 #: frontend/php/include/trackers/show.php:801
-#, fuzzy
 msgid "support dependencies"
-msgstr "Apagar esse favorito?"
+msgstr "dependências de suporte"
 
 #: frontend/php/include/trackers/show.php:804
-#, fuzzy
 msgid "bug dependencies"
-msgstr "Apagar esse favorito?"
+msgstr "dependências de erro"
 
 #: frontend/php/include/trackers/show.php:807
-#, fuzzy
 msgid "task dependencies"
-msgstr "Apagar esse favorito?"
+msgstr "dependências de tarefa"
 
 #: frontend/php/include/trackers/show.php:810
-#, fuzzy
 msgid "patch dependencies"
-msgstr "O Maior"
+msgstr "dependências de patch"
 
 #. TRANSLATORS: the argument is tracker name, unlocalized
 #. (this string is a fallback that should never actually be used).
 #: frontend/php/include/trackers/show.php:816
-#, fuzzy, php-format
+#, php-format
 msgid "%s dependencies"
-msgstr "Dependencias do Bug"
+msgstr "dependências de %s"
 
 #: frontend/php/include/trackers/votes.php:41
 msgid ""
 "You appear to have less than 0 votes remaining. There's a bug\n"
 "somewhere, please contact the administrators"
 msgstr ""
+"Você parece ter menos que 0 votos restantes. Há algum erro em\n"
+"algum lugar, por favor, contate os administradores"
 
 #: frontend/php/include/trackers/votes.php:68
 msgid "Vote provided is not a simple integer, it has been ignored"
-msgstr ""
+msgstr "O voto fornecido não é um inteiro simples, ele foi ignorado"
 
 #: frontend/php/include/trackers/votes.php:112
 msgid "Vote erased"
-msgstr ""
+msgstr "Voto apagado"
 
 #: frontend/php/include/trackers/votes.php:169
 msgid "Unable to record the vote, please report to admins"
 msgstr ""
+"Não foi possível registrar o voto, por favor, relate aos administradores"
 
 #: frontend/php/include/trackers/votes.php:184
 msgid "Unable to finally record the vote, please report to admins"
 msgstr ""
+"Não foi possível ao final registrar o voto, por favor, relate aos "
+"administradores"
 
 #: frontend/php/include/trackers/votes.php:191
 msgid "Vote recorded"
-msgstr ""
+msgstr "Voto registrado"
 
 #. TRANSLATORS: this string (after removing '[artifact]')
 #. is used in context of "%s tracker".
 #: frontend/php/include/trackers/conf.php:44
 msgid "[artifact]bug"
-msgstr ""
+msgstr "[artifact]erros"
 
 #. TRANSLATORS: this string (after removing '[artifact]')
 #. is used in context of "%s tracker".
 #: frontend/php/include/trackers/conf.php:48
 msgid "[artifact]patch"
-msgstr ""
+msgstr "[artifact]patch"
 
 #. TRANSLATORS: this string (after removing '[artifact]')
 #. is used in context of "%s tracker".
 #: frontend/php/include/trackers/conf.php:52
 msgid "[artifact]task"
-msgstr ""
+msgstr "[artifact]tarefas"
 
 #. TRANSLATORS: this string (after removing '[artifact]')
 #. is used in context of "%s tracker".
 #: frontend/php/include/trackers/conf.php:56
 msgid "[artifact]cookbook"
-msgstr ""
+msgstr "[artifact]livro de receitas"
 
 #. TRANSLATORS: this string (after removing '[artifact]')
 #. is used in context of "%s tracker".
 #: frontend/php/include/trackers/conf.php:60
 msgid "[artifact]support"
-msgstr ""
+msgstr "[artifact]suporte"
 
 #. TRANSLATORS: this string (after removing '[artifact]')
 #. is used in context of "%s tracker".
 #: frontend/php/include/trackers/conf.php:64
 msgid "[artifact]news"
-msgstr ""
+msgstr "[artifact]notícias"
 
 #: frontend/php/include/trackers/conf.php:86
-#, fuzzy
 msgid "Missing parameters"
-msgstr "Faltando Parâmetros"
+msgstr "Faltando parâmetros"
 
 #. TRANSLATORS: the first argument is group id (a number),
 #. the second argument is previously defined string (bug|patch|task|...)
 #: frontend/php/include/trackers/conf.php:92
-#, fuzzy, php-format
+#, php-format
 msgid "Start copying configuration of group #%1$s %2$s tracker"
-msgstr "Configuração do seu rastreador de bugs."
+msgstr "Começar a copiar configuração do rastreador de %2$s do grupo #%1$s"
 
 #: frontend/php/include/trackers/conf.php:112
-#, fuzzy
 msgid "Notification settings copied"
-msgstr "Configurações de Notificação por E-mail"
+msgstr "Configurações de notificação copiadas"
 
 #: frontend/php/include/trackers/conf.php:118
-#, fuzzy
 msgid "Previous field values deleted"
-msgstr "Novo valor de campo atualizado"
+msgstr "Valor de campo anterior excluído"
 
 #: frontend/php/include/trackers/conf.php:121
-#, fuzzy
 msgid "Previous field usage deleted"
-msgstr "Atualizar um valor de campo"
+msgstr "Uso de campo anterior excluído"
 
 #. TRANSLATORS: the argument is id (a number).
 #: frontend/php/include/trackers/conf.php:131
-#, fuzzy, php-format
+#, php-format
 msgid "#%s"
-msgstr "Bugs"
+msgstr "#%s"
 
 #. TRANSLATORS: the argument is space-separated list of field ids.
 #. TRANSLATORS: the argument is space-separated list of value ids.
 #: frontend/php/include/trackers/conf.php:161
 #: frontend/php/include/trackers/conf.php:172
-#, fuzzy, php-format
+#, php-format
 msgid "Field values %s copied"
-msgstr "Novo valor de campo atualizado"
+msgstr "Valor de campo %s copiado"
 
 #: frontend/php/include/trackers/conf.php:179
-#, fuzzy
 msgid "Previous canned responses deleted"
-msgstr "Resposta pré-definida atualizada"
+msgstr "Respostas pré-definidas anteriores excluídas"
 
 #. TRANSLATORS: the argument is space-separated list of response ids.
 #: frontend/php/include/trackers/conf.php:190
-#, fuzzy, php-format
+#, php-format
 msgid "Canned responses %s copied"
-msgstr "Utilizada Resposta Pré-definida"
+msgstr "Respostas pré-definidas %s copiadas"
 
 #: frontend/php/include/trackers/conf.php:200
-#, fuzzy
 msgid "Previous query forms deleted"
-msgstr "Nenhum relatório de bug definido ainda."
+msgstr "Formulários de consulta anteriores excluídos"
 
 #. TRANSLATORS: the argument is space-separated list of report ids.
 #: frontend/php/include/trackers/conf.php:251
-#, fuzzy, php-format
+#, php-format
 msgid "Query forms %s copied"
-msgstr "Nome do relatório"
+msgstr "Formulários de consulta %s copiados"
 
 #: frontend/php/include/trackers/conf.php:261
-#, fuzzy
 msgid "Previous field transitions deleted"
-msgstr "Registro Apagado"
+msgstr "Transições de campo anterior excluída"
 
 #. TRANSLATORS: the argument is space-separated list of transition ids.
 #: frontend/php/include/trackers/conf.php:313
-#, fuzzy, php-format
+#, php-format
 msgid "Transitions %s copied"
-msgstr "Modificar Fuso horário"
+msgstr "Transições %s copiadas"
 
 #: frontend/php/include/trackers/conf.php:314
-#, fuzzy
 msgid "Configuration copy finished"
-msgstr "Confirmação enviada"
+msgstr "Cópia da configuração finalizada"
 
 #. TRANSLATORS: the argument is previously defined string (bug|patch|task|...)
 #: frontend/php/include/trackers/conf.php:343
@@ -7521,17 +7501,21 @@ msgid ""
 "of the following projects (this list was established according to your\n"
 "currently membership record)."
 msgstr ""
+"Você pode copiar a configuração do rastreador de %s\n"
+"dos seguintes projetos (essa lista foi estabelecida de acordo com seu\n"
+"registro de associação atual)."
 
 #: frontend/php/include/trackers/conf.php:346
 msgid ""
 "Beware, your current configuration will be irremediably\n"
 "lost."
 msgstr ""
+"Cuidado, sua configuração atual será irremediavelmente\n"
+"perdida."
 
 #: frontend/php/include/trackers/conf.php:352
-#, fuzzy
 msgid "Projects:"
-msgstr "Projetos"
+msgstr "Projetos:"
 
 #. TRANSLATORS: the argument is previously defined string (bug|patch|task|...)
 #: frontend/php/include/trackers/conf.php:362
@@ -7542,22 +7526,25 @@ msgid ""
 "%s\n"
 "tracker."
 msgstr ""
+"Você não pode copiar a configuração de outros\n"
+"projetos porque você não é membro de nenhum projeto hospedado aqui que use "
+"um\n"
+"rastreador de %s."
 
 #: frontend/php/include/trackers/transition.php:94
-#, fuzzy
 msgid "Other Field update deleted"
-msgstr "Atualização de Habilidade de Usuário FALHOU:"
+msgstr "Atualização de outro campo excluída"
 
 #. TRANSLATORS: the argument is field name.
 #: frontend/php/include/trackers/transition.php:208
 #, php-format
 msgid "Automatic update of %s due to transitions settings"
-msgstr ""
+msgstr "Atualização automática de %s em razão de configurações de transição"
 
 #: frontend/php/include/Layout.class:268
 #, php-format
 msgid "Powered by Savane %s"
-msgstr ""
+msgstr "Fornecido pelo Savane %s"
 
 #: frontend/php/include/Layout.class:308
 msgid "Back to the top"
@@ -7568,28 +7555,25 @@ msgstr "Voltar para o topo"
 #: frontend/php/include/Group.class:299
 #, fuzzy, php-format
 msgid "[Deleted group #%s]"
-msgstr "Projetos apagados"
+msgstr "[Excluiu o grupo #%s]"
 
 #. TRANSLATORS: the first argument is the full name, the second is the login.
 #: frontend/php/include/Group.class:341
 #, php-format
 msgid "GPG keys of %s <%s>"
-msgstr ""
+msgstr "Chaves GPG de %s <%s>"
 
 #: frontend/php/include/Group.class:614
-#, fuzzy
 msgid "It is possible to post anonymously on this tracker."
-msgstr "Esse Projeto desligou o Rastreador de Bugs"
+msgstr "É possível enviar anonimamente nestes rastreador."
 
 #: frontend/php/include/Group.class:617
-#, fuzzy
 msgid "Project Membership is required to post on this tracker."
-msgstr "Esse Projeto desligou o Rastreador de Bugs"
+msgstr "Associação ao projeto é exigido para enviar neste rastreador."
 
 #: frontend/php/include/Group.class:620
-#, fuzzy
 msgid "Being logged-in is required to post on this tracker."
-msgstr "Esse Projeto desligou o Rastreador de Bugs"
+msgstr "Estar autenticado é exigido para enviar neste rastreador."
 
 #: frontend/php/include/project/admin.php:38
 msgid "Group Change History"
@@ -7606,59 +7590,58 @@ msgstr "Valor"
 #: frontend/php/include/project/admin.php:44
 #: frontend/php/include/news/forum.php:247 frontend/php/forum/forum.php:211
 msgid "Author"
-msgstr ""
+msgstr "Autor"
 
 #: frontend/php/include/project/admin.php:71
 msgid "No Changes Have Been Made to This Group"
-msgstr "Nenhuma Mudança foi Feita para Esse Grupo"
+msgstr "Nenhuma mudança foi feita para esse grupo"
 
 #: frontend/php/include/project/admin.php:86
 msgid "Project Admins"
-msgstr "Administradores do Projeto"
+msgstr "Administradores do projeto"
 
 #: frontend/php/include/project/admin.php:93
 msgid "Registration Date"
-msgstr "Data do Cadastramento"
+msgstr "Data do registro"
 
 #: frontend/php/include/project/admin.php:96
 msgid "System Group Name:"
-msgstr "Nome do Grupo do Sistema:"
+msgstr "Nome do grupo do sistema:"
 
 #: frontend/php/include/project/admin.php:99
 msgid "Submitted Description:"
-msgstr "Descrição Submetida:"
+msgstr "Descrição enviada:"
 
 #: frontend/php/include/project/admin.php:102
 msgid "Required software:"
-msgstr "Software requerido:"
+msgstr "Software exigido:"
 
 #: frontend/php/include/project/admin.php:105
 msgid "Other comments:"
 msgstr "Outros comentários:"
 
 #: frontend/php/include/spam.php:48
-#, fuzzy
 msgid "You already flagged this comment"
-msgstr "Você NÃO Está Logado"
+msgstr "você já sinalizou esse comentário"
 
 #: frontend/php/include/spam.php:76
 msgid "Not able to find out who submitted the alleged spam, stopping here"
-msgstr ""
+msgstr "Incapaz de descobrir quem enviou o suposto spam, parando aqui"
 
 #: frontend/php/include/spam.php:140
 #, php-format
 msgid "Flagged (+%s, total spamscore: %s)"
-msgstr ""
+msgstr "Sinalizado (+%s, total de pontuação de spam: %s)"
 
 #: frontend/php/include/spam.php:189
 #, php-format
 msgid "Tracker &ldquo;%s&rdquo; is not valid (not alnum)."
-msgstr ""
+msgstr "O rastreador de \"%s\" não é válido (não um alnum)."
 
 #: frontend/php/include/spam.php:285
 #, php-format
 msgid "Spam score of your post is set to %s"
-msgstr ""
+msgstr "Pontuação de spam de seu envio está definido em %s"
 
 #: frontend/php/include/spam.php:351
 #, php-format
@@ -7667,6 +7650,8 @@ msgid ""
 "spam\n"
 "filters"
 msgstr ""
+"A pontuação de spam de seu envio está definido temporariamente em %s,\n"
+"até estar verificado por filtros de spam"
 
 #: frontend/php/include/utils.php:59
 #, php-format
@@ -7674,50 +7659,53 @@ msgid ""
 "Warning: Savane was not able to read site-specific\n"
 "information from file '%s', please contact administrators"
 msgstr ""
+"Aviso: O Savane não foi capaz de ler informações específicas do\n"
+"site sobre o arquivo \"%s\", por favor contate os administradores"
 
 #. TRANSLATORS: the argument is file path.
 #: frontend/php/include/utils.php:71
 #, php-format
 msgid "Malformed file path %s"
-msgstr ""
+msgstr "Caminho de arquivo malformado %s"
 
 #: frontend/php/include/utils.php:140 frontend/php/include/utils.php:166
 #: frontend/php/include/utils.php:176
 msgid "(address seems invalid and will probably be ignored)"
-msgstr ""
+msgstr "(o endereço parece ser inválido e provavelmente será ignorado)"
 
 #. TRANSLATORS: the argument is mail domain (like localhost or sv.gnu.org).
 #: frontend/php/include/utils.php:147
 #, php-format
 msgid "(address is unknown to Savane, will fail if not valid at %s)"
 msgstr ""
+"(o endereço é desconhecido par ao Savane, vai falhar se não válido em %s)"
 
 #: frontend/php/include/utils.php:179 frontend/php/include/utils.php:180
 #: frontend/php/include/utils.php:199 frontend/php/include/utils.php:200
 msgid "-email is unavailable-"
-msgstr ""
+msgstr "-e-mail está indisponível-"
 
 #: frontend/php/include/utils.php:181 frontend/php/include/utils.php:201
 msgid "This information is not provided to anonymous users"
-msgstr ""
+msgstr "Esta informação não é fornecida para usuários anônimos"
 
 #. TRANSLATORS: this expresses file size.
 #: frontend/php/include/utils.php:340
 #, php-format
 msgid "%sMiB"
-msgstr ""
+msgstr "%sMiB"
 
 #. TRANSLATORS: this expresses file size.
 #: frontend/php/include/utils.php:345
 #, php-format
 msgid "%sKiB"
-msgstr ""
+msgstr "%sKiB"
 
 #. TRANSLATORS: this expresses file size.
 #: frontend/php/include/utils.php:350
-#, fuzzy, php-format
+#, php-format
 msgid "%sB"
-msgstr "Bugs"
+msgstr "%sB"
 
 #. TRANSLATORS: this is file size unit (no prefix).
 #: frontend/php/include/utils.php:371 frontend/php/include/utils.php:388
@@ -7726,65 +7714,59 @@ msgstr "B"
 
 #. TRANSLATORS: this is file size unit (with SI prefix.)
 #: frontend/php/include/utils.php:373
-#, fuzzy
 #| msgid "B"
 msgid "kB"
-msgstr "B"
+msgstr "kB"
 
 #. TRANSLATORS: this is file size unit (with SI prefix.)
 #: frontend/php/include/utils.php:375
-#, fuzzy
 #| msgid "B"
 msgid "MB"
-msgstr "B"
+msgstr "MB"
 
 #. TRANSLATORS: this is file size unit (with SI prefix.)
 #: frontend/php/include/utils.php:377
-#, fuzzy
 #| msgid "B"
 msgid "GB"
-msgstr "B"
+msgstr "GB"
 
 #. TRANSLATORS: this is file size unit (with SI prefix.)
 #: frontend/php/include/utils.php:379
-#, fuzzy
 #| msgid "B"
 msgid "TB"
-msgstr "B"
+msgstr "TB"
 
 #. TRANSLATORS: this is file size unit (with SI prefix.)
 #: frontend/php/include/utils.php:381
-#, fuzzy
 #| msgid "B"
 msgid "PB"
-msgstr "B"
+msgstr "PB"
 
 #. TRANSLATORS: this is file size unit (with binary prefix.)
 #: frontend/php/include/utils.php:390
 msgid "KiB"
-msgstr ""
+msgstr "KiB"
 
 #. TRANSLATORS: this is file size unit (with binary prefix.)
 #: frontend/php/include/utils.php:392
 msgid "MiB"
-msgstr ""
+msgstr "MiB"
 
 #. TRANSLATORS: this is file size unit (with binary prefix.)
 #: frontend/php/include/utils.php:394
-#, fuzzy
 #| msgid "Git"
 msgid "GiB"
-msgstr "Git"
+msgstr "GiB"
 
 #. TRANSLATORS: this is file size unit (with binary prefix.)
 #: frontend/php/include/utils.php:396
 msgid "TiB"
-msgstr ""
+msgstr "TiB"
 
 #. TRANSLATORS: this is file size unit (with binary prefix.)
 #: frontend/php/include/utils.php:398
 msgid "PiB"
-msgstr ""
+msgstr "PiB"
 
 #. TRANSLATORS: this is used in contexts like "rpm package for i386 (ix86)"
 #. or "source rpm package".
@@ -7803,15 +7785,15 @@ msgstr "pacote debian"
 #: frontend/php/include/utils.php:449
 #, php-format
 msgid "source %s"
-msgstr "fonte %s"
+msgstr "%s fonte"
 
 #. TRANSLATORS: the argument is translation of either 'rpm package' or 'debian
 #. package'.
 #: frontend/php/include/utils.php:455
-#, fuzzy, php-format
+#, php-format
 #| msgid "arch independant %s"
 msgid "arch independent %s"
-msgstr "arquivar %s idependente"
+msgstr "%s independente de arquitetura"
 
 #. TRANSLATORS: the argument is translation of either 'rpm package' or 'debian
 #. package'.
@@ -7870,50 +7852,41 @@ msgid "%s for s390"
 msgstr "%s para s390"
 
 #: frontend/php/include/utils.php:690
-#, fuzzy
 msgid "Open Items Priority Colors:"
-msgstr "Cores de Prioridade"
+msgstr "Cores de prioridade de itens abertos:"
 
 #: frontend/php/include/utils.php:699
-#, fuzzy
 msgid "Closed Items Priority Colors:"
-msgstr "Cores de Prioridade"
+msgstr "Cores de prioridade de itens fechados:"
 
 #: frontend/php/include/utils.php:743
-#, fuzzy
 msgid "bugs"
-msgstr "Bugs"
+msgstr "erros"
 
 #: frontend/php/include/utils.php:746
-#, fuzzy
 msgid "recipes"
-msgstr "respostas"
+msgstr "receitas"
 
 #: frontend/php/include/utils.php:749
-#, fuzzy
 msgid "patches"
-msgstr "Correções"
+msgstr "patches"
 
 #: frontend/php/include/utils.php:752
-#, fuzzy
 msgid "support requests"
-msgstr "Minhas Requisições de Suporte"
+msgstr "solicitações de suporte"
 
 #: frontend/php/include/utils.php:755
-#, fuzzy
 msgid "tasks"
-msgstr "Tarefas"
+msgstr "tarefas"
 
 #: frontend/php/include/utils.php:785
-#, fuzzy
 #| msgid "Title"
 msgid "Untitled"
-msgstr "Título"
+msgstr "Sem título"
 
 #: frontend/php/include/utils.php:1086
-#, fuzzy
 msgid "Error updating database"
-msgstr "Erro atualizando valor"
+msgstr "Erro ao atualizar o banco de dados"
 
 #: frontend/php/include/utils.php:1092 frontend/php/my/admin/index.php:66
 msgid "Database successfully updated"
@@ -7992,108 +7965,103 @@ msgid "December"
 msgstr "Dezembro"
 
 #: frontend/php/include/calendar.php:97
-#, fuzzy
 msgid "every Monday"
-msgstr "Gerenciar Utilização dos Campos"
+msgstr "toda segunda-feira"
 
 #: frontend/php/include/calendar.php:99
 msgid "every Tuesday"
-msgstr ""
+msgstr "toda terça-feira"
 
 #: frontend/php/include/calendar.php:101
 msgid "every Wednesday"
-msgstr ""
+msgstr "toda quarta-feira"
 
 #: frontend/php/include/calendar.php:103
 msgid "every Thursday"
-msgstr ""
+msgstr "toda quinta-feira"
 
 #: frontend/php/include/calendar.php:105
 msgid "every Friday"
-msgstr ""
+msgstr "toda sexta-feira"
 
 #: frontend/php/include/calendar.php:107
 msgid "every Saturday"
-msgstr ""
+msgstr "todo sábado"
 
 #: frontend/php/include/calendar.php:109
-#, fuzzy
 msgid "every Sunday"
-msgstr "Resumo"
+msgstr "todo domingo"
 
 #: frontend/php/include/calendar.php:151
-#, fuzzy
 #| msgid "Monthly"
 msgid "month"
-msgstr "Mensalmente"
+msgstr "mês"
 
 #. TRANSLATORS: Arrange the arguments to make up the date in your language.
 #: frontend/php/include/calendar.php:165
 #, php-format
 msgid "<!-- Date: day, month, year --> %1$s %2$s %3$s"
-msgstr ""
+msgstr "<!-- Data: dia, mês, ano --> %1$s %2$s %3$s"
 
 #: frontend/php/include/calendar.php:169
 msgid "year"
-msgstr ""
+msgstr "ano"
 
 #: frontend/php/include/database.php:114
-#, fuzzy
 msgid "db_query_escape: Missing parameter"
-msgstr "Faltando Parâmetros"
+msgstr "db_query_escape: Faltando parâmetro"
 
 #: frontend/php/include/user_home.php:28
 msgid "No Such User"
-msgstr "Usuário Inválido"
+msgstr "Usuário inexistente"
 
 #: frontend/php/include/user_home.php:39 frontend/php/include/user_home.php:40
-#, fuzzy
 msgid "-deleted account-"
-msgstr "Conta Apagada"
+msgstr "-conta excluída-"
 
 #. TRANSLATORS: the argument is user's name (like Assaf Gordon).
 #: frontend/php/include/user_home.php:45
-#, fuzzy, php-format
+#, php-format
 msgid "%s Profile"
-msgstr "Perfil do Membro"
+msgstr "Perfil de %s"
 
 #. TRANSLATORS: the argument is user's name (like J. Random Hacker).
 #: frontend/php/include/user_home.php:55
 #, php-format
 msgid "Follows the Profile of %s."
-msgstr ""
+msgstr "Segue o perfil de %s."
 
 #: frontend/php/include/user_home.php:60
 msgid ""
 "It is not a normal user account but a squad: it unites several\n"
 "users as if they were one (notifications, privileges, etc)."
 msgstr ""
+"Não é um conta de usuário normal, mas um esquadrão; ela une vários\n"
+"usuários como se eles fossem um (notificações, privilégios, etc)."
 
 #. TRANSLATORS: the argument is user's name (like Assaf Gordon).
 #: frontend/php/include/user_home.php:108
-#, fuzzy, php-format
+#, php-format
 msgid "Open Items submitted by %s"
-msgstr "Enviado por"
+msgstr "Itens abertos enviado por %s"
 
 #. TRANSLATORS: the argument is user's name (like Assaf Gordon).
 #: frontend/php/include/user_home.php:117
-#, fuzzy, php-format
+#, php-format
 msgid "Open Items assigned to %s"
-msgstr "Enviado por"
+msgstr "Itens abertos atribuídos para %s"
 
 #: frontend/php/include/user_home.php:123
-#, fuzzy
 msgid "General Information"
-msgstr "Informações Pessoais"
+msgstr "Informações gerais"
 
 #: frontend/php/include/user_home.php:132
 msgid "Note:"
-msgstr ""
+msgstr "Nota:"
 
 #: frontend/php/include/user_home.php:133
-#, fuzzy
 msgid "The account was deleted"
-msgstr "Conta n°"
+msgstr "A conta foi excluída"
 
 #: frontend/php/include/user_home.php:149
 #: frontend/php/project/admin/squadadmin.php:303
@@ -8108,47 +8076,40 @@ msgstr "Nome de login:"
 
 #. TRANSLATORS: user's id (a number) shall follow this message.
 #: frontend/php/include/user_home.php:162
-#, fuzzy
 msgid "Id:"
-msgstr "Identificação"
+msgstr "Id:"
 
 #: frontend/php/include/user_home.php:167 frontend/php/account/register.php:265
 msgid "Email Address:"
 msgstr "Endereço de e-mail:"
 
 #: frontend/php/include/user_home.php:173
-#, fuzzy
 #| msgid "Send him/her a mail"
 msgid "Send this user a mail"
-msgstr "Enviar a ele/ela um e-mail"
+msgstr "Enviar um e-mail para este usuário"
 
 #: frontend/php/include/user_home.php:187
-#, fuzzy
 #| msgid "Site Member Since"
 msgid "Site Member Since:"
-msgstr "Membro do Site Desde"
+msgstr "Membro deste site desde:"
 
 #: frontend/php/include/user_home.php:199
-#, fuzzy
 #| msgid "This user deactivated his/her Resume & Skills page"
 msgid "This user did not enable Resume & Skills."
-msgstr "Esse usuário desativa sua página de currículo & habilidades"
+msgstr "Esse usuário não ativou currículo & habilidades."
 
 #: frontend/php/include/user_home.php:203
-#, fuzzy
 msgid "View Resume & Skills"
-msgstr "Editar Currículo e Habilidades"
+msgstr "Ver currículo & habilidades"
 
 #: frontend/php/include/user_home.php:213
-#, fuzzy
 msgid "Download GPG Key"
-msgstr "Área de Download"
+msgstr "Baixar chave GPG"
 
 #: frontend/php/include/user_home.php:226
-#, fuzzy
 #| msgid "Project information"
 msgid "Project Information"
-msgstr "Informação do grupo"
+msgstr "Informações do projeto"
 
 #: frontend/php/include/user_home.php:299 frontend/php/my/groups.php:427
 #: frontend/php/my/groups.php:467
@@ -8157,9 +8118,8 @@ msgid "Member since %s"
 msgstr "Membro desde %s"
 
 #: frontend/php/include/user_home.php:308
-#, fuzzy
 msgid "This user is not a member of any Group"
-msgstr "Esse desenvolvedor não é membor de nenhum projeto"
+msgstr "Esse usuário não é membro de nenhum grupo"
 
 #: frontend/php/include/user_home.php:318
 #: frontend/php/project/admin/index.php:147
@@ -8167,140 +8127,124 @@ msgid "Members"
 msgstr "Membros"
 
 #: frontend/php/include/user_home.php:341
-#, fuzzy
 #| msgid "No Members Found"
 msgid "No member found"
-msgstr "Nenhum membro eEncontrado"
+msgstr "Nenhum membro encontrado"
 
 #: frontend/php/include/user_home.php:353
-#, fuzzy
 #| msgid "You Could Send a Message if you were logged in"
 msgid "You Could Send a Message if you were logged in."
-msgstr "Você Poderá Postar uma Mensagem se você estiver logado"
+msgstr "Você poderia enviar uma mensagem se você estiver autenticado."
 
 #: frontend/php/include/html.php:36
-#, fuzzy
 msgid "Display Criteria"
-msgstr "Mostrar"
+msgstr "Exibir critérios"
 
 #: frontend/php/include/html.php:259
 msgid "Show feedback again"
-msgstr ""
+msgstr "Mostrar feedback novamente"
 
 #: frontend/php/include/html.php:269
 msgid "Success:"
-msgstr ""
+msgstr "Sucesso:"
 
 #: frontend/php/include/html.php:279
-#, fuzzy
 msgid "Error:"
-msgstr "Erro"
+msgstr "Erro:"
 
 #: frontend/php/include/html.php:289
-#, fuzzy
 msgid "Some Errors:"
-msgstr "Erro de SQL:"
+msgstr "Alguns erros:"
 
 #: frontend/php/include/html.php:516
-#, fuzzy
 msgid "Unknown"
-msgstr "Usuário desconhecido"
+msgstr "Desconhecido"
 
 #: frontend/php/include/html.php:535
 msgid "ERROR - number of values differs from number of texts"
-msgstr ""
+msgstr "ERRO - número de valores divergem do número de textos"
 
 #: frontend/php/include/html.php:677 frontend/php/include/html.php:744
-#, fuzzy
 msgid "Group Type Default"
-msgstr "Tipo de Grupo:"
+msgstr "Padrão do tipo de grupo"
 
 #: frontend/php/include/html.php:683
-#, fuzzy
 msgid "Group Default"
-msgstr "Lista de Grupos"
+msgstr "Padrão do grupo"
 
 #: frontend/php/include/html.php:687
-#, fuzzy
 #| msgid "Removing members"
 msgid "Roles of members"
-msgstr "Removendo membros"
+msgstr "Função dos membros"
 
 #: frontend/php/include/html.php:699 frontend/php/include/html.php:714
 msgid "Technician"
-msgstr ""
+msgstr "Técnico"
 
 #: frontend/php/include/html.php:702 frontend/php/include/html.php:715
-#, fuzzy
 msgid "Manager"
-msgstr "Página principal"
+msgstr "Gerenciador"
 
 #: frontend/php/include/html.php:706 frontend/php/include/html.php:716
-#, fuzzy
 msgid "Techn. & Manager"
-msgstr "Gerenciador de Suporte Técnico"
+msgstr "Técnico & gerente"
 
 #: frontend/php/include/html.php:740
-#, fuzzy
 msgid "Same as for new items"
-msgstr "Sistema"
+msgstr "O mesmo para novos itens"
 
 #: frontend/php/include/html.php:753
-#, fuzzy
 #| msgid "Permission Denied"
 msgid "Permission level"
-msgstr "Permissão Negada"
+msgstr "Nível de permissão"
 
 #: frontend/php/include/html.php:766 frontend/php/include/html.php:777
-#, fuzzy
 msgid "Logged-in User"
-msgstr "Logado como"
+msgstr "Usuário autenticado"
 
 #: frontend/php/include/html.php:846
 msgid "Website theme"
-msgstr ""
+msgstr "Tema do site"
 
 #: frontend/php/include/html.php:855
-#, fuzzy
 msgid "(default)"
-msgstr "apagar"
+msgstr "(padrão)"
 
 #: frontend/php/include/html.php:863
 msgid "Pick theme alphabetically every day"
-msgstr ""
+msgstr "Escolher um tema alfabeticamente todo dia"
 
 #: frontend/php/include/html.php:869
 msgid "Pick random theme every day"
-msgstr ""
+msgstr "Escolher um tema aleatório todo dia"
 
 #. TRANSLATORS: the argument is group id (a number).
 #: frontend/php/include/html.php:922
-#, fuzzy, php-format
+#, php-format
 #| msgid "Invalid Group"
 msgid "Invalid Group %s"
-msgstr "Grupo inválido"
+msgstr "Grupo inválido %s"
 
 #: frontend/php/include/html.php:923 frontend/php/link-to-projects.php:38
-#, fuzzy
 msgid "That group does not exist."
-msgstr "Esse usuário não existe no savannah"
+msgstr "Esse grupo não existe."
 
 #: frontend/php/include/html.php:989
-#, fuzzy
 msgid "Choose one below"
-msgstr "Escolha uma abaixo."
+msgstr "Escolha uma abaixo"
 
 #: frontend/php/include/html.php:990 frontend/php/register/index.php:87
-#, fuzzy
 #| msgid "Group Type:"
 msgid "Group type"
-msgstr "Tipo de grupo:"
+msgstr "Tipo de grupo"
 
 #: frontend/php/include/html.php:996
 msgid ""
 "Technicians, and only technicians, can be assigned items of trackers. They\n"
 "cannot reassign items, change the status or priority of items."
 msgstr ""
+"Técnicos, e apenas técnicos, podem ser atribuídos a itens de rastreadores.\n"
+"Eles não podem reatribuir itens, alterar o estado ou prioridade dos items."
 
 #: frontend/php/include/html.php:999
 msgid ""
@@ -8310,6 +8254,11 @@ msgid ""
 "changing priority and status of items&mdash;but they cannot configure the\n"
 "trackers."
 msgstr ""
+"Gerentes de rastreadores podem gerenciar completamente os itens\n"
+"de rastreadores, incluindo atribuir itens a técnicos, reatribuir itens "
+"entre\n"
+"rastreadores e projetos, alterando prioridade e estado de itens &mdash;\n"
+"mas eles não podem configurar os rastreadores."
 
 #: frontend/php/include/html.php:1004
 msgid ""
@@ -8318,12 +8267,15 @@ msgid ""
 "every\n"
 "tracker and are allowed to read private items."
 msgstr ""
+"Administradores de projeto podem gerenciar membros, configurar\n"
+"os rastreadores, publicar trabalhos e adicionar listas de discussão.\n"
+"Eles também podem ter permissões de gerentes em todos os rastreadores\n"
+"e têm permissão para ler itens privados."
 
 #: frontend/php/include/vcs.php:56 frontend/php/news/index.php:37
-#, fuzzy
 #| msgid "This project has turned off this tool"
 msgid "This project doesn't use this tool."
-msgstr "Esse projeto desativou essa ferramenta"
+msgstr "Esse projeto não usa essa ferramenta."
 
 #. TRANSLATORS: The argument is a name of VCS (like Arch, CVS, Git, Subversion).
 #: frontend/php/include/vcs.php:80
@@ -8333,7 +8285,7 @@ msgstr "Navegando o repositório %s"
 
 #. TRANSLATORS: The argument is a name of VCS (like Arch, CVS, Git, Subversion).
 #: frontend/php/include/vcs.php:82
-#, fuzzy, php-format
+#, php-format
 #| msgid ""
 #| "You can Browse the %s repository of this project with your web browser. "
 #| "This gives you a good picture of the current status of the source files. "
@@ -8346,10 +8298,12 @@ msgid ""
 "source files. You may also view the complete histories of any file in the\n"
 "repository as well as differences among two versions."
 msgstr ""
-"Você pode explorar o repositório %s deste projeto com seu navegador da web. "
-"Isso dá uma boa ideia do status atual dos arquivos de origem. Você também "
-"pode ver as histórias completas de qualquer arquivo no repositório, bem como "
-"diferenças entre duas versões."
+"Você pode explorar o repositório %s deste projeto com\n"
+"seu navegador web. Isso dá uma boa ideia do status atual dos arquivos-fonte."
+"\n"
+"Você também pode ver o histórico completo de qualquer arquivo no repositório,"
+"\n"
+"bem como diferenças entre duas versões."
 
 #. TRANSLATORS: The argument is a name of VCS (like Arch, CVS, Git, Subversion).
 #: frontend/php/include/vcs.php:113
@@ -8359,19 +8313,19 @@ msgstr "Obtendo uma cópia do repositório %s"
 
 #: frontend/php/include/news/general.php:84
 msgid "No news items found"
-msgstr "Nenhuma notícia encontrada"
+msgstr "Nenhum item de notícia encontrada"
 
 #: frontend/php/include/news/general.php:127
 #, php-format
 msgid "Read more"
-msgstr ""
+msgstr "Ler mais"
 
 #: frontend/php/include/news/general.php:144
-#, fuzzy, php-format
+#, php-format
 msgid "%s reply"
 msgid_plural "%s replies"
-msgstr[0] "responder"
-msgstr[1] "responder"
+msgstr[0] "%s resposta"
+msgstr[1] "%s respostas"
 
 # Pode ser referir a notícias ou tópicos de fóruns, então "publicado(a) por" não fica tão bom
 #: frontend/php/include/news/general.php:153
@@ -8384,16 +8338,15 @@ msgid "Submit News"
 msgstr "Enviar notícias"
 
 #: frontend/php/include/news/general.php:179
-#, fuzzy, php-format
+#, php-format
 msgid "%d news in archive"
 msgid_plural "%d news in archive"
-msgstr[0] "Notícias em Arquivo"
-msgstr[1] "Notícias em Arquivo"
+msgstr[0] "%d notícia no arquivo"
+msgstr[1] "%d notícias no arquivo"
 
 #: frontend/php/include/news/general.php:214
-#, fuzzy
 msgid "Not found"
-msgstr "Não Encontrado"
+msgstr "Não encontrado"
 
 #: frontend/php/include/news/forum.php:59
 msgid "Reply"
@@ -8401,34 +8354,32 @@ msgstr "Responder"
 
 #. TRANSLATORS: the first argument is user's name, the second argument is date.
 #: frontend/php/include/news/forum.php:161
-#, fuzzy, php-format
+#, php-format
 msgid "Item posted by %1$s on %2$s."
-msgstr "enviado por"
+msgstr "Item enviado por %1$s em %2$s."
 
 #: frontend/php/include/news/forum.php:246 frontend/php/forum/forum.php:210
 msgid "Thread"
-msgstr ""
+msgstr "Tópico"
 
 #: frontend/php/include/news/forum.php:413
-#, fuzzy
 msgid "Posting has been disabled."
-msgstr "Falha ao Enviar"
+msgstr "Publicação foi desativada."
 
 #: frontend/php/include/news/forum.php:417
 #: frontend/php/include/news/forum.php:555
 msgid "You could post if you were logged in"
-msgstr "Você poderá postar se você estiver logado"
+msgstr "Você poderá publicar se você estiver autenticado"
 
 #: frontend/php/include/news/forum.php:422
 msgid "Trying to post without a forum ID"
-msgstr "Tentando postar sem uma identificação de Fórum"
+msgstr "Tentando publicar sem um ID de fórum"
 
 #: frontend/php/include/news/forum.php:426
 msgid "Must include a message body and subject"
 msgstr "Precisa incluir um corpo de mensagem e um assunto"
 
 #: frontend/php/include/news/forum.php:442
-#, fuzzy
 #| msgid ""
 #| "You appear to be double-posting this message, since it has the same "
 #| "subject and followup information as a prior post."
@@ -8436,19 +8387,18 @@ msgid ""
 "You appear to be double-posting this message, since it has the same subject\n"
 "and followup information as a prior post."
 msgstr ""
-"Você parece ter postado duplamente essa mensagem, já que ela possue o mesmo "
-"assunto e informação de continuidade da primeira postagem"
+"Você parece ter publicado duas vezes essa mensagem, já que ela possui o "
+"mesmo\n"
+"assunto e informação de resposta do primeiro envio."
 
 #: frontend/php/include/news/forum.php:481
-#, fuzzy
 msgid "Trying to followup to a message that doesn't exist."
-msgstr "Tentando dar continuidade a uma mensagem que não existe"
+msgstr "Tentando responder a uma mensagem que não existe."
 
 #: frontend/php/include/news/forum.php:488
 msgid "No followup ID present when trying to post to an existing thread."
 msgstr ""
-"Nenhuma identificação de continuidade quando tentava postar em uma linha já "
-"existente"
+"Nenhuma ID de resposta quando tentava publicar em um tópico já existente."
 
 #: frontend/php/include/news/forum.php:535
 msgid "Subject"
@@ -8456,42 +8406,39 @@ msgstr "Assunto"
 
 #: frontend/php/include/news/forum.php:545
 msgid "Post Comment"
-msgstr "Enviar Comentário"
+msgstr "Enviar comentário"
 
 #: frontend/php/include/init.php:333
 msgid ""
 "Your $sys_unix_group_name configuration variable refers to a\n"
 "non-existing project. Please update the configuration."
 msgstr ""
+"Sua variável de configuração $sys_unix_group_name faz referência\n"
+"a um projeto que não existe. Por favor, atualize a configuração."
 
 #: frontend/php/include/init.php:390
-#, fuzzy
 msgid "Invalid item ID."
-msgstr "Nome de usuário inválido."
+msgstr "ID de item inválido."
 
 #: frontend/php/include/init.php:393
-#, fuzzy
 msgid "Invalid forum ID."
-msgstr "Grupo Inválido"
+msgstr "ID de fórum inválido."
 
 #: frontend/php/include/init.php:485
-#, fuzzy
 msgid "Project not found"
-msgstr "Informações do Projeto"
+msgstr "Projeto não encontrado"
 
 #: frontend/php/include/init.php:495
-#, fuzzy
 msgid "This project is in maintenance mode"
-msgstr "Esse projeto está procurando por pessoas"
+msgstr "Esse projeto está no modo de manutenção"
 
 #: frontend/php/include/init.php:497
 msgid "Note: this project is in maintenance mode"
-msgstr ""
+msgstr "Nota: esse projeto está no modo de manutenção"
 
 #: frontend/php/include/init.php:500
-#, fuzzy
 msgid "This project is not in active state"
-msgstr "Esse é um estado inválido"
+msgstr "Esse projeto não está em estado ativo"
 
 #. TRANSLATORS: the argument is site name (like Savannah).
 #: frontend/php/include/features_boxes.php:31
@@ -8501,17 +8448,17 @@ msgstr "Estatísticas do %s"
 
 #: frontend/php/include/features_boxes.php:42
 msgid "Help Wanted"
-msgstr "Precisa-se de Ajuda"
+msgstr "Precisa-se de ajuda"
 
 #: frontend/php/include/features_boxes.php:53
 msgid "Most Popular Items"
-msgstr ""
+msgstr "Itens mais populares"
 
 #. TRANSLATORS: the argument is project type (like Official GNU software).
 #: frontend/php/include/features_boxes.php:79
 #, php-format
 msgid "Newest %s Projects"
-msgstr "Mais Novos Projetos de %s"
+msgstr "Mais novos projetos de %s"
 
 #. TRANSLATORS: the argument is project type (like Official GNU software).
 #: frontend/php/include/features_boxes.php:88
@@ -8520,25 +8467,25 @@ msgid "all %s projects"
 msgstr "todos os projetos %s"
 
 #: frontend/php/include/features_boxes.php:100
-#, fuzzy, php-format
+#, php-format
 msgid "%s registered user"
 msgid_plural "%s registered users"
-msgstr[0] "Usuários Registrados"
-msgstr[1] "Usuários Registrados"
+msgstr[0] "%s usuário registrado"
+msgstr[1] "%s usuários registrados"
 
 #: frontend/php/include/features_boxes.php:106
-#, fuzzy, php-format
+#, php-format
 msgid "%s hosted project"
 msgid_plural "%s hosted projects"
-msgstr[0] "todos os projetos %s"
-msgstr[1] "todos os projetos %s"
+msgstr[0] "%s projeto hospedado"
+msgstr[1] "%s projetos hospedados"
 
 #: frontend/php/include/features_boxes.php:125
-#, fuzzy, php-format
+#, php-format
 msgid "+ %s registration pending"
 msgid_plural "+ %s registrations pending"
-msgstr[0] "Cadastramentos Pendentes"
-msgstr[1] "Cadastramentos Pendentes"
+msgstr[0] "+ %s registro pendente"
+msgstr[1] "+ %s registros pendentes"
 
 #: frontend/php/include/features_boxes.php:237 frontend/php/my/votes.php:118
 #, php-format
@@ -8548,39 +8495,36 @@ msgstr[0] "%s voto"
 msgstr[1] "%s votos"
 
 #: frontend/php/forum/message.php:55
-#, fuzzy
 #| msgid "User not found."
 msgid "Message not found."
-msgstr "Usuário não encontrado."
+msgstr "Mensagem não encontrada."
 
 #. TRANSLATORS: the argment is message id.
 #: frontend/php/forum/message.php:60
-#, fuzzy, php-format
+#, php-format
 #| msgid "Message"
 msgid "Message %s"
-msgstr "Mensagem"
+msgstr "Mensagem %s"
 
 #. TRANSLATORS: the first argument is subject, the second is user's name,
 #. the third is date.
 #: frontend/php/forum/message.php:66
-#, fuzzy, php-format
+#, php-format
 msgid "%1$s (posted by %2$s, %3$s)"
-msgstr "enviado por"
+msgstr "%1$s (enviado por %2$s, %3$s)"
 
 #: frontend/php/forum/message.php:85
 msgid "Post a followup to this message"
-msgstr "Publicar uma resposta para essa mensagem"
+msgstr "Enviar uma resposta para essa mensagem"
 
 #: frontend/php/forum/message.php:95
-#, fuzzy
 msgid "Choose a message first"
-msgstr "mensagens em"
+msgstr "Escolha uma mensagem primeiro"
 
 #: frontend/php/forum/message.php:96
-#, fuzzy
 #| msgid "You must be logged in first"
 msgid "You must choose a message first"
-msgstr "Você precisa estar logado primeiro"
+msgstr "Você deve escolher uma mensagem primeiro"
 
 #: frontend/php/forum/forum.php:99
 msgid "This forum ID doesn't exist."
@@ -8588,57 +8532,53 @@ msgstr "Esse ID de fórum não existe."
 
 #. TRANSLATORS: this is forum style to select.
 #: frontend/php/forum/forum.php:167
-#, fuzzy
 #| msgid "Requested"
 msgid "Nested"
-msgstr "Solicitado"
+msgstr "Aninhado"
 
 #. TRANSLATORS: this is forum style to select.
 #: frontend/php/forum/forum.php:169
 msgid "Flat"
-msgstr ""
+msgstr "Plano"
 
 #. TRANSLATORS: this is forum style to select.
 #: frontend/php/forum/forum.php:171
 msgid "Threaded"
-msgstr ""
+msgstr "Em tópico"
 
 #. TRANSLATORS: this is forum style to select.
 #: frontend/php/forum/forum.php:173
-#, fuzzy
 msgid "No Comments"
-msgstr "Comentário:"
+msgstr "Nenhum comentário"
 
 #: frontend/php/forum/forum.php:177
 msgid "forum style"
-msgstr ""
+msgstr "estilo de fórum"
 
 #: frontend/php/forum/forum.php:181
 msgid "Show 25"
-msgstr ""
+msgstr "Mostrar 25"
 
 #: frontend/php/forum/forum.php:181
 msgid "Show 50"
-msgstr ""
+msgstr "Mostrar 50"
 
 #: frontend/php/forum/forum.php:181
 msgid "Show 75"
-msgstr ""
+msgstr "Mostrar 75"
 
 #: frontend/php/forum/forum.php:181
 msgid "Show 100"
-msgstr ""
+msgstr "Mostrar 100"
 
 #: frontend/php/forum/forum.php:187
-#, fuzzy
 msgid "rows per page"
-msgstr "Listar Correções em Aberto"
+msgstr "linhas por página"
 
 #: frontend/php/forum/forum.php:197
-#, fuzzy
 #| msgid "Change Timezone"
 msgid "Change View"
-msgstr "Mudar fuso horário"
+msgstr "Alterar visão"
 
 #: frontend/php/forum/forum.php:287
 msgid "Previous Messages"
@@ -8654,53 +8594,57 @@ msgstr "Iniciar um novo tópico:"
 
 #: frontend/php/forum/forum.php:321
 msgid "Error - choose a forum first"
-msgstr ""
+msgstr "Erro - escolha um fórum primeiro"
 
 #: frontend/php/markup-test.php:27 frontend/php/markup-test.php:38
-#, fuzzy
 msgid "Test Markup"
-msgstr "Nome Completo"
+msgstr "Teste de marcação"
 
 #: frontend/php/markup-test.php:30
 msgid "Markup Reminder and Test"
-msgstr ""
+msgstr "Lembrete e teste de marcação"
 
 #: frontend/php/markup-test.php:32
 msgid ""
 "This page describes Savane markup language for formatting text you post\n"
 "in items or item comments. You can <a href=\"#test\">test it below</a>."
 msgstr ""
+"Essa página descreve a linguagem de marcação do Savane para formatar o "
+"texto\n"
+"em itens ou seus comentários. Você pode <a href=\"#test\">testá-la "
+"abaixo</a>."
 
 #: frontend/php/markup-test.php:42
-#, fuzzy
 #| msgid "Set to private"
 msgid "Text to test"
-msgstr "Mudar para privado"
+msgstr "Texto para testar"
 
 #. TRANSLATORS: the argument is file id (a number).
 #: frontend/php/link-to-file.php:49
-#, fuzzy, php-format
+#, php-format
 #| msgid "Item not found"
 msgid "File #%s not found"
-msgstr "Item não encontrado"
+msgstr "Arquivo #%s não encontrado"
 
 #: frontend/php/link-to-file.php:82
 msgid "Nothing in here, file is empty"
-msgstr ""
+msgstr "Nada aqui, o arquivo está vazio"
 
 #: frontend/php/link-to-file.php:91
 msgid ""
 "The filename in the URL does not match the filename registered in the "
 "database"
 msgstr ""
+"O nome do arquivo na URL não corresponde ao nome de arquivo registrado no "
+"banco de dados"
 
 #: frontend/php/link-to-file.php:97
 msgid "No access to the file."
-msgstr ""
+msgstr "Nenhum acesso ao arquivo."
 
 #: frontend/php/link-to-file.php:111
 msgid "Couldn't find attached file"
-msgstr ""
+msgstr "Não foi possível localizar o arquivo anexado"
 
 #: frontend/php/404.php:25
 msgid "Requested Page not Found (Error 404)"
@@ -8712,7 +8656,7 @@ msgid "The web page you are trying to access doesn't exist on %s."
 msgstr "A página web que você está tentando acessar não existe no %s."
 
 #: frontend/php/404.php:33
-#, fuzzy, php-format
+#, php-format
 #| msgid ""
 #| "If you think that there's a broken link on %s that must be repaired, "
 #| "%sfile a support request%s, mentioning the URL you tried to access (%s)."
@@ -8721,14 +8665,15 @@ msgid ""
 "repaired, <a href=\"%s\">file a support request</a>, mentioning the URL you\n"
 "tried to access (%s)."
 msgstr ""
-"Se você acha que há um link quebrado no %s que deve ser reparado, %spreencha "
-"um pedido de suporte%s, mencionando a URL que você tentou acessar (%s)."
+"Se você acha que há um link quebrado no %s que deve ser corrigido,\n"
+"<a href=\"%s\">preencha uma solicitação de suporte</a>, mencionando a URL\n"
+"que você tentou acessar (%s)."
 
 #: frontend/php/404.php:42 frontend/php/404-export.php:43
-#, fuzzy, php-format
+#, php-format
 #| msgid "Otherwise, you can return to the %s%s main page%s."
 msgid "Otherwise, you can return to the <a href=\"%s\">%s main page</a>."
-msgstr "Senão, você pode retornar para a %spágina principal do %s%s."
+msgstr "Ou você pode retornar para a <a href=\"%s\">página principal do %s</a>."
 
 #: frontend/php/people/createjob.php:32
 msgid "Create a job for your project"
@@ -8741,7 +8686,7 @@ msgstr "Categoria:"
 
 #: frontend/php/people/createjob.php:44
 msgid "Summary:"
-msgstr "Sumário:"
+msgstr "Resumo:"
 
 #: frontend/php/people/createjob.php:48
 msgid "Your project description will be inserted on the announce."
@@ -8766,7 +8711,7 @@ msgstr "Esse usuário não registrou uma chave GPG."
 #: frontend/php/people/viewgpg.php:45
 #, php-format
 msgid "GPG Key of the user %s"
-msgstr ""
+msgstr "Chave GPG do usuário %s"
 
 #: frontend/php/people/resume.php:35
 msgid "User not found"
@@ -8774,7 +8719,7 @@ msgstr "Usuário não encontrado"
 
 #: frontend/php/people/resume.php:37
 msgid "This user deactivated his/her Resume & Skills page"
-msgstr "Esse usuário desativa sua página de currículo & habilidades"
+msgstr "Esse usuário desativou sua página de currículo & habilidades"
 
 #: frontend/php/people/resume.php:41
 msgid "This account was deleted."
@@ -8829,9 +8774,8 @@ msgid "License"
 msgstr "Licença"
 
 #: frontend/php/people/viewjob.php:116
-#, fuzzy
 msgid "Invalid status ID"
-msgstr "Nome de usuário inválido."
+msgstr "ID de estado inválido"
 
 #: frontend/php/people/viewjob.php:118
 msgid "Development Status"
@@ -8919,14 +8863,13 @@ msgstr "Atualizar descrições"
 
 #: frontend/php/people/editjob.php:202
 msgid "Back to jobs listing"
-msgstr ""
+msgstr "Voltar para listagem de trabalhos"
 
 #: frontend/php/people/editjob.php:208
 msgid "Looking for a job to Edit"
 msgstr "Procurando por um trabalho para Editar"
 
 #: frontend/php/people/editjob.php:211
-#, fuzzy
 #| msgid ""
 #| "Here is a list of positions available for this project, choose the one "
 #| "you want to modify."
@@ -8934,8 +8877,8 @@ msgid ""
 "Here is a list of positions available for this project, choose the\n"
 "one you want to modify."
 msgstr ""
-"Aqui está uma lista de posições disponíveis para esse projeto, escolha a que "
-"você deseja modificar."
+"Aqui está uma lista de posições disponíveis para esse projeto,\n"
+"escolha a que você deseja modificar."
 
 #: frontend/php/people/admin/index.php:42
 #: frontend/php/people/admin/index.php:53
@@ -8951,10 +8894,9 @@ msgid "Skill Inserted"
 msgstr "Habilidade inserida"
 
 #: frontend/php/people/admin/index.php:63
-#, fuzzy
 #| msgid "Add/Change Categories"
 msgid "Change Categories"
-msgstr "Adicionar/Alterar Categorias"
+msgstr "Alterar categorias"
 
 #: frontend/php/people/admin/index.php:67
 msgid "Existing Categories"
@@ -8982,10 +8924,9 @@ msgid "Add"
 msgstr "Adicionar"
 
 #: frontend/php/people/admin/index.php:94
-#, fuzzy
 #| msgid "Add/Change People Skills"
 msgid "Change People Skills"
-msgstr "Adicionar/Alterar Habilidades do Pessoal"
+msgstr "Alterar habilidades do pessoal"
 
 #: frontend/php/people/admin/index.php:99
 msgid "Existing Skills"
@@ -9008,14 +8949,13 @@ msgid "Once you add a skill, it cannot be deleted"
 msgstr "Uma vez que tenha adicionado uma habilidade, ela não pode ser excluída"
 
 #: frontend/php/people/admin/index.php:124
-#, fuzzy
 #| msgid "Server Administration"
 msgid "People Administration"
-msgstr "Administração do Servidor"
+msgstr "Administração de pessoas"
 
 #: frontend/php/people/admin/index.php:125
 msgid "Help Wanted Administration"
-msgstr "Administração do Precisa-se de Ajuda"
+msgstr "Administração do precisa-se de ajuda"
 
 #: frontend/php/people/admin/index.php:127
 msgid "Add Job Categories"
@@ -9027,7 +8967,7 @@ msgstr "Adicionar habilidades de trabalho"
 
 #: frontend/php/people/index.php:47 frontend/php/people/index.php:85
 msgid "Project Help Wanted"
-msgstr "Procura-se ajuda para projeto"
+msgstr "Precisa-se de ajuda para projeto"
 
 #: frontend/php/people/index.php:87
 msgid "That category does not exist"
@@ -9036,10 +8976,10 @@ msgstr "Esse usuário não existe"
 #. TRANSLATORS: The first %s is enumeration of group types,
 #. the second %s is enumeration of job categories.
 #: frontend/php/people/index.php:97
-#, fuzzy, php-format
+#, php-format
 #| msgid "%s looking for %s"
 msgid "%1$s looking for %2$s"
-msgstr "%s procurando por %s"
+msgstr "%1$s procurando por %2$s"
 
 #: frontend/php/people/index.php:104
 msgid "Projects Needing Help"
@@ -9052,6 +8992,7 @@ msgstr "Digite suas palavras de pesquisa acima."
 #: frontend/php/search/index.php:87
 msgid "Note that <strong>private</strong> projects are not shown on this page."
 msgstr ""
+"Note que projetos <strong>privados</strong> não são mostrados nessa página."
 
 #: frontend/php/search/index.php:113
 msgid "Name"
@@ -9078,6 +9019,9 @@ msgid ""
 "Mailing lists are misconfigured. Post a support request to ask\n"
 "your site administrator to review group type setup."
 msgstr ""
+"Listas de discussão estão mal configuradas. Envie uma solicitação de "
+"suporte\n"
+"para que o administrador do site revise a configuração do tipo de grupo."
 
 #. TRANSLATORS: the argument is the new mailing list name entered by the user.
 #: frontend/php/mail/admin/index.php:111
@@ -9093,18 +9037,18 @@ msgid "Invalid list name: %s"
 msgstr "Nome de lista inválido: %s"
 
 #: frontend/php/mail/admin/index.php:134
-#, fuzzy, php-format
+#, php-format
 #| msgid "List name %s is reserved, to avoid conflicts with user accounts."
 msgid "List name %s is reserved to avoid conflicts with user accounts."
 msgstr ""
-"O nome de lista %s está reservado, para evitar conflitos com contas de "
+"O nome da lista %s está reservado para evitar conflitos com contas de "
 "usuário."
 
 #: frontend/php/mail/admin/index.php:153
-#, fuzzy, php-format
+#, php-format
 #| msgid "List %s is already in the database. We will create an alias"
 msgid "List %s is already in the database. We will create an alias."
-msgstr "A lista %s já está no banco de dados. Nós vamos criar um apelido"
+msgstr "A lista %s já está no banco de dados. Nós vamos criar um apelido."
 
 #: frontend/php/mail/admin/index.php:159
 #, php-format
@@ -9141,7 +9085,6 @@ msgid "Update Mailing List"
 msgstr "Atualizar lista de discussão"
 
 #: frontend/php/mail/admin/index.php:275
-#, fuzzy
 #| msgid ""
 #| "You can administer lists information from here. Please note that private "
 #| "lists are only displayed for members of your project, but not for "
@@ -9151,25 +9094,23 @@ msgid ""
 "private lists are only displayed for members of your project, but not for\n"
 "visitors who are not logged in."
 msgstr ""
-"Você pode administrar informações de listas a partir daqui. Observe que as "
-"listas privadas são exibidas somente para membros do seu projeto, mas não "
-"para visitantes que não estão autenticados."
+"Você pode administrar informações de listas a partir daqui.\n"
+"Observe que as listas privadas são exibidas somente para membros\n"
+"do seu projeto, mas não para visitantes que não estão autenticados."
 
 #: frontend/php/mail/admin/index.php:307
 msgid "Public List"
 msgstr "Lista pública"
 
 #: frontend/php/mail/admin/index.php:316
-#, fuzzy
 #| msgid "Private List (not advertised, suscribing requires approval)"
 msgid "Private List (not advertised, subscribing requires approval)"
 msgstr "Lista privada (não divulgada, inscrição requer aprovação)"
 
 #: frontend/php/mail/admin/index.php:326
-#, fuzzy
 #| msgid "To be deleted (warning, this cannot be undone!)"
 msgid "To be deleted (this cannot be undone!)"
-msgstr "Para ser excluída (aviso, isso não pode ser desfeito!)"
+msgstr "Para ser excluída (isso não pode ser desfeito!)"
 
 #: frontend/php/mail/admin/index.php:338
 msgid "Reset List Admin Password:"
@@ -9178,35 +9119,32 @@ msgstr "Redefinir a senha do administrador da lista:"
 #. TRANSLATORS: this string relates to the previous, it means
 #. [checkbox] "request resetting admin password".
 #: frontend/php/mail/admin/index.php:346
-#, fuzzy
 #| msgid ""
 #| "this will have no effect if this list is not managed by Mailman via Savane"
 msgid ""
 "Requested - <em> this will have no effect if this list is not managed by\n"
 "Mailman via Savane</em>"
 msgstr ""
-"isso não terá efeito se essa lista não for gerenciada pelo Mailman por meio "
-"do Savane"
+"Solicitada - <em> isso não terá efeito se essa lista não for gerenciada\n"
+"pelo Mailman por meio do Savane</em>"
 
 #: frontend/php/mail/admin/index.php:362
 msgid "Create a new mailing list:"
-msgstr "Cirar uma nova lista de discussão:"
+msgstr "Criar uma nova lista de discussão:"
 
 #: frontend/php/mail/admin/index.php:374
-#, fuzzy
 #| msgid "Create a new mailing list:"
 msgid "Name of new mailing list"
-msgstr "Cirar uma nova lista de discussão:"
+msgstr "Nome da nova lista de discussão"
 
 #: frontend/php/mail/admin/index.php:384
-#, fuzzy
 #| msgid "(visible to non-members)"
 msgid "Public (visible to non-members)"
-msgstr "(visível para quem não é membro)"
+msgstr "Pública (visível para quem não é membro)"
 
 #: frontend/php/mail/admin/index.php:387
 msgid "Private"
-msgstr "Privado"
+msgstr "Privada"
 
 #. TRANSLATORS: The argument is Savannah group (project) name.
 #: frontend/php/mail/index.php:45
@@ -9222,7 +9160,7 @@ msgstr ""
 
 #. TRANSLATORS: the second argument is mailing list name.
 #: frontend/php/mail/index.php:83
-#, fuzzy, php-format
+#, php-format
 #| msgid ""
 #| "To see the collection of prior posting to the list, visit the %s%s "
 #| "archives%s"
@@ -9230,12 +9168,12 @@ msgid ""
 "To see the collection of prior posting to the list,\n"
 "visit the <a href=\"%1$s\">%2$s archives</a>."
 msgstr ""
-"Para ver a coleção de publicações anteriores à lista, visite os %sarquivos "
-"do %s%s"
+"Para ver a coleção de publicações anteriores à lista,\n"
+"visite os <a href=\"%1$s\">arquivos de %2$s</a>."
 
 #. TRANSLATORS: the second argument is mailing list name.
 #: frontend/php/mail/index.php:94
-#, fuzzy, php-format
+#, php-format
 #| msgid ""
 #| "To see the collection of prior posting to the list, visit the %s%s "
 #| "archives%s (authorization required)."
@@ -9243,20 +9181,19 @@ msgid ""
 "To see the collection of prior posting to the list,\n"
 "visit the <a href=\"%1$s\">%2$s archives</a> (authorization required)."
 msgstr ""
-"Para ver a coleção de publicações anteriores à lista, visite os %sarquivos "
-"do %s%s (autorização exigida)."
+"Para ver a coleção de publicações anteriores à lista,\n"
+"visite os <a href=\"%1$s\">arquivos de %2$s</a> (requer autorização)."
 
 #. TRANSLATORS: the argument is mailing list address.
 #: frontend/php/mail/index.php:104
-#, fuzzy, php-format
+#, php-format
 #| msgid "To post a message to all the list members, write to %s"
 msgid "To post a message to all the list members, write to %s."
 msgstr ""
 "Para publicar uma mensagem para todos os membros da lista, envie e-mail para "
-"%s"
+"%s."
 
 #: frontend/php/mail/index.php:110
-#, fuzzy
 #| msgid ""
 #| "No mailing-list address was found, the configuration of the server is "
 #| "probably broken, contact the admins!"
@@ -9264,20 +9201,19 @@ msgid ""
 "No mailing list address was found, the configuration of the\n"
 "server is probably broken, contact the admins!"
 msgstr ""
-"Nenhum endereço de lista de discussão foi encontrada; a configuração do "
+"Nenhum endereço de lista de discussão foi encontrada; a configuração do\n"
 "servidor provavelmente está com problema, contate os administradores!"
 
 #: frontend/php/mail/index.php:125
-#, fuzzy
 msgid "Subscribe to the list."
-msgstr "Enviar uma Solicitação"
+msgstr "Inscreva-se à lista."
 
 #: frontend/php/mail/index.php:133
 msgid "Unsubscribe from the list."
-msgstr ""
+msgstr "Cancelar inscrição da lista."
 
 #: frontend/php/mail/index.php:141
-#, fuzzy, php-format
+#, php-format
 #| msgid ""
 #| "You can (un)subscribe to the list by following instructions on the %slist "
 #| "information page%s"
@@ -9286,11 +9222,12 @@ msgid ""
 "and unsubscribe from the list by following\n"
 "instructions on the <a href=\"%s\">list information page</a>."
 msgstr ""
-"Você pode se (des)inscrever da/à lista seguindo as instruções na %spágina de "
-"informações da lista%s"
+"Você pode se inscrever à lista e\n"
+"cancelar a inscrição da lista seguindo\n"
+"as instruções na <a href=\"%s\">página de informações da lista</a>."
 
 #: frontend/php/mail/index.php:151
-#, fuzzy, php-format
+#, php-format
 #| msgid ""
 #| "Project administrators can use the %sadministrative interface%s to manage "
 #| "the list."
@@ -9298,43 +9235,40 @@ msgid ""
 "Project administrators can use the\n"
 "<a href=\"%s\">administrative interface</a> to manage the list."
 msgstr ""
-"Administradores do projeto podem usar a %sinterface administrativa%s para "
-"gerenciar a lista."
+"Administradores do projeto podem usar a\n"
+"<a href=\"%s\">interface administrativa</a> para gerenciar a lista."
 
 #. TRANSLATORS: The arguments are two dates.
 #. Example: "From 12. September 2005 till 14. September 2005"
 #: frontend/php/stats/index.php:72
-#, fuzzy, php-format
+#, php-format
 #| msgid "From %s till %s."
 msgid "From %1$s till %2$s."
-msgstr "De %s até %s."
+msgstr "De %1$s até %2$s."
 
 #. TRANSLATORS: The arguments are two dates.
 #. Example: "From 12. September 2005 till 14. September 2005"
 #: frontend/php/stats/index.php:87
-#, fuzzy, php-format
+#, php-format
 #| msgid "From %s till %s"
 msgid "From %1$s till %2$s"
-msgstr "De %s até %s"
+msgstr "De %1$s até %2$s"
 
 #: frontend/php/stats/index.php:94
-#, fuzzy
 #| msgid "Apparently, the period you asked for is incoherent."
 msgid "The begin of the period you asked for is later than its end."
-msgstr "Aparentemente, o período pelo qual você pediu é incoerente."
+msgstr "O início do período que você pediu é posterior ao seu final."
 
 #: frontend/php/stats/index.php:98 frontend/php/stats/index.php:270
-#, fuzzy
 #| msgid "Accounts:"
 msgid "Accounts"
-msgstr "Contas:"
+msgstr "Contas"
 
 #: frontend/php/stats/index.php:109
-#, fuzzy
 #| msgid "New user"
 #| msgid_plural "New users"
 msgid "New users"
-msgstr "Novo usuário"
+msgstr "Novos usuários"
 
 #: frontend/php/stats/index.php:112
 #, php-format
@@ -9344,11 +9278,10 @@ msgstr[0] "%s novo usuário"
 msgstr[1] "%s novos usuários"
 
 #: frontend/php/stats/index.php:117
-#, fuzzy
 #| msgid "New group"
 #| msgid_plural "New groups"
 msgid "New groups"
-msgstr "Novo grupo"
+msgstr "Novos grupos"
 
 #: frontend/php/stats/index.php:121
 #, php-format
@@ -9358,16 +9291,14 @@ msgstr[0] "%s novo projeto"
 msgstr[1] "%s novos projetos"
 
 #: frontend/php/stats/index.php:124
-#, fuzzy
 #| msgid "New users and new groups / total:"
 msgid "New users and new groups / total"
-msgstr "Novos usuários e novos grupos / total:"
+msgstr "Novos usuários e novos grupos / total"
 
 #: frontend/php/stats/index.php:144 frontend/php/stats/index.php:300
-#, fuzzy
 #| msgid "Trackers:"
 msgid "Trackers"
-msgstr "Rastreadores:"
+msgstr "Rastreadores"
 
 #. TRANSLATORS: The next two msgids form one sentence.
 #. The HTML comment in the second part is used to differentiate it
@@ -9380,20 +9311,19 @@ msgstr[0] "%s nova solicitação de suporte,"
 msgstr[1] "%s novas solicitações de suporte,"
 
 #: frontend/php/stats/index.php:166
-#, fuzzy, php-format
+#, php-format
 #| msgid "including %s already closed"
 #| msgid_plural "including %s already closed"
 msgid "including %s already closed<!-- support request -->"
 msgid_plural "including %s already closed<!-- support requests -->"
-msgstr[0] "incluindo %s já fechada"
-msgstr[1] "incluindo %s já fechadas"
+msgstr[0] "incluindo %s já fechada<!-- solicitação de suporte -->"
+msgstr[1] "incluindo %s já fechadas<!-- solicitações de suporte -->"
 
 #: frontend/php/stats/index.php:170 frontend/php/stats/index.php:323
-#, fuzzy
 #| msgid "Support request"
 #| msgid_plural "Support requests"
 msgid "Support requests"
-msgstr "Solicitação de suporte"
+msgstr "Solicitações de suporte"
 
 #. TRANSLATORS: The next two msgids form one sentence.
 #. The HTML comment in the second part is used to differentiate it
@@ -9406,13 +9336,13 @@ msgstr[0] "%s novo relatório de erro,"
 msgstr[1] "%s novos relatórios de erro,"
 
 #: frontend/php/stats/index.php:187
-#, fuzzy, php-format
+#, php-format
 #| msgid "including %s already closed"
 #| msgid_plural "including %s already closed"
 msgid "including %s already closed<!-- bug -->"
 msgid_plural "including %s already closed<!-- bugs -->"
-msgstr[0] "incluindo %s já fechada"
-msgstr[1] "incluindo %s já fechadas"
+msgstr[0] "incluindo %s já fechado<!-- relatório de erro -->"
+msgstr[1] "incluindo %s já fechados<!-- relatórios de erro -->"
 
 #. TRANSLATORS: The next two msgids form one sentence.
 #. The HTML comment in the second part is used to differentiate it
@@ -9425,13 +9355,13 @@ msgstr[0] "%s nova tarefa,"
 msgstr[1] "%s novas tarefas,"
 
 #: frontend/php/stats/index.php:208
-#, fuzzy, php-format
+#, php-format
 #| msgid "including %s already closed"
 #| msgid_plural "including %s already closed"
 msgid "including %s already closed<!-- task -->"
 msgid_plural "including %s already closed<!-- tasks -->"
-msgstr[0] "incluindo %s já fechada"
-msgstr[1] "incluindo %s já fechadas"
+msgstr[0] "incluindo %s já fechada<!-- tarefa -->"
+msgstr[1] "incluindo %s já fechadas<!-- tarefas -->"
 
 #. TRANSLATORS: The next two msgids form one sentence.
 #. The HTML comment in the second part is used to differentiate it
@@ -9440,20 +9370,19 @@ msgstr[1] "incluindo %s já fechadas"
 #, php-format
 msgid "%s new patch,"
 msgid_plural "%s new patches,"
-msgstr[0] "%s nova correção,"
-msgstr[1] "%s novas correções,"
+msgstr[0] "%s novo patch,"
+msgstr[1] "%s novos patches,"
 
 #: frontend/php/stats/index.php:229
-#, fuzzy, php-format
+#, php-format
 #| msgid "including %s already closed"
 #| msgid_plural "including %s already closed"
 msgid "including %s already closed<!-- patch -->"
 msgid_plural "including %s already closed<!-- patches -->"
-msgstr[0] "incluindo %s já fechada"
-msgstr[1] "incluindo %s já fechadas"
+msgstr[0] "incluindo %s já fechado<!-- patch -->"
+msgstr[1] "incluindo %s já fechados<!-- patches -->"
 
 #: frontend/php/stats/index.php:238
-#, fuzzy
 #| msgid "The trackers looks unused, no items were found"
 msgid "The trackers look unused, no items were found"
 msgstr "Os rastreadores parecem estar sem uso, nenhum item foi encontrado"
@@ -9469,19 +9398,18 @@ msgstr[0] "%s novo item,"
 msgstr[1] "%s novos itens,"
 
 #: frontend/php/stats/index.php:246
-#, fuzzy, php-format
+#, php-format
 #| msgid "including %s already closed"
 #| msgid_plural "including %s already closed"
 msgid "including %s already closed<!-- item -->"
 msgid_plural "including %s already closed<!-- items -->"
-msgstr[0] "incluindo %s já fechada"
-msgstr[1] "incluindo %s já fechadas"
+msgstr[0] "incluindo %s já fechado<!-- item -->"
+msgstr[1] "incluindo %s já fechados<!-- item -->"
 
 #: frontend/php/stats/index.php:251
-#, fuzzy
 #| msgid "New items per tracker / tracker total:"
 msgid "New items per tracker / tracker total"
-msgstr "Novos itens por rastreador / total para rastreadores:"
+msgstr "Novos itens por rastreador / total para rastreadores"
 
 #: frontend/php/stats/index.php:268
 msgid "Overall"
@@ -9510,10 +9438,9 @@ msgstr[0] "includindo %s no estado privado"
 msgstr[1] "includindo %s no estado privado"
 
 #: frontend/php/stats/index.php:290
-#, fuzzy
 #| msgid "Projects per group type:"
 msgid "Projects per group type"
-msgstr "Projetos por tipo de grupo:"
+msgstr "Projetos por tipo de grupo"
 
 #. TRANSLATORS: The next two msgids form one sentence.
 #. The HTML comment in the second part is used to differentiate it
@@ -9526,13 +9453,13 @@ msgstr[0] "%s solicitação de suporte,"
 msgstr[1] "%s solicitações de suporte,"
 
 #: frontend/php/stats/index.php:319
-#, fuzzy, php-format
+#, php-format
 #| msgid "including %s still open"
 #| msgid_plural "including %s still open"
 msgid "including %s still open<!-- support request -->"
 msgid_plural "including %s still open<!-- support requests -->"
-msgstr[0] "incluindo %s ainda aberta"
-msgstr[1] "incluindo %s ainda abertas"
+msgstr[0] "incluindo %s ainda aberta<!-- solicitação de suporte -->"
+msgstr[1] "incluindo %s ainda abertas<!-- solicitações de suporte -->"
 
 #. TRANSLATORS: The next two msgids form one sentence.
 #. The HTML comment in the second part is used to differentiate it
@@ -9545,13 +9472,13 @@ msgstr[0] "%s relatório de erro,"
 msgstr[1] "%s relatórios de erro,"
 
 #: frontend/php/stats/index.php:338
-#, fuzzy, php-format
+#, php-format
 #| msgid "including %s still open"
 #| msgid_plural "including %s still open"
 msgid "including %s still open<!-- bug -->"
 msgid_plural "including %s still open<!-- bugs -->"
-msgstr[0] "incluindo %s ainda aberta"
-msgstr[1] "incluindo %s ainda abertas"
+msgstr[0] "incluindo %s ainda aberto<!-- relatório de erro -->"
+msgstr[1] "incluindo %s ainda abertos<!-- relatórios de erro -->"
 
 #. TRANSLATORS: The next two msgids form one sentence.
 #. The HTML comment in the second part is used to differentiate it
@@ -9564,13 +9491,13 @@ msgstr[0] "%s tarefa,"
 msgstr[1] "%s tarefas,"
 
 #: frontend/php/stats/index.php:358
-#, fuzzy, php-format
+#, php-format
 #| msgid "including %s still open"
 #| msgid_plural "including %s still open"
 msgid "including %s still open<!-- task -->"
 msgid_plural "including %s still open<!-- tasks -->"
-msgstr[0] "incluindo %s ainda aberta"
-msgstr[1] "incluindo %s ainda abertas"
+msgstr[0] "incluindo %s ainda aberta<!-- tarefa -->"
+msgstr[1] "incluindo %s ainda abertas<!-- tarefas -->"
 
 #. TRANSLATORS: The next two msgids form one sentence.
 #. The HTML comment in the second part is used to differentiate it
@@ -9579,17 +9506,17 @@ msgstr[1] "incluindo %s ainda abertas"
 #, php-format
 msgid "%s patch,"
 msgid_plural "%s patches,"
-msgstr[0] "%s correção,"
-msgstr[1] "%s correções,"
+msgstr[0] "%s patch,"
+msgstr[1] "%s patches,"
 
 #: frontend/php/stats/index.php:377
-#, fuzzy, php-format
+#, php-format
 #| msgid "including %s still open"
 #| msgid_plural "including %s still open"
 msgid "including %s still open<!-- patch -->"
 msgid_plural "including %s still open<!-- patches -->"
-msgstr[0] "incluindo %s ainda aberta"
-msgstr[1] "incluindo %s ainda abertas"
+msgstr[0] "incluindo %s ainda aberto<!-- patch -->"
+msgstr[1] "incluindo %s ainda abertos<!-- patches -->"
 
 #. TRANSLATORS: The next two msgids form one sentence.
 #. The HTML comment in the second part is used to differentiate it
@@ -9602,25 +9529,23 @@ msgstr[0] "%s item,"
 msgstr[1] "%s itens,"
 
 #: frontend/php/stats/index.php:388
-#, fuzzy, php-format
+#, php-format
 #| msgid "including %s still open"
 #| msgid_plural "including %s still open"
 msgid "including %s still open<!-- item -->"
 msgid_plural "including %s still open<!-- items -->"
-msgstr[0] "incluindo %s ainda aberta"
-msgstr[1] "incluindo %s ainda abertas"
+msgstr[0] "incluindo %s ainda aberto<!-- item -->"
+msgstr[1] "incluindo %s ainda abertos<!-- item -->"
 
 #: frontend/php/stats/index.php:393
-#, fuzzy
 #| msgid "Items per tracker:"
 msgid "Items per tracker"
-msgstr "Itens por rastreador:"
+msgstr "Itens por rastreador"
 
 #: frontend/php/stats/index.php:407
-#, fuzzy
 #| msgid "Most popular color themes are: %s."
 msgid "Most popular themes"
-msgstr "Os temas de cores mais populares são: %s."
+msgstr "Temas mais populares"
 
 #: frontend/php/stats/index.php:441
 msgid "No users yet."
@@ -9632,17 +9557,15 @@ msgid "Invalid Group"
 msgstr "Grupo inválido"
 
 #: frontend/php/cvs/admin/index.php:88
-#, fuzzy
 #| msgid "Invalid repository name: "
 msgid "Invalid repository name:"
-msgstr "Nome de repositório inválido: "
+msgstr "Nome de repositório inválido:"
 
 #: frontend/php/cvs/admin/index.php:101
 msgid "Invalid directories list"
 msgstr "Lista de diretórios inválidos"
 
 #: frontend/php/cvs/admin/index.php:114
-#, fuzzy
 #| msgid "Invalid list of notification e-mails"
 msgid "Invalid list of notification emails"
 msgstr "Lista inválida de e-mails para notificação"
@@ -9650,7 +9573,6 @@ msgstr "Lista inválida de e-mails para notificação"
 #. TRANSLATORS: diff notification emails are addresses whither commit diffs
 #. are sent.
 #: frontend/php/cvs/admin/index.php:124
-#, fuzzy
 #| msgid "Invalid list of diff notification e-mails"
 msgid "Invalid list of diff notification emails"
 msgstr "Lista inválida de e-mails para notificação de comparação"
@@ -9667,10 +9589,9 @@ msgstr "Usuário inválido"
 
 #: frontend/php/link-to-users.php:36 frontend/php/my/admin/change.php:341
 #: frontend/php/my/admin/change.php:494
-#, fuzzy
 #| msgid "That user does not exist"
 msgid "That user does not exist."
-msgstr "Esse usuário não existe"
+msgstr "Esse usuário não existe."
 
 #: frontend/php/my/items.php:117
 msgid "This page contains lists of items assigned to or submitted by you."
@@ -9679,21 +9600,19 @@ msgstr ""
 
 #: frontend/php/my/items.php:121
 msgid "open or closed"
-msgstr ""
+msgstr "abertos ou fechados"
 
 #. TRANSLATORS: This is used later as argument of "Show [%s] new items..."
 #: frontend/php/my/items.php:125
-#, fuzzy
 #| msgid "Open Items"
 msgid "Open<!-- items -->"
-msgstr "Itens abertos"
+msgstr "Abertos<!-- itens -->"
 
 #. TRANSLATORS: This is used later as argument of "Show [%s] new items..."
 #: frontend/php/my/items.php:130
-#, fuzzy
 #| msgid "Closed Item"
 msgid "Closed<!-- items -->"
-msgstr "Item fechado"
+msgstr "Fechados<!-- itens -->"
 
 #. TRANSLATORS: This is used later as argument of "...new items or of [%s] priority"
 #: frontend/php/my/items.php:138
@@ -9723,10 +9642,10 @@ msgstr "Imediata"
 #. TRANSLATORS: the first argument is either 'Open' or 'Closed',
 #. the second argument is priority ('Lowest', 'Normal' &c.).
 #: frontend/php/my/items.php:166
-#, fuzzy, php-format
+#, php-format
 #| msgid "Show %s new items or of %s priority at least."
 msgid "Show %1$s new items of %2$s priority at least."
-msgstr "Mostrar novos itens %s ou de prioridade %s pelo menos."
+msgstr "Mostrar novos itens %1$s com pelo menos prioridade %2$s."
 
 #: frontend/php/my/items.php:173
 msgid "Assigned to me"
@@ -9757,13 +9676,12 @@ msgid "Delete this bookmark"
 msgstr "Excluir esse favorito"
 
 #: frontend/php/my/quitproject.php:38
-#, fuzzy
 msgid "You are not member of this group."
-msgstr "Isso significa que esse usuário será membro do projeto."
+msgstr "Você não é membro deste grupo."
 
 #: frontend/php/my/quitproject.php:40
 msgid "You have not requested inclusion in this group."
-msgstr ""
+msgstr "Você não solicitou inclusão neste grupo."
 
 #: frontend/php/my/quitproject.php:51
 msgid "Quit a group"
@@ -9790,10 +9708,9 @@ msgstr ""
 #: frontend/php/my/groups.php:105
 #, php-format
 msgid "Membership request for group %s"
-msgstr "Pedido de associação ao grupo %s"
+msgstr "Solicitação de associação ao grupo %s"
 
 #: frontend/php/my/groups.php:136
-#, fuzzy
 #| msgid ""
 #| "When joining you must provide a message for the administrator, a short "
 #| "explanation of why you want to join this/these project(s)."
@@ -9801,16 +9718,14 @@ msgid ""
 "When joining you must provide a message for the\n"
 "administrator, a short explanation of why you want to join this project."
 msgstr ""
-"Ao se juntar, você deve fornecer uma mensagem para o administrador, uma "
-"breve explicação sobre por que você deseja participar desse/desses "
-"projeto(s)."
+"Ao se juntar, você deve fornecer uma mensagem para o administrador,\n"
+"uma breve explicação sobre por que você deseja participar desse projeto."
 
 #: frontend/php/my/groups.php:156
 msgid "Request for inclusion already registered"
 msgstr "Solicitação para inclusão já registrada"
 
 #: frontend/php/my/groups.php:205
-#, fuzzy
 #| msgid ""
 #| "Groups history appears to be flawed. This is a site installation problem. "
 #| "Please report the incident to administrators, asking them to get in touch "
@@ -9819,12 +9734,10 @@ msgid ""
 "Groups history appears to be flawed.\n"
 "Please report the incident to administrators."
 msgstr ""
-"A história dos grupos parece ser defeituosa. Este é um problema de "
-"instalação do site. Informe o incidente aos administradores, pedindo-lhes "
-"que entrem em contato com o fornecedor Savane."
+"O histórico dos grupos parece ser defeituoso.\n"
+"Por favor, relate o incidente aos administradores."
 
 #: frontend/php/my/groups.php:215
-#, fuzzy
 #| msgid ""
 #| "Here is the list of groups you are member of, plus a form which allows "
 #| "you to ask for inclusion in a Group. Clicking on the trash permits you to "
@@ -9833,9 +9746,9 @@ msgid ""
 "Here is the list of groups you are member of, plus a form which\n"
 "allows you to ask for inclusion in a group. You can also quit groups here."
 msgstr ""
-"Aqui está a lista de grupos dos quais você é membro, além de um forma que "
-"permite solicitar a inclusão em um Grupo. Ao clicar no lixo, você pode sair "
-"de um projeto."
+"Aqui está a lista de grupos dos quais você é membro, além de um formulário "
+"que\n"
+"permite solicitar a inclusão em grupos. Você também pode sair de grupos aqui."
 
 #: frontend/php/my/groups.php:223
 msgid "Watched Partners"
@@ -9846,7 +9759,6 @@ msgid "You are not watching any partners."
 msgstr "Você não está monitorando nenhum parceiro."
 
 #: frontend/php/my/groups.php:231
-#, fuzzy
 #| msgid ""
 #| "Watching a partner (receiving a copy of all notifications sent to them) "
 #| "permits you to be their backup when they are away from the office, or to "
@@ -9856,12 +9768,11 @@ msgid ""
 "sent to them) permits you to be their backup when they are away from the\n"
 "office, or to review all their activities on a project."
 msgstr ""
-"Monitorar a um parceiro (receber uma cópia de todas as notificações enviadas "
-"a eles) permite que você seja seu backup quando estiver fora do escritório "
-"ou para revisar todas as suas atividades em um projeto."
+"Monitorar um parceiro (recebendo uma cópia de todas as notificações\n"
+"enviadas a eles) permite que você seja seu backup quando estiver fora do\n"
+"escritório ou para revisar todas as suas atividades em um projeto."
 
 #: frontend/php/my/groups.php:236
-#, fuzzy
 #| msgid ""
 #| "To watch someone, click 'Watch partner' in the project memberlist page. "
 #| "You need to be member of that project yourself."
@@ -9869,27 +9780,29 @@ msgid ""
 "To watch someone, follow the &ldquo;Watch partner&rdquo; link\n"
 "in the project memberlist page. You need to be member of that project."
 msgstr ""
-"Para assistir alguém, clique em 'Monitorar parceiro' na página da lista de "
-"membros do projeto. Você precisa ser membro desse projeto você mesmo."
+"Para monitorar alguém, clique no link \"Monitorar parceiro\" na página da "
+"lista\n"
+"de membros do projeto. Você precisa ser membro desse projeto você mesmo."
 
 #: frontend/php/my/groups.php:259 frontend/php/my/groups.php:261
-#, fuzzy
 #| msgid "Stop watching this user?"
 msgid "Stop watching this user"
-msgstr "Parar de monitorar esse usuário?"
+msgstr "Parar de monitorar esse usuário"
 
 #. TRANSLATORS: the message is selected according to number of watchers
 #. listed in the first argument; the second argument is comma-separated
 #. list of watchers.
 #: frontend/php/my/groups.php:289
-#, fuzzy, php-format
+#, php-format
 #| msgid "My own notifications are currently watched by: %s"
 msgid "My own notifications are currently watched by %1$s user: %2$s."
 msgid_plural "My own notifications are currently watched by %1$s users: %2$s."
 msgstr[0] ""
-"Minhas próprias notificações estão atualmente sendo monitoradas por: %s"
+"Minhas próprias notificações estão atualmente sendo monitoradas por %1$s "
+"usuário: %2$s."
 msgstr[1] ""
-"Minhas próprias notificações estão atualmente sendo monitoradas por: %s"
+"Minhas próprias notificações estão atualmente sendo monitoradas por %1$s "
+"usuários: %2$s."
 
 #: frontend/php/my/groups.php:297
 msgid "Nobody is currently watching my own notifications."
@@ -9897,10 +9810,9 @@ msgstr "Ninguém está atualmente monitorando minhas próprias notificações."
 
 #: frontend/php/my/groups.php:303
 msgid "Request for Inclusion"
-msgstr "Pedido para inclusão"
+msgstr "Solicitação para inclusão"
 
 #: frontend/php/my/groups.php:306
-#, fuzzy
 #| msgid ""
 #| "Type below the name of the project you want to contribute to. Joining a "
 #| "project means getting write access to the project repositories and "
@@ -9916,31 +9828,29 @@ msgid ""
 "project developers (e.g., using a project mailing list) before requesting\n"
 "formal inclusion using this form."
 msgstr ""
-"Digite abaixo o nome do projeto ao qual deseja contribuir. Participar de um "
-"projeto significa obter acesso de escrita aos repositórios e rastreadores do "
-"projeto, e envolve responsabilidades. Portanto, geralmente você deve entrar "
-"em contato com os desenvolvedores do projeto (por exemplo, usando uma lista "
-"de discussão do projeto) antes de solicitar a inclusão formal usando este "
+"Digite abaixo o nome do projeto ao qual deseja contribuir. Participar de um\n"
+"projeto significa obter acesso de escrita aos repositórios e rastreadores "
+"do\n"
+"projeto, e envolve responsabilidades. Portanto, geralmente você deve entrar\n"
+"em contato com os desenvolvedores do projeto (por exemplo, usando uma lista\n"
+"de discussão do projeto) antes de solicitar a inclusão formal usando este\n"
 "formulário."
 
 #: frontend/php/my/groups.php:317
 msgid "Group to look for"
-msgstr ""
+msgstr "Grupo para procurar por"
 
 #: frontend/php/my/groups.php:321
-#, fuzzy
 #| msgid "Search Group(s)"
 msgid "Search Groups"
-msgstr "Pesquisar grupo(s)"
+msgstr "Pesquisar grupos"
 
 #: frontend/php/my/groups.php:339
-#, fuzzy
 #| msgid "Below is the result of the research in the groups database."
 msgid "Below is the result of the search in the groups database."
 msgstr "Abaixo está o resultado da pesquisa no banco de dados de grupos."
 
 #: frontend/php/my/groups.php:345
-#, fuzzy
 #| msgid ""
 #| "None found. Please note that only search words of more than one character "
 #| "are valid."
@@ -9949,10 +9859,10 @@ msgid ""
 "are valid."
 msgstr ""
 "Nada encontrado. Note que apenas palavras de pesquisa de mais de um "
-"caractere são válidas."
+"caractere\n"
+"são válidas."
 
 #: frontend/php/my/groups.php:356
-#, fuzzy
 #| msgid ""
 #| "To request inclusion in one or several groups, check the correspondent "
 #| "boxes, write a meaningful message for the project administrator who will "
@@ -9963,23 +9873,22 @@ msgid ""
 "administrator\n"
 "who will approve or disapprove the request, and submit the form."
 msgstr ""
-"Para pedir a inclusão em um ou vários grupos, marque as caixas "
-"correspondentes, escreva uma mensagem significativa para o administrador do "
-"projeto que irá aprovar ou reprovar o pedido e enviar o formulário."
+"Para solicitar a inclusão em um ou vários grupos, marque as caixas\n"
+"correspondentes, escreva uma mensagem significativa para o administrador\n"
+"do projeto que irá aprovar ou reprovar o pedido e enviar o formulário."
 
 #: frontend/php/my/groups.php:375
-#, fuzzy
 #| msgid "User was already a member"
 msgid "(already a member)"
-msgstr "Usuário já é um membro"
+msgstr "(já é um membro)"
 
 #: frontend/php/my/groups.php:379
 msgid "Comments (required):"
-msgstr "Comentários (obrigatório):"
+msgstr "Comentários (obrigatórios):"
 
 #: frontend/php/my/groups.php:384
 msgid "Request Inclusion"
-msgstr "Pedir inclusão"
+msgstr "Solicitar inclusão"
 
 #: frontend/php/my/groups.php:396
 msgid "You're not a member of any public projects"
@@ -9990,10 +9899,9 @@ msgid "Groups I'm Administrator of"
 msgstr "Grupos dos quais sou administrador"
 
 #: frontend/php/my/groups.php:413 frontend/php/my/groups.php:456
-#, fuzzy
 #| msgid "Quit a group"
 msgid "Quit this group"
-msgstr "Sair de um grupo"
+msgstr "Sair deste grupo"
 
 #: frontend/php/my/groups.php:436
 msgid "I am not administrator of any projects"
@@ -10009,13 +9917,12 @@ msgstr "Eu não sou membro contribuidor de nenhum projeto"
 
 #: frontend/php/my/groups.php:484
 msgid "Request for Inclusion Waiting For Approval"
-msgstr "Pedido por inclusão aguardando por aprovação"
+msgstr "Solicitação por inclusão aguardando ser aprovado"
 
 #: frontend/php/my/groups.php:497
-#, fuzzy
 #| msgid "Discard this request?"
 msgid "Discard this request"
-msgstr "Descartar esse pedido?"
+msgstr "Descartar essa solicitação"
 
 #: frontend/php/my/votes.php:56
 msgid "Vote count exceed limits, your changes have been discarded"
@@ -10034,7 +9941,6 @@ msgstr[0] "%s voto permanece a sua disposição."
 msgstr[1] "%s votos permanecem a sua disposição."
 
 #: frontend/php/my/votes.php:83
-#, fuzzy
 #| msgid ""
 #| "To change your votes, type in new numbers (using zero removes the entry "
 #| "from your votes list)."
@@ -10042,27 +9948,25 @@ msgid ""
 "To change your votes, type in new numbers (using zero removes the entry\n"
 "from your votes list)."
 msgstr ""
-"Para alterar seus votos, digite novos números (usar zero remove a entrada de "
-"sua lista de votos)."
+"Para alterar seus votos, digite novos números (usar zero remove a entrada\n"
+"de sua lista de votos)."
 
 #: frontend/php/my/votes.php:96
-#, fuzzy, php-format
+#, php-format
 #| msgid "Invalid list name: %s"
 msgid "Invalid tracker name: %s"
-msgstr "Nome de lista inválido: %s"
+msgstr "Nome de rastreador inválido: %s"
 
 #: frontend/php/my/votes.php:108
-#, fuzzy
 #| msgid "November"
 msgid "Vote number"
-msgstr "Novembro"
+msgstr "Número de votos"
 
 #: frontend/php/my/admin/cc.php:67 frontend/php/my/admin/index.php:266
 msgid "Cancel Mail Notifications"
 msgstr "Cancelar notificações por e-mail"
 
 #: frontend/php/my/admin/cc.php:71
-#, fuzzy
 #| msgid ""
 #| "Beware: this process cannot be undone, you will be definitely removed "
 #| "from carbon-copy lists of any items of the selected groups."
@@ -10072,9 +9976,9 @@ msgid ""
 "lists\n"
 "of any items of the selected groups."
 msgstr ""
-"Cuidado: este processo não pode ser desfeito, você será definitivamente "
-"removido das listas de cópias de carbono de qualquer item dos grupos "
-"selecionados."
+"Aqui, você pode cancelar todas notificações por e-mail. Cuidado:\n"
+"este processo não pode ser desfeito, você será definitivamente removido das\n"
+"listas de cópias de carbono de qualquer item dos grupos selecionados."
 
 #: frontend/php/my/admin/cc.php:102
 msgid "You are not registered on any Carbon-Copy list."
@@ -10115,10 +10019,9 @@ msgid "User Skills updated successfully"
 msgstr "Habilidades do usuário atualizada com sucesso"
 
 #: frontend/php/my/admin/resume.php:105
-#, fuzzy
 #| msgid "Missing information: Fill in all required fields"
 msgid "Missing information: fill in all required fields"
-msgstr "Faltando informações: Preencha todos os campos requeridos"
+msgstr "Faltando informações: preencha todos os campos requeridos"
 
 #: frontend/php/my/admin/resume.php:111
 msgid "User Skill Delete failed"
@@ -10133,7 +10036,6 @@ msgid "Edit Your Resume & Skills"
 msgstr "Editar seu currículo & habilidades"
 
 #: frontend/php/my/admin/resume.php:120 frontend/php/my/admin/index.php:232
-#, fuzzy
 #| msgid ""
 #| "Details about your experience and skills may be of interest to other "
 #| "users or visitors."
@@ -10141,8 +10043,8 @@ msgid ""
 "Details about your experience and skills may be of interest to other users\n"
 "or visitors."
 msgstr ""
-"Detalhes sobre sua experiência e habilidades pode ser do interesse de outros "
-"usuários ou visitantes."
+"Detalhes sobre sua experiência e habilidades pode ser do interesse de\n"
+"outros usuários ou visitantes."
 
 #: frontend/php/my/admin/resume.php:126
 msgid "No such user"
@@ -10150,25 +10052,22 @@ msgstr "Usuário inexistente"
 
 #: frontend/php/my/admin/resume.php:133
 msgid "Publicly Viewable"
-msgstr "Visualizável publicamente"
+msgstr "Publicamente visível"
 
 #: frontend/php/my/admin/resume.php:135
-#, fuzzy
 #| msgid "Do you want your resume to be activated:"
 msgid "Do you want your resume to be activated?"
-msgstr "Você deseja que seu currículo seja ativado:"
+msgstr "Você deseja que seu currículo seja ativado?"
 
 #: frontend/php/my/admin/resume.php:140
-#, fuzzy
 #| msgid "Activate"
 msgid "Activate resume"
-msgstr "Ativar"
+msgstr "Ativar currículo"
 
 #: frontend/php/my/admin/resume.php:145
-#, fuzzy
 #| msgid "Resume - Description of Experience %s"
 msgid "Resume - Description of Experience"
-msgstr "Currículo - descrição da experiência %s"
+msgstr "Currículo - descrição da experiência"
 
 #: frontend/php/my/admin/resume.php:152
 msgid "Update Profile"
@@ -10181,7 +10080,7 @@ msgstr "Chave nº %s vista"
 
 #. TRANSLATORS: the argument is a link to a page.
 #: frontend/php/my/admin/editsshkeys.php:75
-#, fuzzy, php-format
+#, php-format
 #| msgid ""
 #| "Error: ssh-vulnkey detected key #%s as compromised. Please upgrade your "
 #| "system and regenerate it (see <a href='http://wiki.debian.org/"
@@ -10191,13 +10090,13 @@ msgid ""
 "Please upgrade your system and regenerate it\n"
 "(see %s for more information)."
 msgstr ""
-"Erro: ssh-vulnkey detectou a chave nº %s como comprometida. Atualize seu "
-"sistema e regenere-o (veja <a href='http://wiki.debian.org/SSLkeys'>http://"
-"wiki.debian.org/SSLkeys</a> para obter mais informações)."
+"Erro: ssh-vulnkey detectou a chave nº %s como comprometida.\n"
+"Atualize seu sistema e gera-a novamente\n"
+"(veja %s para mais informações)."
 
 #. TRANSLATORS: the argument is site name (like Savannah).
 #: frontend/php/my/admin/editsshkeys.php:94
-#, fuzzy, php-format
+#, php-format
 #| msgid ""
 #| "Someone, presumably you, has changed your SSH keys on %s.\n"
 #| "If it wasn't you, maybe someone is trying to compromise your account...\n"
@@ -10207,8 +10106,7 @@ msgid ""
 "If it wasn't you, maybe someone is trying to compromise your account..."
 msgstr ""
 "Alguém, presumivelmente você, mudou suas chaves SSH no %s.\n"
-"Se não foi você, talvez alguém esteja tentando comprometer sua conta...\n"
-"\n"
+"Se não foi você, talvez alguém esteja tentando comprometer sua conta..."
 
 #: frontend/php/my/admin/editsshkeys.php:99
 #, php-format
@@ -10216,6 +10114,8 @@ msgid ""
 "The request came from %s\n"
 "(IP: %s, port: %s, user agent: %s)"
 msgstr ""
+"A solicitação veio de %s\n"
+"(IP: %s, porta: %s, user-agent: %s)"
 
 #. TRANSLATORS: the argument is site name (like Savannah).
 #. TRANSLATORS: the argument is the name of the system (like "Savannah").
@@ -10227,7 +10127,7 @@ msgstr ""
 #: frontend/php/account/pending-resend.php:48
 #, php-format
 msgid "-- the %s team."
-msgstr "-- o time %s."
+msgstr "-- a equipe do %s."
 
 #: frontend/php/my/admin/editsshkeys.php:111
 msgid "SSH key changed on your account"
@@ -10246,13 +10146,11 @@ msgid "Change Authorized Keys"
 msgstr "Alterar chaves autorizadas"
 
 #: frontend/php/my/admin/editsshkeys.php:137
-#, fuzzy
 #| msgid "Authorized keys:"
 msgid "Authorized keys"
-msgstr "Chaves autorizadas:"
+msgstr "Chaves autorizadas"
 
 #: frontend/php/my/admin/editsshkeys.php:140
-#, fuzzy
 #| msgid ""
 #| "Fill the text fields below with the public keys for each key you want to "
 #| "register. After submitting, verify that the number of keys registered is "
@@ -10263,8 +10161,8 @@ msgid ""
 "what\n"
 "you expected."
 msgstr ""
-"Preencha os campos de texto abaixo com as chaves públicas para cada chave "
-"que você deseja registrar. Após o envio, verifique se o número de chaves "
+"Preencha os campos de texto abaixo com as chaves públicas para cada chave\n"
+"que você deseja registrar. Após o envio, verifique se o número de chaves\n"
 "registradas é o que você esperava."
 
 #: frontend/php/my/admin/editsshkeys.php:153
@@ -10273,30 +10171,26 @@ msgid "Key #%s:"
 msgstr "Chave nº %s:"
 
 #: frontend/php/my/admin/change.php:46
-#, fuzzy
 #| msgid "Existing Skills"
 msgid "Listing key"
-msgstr "Habilidades existentes"
+msgstr "Listagem de chave"
 
 #: frontend/php/my/admin/change.php:47
 msgid "Output:"
-msgstr ""
+msgstr "Saída:"
 
 #: frontend/php/my/admin/change.php:64 frontend/php/my/admin/change.php:137
-#, fuzzy
 msgid "Errors:"
-msgstr "Erro"
+msgstr "Erros:"
 
 #: frontend/php/my/admin/change.php:68 frontend/php/my/admin/change.php:90
-#, fuzzy
 #| msgid "Login Status:"
 msgid "Exit status:"
-msgstr "Estado do Login:"
+msgstr "Estado de saída:"
 
 #: frontend/php/my/admin/change.php:75
-#, fuzzy
 msgid "Importing key"
-msgstr "Relacionando"
+msgstr "Importação de chave"
 
 #: frontend/php/my/admin/change.php:124
 #: frontend/php/account/lostpw-confirm.php:182
@@ -10324,31 +10218,29 @@ msgid "Extracted GPG key ID is invalid."
 msgstr "O ID de chave GPG extraído é inválida."
 
 #: frontend/php/my/admin/change.php:135
-#, fuzzy
 #| msgid "Description"
 msgid "Test Encryption"
-msgstr "Descrição"
+msgstr "Teste de criptografia"
 
 #: frontend/php/my/admin/change.php:141
 msgid ""
 "Encryption succeeded; you should be able to decrypt this with\n"
 "<em>gpg --decrypt</em>:"
 msgstr ""
+"Criptografia bem sucedida; você deve ser capaz de descriptografar\n"
+"isso com <em>gpg --decrypt</em>:"
 
 #: frontend/php/my/admin/change.php:159
-#, fuzzy
 #| msgid "Subversion"
 msgid "GnuPG version"
-msgstr "Subversion"
+msgstr "GnuPG versão"
 
 #: frontend/php/my/admin/change.php:181
-#, fuzzy
 #| msgid "Can't create temporary files."
 msgid "Can't create temporary directory."
-msgstr "Não foi possível criar arquivos temporários."
+msgstr "Não foi possível criar diretório temporário."
 
 #: frontend/php/my/admin/change.php:208
-#, fuzzy
 #| msgid ""
 #| "You must quit groups of which you are a member before requesting account "
 #| "deletion. If you registered a project that was not approved or discarded "
@@ -10359,9 +10251,10 @@ msgid ""
 "approved\n"
 "or discarded yet, you must ask admins to cancel that registration."
 msgstr ""
-"Você deve sair de grupos dos quais você é um membro antes de solicitar a "
+"Você deve sair de grupos dos quais você é um membro antes de solicitar a\n"
 "exclusão da conta. Se você registrou um projeto que ainda não foi aprovado "
-"ou descartado, você deve pedir aos administradores que cancelem esse registro"
+"ou\n"
+"descartado, você deve pedir aos administradores que cancelem esse registro."
 
 #: frontend/php/my/admin/change.php:223
 msgid "You must supply a new real name."
@@ -10369,7 +10262,7 @@ msgstr "Você precisa informar um novo nome real."
 
 #: frontend/php/my/admin/change.php:231
 msgid "Real Name updated."
-msgstr "Nome Real atualização."
+msgstr "Nome real atualização."
 
 #: frontend/php/my/admin/change.php:244
 msgid "Timezone updated."
@@ -10411,7 +10304,7 @@ msgstr ""
 
 #. TRANSLATORS: the argument is site name (like Savannah).
 #: frontend/php/my/admin/change.php:373
-#, fuzzy, php-format
+#, php-format
 #| msgid ""
 #| "Someone, presumably you, has changed your SSH keys on %s.\n"
 #| "If it wasn't you, maybe someone is trying to compromise your account...\n"
@@ -10420,17 +10313,16 @@ msgid ""
 "Someone, presumably you, has requested a change of email address on %s.\n"
 "If it wasn't you, maybe someone is trying to steal your account..."
 msgstr ""
-"Alguém, presumivelmente você, mudou suas chaves SSH no %s.\n"
-"Se não foi você, talvez alguém esteja tentando comprometer sua conta...\n"
-"\n"
+"Alguém, presumivelmente você, solicitou uma mudança do endereço de e-mail\n"
+"no %s. Se não foi você, talvez alguém esteja tentando comprometer sua "
+"conta..."
 
 #: frontend/php/my/admin/change.php:375
 #, php-format
 msgid "Your current address is %1$s, the supposedly new address is %2$s."
-msgstr ""
+msgstr "seu atual endereço é %1$s, o suposto novo endereço é %2$s."
 
 #: frontend/php/my/admin/change.php:378
-#, fuzzy
 #| msgid ""
 #| "If you did not request that change, please visit the following URL to "
 #| "discard\n"
@@ -10439,8 +10331,8 @@ msgid ""
 "If you did not request that change, please visit the following URL\n"
 "to discard the email change and report the problem to us:"
 msgstr ""
-"Se você não pediu essa alteração, por favor visite esta URL para descartar\n"
-"a alteração de e-mail e relatar o problema para nós:"
+"Se você não solicitou essa mudança, por favor visite esta URL para\n"
+"descartar a alteração de e-mail e relatar o problema para nós:"
 
 #: frontend/php/my/admin/change.php:392 frontend/php/my/admin/change.php:408
 #: frontend/php/my/admin/change.php:532
@@ -10458,7 +10350,6 @@ msgid "Follow the instructions in the email to complete the email change."
 msgstr "Siga as instruções no e-mail para completar a alteração do e-mail."
 
 #: frontend/php/my/admin/change.php:418 frontend/php/my/admin/change.php:538
-#, fuzzy
 #| msgid ""
 #| "The system reported a failure when trying to send the confirmation mail. "
 #| "Please retry and report that problem to administrators."
@@ -10467,14 +10358,15 @@ msgid ""
 "the confirmation mail. Please retry and report that problem to\n"
 "administrators."
 msgstr ""
-"O sistema relatou uma falha ao tentar enviar o e-mail de confirmação. Por "
-"favor, tente novamente e relate o problema para os administradores."
+"O sistema relatou uma falha ao tentar enviar o e-mail de\n"
+"confirmação. Por favor, tente novamente e relate o problema\n"
+"para os administradores."
 
 #: frontend/php/my/admin/change.php:439 frontend/php/my/admin/change.php:557
-#, fuzzy
 #| msgid "This confirm hash exists more than once."
 msgid "This confirmation hash is included in DB more than once."
-msgstr "Esse hash de confirmação existe mais que uma vez."
+msgstr ""
+"Esse hash de confirmação está incluído no banco de dados mais de uma vez."
 
 #: frontend/php/my/admin/change.php:441 frontend/php/my/admin/change.php:446
 #: frontend/php/my/admin/change.php:562 frontend/php/account/lostlogin.php:39
@@ -10490,7 +10382,6 @@ msgid "Address change process discarded."
 msgstr "Processo de alteração de endereço descartado."
 
 #: frontend/php/my/admin/change.php:477
-#, fuzzy
 #| msgid ""
 #| "Failed to discard the address change process, please contact "
 #| "administrators."
@@ -10498,18 +10389,18 @@ msgid ""
 "Failed to discard the address change process, please contact\n"
 "administrators."
 msgstr ""
-"Falha ao descartar o processo de alteração de endereço, por favor contate os "
-"administradores."
+"Falha ao descartar o processo de alteração de endereço,\n"
+"por favor contate os administradores."
 
 #: frontend/php/my/admin/change.php:482 frontend/php/my/admin/change.php:583
 msgid "Unable to understand what to do, parameters are probably missing"
 msgstr ""
-"Não foi possível entender o que fazer, parâmetros provavelmente estão "
-"faltando"
+"Não foi possível entender o que fazer, parâmetros provavelmente estão em "
+"falta"
 
 #. TRANSLATORS: the argument is site name (like Savannah).
 #: frontend/php/my/admin/change.php:512
-#, fuzzy, php-format
+#, php-format
 #| msgid ""
 #| "Someone, presumably you, has requested your %s account deletion.\n"
 #| "If it wasn't you, it probably means that someone stole your account.\n"
@@ -10518,9 +10409,8 @@ msgid ""
 "Someone, presumably you, has requested your %s account deletion.\n"
 "If it wasn't you, it probably means that someone stole your account."
 msgstr ""
-"Alguém, presumivelmente você, pediu a exclusão de sua conta no %s.\n"
-"Se não foi você, provavelmente significa que alguém comprometeu sua conta.\n"
-"\n"
+"Alguém, presumivelmente você, solicitou a exclusão de sua conta no %s.\n"
+"Se não foi você, provavelmente significa que alguém comprometeu sua conta."
 
 #. TRANSLATORS: the argument is site name (like Savannah).
 #: frontend/php/my/admin/change.php:519
@@ -10540,7 +10430,8 @@ msgid ""
 "discard\n"
 "the process and report ASAP the problem to us:"
 msgstr ""
-"Se você não pediu essa alteração, por favor visite esta URL para descartar\n"
+"Se você não socilitou essa mudança, por favor visite esta URL para "
+"descartar\n"
 "o processo e relatar o mais cedo possível o problema para nós:"
 
 #: frontend/php/my/admin/change.php:536
@@ -10571,7 +10462,6 @@ msgid "Change Timezone"
 msgstr "Mudar fuso horário"
 
 #: frontend/php/my/admin/change.php:620 frontend/php/my/admin/index.php:369
-#, fuzzy
 #| msgid ""
 #| "No matter where you live, you can see all dates and times as if it were "
 #| "in your neighborhood."
@@ -10579,7 +10469,7 @@ msgid ""
 "No matter where you live, you can see all dates and times as if it were in\n"
 "your neighborhood."
 msgstr ""
-"Não importa onde você mora, você pode ver todas as datas e horários como se "
+"Não importa onde você mora, você pode ver todas as datas e horários como se\n"
 "estivesse em sua vizinhança."
 
 #: frontend/php/my/admin/change.php:626 frontend/php/my/admin/index.php:366
@@ -10608,22 +10498,22 @@ msgid "Change GPG Key"
 msgstr "Mudar chave GPG"
 
 #: frontend/php/my/admin/change.php:672
-#, fuzzy
 #| msgid "Change GPG Key"
 msgid "Sample GPG key"
-msgstr "Mudar chave GPG"
+msgstr "Amostra de chave GPG"
 
 #: frontend/php/my/admin/change.php:673
 msgid "The exported public GPG key should look like this:"
-msgstr ""
+msgstr "A chave GPG pública exportada deve se parecer com isso:"
 
 #: frontend/php/my/admin/change.php:708
 msgid "Please don't remove begin and end markers when submitting your GPG key."
 msgstr ""
+"Por favor, não remova os marcadores de início e fim ao enviar sua chave GPG."
 
 #: frontend/php/my/admin/change.php:710
 msgid "Update your key in the input area below"
-msgstr ""
+msgstr "Atualize sua chave na área de entrada abaixo"
 
 #: frontend/php/my/admin/change.php:712
 msgid ""
@@ -10632,16 +10522,14 @@ msgstr ""
 "Insira sua chave pública (ASCII) aqui (feita com gpg --export --armor KEYID):"
 
 #: frontend/php/my/admin/change.php:718
-#, fuzzy
 #| msgid "View GPG Key"
 msgid "New GPG key"
-msgstr "Ver Chave GPG"
+msgstr "Nova chave GPG"
 
 #: frontend/php/my/admin/change.php:723
-#, fuzzy
 #| msgid "Edit GPG Key"
 msgid "Test GPG key"
-msgstr "Editar chave GPG"
+msgstr "Testar chave GPG"
 
 #: frontend/php/my/admin/change.php:732 frontend/php/my/admin/index.php:247
 msgid "Change Email Address"
@@ -10652,7 +10540,6 @@ msgid "New email address:"
 msgstr "Novo endereço de e-mail:"
 
 #: frontend/php/my/admin/change.php:734
-#, fuzzy
 #| msgid ""
 #| "Changing your email address will require confirmation from your new email "
 #| "address, so that we can ensure we have a good email address on file."
@@ -10662,12 +10549,11 @@ msgid ""
 "on\n"
 "file."
 msgstr ""
-"Alterar seu endereço de e-mail exigirá a confirmação do seu novo endereço de "
-"e-mail, para que possamos garantir que temos um bom endereço de e-mail "
-"registrado."
+"A alteração seu endereço de e-mail exigirá a confirmação do\n"
+"seu novo endereço de e-mail, para que possamos garantir que temos um bom\n"
+"endereço de e-mail registrado."
 
 #: frontend/php/my/admin/change.php:738
-#, fuzzy
 #| msgid ""
 #| "We need to maintain an accurate email address for each user due to the "
 #| "level of access we grant via this account. If we need to reach a user for "
@@ -10677,13 +10563,12 @@ msgid ""
 "level of access we grant via this account. If we need to reach a user for\n"
 "issues related to this server, it is important that we be able to do so."
 msgstr ""
-"Precisamos manter um endereço de e-mail correto para cada usuário devido ao "
-"nível de acesso que concedemos através desta conta. Se precisarmos alcançar "
-"um usuário para problemas relacionados a este servidor, é importante que "
+"Precisamos manter um endereço de e-mail correto para cada usuário devido ao\n"
+"nível de acesso que concedemos através desta conta. Se precisarmos alcançar\n"
+"um usuário para problemas relacionados a este servidor, é importante que\n"
 "possamos fazê-lo."
 
 #: frontend/php/my/admin/change.php:743
-#, fuzzy
 #| msgid ""
 #| "Submitting the form below will mail a confirmation url to the new email "
 #| "address; visiting this link will complete the email change. The old "
@@ -10695,20 +10580,19 @@ msgid ""
 "will also receive an email message, this one with a URL to discard the\n"
 "request."
 msgstr ""
-"Enviar o formulário abaixo enviará uma URL de confirmação para o novo "
-"endereço de e-mail; visitar este link irá completar a troca de e-mail. O "
-"endereço antigo também receberá uma mensagem de e-mail, esta com um URL para "
-"descartar a solicitação."
+"O envio do formulário abaixo enviará uma URL de confirmação para o\n"
+"novo endereço de e-mail; visite este link para completar a mudança\n"
+"de e-mail. O endereço antigo também receberá uma mensagem de e-mail,\n"
+"esta com um URL para descartar a solicitação."
 
 #: frontend/php/my/admin/change.php:751
 msgid "Confirm Email Change"
 msgstr "Confirmar alteração de e-mail"
 
 #: frontend/php/my/admin/change.php:752
-#, fuzzy
 #| msgid "Click update to confirm your e-mail change"
 msgid "Push &ldquo;Update&rdquo; to confirm your email change"
-msgstr "clique atualizar para confirmar sua alteração de e-mail"
+msgstr "Clique em \"Atualizar\" para confirmar a alteração do seu e-mail"
 
 #: frontend/php/my/admin/change.php:753 frontend/php/my/admin/change.php:783
 msgid "Confirmation hash:"
@@ -10723,10 +10607,9 @@ msgid "Delete Account"
 msgstr "Excluir conta"
 
 #: frontend/php/my/admin/change.php:772
-#, fuzzy
 #| msgid "Do you really want to delete your user account:"
 msgid "Do you really want to delete your user account?"
-msgstr "Você realmente deseja excluir sua conta de usuário:"
+msgstr "Você realmente deseja excluir sua conta de usuário?"
 
 #: frontend/php/my/admin/change.php:776
 #: frontend/php/project/admin/squadadmin.php:256
@@ -10742,15 +10625,14 @@ msgid "Confirm account deletion"
 msgstr "Confirmar exclusão de conta"
 
 #: frontend/php/my/admin/change.php:782
-#, fuzzy
 #| msgid "Click update to confirm your account deletion"
 msgid "Push &ldquo;Update&rdquo; to confirm your account deletion"
-msgstr "Clique atualizar para confirmar sua exclusão de conta"
+msgstr "Clique em \"Atualizar\" para confirmar a exclusão da sua conta"
 
 #: frontend/php/my/admin/change.php:793
 #, php-format
 msgid "Unknown user settings item (%s)"
-msgstr ""
+msgstr "Item desconhecido de configurações de usuário (%s)"
 
 #. TRANSLATORS: this is a report of a successful action.
 #: frontend/php/my/admin/sessions.php:46
@@ -10796,10 +10678,10 @@ msgstr "Sessão atual"
 
 #. TRANSLATORS: The variables are session identifier, time, remote host.
 #: frontend/php/my/admin/sessions.php:104
-#, fuzzy, php-format
+#, php-format
 #| msgid "Session %s opened on %s from %s"
 msgid "Session %1$s opened on %2$s from %3$s"
-msgstr "Sessão %s aberta em %s de %s"
+msgstr "Sessão %1$s aberta em %2$s de %3$s"
 
 #: frontend/php/my/admin/sessions.php:121
 msgid "Kill all sessions"
@@ -10807,14 +10689,13 @@ msgstr "Matar todas sessões"
 
 #: frontend/php/my/admin/sessions.php:123
 msgid "All sessions apart from the current one"
-msgstr "Todas as sessões além da atual"
+msgstr "Todas as sessões, exceto a atual"
 
 #: frontend/php/my/admin/index.php:68
 msgid "Failed to update the database"
 msgstr "Falha ao atualizar o banco de dados"
 
 #: frontend/php/my/admin/index.php:103
-#, fuzzy
 #| msgid ""
 #| "Stone age menu activated, it will be effective the next time a page is "
 #| "loaded"
@@ -10822,14 +10703,13 @@ msgid ""
 "Stone age menu activated, it will be effective the next time a page is\n"
 "loaded"
 msgstr ""
-"Menu da idade da pedra ativado; ele será efetivo na próxima vez que uma "
+"Menu da idade da pedra ativado; isso terá efeito na próxima vez que uma\n"
 "página for carregada"
 
 #: frontend/php/my/admin/index.php:128
-#, fuzzy
 #| msgid "You can view/change all of your account features from here."
 msgid "You can change all of your account features from here."
-msgstr "Você pode ver/alterar todos os seus recursos de conta a partir daqui."
+msgstr "Você pode alterar todos os recursos de sua conta a partir daqui."
 
 #: frontend/php/my/admin/index.php:134
 msgid "Significant Arrangements"
@@ -10867,10 +10747,9 @@ msgstr[1] "Gerenciar as %d sessões abertas"
 
 #: frontend/php/my/admin/index.php:194
 msgid "Keep only one session opened at a time"
-msgstr "Manter apenas uma sessão aberta de cada vez"
+msgstr "Manter apenas uma sessão aberta por vez"
 
 #: frontend/php/my/admin/index.php:197
-#, fuzzy
 #| msgid ""
 #| "By default, you can open as many session concurrently as you want. But "
 #| "you may prefer to allow only one session to be opened at a time, killing "
@@ -10881,9 +10760,10 @@ msgid ""
 "previous\n"
 "sessions each time you log in."
 msgstr ""
-"Por padrão, você pode abrir tantas sessões simultaneamente quanto desejar. "
-"Mas você pode preferir permitir que uma única sessão seja aberta de cada "
-"vez, matando sessões anteriores cada vez que você se autenticar."
+"Por padrão, você pode abrir tantas sessões simultaneamente quanto desejar.\n"
+"Mas você pode preferir permitir que uma única sessão seja aberta de cada vez,"
+"\n"
+"matando sessões anteriores cada vez que você se autenticar."
 
 #: frontend/php/my/admin/index.php:206
 msgid "Identity Record"
@@ -10928,7 +10808,7 @@ msgid "Mail Setup"
 msgstr "Configuração de e-mail"
 
 #: frontend/php/my/admin/index.php:249
-#, fuzzy, php-format
+#, php-format
 #| msgid ""
 #| "Your current address is %s. It is essential to us that this address "
 #| "remains valid. Keep it up to date."
@@ -10936,15 +10816,14 @@ msgid ""
 "Your current address is %s. It is essential to us that this\n"
 "address remains valid. Keep it up to date."
 msgstr ""
-"Seu endereço atual é %s. É essencial para nós que esse endereço se mantenha "
-"válido. Mantenha-o atualizado."
+"Seu endereço atual é %s. É essencial para nós que esse\n"
+"endereço se mantenha válido. Mantenha-o atualizado."
 
 #: frontend/php/my/admin/index.php:258
 msgid "Edit Personal Notification Settings"
 msgstr "Editar configurações pessoais de notificação"
 
 #: frontend/php/my/admin/index.php:260
-#, fuzzy
 #| msgid ""
 #| "Here is defined when the trackers should send email notifications. It "
 #| "permits also to configure the subject line prefix of sent mails."
@@ -10952,9 +10831,9 @@ msgid ""
 "Here is defined when the trackers should send email notifications. It\n"
 "permits also to configure the subject line prefix of sent mails."
 msgstr ""
-"Aqui é definido quando os rastreadores devem enviar notificações por e-mail. "
-"Ele também permite configurar o prefixo de linha de assunto dos e-mails "
-"enviados."
+"Aqui é definido quando os rastreadores devem enviar notificações por e-mail."
+"\n"
+"Também permite configurar o prefixo de linha de assunto dos e-mails enviados."
 
 #: frontend/php/my/admin/index.php:267
 msgid "Here, you can cancel all mail notifications."
@@ -10965,7 +10844,6 @@ msgid "Secondary Arrangements"
 msgstr "Organizações secundárias"
 
 #: frontend/php/my/admin/index.php:286
-#, fuzzy
 #| msgid ""
 #| "Caution: your current web browser identifies itself as Microsoft Internet "
 #| "Explorer. Unexpected behavior of this software in several regards may "
@@ -10975,12 +10853,12 @@ msgid ""
 "Explorer. Unexpected behavior of this software in several regards may cause\n"
 "rendering problems, most notably break the interface layout."
 msgstr ""
-"Cuidado: seu navegador atual se identifica como Microsoft Internet Explorer. "
-"O comportamento inesperado deste software em vários aspectos pode causar "
+"Cuidado: seu navegador atual se identifica como Microsoft Internet Explorer."
+"\n"
+"O comportamento inesperado deste software em vários aspectos pode causar\n"
 "problemas de renderização, sobretudo quebrar o layout da interface."
 
 #: frontend/php/my/admin/index.php:290
-#, fuzzy
 #| msgid ""
 #| "You are strongly advised to use a browser like Mozilla or Konqueror if "
 #| "you encounter such troubles."
@@ -10988,7 +10866,7 @@ msgid ""
 "You are strongly advised to use a browser like Mozilla or Konqueror if you\n"
 "encounter such troubles."
 msgstr ""
-"Você é fortemente recomendado a usar um navegador como Mozilla ou Konqueror "
+"Você é fortemente recomendado a usar um navegador como Mozilla ou Konqueror\n"
 "se você encontrar esses problemas."
 
 #: frontend/php/my/admin/index.php:296
@@ -10997,7 +10875,7 @@ msgstr "Exclusão de conta"
 
 #. TRANSLATORS: the argument is site name (like Savannah).
 #: frontend/php/my/admin/index.php:301
-#, fuzzy, php-format
+#, php-format
 #| msgid ""
 #| "If you are no longer member of any project and do not intend to use %s "
 #| "further, you may want to delete your account. This action cannot be "
@@ -11008,9 +10886,9 @@ msgid ""
 "undone\n"
 "and your current login will be forever lost."
 msgstr ""
-"Se você não é mais membro de nenhum projeto e não pretende mais usar %s, "
-"você pode querer excluir sua conta. Esta ação não pode ser desfeita e seu "
-"login atual será perdido para sempre."
+"Se você não é mais membro de nenhum projeto e não pretende mais usar o %s,\n"
+"você pode querer excluir sua conta. Esta ação não pode ser desfeita e sua\n"
+"conta atual será perdida para sempre."
 
 #: frontend/php/my/admin/index.php:310
 msgid "Optional Features"
@@ -11021,7 +10899,6 @@ msgid "Use integrated bookmarks"
 msgstr "Usar favoritos integrados"
 
 #: frontend/php/my/admin/index.php:320
-#, fuzzy
 #| msgid ""
 #| "By default, integrated bookmarks are deactivated to avoid redundancy with "
 #| "the bookmark feature provided by most modern web browsers. However, you "
@@ -11033,18 +10910,17 @@ msgid ""
 "prefer integrated bookmarks if you frequently use different workstations\n"
 "without web browsers bookmarks synchronization."
 msgstr ""
-"Por padrão, os favoritos integrados são desativados para evitar a "
-"redundância com o recurso de favoritos fornecido pela maioria dos "
-"navegadores modernos. No entanto, você pode preferir favoritos integrados se "
-"você usar frequentemente diferentes estações de trabalho sem sincronização "
-"de favoritos de navegadores web."
+"Por padrão, os favoritos integrados são desativados para evitar a\n"
+"redundância com o recurso de favoritos fornecido pela maioria dos\n"
+"navegadores modernos. No entanto, você pode preferir favoritos\n"
+"integrados se você usar frequentemente diferentes estações de\n"
+"trabalho sem sincronização de favoritos de navegadores web."
 
 #: frontend/php/my/admin/index.php:334
 msgid "Hide email address from your account information"
-msgstr "Ocultar o endereço de e-mail das informações de seu cadastro"
+msgstr "Ocultar o endereço de e-mail das informações de sua conta"
 
 #: frontend/php/my/admin/index.php:337
-#, fuzzy
 #| msgid ""
 #| "When checked, the only way for users to get in touch with you would be to "
 #| "use the form available to logged-in users. It is generally a bad idea to "
@@ -11055,10 +10931,11 @@ msgid ""
 "choose\n"
 "this option, especially if you are a project administrator."
 msgstr ""
-"Quando marcado, a única maneira de os usuários entrar em contato com você "
-"seria usar o formulário disponível para usuários registrados. Geralmente, é "
-"uma má ideia escolher essa opção, especialmente se você é um administrador "
-"de projeto."
+"Quando marcado, a única maneira de os usuários entrar em contato com você é "
+"usar\n"
+"o formulário disponível para usuários registrados. Geralmente, é uma má "
+"ideia\n"
+"escolher essa opção, especialmente se você é um administrador de projeto."
 
 #: frontend/php/my/admin/index.php:347
 msgid "Encrypt emails when resetting password"
@@ -11070,11 +10947,10 @@ msgid ""
 "with your registered public GPG key when resetting password is requested.\n"
 "If no suitable key is available, the messages still go unencrypted."
 msgstr ""
-"Quando verificado, o Savannah irá criptografar mensagens de e-mail\n"
-"com sua chave de GPG pública registrada quando a senha de reinicialização "
-"for solicitada.\n"
-"Se nenhuma chave adequada estiver disponível, as mensagens ainda não serão "
-"criptografadas."
+"Quando marcado, o Savannah irá criptografar mensagens de e-mail\n"
+"com sua chave de GPG pública registrada quando a senha de reinicialização\n"
+"for solicitada. Se nenhuma chave adequada estiver disponível, as mensagens\n"
+"ainda não serão criptografadas."
 
 #: frontend/php/my/admin/index.php:359
 msgid "Cosmetics Setup"
