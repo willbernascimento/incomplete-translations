@@ -22,9 +22,10 @@ msgstr ""
 "Project-Id-Version: libexif 0.6.22-pre1\n"
 "Report-Msgid-Bugs-To: libexif-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2016-09-02 00:46+0200\n"
-"PO-Revision-Date: 2019-04-29 15:46-0200\n"
+"PO-Revision-Date: 2019-07-07 14:21-0200\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
-"Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge.net>\n"
+"Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge.net>"
+"\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -502,7 +503,7 @@ msgstr "Padrão"
 
 #: libexif/canon/mnote-canon-entry.c:174 libexif/exif-entry.c:718
 msgid "Spot"
-msgstr "Local"
+msgstr "Ponto"
 
 #: libexif/canon/mnote-canon-entry.c:175 libexif/exif-entry.c:716
 msgid "Average"
@@ -1796,11 +1797,11 @@ msgstr ""
 
 #: libexif/exif-entry.c:682
 msgid "Reversed mono"
-msgstr ""
+msgstr "Mono invertido"
 
 #: libexif/exif-entry.c:682
 msgid "Normal mono"
-msgstr "Normal mono"
+msgstr "Mono invertido"
 
 #: libexif/exif-entry.c:682
 msgid "RGB"
@@ -1901,7 +1902,7 @@ msgstr "Desconhecido"
 
 #: libexif/exif-entry.c:716
 msgid "Avg"
-msgstr ""
+msgstr "Méd"
 
 #: libexif/exif-entry.c:717
 msgid "Center-weight"
@@ -1909,7 +1910,7 @@ msgstr "Peso central"
 
 #: libexif/exif-entry.c:719
 msgid "Multi spot"
-msgstr ""
+msgstr "Multiponto"
 
 #: libexif/exif-entry.c:720
 msgid "Pattern"
@@ -2456,6 +2457,10 @@ msgstr "Versão da etiqueta GPS"
 #: libexif/exif-tag.c:63
 msgid "Indicates the version of <GPSInfoIFD>. The version is given as 2.0.0.0. This tag is mandatory when <GPSInfo> tag is present. (Note: The <GPSVersionID> tag is given in bytes, unlike the <ExifVersion> tag. When the version is 2.0.0.0, the tag value is 02000000.H)."
 msgstr ""
+"Indica a versão do <GPSInfoIFD>. A versão é dada como 2.0.0.0. Esta tag é "
+"obrigatória quando a tag <GPSInfo> está presente. (Nota: A tag <GPSVersionID>"
+" é dada em bytes, ao contrário da tag <ExifVersion>. Quando a versão é "
+"2.0.0.0, o valor da tag é 02000000.H)."
 
 #: libexif/exif-tag.c:69
 msgid "Interoperability Index"
@@ -2464,6 +2469,10 @@ msgstr "Índice de interoperabilidade"
 #: libexif/exif-tag.c:70
 msgid "Indicates the identification of the Interoperability rule. Use \"R98\" for stating ExifR98 Rules. Four bytes used including the termination code (NULL). see the separate volume of Recommended Exif Interoperability Rules (ExifR98) for other tags used for ExifR98."
 msgstr ""
+"Indica a identificação da regra de interoperabilidade. Use \"R98\" para "
+"declarar as regras do ExifR98. Quatro bytes usados, incluindo o código de "
+"terminação (NULL). Veja o volume separado de Regras de Interoperabilidade "
+"Exif Recomendadas (ExifR98) para outras tags usadas para o ExifR98."
 
 #: libexif/exif-tag.c:76
 msgid "North or South Latitude"
@@ -2472,6 +2481,8 @@ msgstr "Latitude Norte ou Sul"
 #: libexif/exif-tag.c:77
 msgid "Indicates whether the latitude is north or south latitude. The ASCII value 'N' indicates north latitude, and 'S' is south latitude."
 msgstr ""
+"Indica se a latitude é norte ou sul. O valor ASCII \"N\" indica latitude "
+"norte e \"S\" indica latitude sul."
 
 #: libexif/exif-tag.c:81
 msgid "Interoperability Version"
@@ -2484,6 +2495,11 @@ msgstr "Latitude"
 #: libexif/exif-tag.c:84
 msgid "Indicates the latitude. The latitude is expressed as three RATIONAL values giving the degrees, minutes, and seconds, respectively. When degrees, minutes and seconds are expressed, the format is dd/1,mm/1,ss/1. When degrees and minutes are used and, for example, fractions of minutes are given up to two decimal places, the format is dd/1,mmmm/100,0/1."
 msgstr ""
+"Indica a latitude. A latitude é expressa como três valores RACIONAIS "
+"fornecendo os graus, minutos e segundos, respectivamente. Quando graus, "
+"minutos e segundos são expressos, o formato é dd/1,mm/1,ss/1. Quando graus e "
+"minutos são usados e, por exemplo, frações de minutos são dadas até duas "
+"casas decimais, o formato é dd/1,mmmm/100,0/1."
 
 #: libexif/exif-tag.c:91
 msgid "East or West Longitude"
@@ -2492,6 +2508,8 @@ msgstr "Longitude Leste ou Oeste"
 #: libexif/exif-tag.c:92
 msgid "Indicates whether the longitude is east or west longitude. ASCII 'E' indicates east longitude, and 'W' is west longitude."
 msgstr ""
+"Indica se a longitude é leste ou oeste. O valor ASCII \"E\" indica longitude "
+"leste e \"W\" indica longitude oeste."
 
 #: libexif/exif-tag.c:95
 msgid "Longitude"
@@ -2500,6 +2518,11 @@ msgstr "Longitude"
 #: libexif/exif-tag.c:96
 msgid "Indicates the longitude. The longitude is expressed as three RATIONAL values giving the degrees, minutes, and seconds, respectively. When degrees, minutes and seconds are expressed, the format is ddd/1,mm/1,ss/1. When degrees and minutes are used and, for example, fractions of minutes are given up to two decimal places, the format is ddd/1,mmmm/100,0/1."
 msgstr ""
+"Indica a longitude. A longitude é expressa como três valores RACIONAIS "
+"fornecendo os graus, minutos e segundos, respectivamente. Quando graus, "
+"minutos e segundos são expressos, o formato é ddd/1,mm/1,ss/1. Quando graus "
+"e minutos são usados e, por exemplo, frações de minutos são dadas até duas "
+"casas decimais, o formato é ddd/1,mmmm/100,0/1."
 
 #: libexif/exif-tag.c:103
 msgid "Altitude Reference"
@@ -2508,6 +2531,12 @@ msgstr "Altitude de referência"
 #: libexif/exif-tag.c:104
 msgid "Indicates the altitude used as the reference altitude. If the reference is sea level and the altitude is above sea level, 0 is given. If the altitude is below sea level, a value of 1 is given and the altitude is indicated as an absolute value in the GPSAltitude tag. The reference unit is meters. Note that this tag is BYTE type, unlike other reference tags."
 msgstr ""
+"Indica a altitude usada como altitude de referência. Se a referência é o "
+"nível do mar e a altitude está acima do nível do mar, 0 é dado. Se a "
+"altitude estiver abaixo do nível do mar, um valor de 1 será dado e a "
+"altitude será indicada como um valor absoluto na tag GPSAltitude. A unidade "
+"de referência é metros. Observe que essa tag é do tipo BYTE, diferente de "
+"outras tags de referência."
 
 #: libexif/exif-tag.c:110
 msgid "Altitude"
@@ -2516,6 +2545,8 @@ msgstr "Altitude"
 #: libexif/exif-tag.c:111
 msgid "Indicates the altitude based on the reference in GPSAltitudeRef. Altitude is expressed as one RATIONAL value. The reference unit is meters."
 msgstr ""
+"Indica a altitude com base na referência em GPSAltitudeRef. A altitude é "
+"expressa como um valor RACIONAL. A unidade de referência é metros."
 
 #: libexif/exif-tag.c:114
 msgid "GPS Time (Atomic Clock)"
@@ -2524,14 +2555,21 @@ msgstr "Tempo GPS (Relógio atômico)"
 #: libexif/exif-tag.c:115
 msgid "Indicates the time as UTC (Coordinated Universal Time). TimeStamp is expressed as three RATIONAL values giving the hour, minute, and second."
 msgstr ""
+"Indica a hora como UTC (Tempo Universal Coordenado). O TimeStamp é expresso "
+"como três valores RACIONAL, dando a hora, o minuto e o segundo."
 
 #: libexif/exif-tag.c:118
 msgid "GPS Satellites"
-msgstr ""
+msgstr "Satélites de GPS"
 
 #: libexif/exif-tag.c:119
 msgid "Indicates the GPS satellites used for measurements. This tag can be used to describe the number of satellites, their ID number, angle of elevation, azimuth, SNR and other information in ASCII notation. The format is not specified. If the GPS receiver is incapable of taking measurements, value of the tag shall be set to NULL."
 msgstr ""
+"Indica os satélites de GPS usados para medições. Esta tag pode ser usada "
+"para descrever o número de satélites, seu número de ID, ângulo de elevação, "
+"azimute, SNR e outras informações em notação ASCII. O formato não é "
+"especificado. Se o receptor de GPS for incapaz de fazer medições, o valor do "
+"tag deve ser ajustado para NULO."
 
 #: libexif/exif-tag.c:125
 msgid "GPS Receiver Status"
@@ -2556,6 +2594,8 @@ msgstr "Precisão de medida"
 #: libexif/exif-tag.c:134
 msgid "Indicates the GPS DOP (data degree of precision). An HDOP value is written during two-dimensional measurement, and PDOP during three-dimensional measurement."
 msgstr ""
+"Indica o GPS DOP (grau de precisão dos dados). Um valor HDOP é escrito "
+"durante a medição bidimensional e PDOP durante a medição tridimensional."
 
 #: libexif/exif-tag.c:137
 msgid "Speed Unit"
@@ -2567,11 +2607,11 @@ msgstr "Indica a unidade utilizada para expressar a velocidade do movimento do r
 
 #: libexif/exif-tag.c:141
 msgid "Speed of GPS Receiver"
-msgstr "Velocidade do recebedor GPS"
+msgstr "Velocidade do receptor GPS"
 
 #: libexif/exif-tag.c:142
 msgid "Indicates the speed of GPS receiver movement."
-msgstr ""
+msgstr "Indica a velocidade do movimento do receptor GPS."
 
 #: libexif/exif-tag.c:143
 msgid "Reference for direction of movement"
@@ -2579,7 +2619,9 @@ msgstr "Referência para direção do movimento"
 
 #: libexif/exif-tag.c:144
 msgid "Indicates the reference for giving the direction of GPS receiver movement. 'T' denotes true direction and 'M' is magnetic direction."
-msgstr "Indica a referência para dar a direção do movimento do receptor GPS. \"T\" denota sentido verdadeiro e \"M\" é o sentido magnético."
+msgstr ""
+"Indica a referência para dar a direção do movimento do receptor GPS. \"T\" "
+"denota sentido verdadeiro e \"M\" é o sentido magnético."
 
 #: libexif/exif-tag.c:147
 msgid "Direction of Movement"
@@ -2588,10 +2630,12 @@ msgstr "Direção do movimento"
 #: libexif/exif-tag.c:148
 msgid "Indicates the direction of GPS receiver movement. The range of values is from 0.00 to 359.99."
 msgstr ""
+"Indica a direção do movimento do receptor GPS. O intervalo de valores é de "
+"0,00 a 359,99."
 
 #: libexif/exif-tag.c:150
 msgid "GPS Image Direction Reference"
-msgstr ""
+msgstr "Referência de direção de imagem do GPS"
 
 #: libexif/exif-tag.c:151
 msgid "Indicates the reference for giving the direction of the image when it is captured. 'T' denotes true direction and 'M' is magnetic direction."
@@ -2599,11 +2643,13 @@ msgstr "Indica a referência para dar a direção da imagem quando ela é captur
 
 #: libexif/exif-tag.c:153
 msgid "GPS Image Direction"
-msgstr ""
+msgstr "Direção de imagem GPS"
 
 #: libexif/exif-tag.c:154
 msgid "Indicates the direction of the image when it was captured. The range of values is from 0.00 to 359.99."
 msgstr ""
+"Indica a direção do movimento da imagem quando ela foi capturada. O "
+"intervalo de valores é de 0,00 a 359,99."
 
 #: libexif/exif-tag.c:156
 msgid "Geodetic Survey Data Used"
@@ -2612,6 +2658,10 @@ msgstr "Dados de avaliação geodésica utilizados"
 #: libexif/exif-tag.c:157
 msgid "Indicates the geodetic survey data used by the GPS receiver. If the survey data is restricted to Japan, the value of this tag is 'TOKYO' or 'WGS-84'. If a GPS Info tag is recorded, it is strongly recommended that this tag be recorded."
 msgstr ""
+"Indica os dados do levantamento geodésico usados pelo receptor GPS. Se os "
+"dados da pesquisa estiverem restritos ao Japão, o valor dessa tag é \"TOKYO\""
+" ou \"WGS-84\". Se uma tag de Informações do GPS for gravada, é altamente "
+"recomendável que essa tag seja gravada."
 
 #: libexif/exif-tag.c:161
 msgid "Reference For Latitude of Destination"
@@ -2628,6 +2678,12 @@ msgstr "Latitude do destino"
 #: libexif/exif-tag.c:166
 msgid "Indicates the latitude of the destination point. The latitude is expressed as three RATIONAL values giving the degrees, minutes, and seconds, respectively. If latitude is expressed as degrees, minutes and seconds, a typical format would be dd/1,mm/1,ss/1. When degrees and minutes are used and, for example, fractions of minutes are given up to two decimal places, the format would be dd/1,mmmm/100,0/1."
 msgstr ""
+"Indica a latitude do ponto de destino. A latitude é expressa como três "
+"valores RACIONAIS fornecendo os graus, minutos e segundos, respectivamente. "
+"Se a latitude é expressa em graus, minutos e segundos, um formato típico "
+"seria dd/1,mm/1,ss/1. Quando graus e minutos são usados e, por exemplo, "
+"frações de minutos são dadas até duas casas decimais, o formato seria dd/1,"
+"mmmm/100,0/1."
 
 #: libexif/exif-tag.c:173
 msgid "Reference for Longitude of Destination"
@@ -2644,22 +2700,31 @@ msgstr "Longitude do destino"
 #: libexif/exif-tag.c:178
 msgid "Indicates the longitude of the destination point. The longitude is expressed as three RATIONAL values giving the degrees, minutes, and seconds, respectively. If longitude is expressed as degrees, minutes and seconds, a typical format would be ddd/1,mm/1,ss/1. When degrees and minutes are used and, for example, fractions of minutes are given up to two decimal places, the format would be ddd/1,mmmm/100,0/1."
 msgstr ""
+"Indica a longitude do ponto de destino. A longitude é expressa como três "
+"valores RACIONAIS fornecendo os graus, minutos e segundos, respectivamente. "
+"Se a longitude é expressa em graus, minutos e segundos, um formato típico "
+"seria ddd/1,mm/1,ss/1. Quando graus e minutos são usados e, por exemplo, "
+"frações de minutos são dadas até duas casas decimais, o formato seria ddd/1,"
+"mmmm/100,0/1."
 
 #: libexif/exif-tag.c:186
 msgid "Reference for Bearing of Destination"
-msgstr ""
+msgstr "Referência para o rumo de destino"
 
 #: libexif/exif-tag.c:187
 msgid "Indicates the reference used for giving the bearing to the destination point. 'T' denotes true direction and 'M' is magnetic direction."
 msgstr ""
+"Indica a referência usada para dar o rumo ao ponto de destino. \"T\" denota "
+"sentido verdadeiro e \"M\" é o sentido magnético."
 
 #: libexif/exif-tag.c:190
 msgid "Bearing of Destination"
-msgstr ""
+msgstr "Rumo de destino"
 
 #: libexif/exif-tag.c:191
 msgid "Indicates the bearing to the destination point. The range of values is from 0.00 to 359.99."
 msgstr ""
+"Indica o rumo do ponto de destino. O intervalo de valores é de 0,00 a 359,99."
 
 #: libexif/exif-tag.c:193
 msgid "Reference for Distance to Destination"
@@ -2668,6 +2733,8 @@ msgstr "Referência para distância até o destino"
 #: libexif/exif-tag.c:194
 msgid "Indicates the unit used to express the distance to the destination point. 'K', 'M' and 'N' represent kilometers, miles and nautical miles."
 msgstr ""
+"Indica a unidade usada para expressar a distância até o ponto de destino. "
+"'K', 'M' e 'N' representam quilômetros, milhas e milhas náuticas."
 
 #: libexif/exif-tag.c:197
 msgid "Distance to Destination"
@@ -2700,6 +2767,9 @@ msgstr "Data do GPS"
 #: libexif/exif-tag.c:211
 msgid "A character string recording date and time information relative to UTC (Coordinated Universal Time). The format is \"YYYY:MM:DD\". The length of the string is 11 bytes including NULL."
 msgstr ""
+"Uma sequência de caracteres que registra informações de data e hora "
+"relativas a UTC (Tempo Universal Coordenado). O formato é \"AAAA:MM:DD\". O "
+"comprimento da string é de 11 bytes, incluindo NULO."
 
 #: libexif/exif-tag.c:215
 msgid "GPS Differential Correction"
@@ -2707,7 +2777,7 @@ msgstr "Correção diferencial do GPS"
 
 #: libexif/exif-tag.c:216
 msgid "Indicates whether differential correction is applied to the GPS receiver."
-msgstr ""
+msgstr "Indica se a correção diferencial é aplicada ao receptor GPS."
 
 #: libexif/exif-tag.c:220
 msgid "New Subfile Type"
@@ -2715,7 +2785,7 @@ msgstr "Novo tipo de subarquivo"
 
 #: libexif/exif-tag.c:220
 msgid "A general indication of the kind of data contained in this subfile."
-msgstr ""
+msgstr "Uma indicação geral do tipo de dados contidos neste subarquivo."
 
 #: libexif/exif-tag.c:222
 msgid "Image Width"
@@ -2724,22 +2794,30 @@ msgstr "Largura de imagem"
 #: libexif/exif-tag.c:223
 msgid "The number of columns of image data, equal to the number of pixels per row. In JPEG compressed data a JPEG marker is used instead of this tag."
 msgstr ""
+"O número de colunas de dados da imagem, igual ao número de pixels por linha. "
+"Em dados compactados JPEG, um marcador JPEG é usado no lugar dessa tag."
 
 #: libexif/exif-tag.c:227
 msgid "Image Length"
-msgstr "Altura da Imagem"
+msgstr "Altura da imagem"
 
 #: libexif/exif-tag.c:228
 msgid "The number of rows of image data. In JPEG compressed data a JPEG marker is used instead of this tag."
-msgstr "O número de linhas dos dados da imagem. Em dados comprimidos em JPEG, um marcador JPEG é usado ao invés desta etiqueta."
+msgstr ""
+"O número de linhas dos dados da imagem. Em dados comprimidos em JPEG, um "
+"marcador JPEG é usado ao invés desta etiqueta."
 
 #: libexif/exif-tag.c:231
 msgid "Bits per Sample"
-msgstr "Bits por Amostra"
+msgstr "Bits por amostra"
 
 #: libexif/exif-tag.c:232
 msgid "The number of bits per image component. In this standard each component of the image is 8 bits, so the value for this tag is 8. See also <SamplesPerPixel>. In JPEG compressed data a JPEG marker is used instead of this tag."
 msgstr ""
+"O número de bits por componente de imagem. Neste padrão, cada componente da "
+"imagem é de 8 bits, portanto, o valor dessa tag é 8. Consulte também "
+"<SamplesPerPixel>. Em dados compactados JPEG, um marcador JPEG é usado no "
+"lugar dessa tag."
 
 #: libexif/exif-tag.c:237
 msgid "Compression"
@@ -2748,6 +2826,10 @@ msgstr "Compressão"
 #: libexif/exif-tag.c:238
 msgid "The compression scheme used for the image data. When a primary image is JPEG compressed, this designation is not necessary and is omitted. When thumbnails use JPEG compression, this tag value is set to 6."
 msgstr ""
+"O esquema de compressão usado para os dados da imagem. Quando uma imagem "
+"primária é compactada em JPEG, essa designação não é necessária e é omitida. "
+"Quando as miniaturas usam compactação JPEG, esse valor de tag é definido "
+"como 6."
 
 #: libexif/exif-tag.c:244
 msgid "Photometric Interpretation"
@@ -2756,6 +2838,8 @@ msgstr "Interpretação fotométrica"
 #: libexif/exif-tag.c:245
 msgid "The pixel composition. In JPEG compressed data a JPEG marker is used instead of this tag."
 msgstr ""
+"A composição de pixel. Em dados comprimidos em JPEG, um marcador JPEG é "
+"usado ao invés desta etiqueta."
 
 #: libexif/exif-tag.c:249
 msgid "Fill Order"
@@ -2763,15 +2847,19 @@ msgstr "Ordem de preenchimento"
 
 #: libexif/exif-tag.c:251
 msgid "Document Name"
-msgstr "Nome do Documento"
+msgstr "Nome do documento"
 
 #: libexif/exif-tag.c:253
 msgid "Image Description"
-msgstr "Descrição de Imagem"
+msgstr "Descrição de imagem"
 
 #: libexif/exif-tag.c:254
 msgid "A character string giving the title of the image. It may be a comment such as \"1988 company picnic\" or the like. Two-bytes character codes cannot be used. When a 2-bytes code is necessary, the Exif Private tag <UserComment> is to be used."
 msgstr ""
+"Uma string dando o título da imagem. Pode ser um comentário como \""
+"Piquenique da empresa 1988\" ou algo semelhante. Códigos de caracteres de "
+"dois bytes não podem ser usados. Quando um código de 2 bytes é necessário, a "
+"tag Exif Private <UserComment> deve ser usada."
 
 #: libexif/exif-tag.c:260
 msgid "Manufacturer"
@@ -2779,7 +2867,10 @@ msgstr "Fabricante"
 
 #: libexif/exif-tag.c:261
 msgid "The manufacturer of the recording equipment. This is the manufacturer of the DSC, scanner, video digitizer or other equipment that generated the image. When the field is left blank, it is treated as unknown."
-msgstr "O fabricante do equipamento de gravação. Este é o fabricante do DSC, scanner, digitalizador de vídeo ou outro equipamento que gera a imagem. Quando este campo é deixado em branco, ele é tratado como desconhecido."
+msgstr ""
+"O fabricante do equipamento de gravação. Este é o fabricante do DSC, "
+"scanner, digitalizador de vídeo ou outro equipamento que gera a imagem. "
+"Quando este campo é deixado em branco, ele é tratado como desconhecido."
 
 #: libexif/exif-tag.c:267
 msgid "Model"
@@ -2788,6 +2879,10 @@ msgstr "Modelo"
 #: libexif/exif-tag.c:268
 msgid "The model name or model number of the equipment. This is the model name or number of the DSC, scanner, video digitizer or other equipment that generated the image. When the field is left blank, it is treated as unknown."
 msgstr ""
+"O nome do modelo ou número do modelo do equipamento. Este é o nome ou número "
+"do modelo do DSC, scanner, digitalizador de vídeo ou outro equipamento que "
+"gera a imagem. Quando este campo é deixado em branco, ele é tratado como "
+"desconhecido."
 
 #: libexif/exif-tag.c:273
 msgid "Strip Offsets"
@@ -2803,15 +2898,18 @@ msgstr "Orientação"
 
 #: libexif/exif-tag.c:281
 msgid "The image orientation viewed in terms of rows and columns."
-msgstr "A orientação da imagem é vista em termos de linhas e colunas"
+msgstr "A orientação da imagem é vista em termos de linhas e colunas."
 
 #: libexif/exif-tag.c:284
 msgid "Samples per Pixel"
-msgstr "Modelos por Pixel"
+msgstr "Modelos por pixel"
 
 #: libexif/exif-tag.c:285
 msgid "The number of components per pixel. Since this standard applies to RGB and YCbCr images, the value set for this tag is 3. In JPEG compressed data a JPEG marker is used instead of this tag."
 msgstr ""
+"O número de componentes por pixel. Como esse padrão se aplica a imagens RGB "
+"e YCbCr, o valor definido para essa tag é 3. Em dados comprimidos JPEG, um "
+"marcador JPEG é usado em vez desta tag."
 
 #: libexif/exif-tag.c:290
 msgid "Rows per Strip"
@@ -2820,34 +2918,44 @@ msgstr ""
 #: libexif/exif-tag.c:291
 msgid "The number of rows per strip. This is the number of rows in the image of one strip when an image is divided into strips. With JPEG compressed data this designation is not needed and is omitted. See also <StripOffsets> and <StripByteCounts>."
 msgstr ""
+"O número de linhas por faixa. Esse é o número de linhas na imagem de uma "
+"faixa quando uma imagem é dividida em faixas. Com dados comprimidos JPEG, "
+"essa designação não é necessária e é omitida. Veja também <StripOffsets> e "
+"<StripByteCounts>."
 
 #: libexif/exif-tag.c:297
 msgid "Strip Byte Count"
-msgstr ""
+msgstr "Contagem de bytes da faixa"
 
 #: libexif/exif-tag.c:298
 msgid "The total number of bytes in each strip. With JPEG compressed data this designation is not needed and is omitted."
 msgstr ""
+"O número total de bytes em cada faixa. Com dados comprimidos JPEG, essa "
+"designação não é necessária e é omitida."
 
 #: libexif/exif-tag.c:301
 msgid "X-Resolution"
-msgstr ""
+msgstr "Resolução X"
 
 #: libexif/exif-tag.c:302
 msgid "The number of pixels per <ResolutionUnit> in the <ImageWidth> direction. When the image resolution is unknown, 72 [dpi] is designated."
 msgstr ""
+"O número de pixels por <ResolutionUnit> na direção de <ImageWidth>. Quando a "
+"resolução da imagem é desconhecida, 72 [dpi] é designado."
 
 #: libexif/exif-tag.c:306
 msgid "Y-Resolution"
-msgstr ""
+msgstr "Resolução Y"
 
 #: libexif/exif-tag.c:307
 msgid "The number of pixels per <ResolutionUnit> in the <ImageLength> direction. The same value as <XResolution> is designated."
 msgstr ""
+"O número de pixels por <ResolutionUnit> na direção de <ImageLength>. O mesmo "
+"valor que <XResolution> é designado."
 
 #: libexif/exif-tag.c:311
 msgid "Planar Configuration"
-msgstr "Configuração Plana"
+msgstr "Configuração plana"
 
 #: libexif/exif-tag.c:312
 msgid "Indicates whether pixel components are recorded in a chunky or planar format. In JPEG compressed files a JPEG marker is used instead of this tag. If this field does not exist, the TIFF default of 1 (chunky) is assumed."
@@ -4028,7 +4136,7 @@ msgstr "Ajustar exposição"
 
 #: libexif/olympus/mnote-olympus-entry.c:235
 msgid "Spot focus"
-msgstr ""
+msgstr "Ponto de focagem"
 
 #: libexif/olympus/mnote-olympus-entry.c:236
 msgid "Normal focus"
