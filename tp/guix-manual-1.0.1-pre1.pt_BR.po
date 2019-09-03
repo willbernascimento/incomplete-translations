@@ -1,16 +1,22 @@
 # Brazilian Portuguese translations for guix package
 # Traduções em português brasileiro para o pacote guix
-# Copyright (C) 2018 Ludovic Courtès
+# Copyright (C) 2019 Ludovic Courtès
 # This file is distributed under the same license as the guix package.
-# Rafael Fontenelle <rafaelff@gnome.org>, 2018.
+# Rafael Fontenelle <rafaelff@gnome.org>, 2019.
+# ,
+# For this translation:
+# - @pxref{Link} = see Link; use "see @ref{Link}" instead
+# - @xref{Link}  = See Link; use "See @ref{Link}" instead
+# ,
 msgid ""
 msgstr ""
 "Project-Id-Version: guix-manual 1.0.1-pre1\n"
 "Report-Msgid-Bugs-To: ludo@gnu.org\n"
 "POT-Creation-Date: 2019-05-10 20:53+0200\n"
-"PO-Revision-Date: 2018-06-25 00:26-0200\n"
+"PO-Revision-Date: 2019-09-03 13:55-0200\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
-"Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge.net>\n"
+"Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge.net>"
+"\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -30,7 +36,7 @@ msgstr "Contribuindo"
 #. type: Plain text
 #: doc/contributing.texi:9
 msgid "This project is a cooperative effort, and we need your help to make it grow! Please get in touch with us on @email{guix-devel@@gnu.org} and @code{#guix} on the Freenode IRC network.  We welcome ideas, bug reports, patches, and anything that may be helpful to the project.  We particularly welcome help on packaging (@pxref{Packaging Guidelines})."
-msgstr "Este projeto é um esforço cooperativo e precisamos da sua ajuda para fazê-lo crescer! Por favor, entre em contato conosco pelo e-mail {guix-devel@@gnu.org} e @code{#guix} na rede IRC do Freenode. São muito bem-vindas ideias, relatórios de bugs, patches e qualquer coisa que possa ser útil para o projeto. Nós particularmente agradecemos a ajuda no empacotamento das (@pxref{Diretrizes de empacotamento})."
+msgstr "Este projeto é um esforço cooperativo e precisamos da sua ajuda para fazê-lo crescer! Por favor, entre em contato conosco por meio de @email{guix-devel@@gnu.org} e @code{#guix} na rede IRC do Freenode. São muito bem-vindas ideias, relatórios de bugs, patches e qualquer coisa que possa ser útil para o projeto. Nós particularmente agradecemos a ajuda no empacotamento das (veja @ref{Diretrizes de empacotamento})."
 
 #. type: cindex
 #: doc/contributing.texi:10
@@ -134,7 +140,7 @@ msgstr "git clone https://git.savannah.gnu.org/git/guix.git\n"
 #. type: Plain text
 #: doc/contributing.texi:44
 msgid "When building Guix from a checkout, the following packages are required in addition to those mentioned in the installation instructions (@pxref{Requirements})."
-msgstr "Ao compilar o Guix de um checkout, os seguintes pacotes são necessários junto com aqueles mencionados nas instruções de instalação (@pxref{Requirements})."
+msgstr "Ao compilar o Guix de um checkout, os seguintes pacotes são necessários junto com aqueles mencionados nas instruções de instalação (veja @ref{Requisitos})."
 
 #. type: item
 #: doc/contributing.texi:46
@@ -186,7 +192,7 @@ msgstr "guix environment guix\n"
 #. type: Plain text
 #: doc/contributing.texi:65
 msgid "@xref{Invoking guix environment}, for more information on that command.  Extra dependencies can be added with @option{--ad-hoc}:"
-msgstr "@xref{Invocando o ambiente guix}, para mais informações sobre esse comando. Dependências extras podem ser adicionadas com a opção @option{--ad-hoc}:"
+msgstr "Veja @ref{Invocando o ambiente guix}, para mais informações sobre esse comando. Dependências extras podem ser adicionadas com a opção @option{--ad-hoc}:"
 
 #. type: example
 #: doc/contributing.texi:68
@@ -219,17 +225,17 @@ msgstr "export ACLOCAL_PATH=/usr/share/aclocal\n"
 #. type: Plain text
 #: doc/contributing.texi:91
 msgid "@xref{Macro Search Path,,, automake, The GNU Automake Manual}, for more information."
-msgstr "@xref{Macro Search Path,,, automake, The GNU Automake Manual}, para mais informações."
+msgstr "Veja @ref{Macro Search Path,,, automake, The GNU Automake Manual}, para mais informações."
 
 #. type: Plain text
 #: doc/contributing.texi:96
 msgid "Then, run @command{./configure} as usual.  Make sure to pass @code{--localstatedir=@var{directory}} where @var{directory} is the @code{localstatedir} value used by your current installation (@pxref{The Store}, for information about this)."
-msgstr "Em seguida, execute @command{./configure} como de costume. Certifique-se de passar @code{-localstatedir=@var{diretório}}, sendo @var{diretório} o valor de @code{localstatedir} usado pela sua instalação atual (@pxref{O armazenamento}, para informações sobre isso)."
+msgstr "Em seguida, execute @command{./configure} como de costume. Certifique-se de passar @code{-localstatedir=@var{diretório}}, sendo @var{diretório} o valor de @code{localstatedir} usado pela sua instalação atual (veja @ref{O armazenamento}, para informações sobre isso)."
 
 #. type: Plain text
 #: doc/contributing.texi:101
 msgid "Finally, you have to invoke @code{make check} to run tests (@pxref{Running the Test Suite}).  If anything fails, take a look at installation instructions (@pxref{Installation})  or send a message to the @email{guix-devel@@gnu.org, mailing list}."
-msgstr "Finalmente, você tem que invocar @code{make check} para executar testes (@pxref {Executando a suíte de testes}). Se alguma coisa falhar, dê uma olhada nas instruções de instalação (@pxref {Instalação}) ou envie uma mensagem para a @email{guix-devel@@gnu.org, a lista de discussão}."
+msgstr "Finalmente, você tem que invocar @code{make check} para executar testes (veja @ref{Executando a suíte de testes}). Se alguma coisa falhar, dê uma olhada nas instruções de instalação (veja @ref{Instalação}) ou envie uma mensagem para a @email{guix-devel@@gnu.org, a lista de discussão}."
 
 #. type: Plain text
 #: doc/contributing.texi:110
@@ -238,10 +244,9 @@ msgstr "Para manter um ambiente de trabalho saudável, você achará útil testa
 
 #. type: Plain text
 #: doc/contributing.texi:121
-#, fuzzy
 #| msgid "To that end, all the command-line tools can be used even if you have not run @code{make install}.  To do that, prefix each command with @command{./pre-inst-env} (the @file{pre-inst-env} script lives in the top build tree of Guix), as in@footnote{The @option{-E} flag to @command{sudo} guarantees that @code{GUILE_LOAD_PATH} is correctly set such that @command{guix-daemon} and the tools it uses can find the Guile modules they need.}:"
 msgid "To that end, all the command-line tools can be used even if you have not run @code{make install}.  To do that, you first need to have an environment with all the dependencies available (@pxref{Building from Git}), and then simply prefix each command with @command{./pre-inst-env} (the @file{pre-inst-env} script lives in the top build tree of Guix; it is generated by @command{./configure}), as in@footnote{The @option{-E} flag to @command{sudo} guarantees that @code{GUILE_LOAD_PATH} is correctly set such that @command{guix-daemon} and the tools it uses can find the Guile modules they need.}:"
-msgstr "Para esse fim, todas as ferramentas de linha de comando podem ser usadas mesmo que você não tenha executado @code{make install}. Para fazer isso, prefixe cada comando com @command{./pre-inst-env} (o script @file{pre-inst-env} fica na principal árvore de desenvolvimento do Guix), como em @footnote{A opção @option{-E} para @command{sudo} garante que @code{GUILE_LOAD_PATH} seja configurado corretamente de tal forma que @command{guix-daemon} e as ferramentas que ele usa podem encontrar os módulos Guile de que precisam.}:"
+msgstr "Para esse fim, todas as ferramentas de linha de comando podem ser usadas mesmo que você não tenha executado @code{make install}. Para fazer isso, primeiro você precisa ter um ambiente com todas dependências disponíveis (veja @ref{Compilando do Git}), então basta prefixar cada comando com @command{./pre-inst-env} (o script @file{pre-inst-env} fica na árvore principal de desenvolvimento do Guix; ele é gerado pelo @command{./configure}), como em @footnote{A opção @option{-E} para @command{sudo} garante que @code{GUILE_LOAD_PATH} seja configurado corretamente de tal forma que @command{guix-daemon} e as ferramentas que ele usa podem encontrar os módulos Guile de que precisam.}:"
 
 #. type: example
 #: doc/contributing.texi:125
@@ -289,7 +294,7 @@ msgstr "read-eval-print loop"
 #. type: Plain text
 #: doc/contributing.texi:141
 msgid "@dots{} and for a REPL (@pxref{Using Guile Interactively,,, guile, Guile Reference Manual}):"
-msgstr "@dots{} e para um REPL (@pxref{Usando o Guile interativamente,,, guile, Manual de referência do Guile}):"
+msgstr "@dots{} e para um REPL (veja @ref{Usando o Guile interativamente,,, guile, Manual de referência do Guile}):"
 
 #. type: example
 #: doc/contributing.texi:156
@@ -331,25 +336,24 @@ msgstr "O script @command{pre-inst-env} configura todas as variáveis de ambient
 #. type: Plain text
 #: doc/contributing.texi:165
 msgid "Note that @command{./pre-inst-env guix pull} does @emph{not} upgrade the local source tree; it simply updates the @file{~/.config/guix/current} symlink (@pxref{Invoking guix pull}).  Run @command{git pull} instead if you want to upgrade your local source tree."
-msgstr ""
+msgstr "Observe que @command{./pre-inst-env guix pull} @emph{não} atualiza a área de fontes local; ele simplesmente atualiza o link simbólico @file{~/.config/guix/current} (veja @ref{Invocando guix pull}). Execute @command{git pull} em vez disso, se você quiser atualizar sua árvore de fontes local."
 
 #. type: Plain text
 #: doc/contributing.texi:175
-#, fuzzy
 #| msgid "The Perfect Setup to hack on Guix is basically the perfect setup used for Guile hacking (@pxref{Using Guile in Emacs,,, guile, Guile Reference Manual}).  First, you need more than an editor, you need @url{http://www.gnu.org/software/emacs, Emacs}, empowered by the wonderful @url{http://nongnu.org/geiser/, Geiser}."
 msgid "The Perfect Setup to hack on Guix is basically the perfect setup used for Guile hacking (@pxref{Using Guile in Emacs,,, guile, Guile Reference Manual}).  First, you need more than an editor, you need @url{http://www.gnu.org/software/emacs, Emacs}, empowered by the wonderful @url{http://nongnu.org/geiser/, Geiser}.  To set that up, run:"
-msgstr "A configuração perfeita para hackear o Guix é basicamente a configuração perfeita usada para o hacker o Guile (@pxref{Usando o Guile no Emacs,,, guile, Manual de referência do Guile}). Primeiro, você precisa de mais do que um editor, você precisa do @url{http://www.gnu.org/software/emacs, Emacs}, habilitado pelo maravilhoso @url{http://nongnu.org/geiser/, Geiser}."
+msgstr "A configuração perfeita para hackear o Guix é basicamente a configuração perfeita usada para o hacker o Guile (veja @ref{Usando o Guile no Emacs,,, guile, Manual de referência do Guile}). Primeiro, você precisa de mais do que um editor, você precisa do @url{http://www.gnu.org/software/emacs, Emacs}, habilitado pelo maravilhoso @url{http://nongnu.org/geiser/, Geiser}. Para configurar isso, execute:"
 
 #. type: example
 #: doc/contributing.texi:178
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "guix package -i emacs guile emacs-geiser\n"
-msgstr "Tente adicionar @code{(use-package-modules ~a)}."
+msgstr "guix package -i emacs guile emacs-geiser\n"
 
 #. type: Plain text
 #: doc/contributing.texi:187
 msgid "Geiser allows for interactive and incremental development from within Emacs: code compilation and evaluation from within buffers, access to on-line documentation (docstrings), context-sensitive completion, @kbd{M-.} to jump to an object definition, a REPL to try out your code, and more (@pxref{Introduction,,, geiser, Geiser User Manual}).  For convenient Guix development, make sure to augment Guile’s load path so that it finds source files from your checkout:"
-msgstr "O Geiser permite um desenvolvimento interativo e incremental de dentro do Emacs: compilação e avaliação de código de dentro dos buffers, acesso à documentação on-line (docstrings), completação sensível ao contexto, @kbd{M-.} para pular para uma definição de objeto, um REPL para tentar seu código e muito mais (@pxref{Introduçõa ,,, geiser, Manual de usuário do Geiser}). Para um desenvolvimento prático do Guix, certifique-se de aumentar o caminho de carregamento do Guile para que ele encontre os arquivos de origem do seu checkout:"
+msgstr "O Geiser permite um desenvolvimento interativo e incremental de dentro do Emacs: compilação e avaliação de código de dentro dos buffers, acesso à documentação on-line (docstrings), completação sensível ao contexto, @kbd{M-.} para pular para uma definição de objeto, um REPL para tentar seu código e muito mais (veja @ref{Introdução ,,, geiser, Manual de usuário do Geiser}). Para um desenvolvimento prático do Guix, certifique-se de aumentar o caminho de carregamento do Guile para que ele encontre os arquivos de origem do seu checkout:"
 
 #. type: lisp
 #: doc/contributing.texi:192
@@ -408,7 +412,12 @@ msgstr ""
 #, fuzzy
 #| msgid "The commit message snippets depend on @url{https://magit.vc/, Magit} to display staged files.  When editing a commit message type @code{add} followed by @kbd{TAB} to insert a commit message template for adding a package; type @code{update} followed by @kbd{TAB} to insert a template for updating a package."
 msgid "The commit message snippets depend on @url{https://magit.vc/, Magit} to display staged files.  When editing a commit message type @code{add} followed by @kbd{TAB} to insert a commit message template for adding a package; type @code{update} followed by @kbd{TAB} to insert a template for updating a package; type @code{https} followed by @kbd{TAB} to insert a template for changing the home page URI of a package to HTTPS."
-msgstr "Os trechos de mensagens de commit dependem de @url{https://magit.vc/, Magit} para exibir arquivos \"staged\". Ao editar uma mensagem de commit, digite @code{add} seguido por @kbd{TAB} para inserir um modelo de mensagem de commit para adicionar um pacote; digite @code{update} seguido por @kbd{TAB} para inserir um modelo para atualizar um pacote."
+msgstr ""
+"Os trechos de mensagens de commit dependem de @url{https://magit.vc/, Magit} "
+"para exibir arquivos \"staged\". Ao editar uma mensagem de commit, digite "
+"@code{add} seguido por @kbd{TAB} para inserir um modelo de mensagem de "
+"commit para adicionar um pacote; digite @code{update} seguido por @kbd{TAB} "
+"para inserir um modelo para atualizar um pacote."
 
 #. type: Plain text
 #: doc/contributing.texi:229
@@ -947,7 +956,7 @@ msgstr ""
 #. type: Plain text
 #: doc/contributing.texi:686
 msgid "In general our code follows the GNU Coding Standards (@pxref{Top,,, standards, GNU Coding Standards}).  However, they do not say much about Scheme, so here are some additional rules."
-msgstr "Em geral, nosso código segue os Padrões de Codificação GNU (@pxref{Top ,,, standards, GNU Coding Standards}). No entanto, eles não dizem muito sobre Scheme, então aqui estão algumas regras adicionais."
+msgstr "Em geral, nosso código segue os Padrões de Codificação GNU (veja @ref{Top ,,, standards, GNU Coding Standards}). No entanto, eles não dizem muito sobre Scheme, então aqui estão algumas regras adicionais."
 
 #. type: subsection
 #: doc/contributing.texi:692 doc/contributing.texi:694
@@ -1042,7 +1051,7 @@ msgstr "Ao escrever o código Scheme, seguimos a sabedoria comum entre os progra
 #. type: Plain text
 #: doc/contributing.texi:744
 msgid "Some special forms introduced in Guix, such as the @code{substitute*} macro, have special indentation rules.  These are defined in the @file{.dir-locals.el} file, which Emacs automatically uses.  Also note that Emacs-Guix provides @code{guix-devel-mode} mode that indents and highlights Guix code properly (@pxref{Development,,, emacs-guix, The Emacs-Guix Reference Manual})."
-msgstr "Alguns formulários especiais introduzidos no Guix, como a macro @code{substitute*}, possuem regras especiais de recuo. Estes são definidos no arquivo @file{.dir-locals.el}, que o Emacs usa automaticamente. Observe também que o Emacs-Guix fornece o modo @code{guix-devel-mode} que recua e destaca o código Guix corretamente (@pxref{Development ,,, emacs-guix, O manual de referência do Emacs-Guix})."
+msgstr "Alguns formulários especiais introduzidos no Guix, como a macro @code{substitute*}, possuem regras especiais de recuo. Estes são definidos no arquivo @file{.dir-locals.el}, que o Emacs usa automaticamente. Observe também que o Emacs-Guix fornece o modo @code{guix-devel-mode} que recua e destaca o código Guix corretamente (veja @ref{Development ,,, emacs-guix, O manual de referência do Emacs-Guix})."
 
 #. type: cindex
 #: doc/contributing.texi:745
@@ -1107,12 +1116,12 @@ msgstr "O desenvolvimento é feito usando o sistema de controle de versão distr
 #. type: Plain text
 #: doc/contributing.texi:792
 msgid "This mailing list is backed by a Debbugs instance accessible at @uref{https://bugs.gnu.org/guix-patches}, which allows us to keep track of submissions.  Each message sent to that mailing list gets a new tracking number assigned; people can then follow up on the submission by sending email to @code{@var{NNN}@@debbugs.gnu.org}, where @var{NNN} is the tracking number (@pxref{Sending a Patch Series})."
-msgstr "Esta lista de discussão é apoiada por uma instância de Debbugs acessível em @uref{https://bugs.gnu.org/guix-patches}, que nos permite acompanhar os envios. Cada mensagem enviada para essa lista acaba com um novo número de rastreamento atribuído; as pessoas podem então acompanhar o envio enviando um e-mail para @code{@var{NNN}@@debbugs.gnu.org}, sendo @var{NNN} o número de rastreamento (@pxref{Enviando uma série de patches}})."
+msgstr "Esta lista de discussão é apoiada por uma instância de Debbugs acessível em @uref{https://bugs.gnu.org/guix-patches}, que nos permite acompanhar os envios. Cada mensagem enviada para essa lista acaba com um novo número de rastreamento atribuído; as pessoas podem então acompanhar o envio enviando um e-mail para @code{@var{NNN}@@debbugs.gnu.org}, sendo @var{NNN} o número de rastreamento (veja @ref{Enviando uma série de patches})."
 
 #. type: Plain text
 #: doc/contributing.texi:796
 msgid "Please write commit logs in the ChangeLog format (@pxref{Change Logs,,, standards, GNU Coding Standards}); you can check the commit history for examples."
-msgstr "Por favor, escreva os logs de commit no formato de ChangeLog (@pxref{Change Logs ,,, standards, GNU Coding Standards}); você pode verificar o histórico de commit para exemplos."
+msgstr "Por favor, escreva os logs de commit no formato de ChangeLog (veja @ref{Change Logs ,,, standards, GNU Coding Standards}); você pode verificar o histórico de commit para exemplos."
 
 #. type: Plain text
 #: doc/contributing.texi:799
@@ -1127,12 +1136,12 @@ msgstr "Se os autores do software empacotado fornecerem uma assinatura criptogr�
 #. type: enumerate
 #: doc/contributing.texi:810
 msgid "Take some time to provide an adequate synopsis and description for the package.  @xref{Synopses and Descriptions}, for some guidelines."
-msgstr "Reserve algum tempo para fornecer uma sinopse e descrição adequadas para o pacote. @xref{Sinopse e descrições}, para algumas diretrizes."
+msgstr "Reserve algum tempo para fornecer uma sinopse e descrição adequadas para o pacote. Veja @ref{Sinopses e descrições}, para algumas diretrizes."
 
 #. type: enumerate
 #: doc/contributing.texi:815
 msgid "Run @code{guix lint @var{package}}, where @var{package} is the name of the new or modified package, and fix any errors it reports (@pxref{Invoking guix lint})."
-msgstr "Execute @code{guix lint @var{pacote}}, sendo @var{pacote} o nome do pacote novo ou modificado e corrija quaisquer erros que forem relatados (@pxref {Invocando guix lint})."
+msgstr "Execute @code{guix lint @var{pacote}}, sendo @var{pacote} o nome do pacote novo ou modificado e corrija quaisquer erros que forem relatados (veja @ref {Invocando guix lint})."
 
 #. type: enumerate
 #: doc/contributing.texi:819
@@ -1196,12 +1205,12 @@ msgstr "Às vezes, os pacotes incluem cópias do código-fonte de suas dependên
 #, fuzzy
 #| msgid "Take a look at the profile reported by @command{guix size} (@pxref{Invoking guix size}).  This will allow you to notice references to other packages unwillingly retained.  It may also help determine whether to split the package (@pxref{Packages with Multiple Outputs}), and which optional dependencies should be used."
 msgid "Take a look at the profile reported by @command{guix size} (@pxref{Invoking guix size}).  This will allow you to notice references to other packages unwillingly retained.  It may also help determine whether to split the package (@pxref{Packages with Multiple Outputs}), and which optional dependencies should be used.  In particular, avoid adding @code{texlive} as a dependency: because of its extreme size, use @code{texlive-tiny} or @code{texlive-union} instead."
-msgstr "Dê uma olhada no perfil relatado por @command{guix size} (@pxref{Invocando guix size}). Isso permitirá que você observe referências a outros pacotes que não foram mantidos. Também pode ajudar a determinar se deve dividir o pacote (@pxref{Pacotes com múltiplas saídas}) e quais dependências opcionais devem ser usadas."
+msgstr "Dê uma olhada no perfil relatado por @command{guix size} (veja @ref{Invocando guix size}). Isso permitirá que você observe referências a outros pacotes que não foram mantidos. Também pode ajudar a determinar se deve dividir o pacote (veja @ref{Pacotes com múltiplas saídas}) e quais dependências opcionais devem ser usadas."
 
 #. type: enumerate
 #: doc/contributing.texi:873
 msgid "For important changes, check that dependent package (if applicable) are not affected by the change; @code{guix refresh --list-dependent @var{package}} will help you do that (@pxref{Invoking guix refresh})."
-msgstr "Para alterações importantes, verifique se o pacote dependente (se aplicável) não é afetado pela alteração; @code{guix refresh --list-dependent @var{pacote}} ajudará você a fazer isso (@pxref {Invocando guix refresh})."
+msgstr "Para alterações importantes, verifique se o pacote dependente (se aplicável) não é afetado pela alteração; @code{guix refresh --list-dependent @var{pacote}} ajudará você a fazer isso (veja @ref {Invocando guix refresh})."
 
 #. type: cindex
 #: doc/contributing.texi:875
@@ -1285,7 +1294,7 @@ msgstr "Verifique se o processo de compilação do pacote é determinístico. Is
 #. type: enumerate
 #: doc/contributing.texi:918
 msgid "A simple way to do that is by building the same package several times in a row on your machine (@pxref{Invoking guix build}):"
-msgstr "Uma maneira simples de fazer isso é compilar o mesmo pacote várias vezes seguidas em sua máquina (@pxref {Invoking guix build}):"
+msgstr "Uma maneira simples de fazer isso é compilar o mesmo pacote várias vezes seguidas em sua máquina (veja @ref {Invocando guix build}):"
 
 #. type: example
 #: doc/contributing.texi:921
@@ -1300,10 +1309,9 @@ msgstr "Isso é suficiente para capturar uma classe de problemas comuns de não-
 
 #. type: enumerate
 #: doc/contributing.texi:935
-#, fuzzy
 #| msgid "Another option is to use @command{guix challenge} (@pxref{Invoking guix challenge}).  You may run it once the package has been committed and built by @code{hydra.gnu.org} to check whether it obtains the same result as you did.  Better yet: Find another machine that can build it and run @command{guix publish}.  Since the remote build machine is likely different from yours, this can catch non-determinism issues related to the hardware---e.g., use of different instruction set extensions---or to the operating system kernel---e.g., reliance on @code{uname} or @file{/proc} files."
 msgid "Another option is to use @command{guix challenge} (@pxref{Invoking guix challenge}).  You may run it once the package has been committed and built by @code{@value{SUBSTITUTE-SERVER}} to check whether it obtains the same result as you did.  Better yet: Find another machine that can build it and run @command{guix publish}.  Since the remote build machine is likely different from yours, this can catch non-determinism issues related to the hardware---e.g., use of different instruction set extensions---or to the operating system kernel---e.g., reliance on @code{uname} or @file{/proc} files."
-msgstr "Outra opção é usar @command{guix challenge} (@pxref{Invocando guix challenge}). Você pode executá-lo uma vez que o pacote se tenha sido feito o commit e compilação por @code{hydra.gnu.org} para verificar se obtém o mesmo resultado que você fez. Melhor ainda: encontre outra máquina que possa compilá-lo e executar @command{guix publish}. Como a máquina de compilação remota provavelmente é diferente da sua, isso pode capturar problemas de não determinismo relacionados ao hardware - por exemplo, uso de extensões de conjunto de instruções diferentes – ou ao kernel do sistema operacional – por exemplo, confiança em @code{uname} ou arquivos de @file{/proc}."
+msgstr "Outra opção é usar @command{guix challenge} (veja @ref{Invocando guix challenge}). Você pode executá-lo uma vez que o pacote se tenha sido feito o commit e compilação por @code{SUBSTITUTE-SERVER} para verificar se obtém o mesmo resultado que você fez. Melhor ainda: encontre outra máquina que possa compilá-lo e executar @command{guix publish}. Como a máquina de compilação remota provavelmente é diferente da sua, isso pode capturar problemas de não determinismo relacionados ao hardware - por exemplo, uso de extensões de conjunto de instruções diferentes – ou ao kernel do sistema operacional – por exemplo, confiança em @code{uname} ou arquivos de @file{/proc}."
 
 #. type: enumerate
 #: doc/contributing.texi:941
@@ -1323,7 +1331,7 @@ msgstr "Exemplos de alterações não relacionadas incluem a adição de vários
 #. type: enumerate
 #: doc/contributing.texi:953
 msgid "Please follow our code formatting rules, possibly running the @command{etc/indent-code.el} script to do that automatically for you (@pxref{Formatting Code})."
-msgstr "Siga nossas regras de formatação de código, possivelmente executando o script @command{etc/indent-code.el} para fazer isso automaticamente para você (@pxref{Formatação de código})."
+msgstr "Siga nossas regras de formatação de código, possivelmente executando o script @command{etc/indent-code.el} para fazer isso automaticamente para você (veja @ref{Formatação de código})."
 
 #. type: enumerate
 #: doc/contributing.texi:961
@@ -1333,7 +1341,7 @@ msgstr ""
 #. type: Plain text
 #: doc/contributing.texi:971
 msgid "When posting a patch to the mailing list, use @samp{[PATCH] @dots{}} as a subject.  You may use your email client or the @command{git send-email} command (@pxref{Sending a Patch Series}).  We prefer to get patches in plain text messages, either inline or as MIME attachments.  You are advised to pay attention if your email client changes anything like line breaks or indentation which could potentially break the patches."
-msgstr "Ao postar um patch na lista de discussão, use @samp{[PATCH] @dots{}} como assunto. Você pode usar seu cliente de e-mail ou o comando @command{git send-email} (@pxref{Enviando uma série de patches}). Preferimos obter correções em mensagens de texto sem formatação, seja em linha ou como anexos MIME. Aconselha-se que preste atenção se o seu cliente de e-mail mudar alguma coisa como quebras de linha ou recuos que possam potencialmente quebrar os patches."
+msgstr "Ao postar um patch na lista de discussão, use @samp{[PATCH] @dots{}} como assunto. Você pode usar seu cliente de e-mail ou o comando @command{git send-email} (veja @ref{Enviando uma série de patches}). Preferimos obter correções em mensagens de texto sem formatação, seja em linha ou como anexos MIME. Aconselha-se que preste atenção se o seu cliente de e-mail mudar alguma coisa como quebras de linha ou recuos que possam potencialmente quebrar os patches."
 
 #. type: Plain text
 #: doc/contributing.texi:974
@@ -1384,7 +1392,7 @@ msgstr "Manual de referência do GNU Guix"
 #: doc/guix.texi:10
 #, no-wrap
 msgid "version.texi"
-msgstr "version.texi"
+msgstr "version-pt_BR.texi"
 
 #. type: copying
 #: doc/guix.texi:66
@@ -1528,7 +1536,7 @@ msgstr "Esse documento descreve Guix versão @value{VERSION}, uma ferramenta de 
 #. type: Plain text
 #: doc/guix.texi:123
 msgid "This manual is also available in Simplified Chinese (@pxref{Top,,, guix.zh_CN, GNU Guix参考手册}), French (@pxref{Top,,, guix.fr, Manuel de référence de GNU Guix}), German (@pxref{Top,,, guix.de, Referenzhandbuch zu GNU Guix}), and Spanish (@pxref{Top,,, guix.es, Manual de referencia de GNU Guix}).  If you would like to translate it in your native language, consider joining the @uref{https://translationproject.org/domain/guix-manual.html, Translation Project}."
-msgstr ""
+msgstr "Esse manual também está disponível em chinês simplificado (veja @ref{Top,,, guix.zh_CN, GNU Guix参考手册}), francês (veja @ref{Top,,, guix.fr, Manuel de référence de GNU Guix}), Alemão (veja @ref{Top,,, guix.de, Referenzhandbuch zu GNU Guix}) e espanhol (veja @ref{Top,,, guix.es, Manual de referencia de GNU Guix}). Se você quiser traduzi-lo para seu idioma nativo, considere se juntar ao @uref{https://translationproject.org/domain/guix-manual.html, Translation Project}."
 
 #. type: chapter
 #: doc/guix.texi:139 doc/guix.texi:149 doc/guix.texi:312 doc/guix.texi:313
@@ -1576,17 +1584,14 @@ msgstr "Instalação de pacote, atualização, etc."
 
 #. type: chapter
 #: doc/guix.texi:139 doc/guix.texi:208 doc/guix.texi:4331 doc/guix.texi:4332
-#, fuzzy, no-wrap
-#| msgid "Software development"
+#, no-wrap
 msgid "Development"
-msgstr "Desenvolvimento de software"
+msgstr "Desenvolvimento"
 
 #. type: menuentry
 #: doc/guix.texi:139
-#, fuzzy
-#| msgid "Software development"
 msgid "Guix-aided software development."
-msgstr "Desenvolvimento de software"
+msgstr "Desenvolvimento de software auxiliado pelo Guix."
 
 #. type: chapter
 #: doc/guix.texi:139 doc/guix.texi:213 doc/guix.texi:4955 doc/guix.texi:4956
@@ -1734,12 +1739,12 @@ msgstr "--- A listagem detalhada de nós ---"
 #: doc/guix.texi:152 doc/guix.texi:339 doc/guix.texi:341 doc/guix.texi:342
 #, no-wrap
 msgid "Managing Software the Guix Way"
-msgstr ""
+msgstr "Gerenciando software do jeito do Guix"
 
 #. type: menuentry
 #: doc/guix.texi:152 doc/guix.texi:339
 msgid "What's special."
-msgstr ""
+msgstr "O que há de especial."
 
 #. type: section
 #: doc/guix.texi:152 doc/guix.texi:339 doc/guix.texi:396 doc/guix.texi:397
@@ -1749,10 +1754,8 @@ msgstr "Distribuição GNU"
 
 #. type: menuentry
 #: doc/guix.texi:152 doc/guix.texi:339
-#, fuzzy
-#| msgid "The package data type."
 msgid "The packages and tools."
-msgstr "O tipo de dados package."
+msgstr "Os pacotes e as ferramentas."
 
 #. type: section
 #: doc/guix.texi:161 doc/guix.texi:510 doc/guix.texi:512 doc/guix.texi:513
@@ -1901,58 +1904,48 @@ msgstr "Rede, particionamento, etc."
 
 #. type: section
 #: doc/guix.texi:179 doc/guix.texi:1802 doc/guix.texi:1990 doc/guix.texi:1991
-#, fuzzy, no-wrap
-#| msgid "Binary Installation"
+#, no-wrap
 msgid "Guided Graphical Installation"
-msgstr "Instalação de binários"
+msgstr "Instalação gráfica guiada"
 
 #. type: menuentry
 #: doc/guix.texi:179 doc/guix.texi:1802
-#, fuzzy
 msgid "Easy graphical installation."
-msgstr "--hash (-h) somente podem ser especificado durante instalaes de pacotes"
+msgstr "Instalação gráfica fácil"
 
 #. type: section
 #: doc/guix.texi:179 doc/guix.texi:181 doc/guix.texi:1802 doc/guix.texi:2021
 #: doc/guix.texi:2022
-#, fuzzy, no-wrap
-#| msgid "Binary Installation"
+#, no-wrap
 msgid "Manual Installation"
-msgstr "Instalação de binários"
+msgstr "Instalação manual"
 
 #. type: menuentry
 #: doc/guix.texi:179 doc/guix.texi:1802
-#, fuzzy
 msgid "Manual installation for wizards."
-msgstr "Instalação"
+msgstr "Instalação manual para magos."
 
 #. type: section
 #: doc/guix.texi:179 doc/guix.texi:1802 doc/guix.texi:2364 doc/guix.texi:2365
-#, fuzzy, no-wrap
-#| msgid "System Installation"
+#, no-wrap
 msgid "After System Installation"
-msgstr "Instalação do sistema"
+msgstr "Após a instalação do sistema"
 
 #. type: menuentry
 #: doc/guix.texi:179 doc/guix.texi:1802
-#, fuzzy
-#| msgid "Voilà, the installation is complete!"
 msgid "When installation succeeded."
-msgstr "Voilà, a instalação está completa!"
+msgstr "Quando a instalação conclui com sucesso."
 
 #. type: node
 #: doc/guix.texi:179 doc/guix.texi:1802 doc/guix.texi:2392
-#, fuzzy, no-wrap
-#| msgid "Installing GuixSD in a VM"
+#, no-wrap
 msgid "Installing Guix in a VM"
-msgstr "Instalando GuixSD em um VM"
+msgstr "Instalando Guix em um VM"
 
 #. type: menuentry
 #: doc/guix.texi:179 doc/guix.texi:1802
-#, fuzzy
-#| msgid "GuixSD playground."
 msgid "Guix System playground."
-msgstr "Parque de diversões GuixSD."
+msgstr "Parque de diversões do Guix System."
 
 #. type: section
 #: doc/guix.texi:179 doc/guix.texi:1802 doc/guix.texi:2446 doc/guix.texi:2447
@@ -1969,27 +1962,23 @@ msgstr "Como isso vem a ser."
 #: doc/guix.texi:184 doc/guix.texi:2039 doc/guix.texi:2041
 #, no-wrap
 msgid "Keyboard Layout and Networking and Partitioning"
-msgstr ""
+msgstr "Disposição de teclado e rede e particionamento"
 
 #. type: menuentry
 #: doc/guix.texi:184 doc/guix.texi:2039
-#, fuzzy
-#| msgid "Initial RAM Disk"
 msgid "Initial setup."
-msgstr "Disco de RAM inicial"
+msgstr "Configuração inicial."
 
 #. type: subsection
 #: doc/guix.texi:184 doc/guix.texi:2039 doc/guix.texi:2276 doc/guix.texi:2277
 #, no-wrap
 msgid "Proceeding with the Installation"
-msgstr "Continuando com a instalação"
+msgstr "Prosseguindo com a instalação"
 
 #. type: menuentry
 #: doc/guix.texi:184 doc/guix.texi:2039
-#, fuzzy
-#| msgid "Installing Guix."
 msgid "Installing."
-msgstr "Instalando o Guix."
+msgstr "Instalando."
 
 #. type: section
 #: doc/guix.texi:197 doc/guix.texi:2511 doc/guix.texi:2513 doc/guix.texi:2514
@@ -2062,37 +2051,35 @@ msgstr "Obtendo o Guix mais recente e distribuição."
 #: doc/guix.texi:197 doc/guix.texi:2511 doc/guix.texi:3743 doc/guix.texi:3744
 #, no-wrap
 msgid "Channels"
-msgstr ""
+msgstr "Canais"
 
 #. type: menuentry
 #: doc/guix.texi:197 doc/guix.texi:2511
-#, fuzzy
-#| msgid "Running the garbage collector."
 msgid "Customizing the package collection."
-msgstr "Executando o coletor de lixo."
+msgstr "Personalizando a coleção de pacotes."
 
 #. type: section
 #: doc/guix.texi:197 doc/guix.texi:2511 doc/guix.texi:3956 doc/guix.texi:3957
 #, no-wrap
 msgid "Inferiors"
-msgstr ""
+msgstr "Inferiores"
 
 #. type: menuentry
 #: doc/guix.texi:197 doc/guix.texi:2511
 msgid "Interacting with another revision of Guix."
-msgstr ""
+msgstr "Interagindo com outra revisão do Guix."
 
 #. type: node
 #: doc/guix.texi:197 doc/guix.texi:2511 doc/guix.texi:4084
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid "Invoking guix size"
 msgid "Invoking guix describe"
-msgstr "Invocando guix size"
+msgstr "Invocando guix describe"
 
 #. type: menuentry
 #: doc/guix.texi:197 doc/guix.texi:2511
 msgid "Display information about your Guix revision."
-msgstr ""
+msgstr "Exibe informações sobre sua revisão do Guix."
 
 #. type: node
 #: doc/guix.texi:197 doc/guix.texi:2511 doc/guix.texi:4165
@@ -2273,15 +2260,14 @@ msgstr "Manipulação de expressões de compilação."
 
 #. type: node
 #: doc/guix.texi:222 doc/guix.texi:4992 doc/guix.texi:7530
-#, fuzzy, no-wrap
-#| msgid "Invoking guix pull"
+#, no-wrap
 msgid "Invoking guix repl"
-msgstr "Invocando guix pull"
+msgstr "Invocando guix repl"
 
 #. type: menuentry
 #: doc/guix.texi:222 doc/guix.texi:4992
 msgid "Fiddling with Guix interactively."
-msgstr ""
+msgstr "Brincando com o Guix interativamente."
 
 #. type: node
 #: doc/guix.texi:227 doc/guix.texi:5324 doc/guix.texi:5327
@@ -2461,15 +2447,15 @@ msgstr "Acessando disponibilidade de substituto."
 
 #. type: node
 #: doc/guix.texi:245 doc/guix.texi:7607 doc/guix.texi:10137
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid "Invoking guix refresh"
 msgid "Invoking guix processes"
-msgstr "Invocando guix refresh"
+msgstr "Invocando guix processes"
 
 #. type: menuentry
 #: doc/guix.texi:245 doc/guix.texi:7607
 msgid "Listing client processes."
-msgstr ""
+msgstr "Listando processos do cliente."
 
 #. type: section
 #: doc/guix.texi:247 doc/guix.texi:7610
@@ -2583,14 +2569,14 @@ msgstr "Especificando contas de usuários."
 #. type: section
 #: doc/guix.texi:271 doc/guix.texi:2048 doc/guix.texi:10236 doc/guix.texi:11122
 #: doc/guix.texi:11123
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Keyboard Layout"
-msgstr "disposição do teclado"
+msgstr "Disposição do teclado"
 
 #. type: menuentry
 #: doc/guix.texi:271 doc/guix.texi:10236
 msgid "How the system interprets key strokes."
-msgstr ""
+msgstr "Como o sistema interpreta pressionamento de teclas."
 
 #. type: section
 #: doc/guix.texi:271 doc/guix.texi:1570 doc/guix.texi:10236 doc/guix.texi:11254
@@ -2602,7 +2588,7 @@ msgstr "Locales"
 #. type: menuentry
 #: doc/guix.texi:271 doc/guix.texi:10236
 msgid "Language and cultural convention settings."
-msgstr "Idioma e configurações de convenção cultural."
+msgstr "configurações de idioma e de convenção cultural."
 
 #. type: section
 #: doc/guix.texi:271 doc/guix.texi:273 doc/guix.texi:10236 doc/guix.texi:11394
@@ -2689,17 +2675,14 @@ msgstr "Inicializando uma configuração de sistema."
 
 #. type: node
 #: doc/guix.texi:271 doc/guix.texi:10236 doc/guix.texi:24680
-#, fuzzy, no-wrap
-#| msgid "Running GuixSD in a VM"
+#, no-wrap
 msgid "Running Guix in a VM"
-msgstr "Executando GuixSD em um VM"
+msgstr "Executando Guix em uma VM"
 
 #. type: menuentry
 #: doc/guix.texi:271 doc/guix.texi:10236
-#, fuzzy
-#| msgid "How to run GuixSD in a virtual machine."
 msgid "How to run Guix System in a virtual machine."
-msgstr "Como executar GuixSD em uma máquina virtual."
+msgstr "Como executar Guix System em uma máquina virtual."
 
 #. type: section
 #: doc/guix.texi:271 doc/guix.texi:302 doc/guix.texi:10236 doc/guix.texi:24810
@@ -2723,7 +2706,7 @@ msgstr "Serviços base"
 #. type: menuentry
 #: doc/guix.texi:300 doc/guix.texi:11471
 msgid "Essential system services."
-msgstr "serviços essenciais do sistema."
+msgstr "Serviços essenciais do sistema."
 
 #. type: subsection
 #: doc/guix.texi:300 doc/guix.texi:11471 doc/guix.texi:12266
@@ -2800,17 +2783,14 @@ msgstr "Serviços de D-Bus e desktop."
 #. type: subsection
 #: doc/guix.texi:300 doc/guix.texi:11471 doc/guix.texi:15004
 #: doc/guix.texi:15005
-#, fuzzy, no-wrap
-#| msgid "Audio Services"
+#, no-wrap
 msgid "Sound Services"
-msgstr "Serviços de áudio"
+msgstr "Serviços de som"
 
 #. type: menuentry
 #: doc/guix.texi:300 doc/guix.texi:11471
-#, fuzzy
-#| msgid "D-Bus and desktop services."
 msgid "ALSA and Pulseaudio services."
-msgstr "Serviços de D-Bus e desktop."
+msgstr "Serviços ALSA e Pulseaudio."
 
 #. type: subsection
 #: doc/guix.texi:300 doc/guix.texi:11471 doc/guix.texi:15085
@@ -2959,15 +2939,14 @@ msgstr "O serviço Cuirass."
 #. type: subsection
 #: doc/guix.texi:300 doc/guix.texi:11471 doc/guix.texi:20740
 #: doc/guix.texi:20741
-#, fuzzy, no-wrap
-#| msgid "Power management Services"
+#, no-wrap
 msgid "Power Management Services"
 msgstr "Serviços de gerenciamento de energia"
 
 #. type: menuentry
 #: doc/guix.texi:300 doc/guix.texi:11471
 msgid "Extending battery life."
-msgstr ""
+msgstr "Estendendo a vida da bateria."
 
 #. type: subsection
 #: doc/guix.texi:300 doc/guix.texi:11471 doc/guix.texi:21274
@@ -3084,37 +3063,32 @@ msgstr "propósito"
 
 #. type: Plain text
 #: doc/guix.texi:323
-#, fuzzy
-#| msgid "GNU Guix@footnote{``Guix'' is pronounced like ``geeks'', or ``ɡiːks'' using the international phonetic alphabet (IPA).} is a package management tool for the GNU system.  Guix makes it easy for unprivileged users to install, upgrade, or remove packages, to roll back to a previous package set, to build packages from source, and generally assists with the creation and maintenance of software environments."
 msgid "GNU Guix@footnote{``Guix'' is pronounced like ``geeks'', or ``ɡiːks'' using the international phonetic alphabet (IPA).} is a package management tool for and distribution of the GNU system.  Guix makes it easy for unprivileged users to install, upgrade, or remove software packages, to roll back to a previous package set, to build packages from source, and generally assists with the creation and maintenance of software environments."
-msgstr "GNU Guix@footnote{``Guix'' é pronunciado como ``geeks'', ou ``ɡiːks'' usando o alfabeto fonético internacional (IPA).} é uma ferramenta de gerenciamento de pacotes para o sistema GNU. O Guix facilita a instalação, a atualização ou a remoção de pacotes de usuários sem privilégios, a reversão para um conjunto de pacotes anterior, a criação de pacotes a partir do código-fonte e geralmente ajuda na criação e manutenção de ambientes de software."
+msgstr "GNU Guix@footnote{``Guix'' é pronunciado como ``geeks'', ou ``ɡiːks'' usando o alfabeto fonético internacional (IPA).} é uma ferramenta de gerenciamento de pacotes e distribuição do sistema GNU. O Guix facilita a instalação, a atualização ou a remoção de pacotes de software, a reversão para um conjunto de pacotes anterior, a compilação de pacotes a partir do código-fonte e geralmente ajuda na criação e manutenção de ambientes de software."
 
 #. type: cindex
 #: doc/guix.texi:324 doc/guix.texi:399
-#, fuzzy, no-wrap
-#| msgid "Build Systems"
+#, no-wrap
 msgid "Guix System"
-msgstr "Sistemas de compilação"
+msgstr "Guix System"
 
 #. type: cindex
 #: doc/guix.texi:325
 #, no-wrap
 msgid "GuixSD, now Guix System"
-msgstr ""
+msgstr "GuixSD, agora Guix System"
 
 #. type: cindex
 #: doc/guix.texi:326
-#, fuzzy, no-wrap
-#| msgid "Guix System Distribution"
+#, no-wrap
 msgid "Guix System Distribution, now Guix System"
-msgstr "Guix System Distribution"
+msgstr "Guix System Distribution, agora Guix System"
 
 #. type: Plain text
 #: doc/guix.texi:335
-#, fuzzy
 #| msgid "You can install GNU@tie{}Guix on top of an existing GNU/Linux system where it complements the available tools without interference (@pxref{Installation}), or you can use it as part of the standalone @dfn{Guix System Distribution} or GuixSD (@pxref{GNU Distribution}).  With GNU@tie{}GuixSD, you @emph{declare} all aspects of the operating system configuration and Guix takes care of instantiating the configuration in a transactional, reproducible, and stateless fashion (@pxref{System Configuration})."
 msgid "You can install GNU@tie{}Guix on top of an existing GNU/Linux system where it complements the available tools without interference (@pxref{Installation}), or you can use it as a standalone operating system distribution, @dfn{Guix@tie{}System}@footnote{We used to refer to Guix System as ``Guix System Distribution'' or ``GuixSD''.  We now consider it makes more sense to group everything under the ``Guix'' banner since, after all, Guix System is readily available through the @command{guix system} command, even if you're using a different distro underneath!}.  @xref{GNU Distribution}."
-msgstr "Você pode instalar o GNU@tie{}Guix sobre um sistema GNU/Linux existente, onde ele complementa as ferramentas disponíveis sem interferência (@pxref{Instalação}) ou você pode usá-lo como parte do @dfn{Guix System Distribution} ou GuixSD (@pxref{Distribuição GNU}). Com o GNU@tie{}GuixSD, você @emph{declara} todos os aspectos da configuração do sistema operacional e o Guix cuida da instanciação da configuração de forma transacional, reproduzível e sem estado (@pxref {Configuração do sistema})."
+msgstr "Você pode instalar o GNU@tie{}Guix sobre um sistema GNU/Linux existente, onde ele complementa as ferramentas disponíveis sem interferência (veja @ref{Instalação}) ou você pode usá-lo como uma distribuição de sistema operacional independente, @dfn{Guix@tie{}System}@footnote{Costumávamos nos referir ao Guix System como ``Guix System Distribution'' ou ``GuixSD''. Agora consideramos que faz mais sentido agrupar tudo sob o banner ``Guix'', pois, afinal, o Guix System está prontamente disponível através do comando @command{guix system}, mesmo se você estiver usando uma distribuição diferente por baixo!}. Veja @ref{Distribuição GNU}."
 
 #. type: cindex
 #: doc/guix.texi:344
@@ -3127,7 +3101,7 @@ msgstr "interfaces de usuário"
 #, fuzzy
 #| msgid "Guix provides a command-line package management interface (@pxref{Invoking guix package}), a set of command-line utilities (@pxref{Utilities}), as well as Scheme programming interfaces (@pxref{Programming Interface})."
 msgid "Guix provides a command-line package management interface (@pxref{Package Management}), tools to help with software development (@pxref{Development}), command-line utilities for more advanced usage, (@pxref{Utilities}), as well as Scheme programming interfaces (@pxref{Programming Interface})."
-msgstr "O Guix fornece uma interface de gerenciamento de pacotes de linha de comando (@pxref{Invocando guix package}), um conjunto de utilitários de linha de comando (@pxref{Utilitários}), bem como interfaces de programação Scheme (@pxref{Interface de programação})."
+msgstr "O Guix fornece uma interface de gerenciamento de pacotes de linha de comando (veja @ref{Invocando guix package}), um conjunto de utilitários de linha de comando (veja @ref{Utilitários}), bem como interfaces de programação Scheme (@pxref{Interface de programação})."
 
 #. type: cindex
 #: doc/guix.texi:350
@@ -3138,7 +3112,7 @@ msgstr "build daemon"
 #. type: Plain text
 #: doc/guix.texi:354
 msgid "Its @dfn{build daemon} is responsible for building packages on behalf of users (@pxref{Setting Up the Daemon}) and for downloading pre-built binaries from authorized sources (@pxref{Substitutes})."
-msgstr "O @dfn{build daemon} é responsável por compilar pacotes em nome dos usuários (@pxref{Configurando o daemon}) e por baixar binários pré-compilados de fontes autorizados (@pxref{Substitutos})."
+msgstr "O @dfn{build daemon} é responsável por compilar pacotes em nome dos usuários (veja @ref{Configurando o daemon}) e por baixar binários pré-compilados de fontes autorizados (veja @ref{Substitutos})."
 
 #. type: cindex
 #: doc/guix.texi:355
@@ -3155,7 +3129,7 @@ msgstr "personalização, de pacotes"
 #. type: Plain text
 #: doc/guix.texi:365
 msgid "Guix includes package definitions for many GNU and non-GNU packages, all of which @uref{https://www.gnu.org/philosophy/free-sw.html, respect the user's computing freedom}.  It is @emph{extensible}: users can write their own package definitions (@pxref{Defining Packages}) and make them available as independent package modules (@pxref{Package Modules}).  It is also @emph{customizable}: users can @emph{derive} specialized package definitions from existing ones, including from the command line (@pxref{Package Transformation Options})."
-msgstr "Guix inclui definições de pacotes para muitos pacotes GNU e não-GNU, todos os quais @uref{https://www.gnu.org/philosophy/free-sw.html, respeitam a liberdade de computação do usuário}. É @emph{extensível}: os usuários podem escrever suas próprias definições de pacotes (@pxref{Definindo pacotes}) e disponibilizá-los como módulos de pacotes independentes (@pxref {Módulos de pacote}). Também é @emph{personalizável}: os usuários podem @emph{derivar} definições de pacotes especializados das existentes, incluindo da linha de comando (@pxref{Opções de transformação de pacote})."
+msgstr "Guix inclui definições de pacotes para muitos pacotes GNU e não-GNU, todos os quais @uref{https://www.gnu.org/philosophy/free-sw.html, respeitam a liberdade de computação do usuário}. É @emph{extensível}: os usuários podem escrever suas próprias definições de pacotes (veja @ref{Definindo pacotes}) e disponibilizá-los como módulos de pacotes independentes (veja @ref {Módulos de pacote}). Também é @emph{personalizável}: os usuários podem @emph{derivar} definições de pacotes especializados das existentes, incluindo da linha de comando (@pxref{Opções de transformação de pacote})."
 
 #. type: cindex
 #: doc/guix.texi:366
@@ -3172,7 +3146,7 @@ msgstr "Ocioso…"
 #. type: Plain text
 #: doc/guix.texi:382
 msgid "Under the hood, Guix implements the @dfn{functional package management} discipline pioneered by Nix (@pxref{Acknowledgments}).  In Guix, the package build and installation process is seen as a @emph{function}, in the mathematical sense.  That function takes inputs, such as build scripts, a compiler, and libraries, and returns an installed package.  As a pure function, its result depends solely on its inputs---for instance, it cannot refer to software or scripts that were not explicitly passed as inputs.  A build function always produces the same result when passed a given set of inputs.  It cannot alter the environment of the running system in any way; for instance, it cannot create, modify, or delete files outside of its build and installation directories.  This is achieved by running build processes in isolated environments (or @dfn{containers}), where only their explicit inputs are visible."
-msgstr "Nos bastidores, a Guix implementa a disciplina @dfn{gerenciamento de pacotes funcional} pioneira da Nix (@pxref{Agradecimentos}). No Guix, o processo de compilação e instalação de pacotes é visto como uma @emph {função}, no sentido matemático. Essa função recebe entradas, como scripts de compilação, um compilador e bibliotecas, e retorna um pacote instalado. Como uma função pura, seu resultado depende apenas de suas entradas – por exemplo, não pode fazer referência a um software ou scripts que não foram explicitamente passados como entradas. Uma função de compilação sempre produz o mesmo resultado ao passar por um determinado conjunto de entradas. Não pode alterar o ambiente do sistema em execução de qualquer forma; por exemplo, ele não pode criar, modificar ou excluir arquivos fora de seus diretórios de compilação e instalação. Isto é conseguido através da execução de processos de compilação em ambientes isolados (ou @dfn{containers}), onde somente suas entradas explícitas são visíveis."
+msgstr "Nos bastidores, a Guix implementa a disciplina @dfn{gerenciamento de pacotes funcional} pioneira da Nix (veja @ref{Agradecimentos}). No Guix, o processo de compilação e instalação de pacotes é visto como uma @emph {função}, no sentido matemático. Essa função recebe entradas, como scripts de compilação, um compilador e bibliotecas, e retorna um pacote instalado. Como uma função pura, seu resultado depende apenas de suas entradas – por exemplo, não pode fazer referência a um software ou scripts que não foram explicitamente passados como entradas. Uma função de compilação sempre produz o mesmo resultado ao passar por um determinado conjunto de entradas. Não pode alterar o ambiente do sistema em execução de qualquer forma; por exemplo, ele não pode criar, modificar ou excluir arquivos fora de seus diretórios de compilação e instalação. Isto é conseguido através da execução de processos de compilação em ambientes isolados (ou @dfn{containers}), onde somente suas entradas explícitas são visíveis."
 
 #. type: cindex
 #: doc/guix.texi:383 doc/guix.texi:6300
@@ -3183,12 +3157,12 @@ msgstr "armazenamento"
 #. type: Plain text
 #: doc/guix.texi:390
 msgid "The result of package build functions is @dfn{cached} in the file system, in a special directory called @dfn{the store} (@pxref{The Store}).  Each package is installed in a directory of its own in the store---by default under @file{/gnu/store}.  The directory name contains a hash of all the inputs used to build that package; thus, changing an input yields a different directory name."
-msgstr "O resultado das funções de compilação do pacote é mantido (@dfn{cached}) no sistema de arquivos, em um diretório especial chamado @dfn{the store} (@pxref{O armazenamento}). Cada pacote é instalado em um diretório próprio na loja – por padrão, em @arquivo {/gnu/store}. O nome do diretório contém um hash de todas as entradas usadas para compilar esse pacote; Assim, a alteração uma entrada gera um nome de diretório diferente."
+msgstr "O resultado das funções de compilação do pacote é mantido (@dfn{cached}) no sistema de arquivos, em um diretório especial chamado @dfn{the store} (veja @ref{O armazenamento}). Cada pacote é instalado em um diretório próprio na loja – por padrão, em @file{/gnu/store}. O nome do diretório contém um hash de todas as entradas usadas para compilar esse pacote; Assim, a alteração uma entrada gera um nome de diretório diferente."
 
 #. type: Plain text
 #: doc/guix.texi:394
 msgid "This approach is the foundation for the salient features of Guix: support for transactional package upgrade and rollback, per-user installation, and garbage collection of packages (@pxref{Features})."
-msgstr "Essa abordagem é a fundação para os principais recursos do Guix: suporte para atualização transacional de pacotes e reversão, instalação por usuário e coleta de lixo de pacotes (@pxref{Recursos})."
+msgstr "Essa abordagem é a fundação para os principais recursos do Guix: suporte para atualização transacional de pacotes e reversão, instalação por usuário e coleta de lixo de pacotes (veja @ref{Recursos})."
 
 #. type: Plain text
 #: doc/guix.texi:409
@@ -3309,45 +3283,51 @@ msgstr "instalando Guix"
 #: doc/guix.texi:11062 doc/guix.texi:13544 doc/guix.texi:19352
 #: doc/guix.texi:24107 doc/guix.texi:24302 doc/guix.texi:24421
 #: doc/guix.texi:24536 doc/guix.texi:25545
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Note"
-msgstr "NOTA"
+msgstr "Nota"
 
 #. type: quotation
 #: doc/guix.texi:486
 msgid "We recommend the use of this @uref{https://git.savannah.gnu.org/cgit/guix.git/plain/etc/guix-install.sh, shell installer script} to install Guix on top of a running GNU/Linux system, thereafter called a @dfn{foreign distro}.@footnote{This section is concerned with the installation of the package manager, which can be done on top of a running GNU/Linux system.  If, instead, you want to install the complete GNU operating system, @pxref{System Installation}.} The script automates the download, installation, and initial configuration of Guix.  It should be run as the root user."
-msgstr ""
+msgstr "Recomendamos o uso deste @uref{https://git.savannah.gnu.org/cgit/guix.git/plain/etc/guix-install.sh, script de instalação do shell} para instalar o Guix sobre o sistema GNU/Linux que você esteja usando, posteriormente denominado @dfn{distro alheia}.@footnote{Esta seção trata da instalação do gerenciador de pacotes, que pode ser feita sobre um sistema GNU/Linux atualmente em uso. Se, em vez disso, você deseja instalar o sistema operacional GNU completo, veja @ref{Instalação do sistema}.} O script automatiza o download, a instalação e a configuração inicial do Guix. Ele deve ser executado como usuário root."
 
 #. type: cindex
 #: doc/guix.texi:488 doc/guix.texi:1565
 #, no-wrap
 msgid "foreign distro"
-msgstr "outra distro"
+msgstr "distro alheia"
 
 #. type: cindex
 #: doc/guix.texi:489
 #, no-wrap
 msgid "directories related to foreign distro"
-msgstr ""
+msgstr "diretórios relacionados à distro alheia"
 
 #. type: Plain text
 #: doc/guix.texi:494
-#, fuzzy
 #| msgid "When installed on a running GNU/Linux system---thereafter called a @dfn{foreign distro}---GNU@tie{}Guix complements the available tools without interference.  Its data lives exclusively in two directories, usually @file{/gnu/store} and @file{/var/guix}; other files on your system, such as @file{/etc}, are left untouched."
 msgid "When installed on a foreign distro, GNU@tie{}Guix complements the available tools without interference.  Its data lives exclusively in two directories, usually @file{/gnu/store} and @file{/var/guix}; other files on your system, such as @file{/etc}, are left untouched."
-msgstr "Quando instalado sobre um sistema GNU/Linux em execução – posteriormente denominado @dfn{foreign distro} – o GNU@tie{}Guix complementa as ferramentas disponíveis sem interferência. Seus dados vivem exclusivamente em dois diretórios, geralmente @file{/gnu/store} e @file{/var/guix}; outros arquivos no seu sistema, como @file{/etc}, são deixados intactos."
+msgstr ""
+"Quando instalado sobre uma distro alheia. GNU@tie{}Guix complementa as "
+"ferramentas disponíveis sem interferência. Seus dados residem exclusivamente "
+"em dois diretórios, geralmente @file{/gnu/store} e @file{/var/guix}; outros "
+"arquivos no seu sistema, como @file{/etc}, são deixados intactos."
 
 #. type: Plain text
 #: doc/guix.texi:497
 msgid "Once installed, Guix can be updated by running @command{guix pull} (@pxref{Invoking guix pull})."
-msgstr "Uma vez instalado, o Guix pode ser atualizado executando @command{guix pull} (@pxref{Invocando guix pull})."
+msgstr "Uma vez instalado, o Guix pode ser atualizado executando @command{guix pull} (veja @ref{Invocando guix pull})."
 
 #. type: Plain text
 #: doc/guix.texi:502
-#, fuzzy
 #| msgid "GNU Guix is available for download from its website at @url{http://www.gnu.org/software/guix/}.  This section describes the software requirements of Guix, as well as how to install it and get ready to use it."
 msgid "If you prefer to perform the installation steps manually or want to tweak them, you may find the following subsections useful.  They describe the software requirements of Guix, as well as how to install it manually and get ready to use it."
-msgstr "O GNU Guix está disponível para download em seu site em @url{http://www.gnu.org/software/guix/}. Esta seção descreve os requisitos de software do Guix, além de como instalá-lo e prepará-lo para usá-lo."
+msgstr ""
+"Se você preferir executar as etapas de instalação manualmente ou desejar "
+"ajustá-las, poderá achar úteis as seguintes subseções. Eles descrevem os "
+"requisitos de software do Guix, bem como instalá-lo manualmente e se "
+"preparar para usá-lo."
 
 #. type: cindex
 #: doc/guix.texi:515
@@ -3357,22 +3337,30 @@ msgstr "instalando Guix de binários"
 
 #. type: cindex
 #: doc/guix.texi:516
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid "install"
 msgid "installer script"
-msgstr "instalar"
+msgstr "script de instalação"
 
 #. type: Plain text
 #: doc/guix.texi:522
 msgid "This section describes how to install Guix on an arbitrary system from a self-contained tarball providing binaries for Guix and for all its dependencies.  This is often quicker than installing from source, which is described in the next sections.  The only requirement is to have GNU@tie{}tar and Xz."
-msgstr "Esta seção descreve como instalar o Guix em um sistema arbitrário a partir de um tarball independente que fornece binários para o Guix e para todas as suas dependências. Isso geralmente é mais rápido do que instalar do código-fonte, o que é descrito nas próximas seções. O único requisito é ter o GNU@tie{}tar e Xz."
+msgstr ""
+"Esta seção descreve como instalar o Guix em um sistema arbitrário a partir "
+"de um tarball independente que fornece binários para o Guix e para todas as "
+"suas dependências. Isso geralmente é mais rápido do que instalar do código-"
+"fonte, o que é descrito nas próximas seções. O único requisito é ter o "
+"GNU@tie{}tar e Xz."
 
 #. type: quotation
 #: doc/guix.texi:530
-#, fuzzy
 #| msgid "We provide a @uref{https://git.savannah.gnu.org/cgit/guix.git/plain/etc/guix-install.sh, shell installer script}, which automates the download, installation, and initial configuration of Guix.  It should be run as the root user."
 msgid "We recommend the use of this @uref{https://git.savannah.gnu.org/cgit/guix.git/plain/etc/guix-install.sh, shell installer script}.  The script automates the download, installation, and initial configuration steps described below.  It should be run as the root user."
-msgstr "Fornecemos um @uref{https://git.savannah.gnu.org/cgit/guix.git/plain/etc/guix-install.sh, script shell de instalação}, que automatiza o download, a instalação e a configuração inicial de Guix. Ele deve ser executado como o usuário root."
+msgstr ""
+"Recomendamos o uso deste @uref{https://git.savannah.gnu.org/cgit/guix.git/"
+"plain/etc/guix-install.sh, script shell de instalação}. O script automatiza "
+"as etapas de download, instalação e configuração inicial, descritas abaixo. "
+"Ele deve ser executado como o usuário root."
 
 #. type: Plain text
 #: doc/guix.texi:533
@@ -3387,19 +3375,24 @@ msgstr "baixando binário do Guix"
 
 #. type: enumerate
 #: doc/guix.texi:541
-#, fuzzy
 #| msgid "Download the binary tarball from @indicateurl{ftp://alpha.gnu.org/gnu/guix/guix-binary-@value{VERSION}.@var{system}.tar.xz}, where @var{system} is @code{x86_64-linux} for an @code{x86_64} machine already running the kernel Linux, and so on."
 msgid "Download the binary tarball from @indicateurl{@value{BASE-URL}/guix-binary-@value{VERSION}.@var{system}.tar.xz}, where @var{system} is @code{x86_64-linux} for an @code{x86_64} machine already running the kernel Linux, and so on."
-msgstr "Faça o download do tarball binário de @indicateurl{ftp://alpha.gnu.org/gnu/guix/guix-binary-@value{VERSION}.@var{sistema}.tar.xz}, sendo @var{sistema} @code{x86_64-linux} para uma máquina @code{x86_64} que já usa um kernel Linux, e assim por diante."
+msgstr ""
+"Baixe o tarball binário de @indicateurl{@value{BASE-URL}/guix-"
+"binary-@value{VERSION}.@var{sistema}.tar.xz}, sendo @var{sistema} "
+"@code{x86_64-linux} para uma máquina @code{x86_64} que já usa um kernel "
+"Linux, e assim por diante."
 
 #. type: enumerate
 #: doc/guix.texi:545
 msgid "Make sure to download the associated @file{.sig} file and to verify the authenticity of the tarball against it, along these lines:"
-msgstr "Certifique-se de baixar o arquivo associado @file{.sig} e verificar a autenticidade do tarball, seguindo estas linhas:"
+msgstr ""
+"Certifique-se de baixar o arquivo @file{.sig} associado e verificar a "
+"autenticidade do tarball, seguindo estas linhas:"
 
 #. type: example
 #: doc/guix.texi:549
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "$ wget ftp://alpha.gnu.org/gnu/guix/guix-binary-@value{VERSION}.@var{system}.tar.xz.sig\n"
 #| "$ gpg --verify guix-binary-@value{VERSION}.@var{system}.tar.xz.sig\n"
@@ -3407,32 +3400,40 @@ msgid ""
 "$ wget @value{BASE-URL}/guix-binary-@value{VERSION}.@var{system}.tar.xz.sig\n"
 "$ gpg --verify guix-binary-@value{VERSION}.@var{system}.tar.xz.sig\n"
 msgstr ""
-"$ wget ftp://alpha.gnu.org/gnu/guix/guix-binary-@value{VERSION}.@var{sistema}.tar.xz.sig\n"
+"$ wget @value{BASE-URL}/guix-binary-@value{VERSION}.@var{sistema}.tar.xz."
+"sig\n"
 "$ gpg --verify guix-binary-@value{VERSION}.@var{sistema}.tar.xz.sig\n"
 
 #. type: Plain text
 #: doc/guix.texi:553 doc/guix.texi:1895
 msgid "If that command fails because you do not have the required public key, then run this command to import it:"
-msgstr "Se esse comando falhar porque você não possui a chave pública requerida, execute este comando para importá-lo:"
+msgstr ""
+"Se esse comando falhar porque você não possui a chave pública requerida, "
+"execute este comando para importá-lo:"
 
 #. type: example
 #: doc/guix.texi:557 doc/guix.texi:1899
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid "$ gpg --keyserver pgp.mit.edu --recv-keys @value{OPENPGP-SIGNING-KEY-ID}\n"
 msgid ""
 "$ gpg --keyserver @value{KEY-SERVER} \\\n"
 "      --recv-keys @value{OPENPGP-SIGNING-KEY-ID}\n"
-msgstr "$ gpg --keyserver pgp.mit.edu --recv-keys @value{OPENPGP-SIGNING-KEY-ID}\n"
+msgstr ""
+"$ gpg --keyserver @value{KEY-SERVER} \\\n"
+"      --recv-keys @value{OPENPGP-SIGNING-KEY-ID}\n"
 
 #. type: Plain text
 #: doc/guix.texi:562 doc/guix.texi:1904
 msgid "and rerun the @code{gpg --verify} command."
-msgstr "e re-execute o comando @code{gpg --verify}."
+msgstr "e execute novamente o comando @code{gpg --verify}."
 
 #. type: enumerate
 #: doc/guix.texi:566
 msgid "Now, you need to become the @code{root} user.  Depending on your distribution, you may have to run @code{su -} or @code{sudo -i}.  As @code{root}, run:"
-msgstr "Agora, você precisa se tornar o usuário @code{root}.  Dependendo de sua distribuição, você pode ter que executar @code{su -} ou @code{sudo -i}. Como @code{root}, execute:"
+msgstr ""
+"Agora, você precisa se tornar o usuário @code{root}. Dependendo de sua "
+"distribuição, você pode ter que executar @code{su -} ou @code{sudo -i}. Como "
+"@code{root}, execute:"
 
 #. type: example
 #: doc/guix.texi:572
@@ -3445,32 +3446,47 @@ msgid ""
 msgstr ""
 "# cd /tmp\n"
 "# tar --warning=no-timestamp -xf \\\n"
-"     guix-binary-@value{VERSION}.@var{system}.tar.xz\n"
+"     guix-binary-@value{VERSION}.@var{sistema}.tar.xz\n"
 "# mv var/guix /var/ && mv gnu /\n"
 
 #. type: enumerate
 #: doc/guix.texi:577
 msgid "This creates @file{/gnu/store} (@pxref{The Store}) and @file{/var/guix}.  The latter contains a ready-to-use profile for @code{root} (see next step.)"
-msgstr "Isto cria @file{/gnu/store} (@pxref{O armazenamento}) e @file{/var/guix}. Este último contém um perfil pronto para uso para @code{root} (veja o próximo passo)."
+msgstr ""
+"Isto cria @file{/gnu/store} (veja @ref{O armazenamento}) e @file{/var/guix}. "
+"Este último contém um perfil pronto para uso para @code{root} (veja o "
+"próximo passo)."
 
 #. type: enumerate
 #: doc/guix.texi:580
 msgid "Do @emph{not} unpack the tarball on a working Guix system since that would overwrite its own essential files."
-msgstr "@emph{Não} descompacte o tarball em um sistema Guix funcional, pois isso substituiria seus próprios arquivos essenciais."
+msgstr ""
+"@emph{Não} descompacte o tarball em um sistema Guix funcional, pois isso "
+"substituiria seus próprios arquivos essenciais."
 
 #. type: enumerate
 #: doc/guix.texi:590
 msgid "The @code{--warning=no-timestamp} option makes sure GNU@tie{}tar does not emit warnings about ``implausibly old time stamps'' (such warnings were triggered by GNU@tie{}tar 1.26 and older; recent versions are fine.)  They stem from the fact that all the files in the archive have their modification time set to zero (which means January 1st, 1970.)  This is done on purpose to make sure the archive content is independent of its creation time, thus making it reproducible."
-msgstr "A opção @code{--warning=no-timestamp} certifica-se de que o GNU@tie{}tar não emita avisos sobre ``registros de horários implausivelmente antigos'' (tais avisos foram disparados pelo GNU@tie{}tar 1.26 e mais velhos; versões recentes são boas). Elas derivam do fato de que todos os arquivos no arquivo têm seu tempo de modificação definido para zero (o que significa 1º de janeiro de 1970). Isso é feito propositalmente para garantir que o conteúdo do arquivo seja independente de seu tempo de criação, tornando-o reproduzível."
+msgstr ""
+"A opção @code{--warning=no-timestamp} certifica que o GNU@tie{}tar não emita "
+"avisos sobre ``registros de horários implausivelmente antigos'' (tais avisos "
+"eram disparados pelo GNU@tie{}tar 1.26 e mais antigo; versões recentes "
+"funcionam bem). Elos derivam do fato de que todos os arquivos no arquivo têm "
+"seu tempo de modificação definido para zero (o que significa 1º de janeiro "
+"de 1970). Isso é feito propositalmente para garantir que o conteúdo do "
+"arquivo seja independente de seu tempo de criação, tornando-o reproduzível."
 
 #. type: enumerate
 #: doc/guix.texi:594
 msgid "Make the profile available under @file{~root/.config/guix/current}, which is where @command{guix pull} will install updates (@pxref{Invoking guix pull}):"
 msgstr ""
+"Torne o perfil disponível sob @file{~root/.config/guix/current}, que é onde "
+"@command{guix pull} vai instalar atualizações (veja @ref{Invoking guix "
+"pull}):"
 
 #. type: example
 #: doc/guix.texi:599
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "# ln -sf /var/guix/profiles/per-user/root/guix-profile \\\n"
 #| "         ~root/.guix-profile\n"
@@ -3479,17 +3495,20 @@ msgid ""
 "# ln -sf /var/guix/profiles/per-user/root/current-guix \\\n"
 "         ~root/.config/guix/current\n"
 msgstr ""
-"# ln -sf /var/guix/profiles/per-user/root/guix-profile \\\n"
-"         ~root/.guix-profile\n"
+"# mkdir -p ~root/.config/guix\n"
+"# ln -sf /var/guix/profiles/per-user/root/current-guix \\\n"
+"         ~root/.config/guix/current\n"
 
 #. type: enumerate
 #: doc/guix.texi:603
 msgid "Source @file{etc/profile} to augment @code{PATH} and other relevant environment variables:"
-msgstr "Carregue @file{etc/profile} para expandir @code{PATH} e outras variáveis de ambiente relevantes:"
+msgstr ""
+"Carregue @file{etc/profile} para expandir @code{PATH} e outras variáveis de "
+"ambiente relevantes:"
 
 #. type: example
 #: doc/guix.texi:607
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "# GUIX_PROFILE=\"`echo ~root`/.guix-profile\" ; \\\n"
 #| "  source $GUIX_PROFILE/etc/profile\n"
@@ -3497,27 +3516,33 @@ msgid ""
 "# GUIX_PROFILE=\"`echo ~root`/.config/guix/current\" ; \\\n"
 "  source $GUIX_PROFILE/etc/profile\n"
 msgstr ""
-"# GUIX_PROFILE=\"`echo ~root`/.guix-profile\" ; \\\n"
+"# GUIX_PROFILE=\"`echo ~root`/.config/guix/current\" ; \\\n"
 "  source $GUIX_PROFILE/etc/profile\n"
 
 #. type: enumerate
 #: doc/guix.texi:612
 msgid "Create the group and user accounts for build users as explained below (@pxref{Build Environment Setup})."
-msgstr "Crie o grupo e contas de usuário para compilar usuários conforme explicado abaixo (@pxref{Configuração do ambiente de compilação})."
+msgstr ""
+"Crie o grupo e contas de usuário para compilar usuários conforme explicado "
+"abaixo (veja @ref{Configuração do ambiente de compilação})."
 
 #. type: enumerate
 #: doc/guix.texi:615
 msgid "Run the daemon, and set it to automatically start on boot."
-msgstr "Execute o daemon e configure-o para iniciar automaticamente na inicialização do sistema."
+msgstr ""
+"Execute o daemon e configure-o para iniciar automaticamente na inicialização "
+"do sistema."
 
 #. type: enumerate
 #: doc/guix.texi:618
 msgid "If your host distro uses the systemd init system, this can be achieved with these commands:"
-msgstr "Se sua distro hospedeira usa o sistema init systemd, isso pode ser obtido com estes comandos:"
+msgstr ""
+"Se sua distro hospedeira usa o sistema init systemd, isso pode ser obtido "
+"com estes comandos:"
 
 #. type: example
 #: doc/guix.texi:630
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "# cp ~root/.guix-profile/lib/systemd/system/guix-daemon.service \\\n"
 #| "        /etc/systemd/system/\n"
@@ -3527,8 +3552,8 @@ msgid ""
 "     /etc/systemd/system/\n"
 "# systemctl start guix-daemon && systemctl enable guix-daemon\n"
 msgstr ""
-"# cp ~root/.guix-profile/lib/systemd/system/guix-daemon.service \\\n"
-"        /etc/systemd/system/\n"
+"# cp ~root/.config/guix/current/lib/systemd/system/guix-daemon.service \\\n"
+"     /etc/systemd/system/\n"
 "# systemctl start guix-daemon && systemctl enable guix-daemon\n"
 
 #. type: itemize
@@ -3538,7 +3563,7 @@ msgstr "Se sua distro hospedeira usa o sistema init Upstart:"
 
 #. type: example
 #: doc/guix.texi:639
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "# initctl reload-configuration\n"
 #| "# cp ~root/.guix-profile/lib/upstart/system/guix-daemon.conf /etc/init/\n"
@@ -3550,7 +3575,8 @@ msgid ""
 "# start guix-daemon\n"
 msgstr ""
 "# initctl reload-configuration\n"
-"# cp ~root/.guix-profile/lib/upstart/system/guix-daemon.conf /etc/init/\n"
+"# cp ~root/.config/guix/current/lib/upstart/system/guix-daemon.conf \\\n"
+"     /etc/init/\n"
 "# start guix-daemon\n"
 
 #. type: enumerate
@@ -3560,21 +3586,25 @@ msgstr "Caso contrário, você ainda pode iniciar o daemon manualmente com:"
 
 #. type: example
 #: doc/guix.texi:646
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid "# ~root/.guix-profile/bin/guix-daemon --build-users-group=guixbuild\n"
 msgid ""
 "# ~root/.config/guix/current/bin/guix-daemon \\\n"
 "       --build-users-group=guixbuild\n"
-msgstr "# ~root/.guix-profile/bin/guix-daemon --build-users-group=guixbuild\n"
+msgstr ""
+"# ~root/.config/guix/current/bin/guix-daemon \\\n"
+"       --build-users-group=guixbuild\n"
 
 #. type: enumerate
 #: doc/guix.texi:651
 msgid "Make the @command{guix} command available to other users on the machine, for instance with:"
-msgstr "Disponibilize o comando @command{guix} para outros usuários na máquina, por exemplo com:"
+msgstr ""
+"Disponibilize o comando @command{guix} para outros usuários na máquina, por "
+"exemplo, com:"
 
 #. type: example
 #: doc/guix.texi:656
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "# mkdir -p /usr/local/bin\n"
 #| "# cd /usr/local/bin\n"
@@ -3586,7 +3616,7 @@ msgid ""
 msgstr ""
 "# mkdir -p /usr/local/bin\n"
 "# cd /usr/local/bin\n"
-"# ln -s /var/guix/profiles/per-user/root/guix-profile/bin/guix\n"
+"# ln -s /var/guix/profiles/per-user/root/current-guix/bin/guix\n"
 
 #. type: enumerate
 #: doc/guix.texi:660
@@ -3595,7 +3625,7 @@ msgstr "Também é uma boa ideia disponibilizar a versão Info deste manual:"
 
 #. type: example
 #: doc/guix.texi:666
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "# mkdir -p /usr/local/share/info\n"
 #| "# cd /usr/local/share/info\n"
@@ -3609,13 +3639,17 @@ msgid ""
 msgstr ""
 "# mkdir -p /usr/local/share/info\n"
 "# cd /usr/local/share/info\n"
-"# for i in /var/guix/profiles/per-user/root/guix-profile/share/info/* ;\n"
+"# for i in /var/guix/profiles/per-user/root/current-guix/share/info/* ;\n"
 "  do ln -s $i ; done\n"
 
 #. type: enumerate
 #: doc/guix.texi:672
 msgid "That way, assuming @file{/usr/local/share/info} is in the search path, running @command{info guix} will open this manual (@pxref{Other Info Directories,,, texinfo, GNU Texinfo}, for more details on changing the Info search path.)"
-msgstr "Dessa forma, supondo que @file {/usr/local/share/info} esteja no caminho de pesquisa, executar @command{info guix} abrirá este manual (@pxref{Other Info Directories,,, texinfo, GNU Texinfo}, para mais detalhes sobre como alterar o caminho de pesquisa de informações.)"
+msgstr ""
+"Dessa forma, supondo que @file{/usr/local/share/info} esteja no caminho de "
+"pesquisa, executar @command{info guix} abrirá este manual (veja @ref{Other "
+"Info Directories,,, texinfo, GNU Texinfo}, para mais detalhes sobre como "
+"alterar o caminho de pesquisa de informações.)"
 
 #. type: cindex
 #: doc/guix.texi:674 doc/guix.texi:3159 doc/guix.texi:11980
@@ -3628,7 +3662,7 @@ msgstr "substitutos, autenticação dela"
 #, fuzzy
 #| msgid "To use substitutes from @code{hydra.gnu.org} or one of its mirrors (@pxref{Substitutes}), authorize them:"
 msgid "To use substitutes from @code{@value{SUBSTITUTE-SERVER}} or one of its mirrors (@pxref{Substitutes}), authorize them:"
-msgstr "Para usar substitutos de @code{hydra.gnu.org} ou um de seus espelhos (@pxref{Substitutos}), autorize-os:"
+msgstr "Para usar substitutos de @code{hydra.gnu.org} ou um de seus espelhos (veja @ref{Substitutos}), autorize-os:"
 
 #. type: example
 #: doc/guix.texi:681
@@ -3642,7 +3676,7 @@ msgstr "# guix archive --authorize < ~root/.guix-profile/share/guix/hydra.gnu.or
 #. type: enumerate
 #: doc/guix.texi:686
 msgid "Each user may need to perform a few additional steps to make their Guix environment ready for use, @pxref{Application Setup}."
-msgstr "Cada usuário pode precisar executar algumas etapas adicionais para tornar seu ambiente Guix pronto para uso, @pxref{Configuração de aplicativo}."
+msgstr "Cada usuário pode precisar executar algumas etapas adicionais para tornar seu ambiente Guix pronto para uso, veja @ref{Configuração de aplicativo}."
 
 #. type: Plain text
 #: doc/guix.texi:689
@@ -3691,7 +3725,7 @@ msgstr "guix pack -s @var{sistema} --localstatedir guix\n"
 #. type: Plain text
 #: doc/guix.texi:713
 msgid "@xref{Invoking guix pack}, for more info on this handy tool."
-msgstr "@xref{Invocando guix pack}, para mais informações sobre essa ferramenta útil."
+msgstr "Veja @ref{Invocando guix pack}, para mais informações sobre essa ferramenta útil."
 
 #. type: Plain text
 #: doc/guix.texi:721
@@ -3741,7 +3775,7 @@ msgstr ""
 #, fuzzy
 #| msgid "@uref{http://gnutls.org/, GnuTLS}, specifically its Guile bindings (@pxref{Guile Preparations, how to install the GnuTLS bindings for Guile,, gnutls-guile, GnuTLS-Guile});"
 msgid "@uref{https://gnutls.org/, GnuTLS}, specifically its Guile bindings (@pxref{Guile Preparations, how to install the GnuTLS bindings for Guile,, gnutls-guile, GnuTLS-Guile});"
-msgstr "@uref{http://gnutls.org/, GnuTLS}, especificamente suas associações com Guile (@pxref{Guile Preparations, how to install the GnuTLS bindings for Guile,, gnutls-guile, GnuTLS-Guile});"
+msgstr "@uref{http://gnutls.org/, GnuTLS}, especificamente suas associações com Guile (veja @ref{Guile Preparations, how to install the GnuTLS bindings for Guile,, gnutls-guile, GnuTLS-Guile});"
 
 #. type: itemize
 #: doc/guix.texi:739
@@ -3783,7 +3817,7 @@ msgstr "As seguintes dependências são opcionais:"
 #. type: itemize
 #: doc/guix.texi:757
 msgid "Support for build offloading (@pxref{Daemon Offload Setup}) and @command{guix copy} (@pxref{Invoking guix copy}) depends on @uref{https://github.com/artyom-poptsov/guile-ssh, Guile-SSH}, version 0.10.2 or later."
-msgstr "Suporte para descarregamento de compilação (@pxref{Configuração de descarregamento de daemon}) e o @command{guix copy} (@pxref{Invocando guix copy}) depende de @uref{https://github.com/artyom-poptsov/guile-ssh, Guile-SSH}, versão 0.10.2 ou posterior."
+msgstr "Suporte para descarregamento de compilação (veja @ref{Configuração de descarregamento de daemon}) e o @command{guix copy} (veja @ref{Invocando guix copy}) depende de @uref{https://github.com/artyom-poptsov/guile-ssh, Guile-SSH}, versão 0.10.2 ou posterior."
 
 #. type: itemize
 #: doc/guix.texi:761
@@ -3830,7 +3864,7 @@ msgstr "diretório de estado"
 #. type: Plain text
 #: doc/guix.texi:781
 msgid "When configuring Guix on a system that already has a Guix installation, be sure to specify the same state directory as the existing installation using the @code{--localstatedir} option of the @command{configure} script (@pxref{Directory Variables, @code{localstatedir},, standards, GNU Coding Standards}).  The @command{configure} script protects against unintended misconfiguration of @var{localstatedir} so you do not inadvertently corrupt your store (@pxref{The Store})."
-msgstr "Ao configurar o Guix em um sistema que já possui uma instalação Guix, certifique-se de especificar o mesmo diretório de estado que a instalação existente usando a opção @code{--localstatedir} do script @command{configure} (@pxref{Directory Variables, @code{localstatedir},, standards, GNU Coding Standards}). O script @command{configure} protege contra a configuração incorreta indesejada de @var{localstatedir} para que você não corrompa inadvertidamente seu armazenamento (@pxref{O armazenamento})."
+msgstr "Ao configurar o Guix em um sistema que já possui uma instalação Guix, certifique-se de especificar o mesmo diretório de estado que a instalação existente usando a opção @code{--localstatedir} do script @command{configure} (veja @ref{Directory Variables, @code{localstatedir},, standards, GNU Coding Standards}). O script @command{configure} protege contra a configuração incorreta indesejada de @var{localstatedir} para que você não corrompa inadvertidamente seu armazenamento (veja @ref{O armazenamento})."
 
 #. type: cindex
 #: doc/guix.texi:782
@@ -3897,14 +3931,12 @@ msgstr "make check TESTS=\"tests/base64.scm\" SCM_LOG_DRIVER_FLAGS=\"--brief=no\
 #. type: Plain text
 #: doc/guix.texi:837
 msgid "Upon failure, please email @email{bug-guix@@gnu.org} and attach the @file{test-suite.log} file.  Please specify the Guix version being used as well as version numbers of the dependencies (@pxref{Requirements}) in your message."
-msgstr "Em caso de falha, envie um e-mail para @email{bug-guix@@gnu.org} e anexe o arquivo @file{test-suite.log}. Por favor, especifique a versão do Guix que está sendo usada, bem como os números de versão das dependências (@pxref{Requisitos}) em sua mensagem."
+msgstr "Em caso de falha, envie um e-mail para @email{bug-guix@@gnu.org} e anexe o arquivo @file{test-suite.log}. Por favor, especifique a versão do Guix que está sendo usada, bem como os números de versão das dependências (veja @ref{Requisitos}) em sua mensagem."
 
 #. type: Plain text
 #: doc/guix.texi:841
-#, fuzzy
-#| msgid "Guix also comes with a whole-system test suite that tests complete GuixSD operating system instances.  It can only run on systems where Guix is already installed, using:"
 msgid "Guix also comes with a whole-system test suite that tests complete Guix System instances.  It can only run on systems where Guix is already installed, using:"
-msgstr "O Guix também vem com um conjunto de testes de sistema completo que testa instâncias completas do sistema operacional GuixSD. Ele só pode ser executado em sistemas nos quais o Guix já está instalado, usando:"
+msgstr "O Guix também vem com um conjunto de testes de sistema completo que testa instâncias completas do Guix System. Ele só pode ser executado em sistemas nos quais o Guix já está instalado, usando:"
 
 #. type: example
 #: doc/guix.texi:844
@@ -3926,7 +3958,7 @@ msgstr "make check-system TESTS=\"basic mcron\"\n"
 #. type: Plain text
 #: doc/guix.texi:859
 msgid "These system tests are defined in the @code{(gnu tests @dots{})} modules.  They work by running the operating systems under test with lightweight instrumentation in a virtual machine (VM).  They can be computationally intensive or rather cheap, depending on whether substitutes are available for their dependencies (@pxref{Substitutes}).  Some of them require a lot of storage space to hold VM images."
-msgstr "Esses testes de sistema são definidos nos módulos @code{(gnu tests @dots{})}. Eles trabalham executando os sistemas operacionais em teste com instrumentação leve em uma máquina virtual (VM). Eles podem ser computacionalmente intensivos ou bastante baratos, dependendo se os substitutos estão disponíveis para suas dependências (@pxref{Substitutos}). Alguns deles exigem muito espaço de armazenamento para armazenar imagens de VM."
+msgstr "Esses testes de sistema são definidos nos módulos @code{(gnu tests @dots{})}. Eles trabalham executando os sistemas operacionais em teste com instrumentação leve em uma máquina virtual (VM). Eles podem ser computacionalmente intensivos ou bastante baratos, dependendo se os substitutos estão disponíveis para suas dependências (veja @ref{Substitutos}). Alguns deles exigem muito espaço de armazenamento para armazenar imagens de VM."
 
 #. type: Plain text
 #: doc/guix.texi:862
@@ -3969,7 +4001,7 @@ msgstr "usuários de compilação"
 #. type: Plain text
 #: doc/guix.texi:908
 msgid "When @command{guix-daemon} runs as @code{root}, you may not want package build processes themselves to run as @code{root} too, for obvious security reasons.  To avoid that, a special pool of @dfn{build users} should be created for use by build processes started by the daemon.  These build users need not have a shell and a home directory: they will just be used when the daemon drops @code{root} privileges in build processes.  Having several such users allows the daemon to launch distinct build processes under separate UIDs, which guarantees that they do not interfere with each other---an essential feature since builds are regarded as pure functions (@pxref{Introduction})."
-msgstr "Quando @command{guix-daemon} é executado como @code{root}, você pode não querer que os próprios processos de compilação de pacotes também sejam executados como @code{root}, por razões óbvias de segurança. Para evitar isso, um conjunto especial de @dfn{usuários de compilação} deve ser criado para uso pelos processos de construção iniciados pelo daemon. Esses usuários de compilação não precisam ter um shell e um diretório inicial: eles serão usados apenas quando o daemon der um privilégio @code{root} nos processos de compilação. Ter vários desses usuários permite que o daemon ative processos de compilação distintos sob UIDs separados, o que garante que eles não interfiram uns com os outros - um recurso essencial, pois as compilações são consideradas funções puras (@pxref{Introdução})."
+msgstr "Quando @command{guix-daemon} é executado como @code{root}, você pode não querer que os próprios processos de compilação de pacotes também sejam executados como @code{root}, por razões óbvias de segurança. Para evitar isso, um conjunto especial de @dfn{usuários de compilação} deve ser criado para uso pelos processos de construção iniciados pelo daemon. Esses usuários de compilação não precisam ter um shell e um diretório inicial: eles serão usados apenas quando o daemon der um privilégio @code{root} nos processos de compilação. Ter vários desses usuários permite que o daemon ative processos de compilação distintos sob UIDs separados, o que garante que eles não interfiram uns com os outros - um recurso essencial, pois as compilações são consideradas funções puras (veja @ref{Introdução})."
 
 #. type: Plain text
 #: doc/guix.texi:911
@@ -4001,12 +4033,12 @@ msgstr ""
 #. type: Plain text
 #: doc/guix.texi:933
 msgid "The number of build users determines how many build jobs may run in parallel, as specified by the @option{--max-jobs} option (@pxref{Invoking guix-daemon, @option{--max-jobs}}).  To use @command{guix system vm} and related commands, you may need to add the build users to the @code{kvm} group so they can access @file{/dev/kvm}, using @code{-G guixbuild,kvm} instead of @code{-G guixbuild} (@pxref{Invoking guix system})."
-msgstr "O número de usuários de compilação determina quantos trabalhos de compilação podem ser executados em paralelo, conforme especificado pela opção @option{--max-jobs} (@pxref{Invocando guix-daemon, @option{--max-jobs}}). Para usar @command{guix system vm} e comandos relacionados, você pode precisar adicionar os usuários de compilação ao grupo @code{kvm} para que eles possam acessar @file{/dev/kvm}, usando @code{-G guixbuild,kvm} em vez de @code{-G guixbuild} (@pxref{Invocando guix system})."
+msgstr "O número de usuários de compilação determina quantos trabalhos de compilação podem ser executados em paralelo, conforme especificado pela opção @option{--max-jobs} (veja @ref{Invocando guix-daemon, @option{--max-jobs}}). Para usar @command{guix system vm} e comandos relacionados, você pode precisar adicionar os usuários de compilação ao grupo @code{kvm} para que eles possam acessar @file{/dev/kvm}, usando @code{-G guixbuild,kvm} em vez de @code{-G guixbuild} (veja @ref{Invocando guix system})."
 
 #. type: Plain text
 #: doc/guix.texi:942
 msgid "The @code{guix-daemon} program may then be run as @code{root} with the following command@footnote{If your machine uses the systemd init system, dropping the @file{@var{prefix}/lib/systemd/system/guix-daemon.service} file in @file{/etc/systemd/system} will ensure that @command{guix-daemon} is automatically started.  Similarly, if your machine uses the Upstart init system, drop the @file{@var{prefix}/lib/upstart/system/guix-daemon.conf} file in @file{/etc/init}.}:"
-msgstr "O programa @code{guix-daemon} pode então ser executado como @code{root} com o seguinte comando@footnote{Se sua máquina usa o sistema init systemd, colocar o arquivo @file{@var{prefixo}/lib/systemd/system/guix-daemon.service} em @file{/etc/systemd/system} irá assegurar que @command{guix-daemon} seja iniciado automaticamente. Da mesma forma, se a sua máquina usa o sistema init Upstart, coloque o arquivo @file{@var{prefixo}/lib/upstart/system/guix-daemon.conf} em @file{/etc/init}."
+msgstr "O programa @code{guix-daemon} pode então ser executado como @code{root} com o seguinte comando@footnote{Se sua máquina usa o sistema init systemd, colocar o arquivo @file{@var{prefixo}/lib/systemd/system/guix-daemon.service} em @file{/etc/systemd/system} irá assegurar que @command{guix-daemon} seja iniciado automaticamente. Da mesma forma, se a sua máquina usa o sistema init Upstart, coloque o arquivo @file{@var{prefixo}/lib/upstart/system/guix-daemon.conf} em @file{/etc/init}.}:"
 
 #. type: example
 #: doc/guix.texi:945 doc/guix.texi:1304
@@ -4080,9 +4112,9 @@ msgstr ""
 
 #. type: subsection
 #: doc/guix.texi:1003
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Using the Offload Facility"
-msgstr "FACILIDADE"
+msgstr "Usando o recurso de descarregamento"
 
 #. type: cindex
 #: doc/guix.texi:1005
@@ -4476,15 +4508,15 @@ msgstr ""
 
 #. type: subsubsection
 #: doc/guix.texi:1220
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Installing the SELinux policy"
-msgstr "Política:"
+msgstr "Instalando a política do SELinux"
 
 #. type: cindex
 #: doc/guix.texi:1221
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "SELinux, policy installation"
-msgstr "Instalação"
+msgstr "SELinux, instalação de política"
 
 #. type: Plain text
 #: doc/guix.texi:1223
@@ -4559,9 +4591,9 @@ msgstr ""
 
 #. type: section
 #: doc/guix.texi:1295
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Invoking @command{guix-daemon}"
-msgstr "guix: ~a: comando não encontrado~%"
+msgstr "Invocando @command{guix-daemon}"
 
 #. type: Plain text
 #: doc/guix.texi:1301
@@ -4647,14 +4679,14 @@ msgstr ""
 #. type: item
 #: doc/guix.texi:1358 doc/guix.texi:7710 doc/guix.texi:9317 doc/guix.texi:9898
 #: doc/guix.texi:10088
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "--substitute-urls=@var{urls}"
-msgstr "usa URLS como lista padrão de fornecedores de substituto"
+msgstr "--substitute-urls=@var{urls}"
 
 #. type: anchor{#1}
 #: doc/guix.texi:1363
 msgid "daemon-substitute-urls"
-msgstr ""
+msgstr "daemon-substitute-urls"
 
 #. type: table
 #: doc/guix.texi:1363
@@ -4668,12 +4700,9 @@ msgstr ""
 
 #. type: item
 #: doc/guix.texi:1368 doc/guix.texi:7748
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "--no-build-hook"
-msgstr ""
-"\n"
-"      --no-build-hook    não tenta descarregar compilações via hook de\n"
-"                         compilação"
+msgstr "--no-build-hook"
 
 #. type: table
 #: doc/guix.texi:1370
@@ -5067,31 +5096,29 @@ msgstr ""
 #. type: Plain text
 #: doc/guix.texi:1569
 msgid "When using Guix on top of GNU/Linux distribution other than Guix System---a so-called @dfn{foreign distro}---a few additional steps are needed to get everything in place.  Here are some of them."
-msgstr ""
+msgstr "Ao usar Guix sobre uma distribuição GNU/Linux que não seja um Guix System --- uma chamada @dfn{distro alheia} --- algumas etapas adicionais são necessárias para colocar tudo no seu lugar. Aqui estão algumas delas."
 
 #. type: anchor{#1}
 #: doc/guix.texi:1573
-#, fuzzy
 msgid "locales-and-locpath"
-msgstr "IDIOMAS"
+msgstr "locales-and-locpath"
 
 #. type: cindex
 #: doc/guix.texi:1573
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "locales, when not on Guix System"
-msgstr "IDIOMAS"
+msgstr "locales, quando não está no Guix System"
 
 #. type: vindex
 #: doc/guix.texi:1574 doc/guix.texi:11297
 #, no-wrap
 msgid "LOCPATH"
-msgstr ""
+msgstr "LOCPATH"
 
 #. type: vindex
 #: doc/guix.texi:1575
-#, fuzzy, no-wrap
 msgid "GUIX_LOCPATH"
-msgstr "guix"
+msgstr "GUIX_LOCPATH"
 
 #. type: Plain text
 #: doc/guix.texi:1580
@@ -5119,7 +5146,7 @@ msgstr ""
 #. type: enumerate
 #: doc/guix.texi:1601
 msgid "@code{GUIX_LOCPATH} is honored only by the libc in Guix, and not by the libc provided by foreign distros.  Thus, using @code{GUIX_LOCPATH} allows you to make sure the programs of the foreign distro will not end up loading incompatible locale data."
-msgstr ""
+msgstr "@code{GUIX_LOCPATH} é honrada apenas pelo libc no Guix e não pelo libc fornecido por distros alheiras. Então, o uso de @code{GUIX_LOCPATH} permite que você se certifique que os programas da distro alheia não vão acabar carregando dados de localidade incompatíveis."
 
 #. type: enumerate
 #: doc/guix.texi:1608
@@ -5158,7 +5185,7 @@ msgstr "Daemon de cache de serviço de nomes."
 #. type: Plain text
 #: doc/guix.texi:1625
 msgid "When using Guix on a foreign distro, we @emph{strongly recommend} that the system run the GNU C library's @dfn{name service cache daemon}, @command{nscd}, which should be listening on the @file{/var/run/nscd/socket} socket.  Failing to do that, applications installed with Guix may fail to look up host names or user accounts, or may even crash.  The next paragraphs explain why."
-msgstr ""
+msgstr "Ao usar o Guix em uma distro alheia, nós @emph{recomendamos fortemente} que o sistema use o @dfn{daemon de cache de serviço de nomes} da biblioteca C do GNU, @command{nscd}, que deve ouvir no soquete @file{/var/run/nscd/socket}. Caso não faça isso, os aplicativos instalados com Guix podem falhar em procurar nomes de máquina e contas de usuário, ou até mesmo travar. Os próximos parágrafos explicam o porquê."
 
 #. type: file{#1}
 #: doc/guix.texi:1626
@@ -5295,7 +5322,7 @@ msgstr ""
 #. type: Plain text
 #: doc/guix.texi:1725
 msgid "When using Guix on a foreign distro, you can install this package and define the relevant environment variables so that packages know where to look for certificates.  @xref{X.509 Certificates}, for detailed information."
-msgstr ""
+msgstr "Ao usar uma Guix em uma distro alheia, você pode instalar esse pacote e definir as variáveis de ambiente relevantes de forma que os pacotes saibam onde procurar por certificados. Veja @ref{Certificados X.509}, para informações detalhadas."
 
 #. type: subsection
 #: doc/guix.texi:1726
@@ -5349,16 +5376,15 @@ msgstr ""
 
 #. type: cindex
 #: doc/guix.texi:1771
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "installing Guix System"
-msgstr "Instalando "
+msgstr "Instalando o Guix System"
 
 #. type: cindex
 #: doc/guix.texi:1772
-#, fuzzy, no-wrap
-#| msgid "System Installation"
+#, no-wrap
 msgid "Guix System, installation"
-msgstr "Instalação do sistema"
+msgstr "Guix System, instalação"
 
 #. type: Plain text
 #: doc/guix.texi:1777
@@ -5408,9 +5434,9 @@ msgstr ""
 
 #. type: cindex
 #: doc/guix.texi:1836
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "hardware support on Guix System"
-msgstr "hardware"
+msgstr "suporte a hardware no Guix System"
 
 #. type: Plain text
 #: doc/guix.texi:1845
@@ -6077,7 +6103,7 @@ msgstr ""
 #. type: Plain text
 #: doc/guix.texi:2362
 msgid "Once that command has completed---and hopefully succeeded!---you can run @command{reboot} and boot into the new system.  The @code{root} password in the new system is initially empty; other users' passwords need to be initialized by running the @command{passwd} command as @code{root}, unless your configuration specifies otherwise (@pxref{user-account-password, user account passwords}).  @xref{After System Installation}, for what's next!"
-msgstr ""
+msgstr "Após a conclusão desse comando -- e esperamos que com sucesso! -- você pode executar o comando @command{reboot} e inicializar no novo sistema. A senha @code{root} no novo sistema está inicialmente vazia; as senhas de outros usuários precisam ser inicializadas executando o comando @command{passwd} como @code{root}, a menos que sua configuração especifique o contrário (veja @ref{user-account-password, senhas de contas de usuário}). Veja @ref{Após a instalação do sistema}, para o que vem a seguir!"
 
 #. type: Plain text
 #: doc/guix.texi:2369
@@ -6121,9 +6147,9 @@ msgstr "Visualizador/gerenciador de máquinas virtuais"
 
 #. type: cindex
 #: doc/guix.texi:2395
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "virtual machine, Guix System installation"
-msgstr "Visualizador/gerenciador de máquinas virtuais"
+msgstr "máquina virtual, instalação do Guix System"
 
 #. type: cindex
 #: doc/guix.texi:2396
@@ -6338,9 +6364,8 @@ msgstr ""
 
 #. type: Plain text
 #: doc/guix.texi:2589
-#, fuzzy
 msgid "Control over the build environment is a feature that is also useful for developers.  The @command{guix environment} command allows developers of a package to quickly set up the right development environment for their package, without having to manually install the dependencies of the package into their profile (@pxref{Invoking guix environment})."
-msgstr "Control over the build environment is a feature that is also useful for developers.  The @command{guix environment} command allows developers of a package to quickly set up the right development environment for their package, without having to manually install the dependencies of the package into their profile (@pxref{Invocando o ambiente guix})."
+msgstr ""
 
 #. type: cindex
 #: doc/guix.texi:2590
@@ -6364,7 +6389,7 @@ msgstr ""
 #: doc/guix.texi:2600
 #, no-wrap
 msgid "Invoking @command{guix package}"
-msgstr ""
+msgstr "Invocando @command{guix package}"
 
 #. type: cindex
 #: doc/guix.texi:2602
@@ -6617,7 +6642,7 @@ msgstr ""
 #: doc/guix.texi:2747
 #, fuzzy
 msgid "Developers may find it useful to include such a @file{guix.scm} file in the root of their project source tree that can be used to test development snapshots and create reproducible development environments (@pxref{Invoking guix environment})."
-msgstr "Developers may find it useful to include such a @file{guix.scm} file in the root of their project source tree that can be used to test development snapshots and create reproducible development environments (@pxref{Invocando o ambiente guix})."
+msgstr "Developers may find it useful to include such a @file{guix.scm} file in the root of their project source tree that can be used to test development snapshots and create reproducible development environments (veja @ref{Invocando o ambiente guix})."
 
 #. type: item
 #: doc/guix.texi:2748
@@ -6691,34 +6716,34 @@ msgstr ""
 
 #. type: anchor{#1}
 #: doc/guix.texi:2779
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "profile-manifest"
-msgstr "MANIFESTO"
+msgstr "profile-manifest"
 
 #. type: item
 #: doc/guix.texi:2779 doc/guix.texi:4529 doc/guix.texi:4870 doc/guix.texi:8916
 #: doc/guix.texi:10099
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "--manifest=@var{file}"
-msgstr "MANIFESTO"
+msgstr "--manifest=@var{arquivo}"
 
 #. type: itemx
 #: doc/guix.texi:2780 doc/guix.texi:4530 doc/guix.texi:4871 doc/guix.texi:8917
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "-m @var{file}"
-msgstr "-m @var{manual}"
+msgstr "-m @var{arquivo}"
 
 #. type: cindex
 #: doc/guix.texi:2781
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "profile declaration"
-msgstr "declaração anterior"
+msgstr "declaração de perfil"
 
 #. type: cindex
 #: doc/guix.texi:2782
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "profile manifest"
-msgstr "MANIFESTO"
+msgstr "manifsto de perfil"
 
 #. type: table
 #: doc/guix.texi:2785
@@ -6737,17 +6762,19 @@ msgstr ""
 
 #. type: findex
 #: doc/guix.texi:2796
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "packages->manifest"
-msgstr "MANIFESTO"
+msgstr "packages->manifest"
 
 #. type: example
 #: doc/guix.texi:2799
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "(use-package-modules guile emacs)\n"
 "\n"
-msgstr "Tente adicionar @code{(use-package-modules ~a)}."
+msgstr ""
+"(use-package-modules guile emacs)\n"
+"\n"
 
 #. type: example
 #: doc/guix.texi:2805
@@ -6759,6 +6786,11 @@ msgid ""
 "       ;; Use a specific package output.\n"
 "       (list guile-2.0 \"debug\")))\n"
 msgstr ""
+"(packages->manifest\n"
+" (list emacs\n"
+"       guile-2.0\n"
+"       ;; Usa uma saída de pacote específica.\n"
+"       (list guile-2.0 \"debug\")))\n"
 
 #. type: findex
 #: doc/guix.texi:2807
@@ -6778,30 +6810,32 @@ msgid ""
 "(specifications->manifest\n"
 " '(\"emacs\" \"guile@@2.2\" \"guile@@2.2:debug\"))\n"
 msgstr ""
+"(specifications->manifest\n"
+" '(\"emacs\" \"guile@@2.2\" \"guile@@2.2:debug\"))\n"
 
 #. type: item
 #: doc/guix.texi:2820
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "--roll-back"
-msgstr "Falha ao desfazer a transação: %s"
+msgstr "--roll-back"
 
 #. type: cindex
 #: doc/guix.texi:2821 doc/guix.texi:24354
 #, fuzzy, no-wrap
 msgid "rolling back"
-msgstr "Erro ao reverter transação: %s"
+msgstr "reverter transação"
 
 #. type: cindex
 #: doc/guix.texi:2822
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "undoing transactions"
-msgstr "Obtendo transações"
+msgstr "desfazendo transações"
 
 #. type: cindex
 #: doc/guix.texi:2823
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "transactions, undoing"
-msgstr "Obtendo transações"
+msgstr "transações, desfazendo"
 
 #. type: table
 #: doc/guix.texi:2826
@@ -6827,22 +6861,19 @@ msgstr ""
 #: doc/guix.texi:2838
 #, no-wrap
 msgid "--switch-generation=@var{pattern}"
-msgstr ""
+msgstr "--switch-generation=@var{padrão}"
 
 #. type: itemx
 #: doc/guix.texi:2839
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "-S @var{pattern}"
-msgstr "-s @var{seção}"
+msgstr "-S @var{padrão}"
 
 #. type: cindex
 #: doc/guix.texi:2840 doc/guix.texi:3036 doc/guix.texi:24312
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "generations"
-msgstr ""
-"\n"
-"  -l, --list-generations[=PADRÃO]\n"
-"                         lista criações correspondendo a PADRÃO"
+msgstr "gerações"
 
 #. type: table
 #: doc/guix.texi:2842
@@ -6886,7 +6917,7 @@ msgstr ""
 #: doc/guix.texi:2874
 #, no-wrap
 msgid "$ eval `guix package --search-paths`\n"
-msgstr ""
+msgstr "$ eval `guix package --search-paths`\n"
 
 #. type: table
 #: doc/guix.texi:2880
@@ -6906,6 +6937,9 @@ msgid ""
 "$ guix package -p bar -i guile-json\n"
 "$ guix package -p foo -p bar --search-paths\n"
 msgstr ""
+"$ guix package -p foo -i guile\n"
+"$ guix package -p bar -i guile-json\n"
+"$ guix package -p foo -p bar --search-paths\n"
 
 #. type: table
 #: doc/guix.texi:2893
@@ -6914,15 +6948,15 @@ msgstr ""
 
 #. type: item
 #: doc/guix.texi:2895 doc/guix.texi:3713 doc/guix.texi:4160
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "--profile=@var{profile}"
-msgstr "_Perfil"
+msgstr "--profile=@var{perfil}"
 
 #. type: itemx
 #: doc/guix.texi:2896 doc/guix.texi:3714 doc/guix.texi:4161
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "-p @var{profile}"
-msgstr "-p @var{texto}"
+msgstr "-p @var{perfil}"
 
 #. type: table
 #: doc/guix.texi:2898
@@ -6934,9 +6968,9 @@ msgstr ""
 
 #. type: cindex
 #: doc/guix.texi:2899
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "collisions, in a profile"
-msgstr "Colisões:"
+msgstr "colisões, em um perfil"
 
 #. type: cindex
 #: doc/guix.texi:2900
@@ -7567,18 +7601,15 @@ msgstr ""
 
 #. type: section
 #: doc/guix.texi:3383
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Invoking @command{guix gc}"
-msgstr "guix: ~a: comando não encontrado~%"
+msgstr "Invocando @command{guix gc}"
 
 #. type: cindex
 #: doc/guix.texi:3385
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "garbage collector"
-msgstr ""
-"\n"
-"  -r, --root=ARQUIVO     faz do ARQUIVO um link simbólico para o resultado\n"
-"                          e o registra, como um coletor de lixo"
+msgstr "coletor de lixo"
 
 #. type: cindex
 #: doc/guix.texi:3386
@@ -7911,7 +7942,7 @@ msgstr ""
 #: doc/guix.texi:3550
 #, fuzzy, no-wrap
 msgid "integrity checking"
-msgstr "Verificando integridade do arquivo"
+msgstr "verificação de integridade"
 
 #. type: table
 #: doc/guix.texi:3552
@@ -7975,9 +8006,9 @@ msgstr ""
 
 #. type: section
 #: doc/guix.texi:3589
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Invoking @command{guix pull}"
-msgstr "Considere executar \"guix pull\" antes de \"reconfigure\".~%"
+msgstr "Invocando @command{guix pull}"
 
 #. type: cindex
 #: doc/guix.texi:3591
@@ -8801,9 +8832,9 @@ msgstr ""
 
 #. type: section
 #: doc/guix.texi:4085
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Invoking @command{guix describe}"
-msgstr "guix: ~a: comando não encontrado~%"
+msgstr "Invocando @command{guix describe}"
 
 #. type: Plain text
 #: doc/guix.texi:4096
@@ -8930,9 +8961,9 @@ msgstr ""
 
 #. type: section
 #: doc/guix.texi:4166
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Invoking @command{guix archive}"
-msgstr "guix: ~a: comando não encontrado~%"
+msgstr "Invocando @command{guix archive}"
 
 #. type: command{#1}
 #: doc/guix.texi:4168
@@ -9190,10 +9221,9 @@ msgstr ""
 
 #. type: cindex
 #: doc/guix.texi:4334
-#, fuzzy, no-wrap
-#| msgid "Software development"
+#, no-wrap
 msgid "software development"
-msgstr "Desenvolvimento de software"
+msgstr "desenvolvimento de software"
 
 #. type: Plain text
 #: doc/guix.texi:4338
@@ -9207,9 +9237,9 @@ msgstr ""
 
 #. type: section
 #: doc/guix.texi:4351
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Invoking @command{guix environment}"
-msgstr "guix: ~a: comando não encontrado~%"
+msgstr "Invocando @command{guix environment}"
 
 #. type: cindex
 #: doc/guix.texi:4353
@@ -9272,9 +9302,9 @@ msgstr ""
 
 #. type: vindex
 #: doc/guix.texi:4392
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "GUIX_ENVIRONMENT"
-msgstr "guix"
+msgstr "GUIX_ENVIRONMENT"
 
 #. type: Plain text
 #: doc/guix.texi:4398
@@ -9759,9 +9789,9 @@ msgstr ""
 
 #. type: section
 #: doc/guix.texi:4690
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Invoking @command{guix pack}"
-msgstr "guix: ~a: comando não encontrado~%"
+msgstr "Invocando @command{guix pack}"
 
 #. type: Plain text
 #: doc/guix.texi:4696
@@ -10449,9 +10479,9 @@ msgstr ""
 
 #. type: vindex
 #: doc/guix.texi:5208
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "GUIX_PACKAGE_PATH"
-msgstr "guix"
+msgstr "GUIX_PACKAGE_PATH"
 
 #. type: Plain text
 #: doc/guix.texi:5212
@@ -13907,9 +13937,9 @@ msgstr ""
 
 #. type: section
 #: doc/guix.texi:7531
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Invoking @command{guix repl}"
-msgstr "Considere executar \"guix pull\" antes de \"reconfigure\".~%"
+msgstr "Invocando @command{guix repl}"
 
 #. type: cindex
 #: doc/guix.texi:7533
@@ -14164,15 +14194,14 @@ msgstr ""
 
 #. type: anchor{#1}
 #: doc/guix.texi:7706
-#, fuzzy
 msgid "fallback-option"
-msgstr "Codificação secundária"
+msgstr "fallback-option"
 
 #. type: item
 #: doc/guix.texi:7706
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "--fallback"
-msgstr "Uso alternativo"
+msgstr "--fallback"
 
 #. type: table
 #: doc/guix.texi:7709
@@ -14770,27 +14799,26 @@ msgstr ""
 
 #. type: anchor{#1}
 #: doc/guix.texi:8107
-#, fuzzy
 msgid "build-check"
-msgstr "Compilar apenas para verificação:"
+msgstr "build-check"
 
 #. type: item
 #: doc/guix.texi:8107
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "--check"
-msgstr "VERIF"
+msgstr "--check"
 
 #. type: cindex
 #: doc/guix.texi:8108
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "determinism, checking"
-msgstr "Verificação ortográfica"
+msgstr "determinismo, verificação"
 
 #. type: cindex
 #: doc/guix.texi:8109
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "reproducibility, checking"
-msgstr "Verificando codificações..."
+msgstr "reprodutibilidade, verificação"
 
 #. type: table
 #: doc/guix.texi:8113
@@ -14986,9 +15014,8 @@ msgstr ""
 
 #. type: Plain text
 #: doc/guix.texi:8237
-#, fuzzy
 msgid "Here, @command{guix environment -C} creates a container and spawns a new shell in it (@pxref{Invoking guix environment}).  The @command{--ad-hoc strace gdb} part adds the @command{strace} and @command{gdb} commands to the container, which would may find handy while debugging.  The @option{--no-grafts} option makes sure we get the exact same environment, with ungrafted packages (@pxref{Security Updates}, for more info on grafts)."
-msgstr "Here, @command{guix environment -C} creates a container and spawns a new shell in it (@pxref{Invocando o ambiente guix}).  The @command{--ad-hoc strace gdb} part adds the @command{strace} and @command{gdb} commands to the container, which would may find handy while debugging.  The @option{--no-grafts} option makes sure we get the exact same environment, with ungrafted packages (@pxref{Security Updates}, for more info on grafts)."
+msgstr ""
 
 #. type: Plain text
 #: doc/guix.texi:8240
@@ -15024,9 +15051,9 @@ msgstr ""
 
 #. type: section
 #: doc/guix.texi:8261
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Invoking @command{guix edit}"
-msgstr "guix: ~a: comando não encontrado~%"
+msgstr "Invocando @command{guix edit}"
 
 #. type: command{#1}
 #: doc/guix.texi:8263
@@ -15065,9 +15092,9 @@ msgstr ""
 
 #. type: section
 #: doc/guix.texi:8287
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Invoking @command{guix download}"
-msgstr "guix: ~a: comando não encontrado~%"
+msgstr "Invocando @command{guix download}"
 
 #. type: command{#1}
 #: doc/guix.texi:8289
@@ -15169,9 +15196,9 @@ msgstr ""
 
 #. type: section
 #: doc/guix.texi:8340
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Invoking @command{guix hash}"
-msgstr "guix: ~a: comando não encontrado~%"
+msgstr "Invocando @command{guix hash}"
 
 #. type: command{#1}
 #: doc/guix.texi:8342
@@ -15268,7 +15295,7 @@ msgstr ""
 #: doc/guix.texi:8402 doc/guix.texi:8407
 #, fuzzy, no-wrap
 msgid "Invoking @command{guix import}"
-msgstr "guix: import: faltando o nome de um importador~%"
+msgstr "Invocando @command{guix import}"
 
 #. type: cindex
 #: doc/guix.texi:8404
@@ -15877,9 +15904,9 @@ msgstr ""
 
 #. type: section
 #: doc/guix.texi:8800
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Invoking @command{guix refresh}"
-msgstr "guix: ~a: comando não encontrado~%"
+msgstr "Invocando @command{guix refresh}"
 
 #. type: command{#1}
 #: doc/guix.texi:8802
@@ -16429,9 +16456,9 @@ msgstr ""
 
 #. type: section
 #: doc/guix.texi:9111
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Invoking @command{guix lint}"
-msgstr "guix: ~a: comando não encontrado~%"
+msgstr "Invocando @command{guix lint}"
 
 #. type: command{#1}
 #: doc/guix.texi:9113
@@ -16640,9 +16667,9 @@ msgstr ""
 
 #. type: section
 #: doc/guix.texi:9227
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Invoking @command{guix size}"
-msgstr "guix: ~a: comando não encontrado~%"
+msgstr "Invocando @command{guix size}"
 
 #. type: cindex
 #: doc/guix.texi:9229
@@ -16819,9 +16846,9 @@ msgstr ""
 
 #. type: section
 #: doc/guix.texi:9351
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Invoking @command{guix graph}"
-msgstr "guix: ~a: comando não encontrado~%"
+msgstr "Invocando @command{guix graph}"
 
 #. type: cindex
 #: doc/guix.texi:9353
@@ -16831,11 +16858,9 @@ msgstr "o DAG reverso de pacotes"
 
 #. type: command{#1}
 #: doc/guix.texi:9354
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "guix graph"
-msgstr ""
-"Uso: guix graph PACOTE...\n"
-"Emite uma representação do gráfico de dependências do PACOTE...\n"
+msgstr "guix graph"
 
 #. type: Plain text
 #: doc/guix.texi:9368
@@ -17166,9 +17191,9 @@ msgstr ""
 
 #. type: section
 #: doc/guix.texi:9554
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Invoking @command{guix publish}"
-msgstr "guix: ~a: comando não encontrado~%"
+msgstr "Invocando @command{guix publish}"
 
 #. type: command{#1}
 #: doc/guix.texi:9556
@@ -17492,9 +17517,9 @@ msgstr ""
 
 #. type: section
 #: doc/guix.texi:9771
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Invoking @command{guix challenge}"
-msgstr "guix: ~a: comando não encontrado~%"
+msgstr "Invocando @command{guix challenge}"
 
 #. type: cindex
 #: doc/guix.texi:9774
@@ -17668,9 +17693,9 @@ msgstr ""
 
 #. type: section
 #: doc/guix.texi:9910
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Invoking @command{guix copy}"
-msgstr "guix: ~a: comando não encontrado~%"
+msgstr "Invocando @command{guix copy}"
 
 #. type: cindex
 #: doc/guix.texi:9912
@@ -17776,9 +17801,9 @@ msgstr ""
 
 #. type: section
 #: doc/guix.texi:9973
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Invoking @command{guix container}"
-msgstr "guix container: faltando uma ação~%"
+msgstr "Invocando @command{guix container}"
 
 #. type: command{#1}
 #: doc/guix.texi:9975
@@ -17795,7 +17820,7 @@ msgstr ""
 #: doc/guix.texi:9986
 #, fuzzy
 msgid "The purpose of @command{guix container} is to manipulate processes running within an isolated environment, commonly known as a ``container'', typically created by the @command{guix environment} (@pxref{Invoking guix environment}) and @command{guix system container} (@pxref{Invoking guix system}) commands."
-msgstr "The purpose of @command{guix container} is to manipulate processes running within an isolated environment, commonly known as a ``container'', typically created by the @command{guix environment} (@pxref{Invocando o ambiente guix}) and @command{guix system container} (@pxref{Invoking guix system}) commands."
+msgstr "The purpose of @command{guix container} is to manipulate processes running within an isolated environment, commonly known as a ``container'', typically created by the @command{guix environment} (veja @ref{Invocando o ambiente guix}) and @command{guix system container} (veja @ref{Invoking guix system}) commands."
 
 #. type: example
 #: doc/guix.texi:9991
@@ -17860,9 +17885,9 @@ msgstr ""
 
 #. type: section
 #: doc/guix.texi:10027
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Invoking @command{guix weather}"
-msgstr "guix: ~a: comando não encontrado~%"
+msgstr "Invocando @command{guix weather}"
 
 #. type: Plain text
 #: doc/guix.texi:10036
@@ -18018,9 +18043,9 @@ msgstr ""
 
 #. type: section
 #: doc/guix.texi:10138
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Invoking @command{guix processes}"
-msgstr "guix: ~a: comando não encontrado~%"
+msgstr "Invocando @command{guix processes}"
 
 #. type: Plain text
 #: doc/guix.texi:10146
@@ -18116,20 +18141,20 @@ msgstr ""
 
 #. type: findex
 #: doc/guix.texi:10247
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "operating-system"
-msgstr "Sistema operacional"
+msgstr "sistema operacional"
 
 #. type: include
 #: doc/guix.texi:10249
 #, no-wrap
 msgid "os-config-bare-bones.texi"
-msgstr ""
+msgstr "os-config-bare-bones.texi"
 
 #. type: Plain text
 #: doc/guix.texi:10256
 msgid "This example should be self-describing.  Some of the fields defined above, such as @code{host-name} and @code{bootloader}, are mandatory.  Others, such as @code{packages} and @code{services}, can be omitted, in which case they get a default value."
-msgstr ""
+msgstr "Este exemplo deve ser autodescritivo. Alguns dos campos definidos acima, como @code{host-name} e @code{bootloader}, são obrigatórios. Outros, como @code{packages} e @code{services}, podem ser omitidos; nesse caso, eles recebem um valor padrão."
 
 #. type: Plain text
 #: doc/guix.texi:10261
@@ -18335,25 +18360,25 @@ msgstr ""
 
 #. type: include
 #: doc/guix.texi:10390
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "os-config-desktop.texi"
-msgstr "Chrome OS"
+msgstr "os-config-desktop.texi"
 
 #. type: Plain text
 #: doc/guix.texi:10395
 msgid "A graphical system with a choice of lightweight window managers instead of full-blown desktop environments would look like this:"
-msgstr ""
+msgstr "Um sistema gráfico com uma escolha de gerenciadores de janelas leves em vez de ambientes de desktop completos teria a seguinte aparência:"
 
 #. type: include
 #: doc/guix.texi:10397
 #, no-wrap
 msgid "os-config-lightweight-desktop.texi"
-msgstr ""
+msgstr "os-config-lightweight-desktop.texi"
 
 #. type: Plain text
 #: doc/guix.texi:10403
 msgid "This example refers to the @file{/boot/efi} file system by its UUID, @code{1234-ABCD}.  Replace this UUID with the right UUID on your system, as returned by the @command{blkid} command."
-msgstr ""
+msgstr "Este exemplo faz referência ao sistema de arquivos @file{/boot/efi} por seu UUID, @code{1234-ABCD}. Substitua esse UUID pelo UUID correto no seu sistema, conforme retornado pelo comando @command{blkid}."
 
 #. type: Plain text
 #: doc/guix.texi:10407
@@ -19508,9 +19533,8 @@ msgstr ""
 
 #. type: anchor{#1}
 #: doc/guix.texi:11041
-#, fuzzy
 msgid "user-account-password"
-msgstr "Perdeu a Senha da Conta"
+msgstr "user-account-password"
 
 #. type: cindex
 #: doc/guix.texi:11041
@@ -19656,10 +19680,9 @@ msgstr ""
 
 #. type: cindex
 #: doc/guix.texi:11135
-#, fuzzy, no-wrap
-#| msgid "keyboard layout"
+#, no-wrap
 msgid "keyboard layout, definition"
-msgstr "disposição do teclado"
+msgstr "disposição do teclado, definição"
 
 #. type: Plain text
 #: doc/guix.texi:11137
@@ -19688,10 +19711,9 @@ msgstr ""
 
 #. type: cindex
 #: doc/guix.texi:11158
-#, fuzzy, no-wrap
-#| msgid "keyboard layout"
+#, no-wrap
 msgid "XKB, keyboard layouts"
-msgstr "disposição do teclado"
+msgstr "XKB, disposições do teclado"
 
 #. type: Plain text
 #: doc/guix.texi:11166
@@ -19765,10 +19787,9 @@ msgstr ""
 
 #. type: cindex
 #: doc/guix.texi:11197
-#, fuzzy, no-wrap
-#| msgid "keyboard layout"
+#, no-wrap
 msgid "keyboard layout, configuration"
-msgstr "disposição do teclado"
+msgstr "disposição do teclado, configuração"
 
 #. type: Plain text
 #: doc/guix.texi:11201
@@ -21190,9 +21211,8 @@ msgstr ""
 
 #. type: anchor{#1}
 #: doc/guix.texi:11965
-#, fuzzy
 msgid "guix-configuration-type"
-msgstr "os autores do Guix\n"
+msgstr "guix-configuration-type"
 
 #. type: deftp
 #: doc/guix.texi:11965
@@ -21609,15 +21629,13 @@ msgstr "código de tamanho padrão"
 
 #. type: table
 #: doc/guix.texi:12170
-#, fuzzy
 msgid "The GPM package to use."
-msgstr "Usar pacote – \\usepackage"
+msgstr "O pacote GPM a ser usado."
 
 #. type: anchor{#1}
 #: doc/guix.texi:12175
-#, fuzzy
 msgid "guix-publish-service-type"
-msgstr "O tipo de serviço do serviço selecionado"
+msgstr "guix-publish-service-type"
 
 #. type: deffn
 #: doc/guix.texi:12175
@@ -24950,10 +24968,9 @@ msgstr ""
 
 #. type: cindex
 #: doc/guix.texi:13707
-#, fuzzy, no-wrap
-#| msgid "keyboard layout"
+#, no-wrap
 msgid "keyboard layout, for Xorg"
-msgstr "disposição do teclado"
+msgstr "disposição do teclado, para Xorg"
 
 #. type: cindex
 #: doc/guix.texi:13708
@@ -34755,9 +34772,8 @@ msgstr ""
 
 #. type: anchor{#1}
 #: doc/guix.texi:18961
-#, fuzzy
 msgid "nginx-location-configuration body"
-msgstr "local do arquivo de configuração principal"
+msgstr "nginx-location-configuration body"
 
 #. type: code{#1}
 #: doc/guix.texi:18961 doc/guix.texi:18982
@@ -43973,10 +43989,9 @@ msgstr ""
 
 #. type: cindex
 #: doc/guix.texi:24099
-#, fuzzy, no-wrap
-#| msgid "keyboard layout"
+#, no-wrap
 msgid "keyboard layout, for the bootloader"
-msgstr "disposição do teclado"
+msgstr "disposição do teclado, para o gerenciador de boot"
 
 #. type: table
 #: doc/guix.texi:24103
@@ -44181,9 +44196,9 @@ msgstr ""
 
 #. type: section
 #: doc/guix.texi:24226
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Invoking @code{guix system}"
-msgstr "guix system: faltando um nome de comando~%"
+msgstr "Invocando @code{guix system}"
 
 #. type: Plain text
 #: doc/guix.texi:24231
@@ -44465,9 +44480,8 @@ msgstr "O endereço no qual o segmento de memória começa. Início da VM, Fim d
 
 #. type: anchor{#1}
 #: doc/guix.texi:24420
-#, fuzzy
 msgid "guix system vm"
-msgstr "guix"
+msgstr "guix system vm"
 
 #. type: table
 #: doc/guix.texi:24420
@@ -44826,15 +44840,14 @@ msgstr ""
 
 #. type: anchor{#1}
 #: doc/guix.texi:24655
-#, fuzzy
 msgid "system-extension-graph"
-msgstr "_Gráfico"
+msgstr "system-extension-graph"
 
 #. type: item
 #: doc/guix.texi:24657
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "extension-graph"
-msgstr "   extension-graph  emite o gráfico da extensão de serviço no formato Dot\n"
+msgstr "extension-graph"
 
 #. type: table
 #: doc/guix.texi:24662
@@ -44843,9 +44856,8 @@ msgstr ""
 
 #. type: table
 #: doc/guix.texi:24664
-#, fuzzy
 msgid "The command:"
-msgstr "[COMANDO]"
+msgstr "O comando:"
 
 #. type: example
 #: doc/guix.texi:24667
@@ -44860,15 +44872,14 @@ msgstr ""
 
 #. type: anchor{#1}
 #: doc/guix.texi:24672
-#, fuzzy
 msgid "system-shepherd-graph"
-msgstr "o gráfico de dependência de serviços do shepherd"
+msgstr "system-shepherd-graph"
 
 #. type: item
 #: doc/guix.texi:24672
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "shepherd-graph"
-msgstr "   shepherd-graph   emite o gráfico de serviços do shepherd no formato Dot\n"
+msgstr "shepherd-graph"
 
 #. type: table
 #: doc/guix.texi:24677
@@ -44877,9 +44888,9 @@ msgstr ""
 
 #. type: section
 #: doc/guix.texi:24681
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Running Guix in a Virtual Machine"
-msgstr "Certifique-se de que sua máquina virtual está em execução."
+msgstr "Usando o Guix em uma Máquina Virtual"
 
 #. type: Plain text
 #: doc/guix.texi:24690
@@ -46475,9 +46486,9 @@ msgstr ""
 
 #. type: chapter
 #: doc/guix.texi:25827
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Porting to a New Platform"
-msgstr "Plataforma"
+msgstr "Portando para uma nova plataforma"
 
 #. type: Plain text
 #: doc/guix.texi:25836
@@ -46514,28 +46525,28 @@ msgstr ""
 #: doc/guix.texi:25871
 #, no-wrap
 msgid "contributing.texi"
-msgstr ""
+msgstr "contributing.pt_BR.texi"
 
 #. type: Plain text
 #: doc/guix.texi:25884
 msgid "Guix is based on the @uref{https://nixos.org/nix/, Nix package manager}, which was designed and implemented by Eelco Dolstra, with contributions from other people (see the @file{nix/AUTHORS} file in Guix.)  Nix pioneered functional package management, and promoted unprecedented features, such as transactional package upgrades and rollbacks, per-user profiles, and referentially transparent build processes.  Without this work, Guix would not exist."
-msgstr ""
+msgstr "O Guix é baseado no @uref{https://nixos.org/nix/, gerenciador de pacotes Nix}, que foi projetado e implementado por Eelco Dolstra, com contribuições de outras pessoas (consulte o arquivo @file{nix/AUTHORS} em Guix). O Nix foi pioneiro no gerenciamento de pacotes funcionais e promoveu recursos sem precedentes, como upgrades e reversões de pacotes transacionais, perfis por usuário e processos de construção referencialmente transparentes. Sem esse trabalho, o Guix não existiria."
 
 #. type: Plain text
 #: doc/guix.texi:25887
 msgid "The Nix-based software distributions, Nixpkgs and NixOS, have also been an inspiration for Guix."
-msgstr ""
+msgstr "As distribuições de software baseadas em Nix, Nixpkgs e NixOS, também foram uma inspiração para o Guix."
 
 #. type: Plain text
 #: doc/guix.texi:25893
 msgid "GNU@tie{}Guix itself is a collective work with contributions from a number of people.  See the @file{AUTHORS} file in Guix for more information on these fine people.  The @file{THANKS} file lists people who have helped by reporting bugs, taking care of the infrastructure, providing artwork and themes, making suggestions, and more---thank you!"
-msgstr ""
+msgstr "O GNU@tie{}Guix em si é um trabalho coletivo com contribuições de várias pessoas. Veja o arquivo @file{AUTHORS} no Guix para obter mais informações sobre essas pessoas legais. O arquivo @file{THANKS} lista as pessoas que ajudaram a relatar erros, cuidar da infraestrutura, fornecer ilustrações e temas, fazer sugestões e muito mais -- obrigado!"
 
 #. type: cindex
 #: doc/guix.texi:25898
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "license, GNU Free Documentation License"
-msgstr "A Licença de Documentação Livre GNU"
+msgstr "licença, Licença de Documentação Livre GNU"
 
 #. type: include
 #: doc/guix.texi:25899
