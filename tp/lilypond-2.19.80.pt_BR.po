@@ -1,7 +1,7 @@
 # Brazilian translations of LilyPond
-# Copyright (C) 1998-2015 Han-Wen Nienhuys, Jan Nieuwenhuizen.
+# Copyright (C) 2019 Han-Wen Nienhuys, Jan Nieuwenhuizen.
 # This file is distributed under the same license as the LilyPond package.
-# Rafael Fontenelle <rafaelff@gnome.org>, 2018.
+# Rafael Fontenelle <rafaelff@gnome.org>, 2019.
 # ,
 # https://en.wikipedia.org/wiki/Glossary_of_musical_terminology
 # https://pt.wikipedia.org/wiki/Terminologia_musical
@@ -14,7 +14,7 @@ msgstr ""
 "POT-Creation-Date: 2017-10-15 17:36+0100\n"
 "PO-Revision-Date: 2018-10-14 20:18-0200\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
-"Language-Team: Brazilian Portuguese\n"
+"Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge.net>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -141,7 +141,7 @@ msgstr "Executando texi2pdf no arquivo %s para detectar configurações de pági
 #: convertrules.py:13
 #, python-format
 msgid "Not smart enough to convert %s."
-msgstr "Não esperto o suficiente par converter %s."
+msgstr "Não inteligente o suficiente para converter %s."
 
 #: convertrules.py:14
 msgid "Please refer to the manual for details, and update manually."
@@ -226,7 +226,7 @@ msgstr "nomes de identificador: %s"
 
 #: convertrules.py:549
 msgid "point-and-click argument changed to procedure."
-msgstr "argumento de apontar-e-clicar alterado para procedimento."
+msgstr "argumento de \"apontar e clicar\" alterado para procedimento."
 
 #: convertrules.py:591
 msgid "semicolons removed"
@@ -323,7 +323,7 @@ msgid ""
 "* keySignature settings made with \\property\n"
 msgstr ""
 "O campo de alteração dos passos do Scheme foi multiplicado por 2\n"
-"para suportar os acidentes do tom de quarto. Você deve atualizar\n"
+"para suportar os acidentes do tom de semínima. Você deve atualizar\n"
 "as seguintes construções manualmente:\n"
 "\n"
 "* chamadas de ly:make-pitch e ly:pitch-alteration\n"
