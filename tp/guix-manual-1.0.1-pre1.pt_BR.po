@@ -8,9 +8,10 @@ msgstr ""
 "Project-Id-Version: guix-manual 1.0.1-pre1\n"
 "Report-Msgid-Bugs-To: ludo@gnu.org\n"
 "POT-Creation-Date: 2019-05-10 20:53+0200\n"
-"PO-Revision-Date: 2019-10-17 07:08-0200\n"
+"PO-Revision-Date: 2019-12-18 07:03-0200\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
-"Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge.net>\n"
+"Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge.net>"
+"\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -3127,10 +3128,14 @@ msgstr "interfaces de usuário"
 
 #. type: Plain text
 #: doc/guix.texi:350
-#, fuzzy
 #| msgid "Guix provides a command-line package management interface (@pxref{Invoking guix package}), a set of command-line utilities (@pxref{Utilities}), as well as Scheme programming interfaces (@pxref{Programming Interface})."
 msgid "Guix provides a command-line package management interface (@pxref{Package Management}), tools to help with software development (@pxref{Development}), command-line utilities for more advanced usage, (@pxref{Utilities}), as well as Scheme programming interfaces (@pxref{Programming Interface})."
-msgstr "O Guix fornece uma interface de gerenciamento de pacotes de linha de comando (@pxref{Invocando guix package}), um conjunto de utilitários de linha de comando (@pxref{Utilitários}), bem como interfaces de programação Scheme (@pxref{Interface de programação})."
+msgstr ""
+"O Guix fornece uma interface de linha de comando para gerenciamento de "
+"pacotes (@pxref{Gerenciamento de pacote}), ferramentas para desenvolvimento "
+"de software (@pxref{Desenvolvimento}), utilitários de linha de comando para "
+"uso avançado (@pxref{Utilitários}), bem como interfaces de programação em "
+"Scheme (@pxref{Interface de programação})."
 
 #. type: cindex
 #: doc/guix.texi:350
@@ -3168,11 +3173,9 @@ msgstr "gerenciamento de pacotes funcional"
 
 #. type: cindex
 #: doc/guix.texi:367
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "isolation"
-msgstr ""
-"  --no-isolation                     Imagem entender isolação, mas não isola\n"
-"                                       a imagem\n"
+msgstr "isolação"
 
 #. type: Plain text
 #: doc/guix.texi:382
@@ -3199,11 +3202,25 @@ msgstr "Essa abordagem é a fundação para os principais recursos do Guix: supo
 #: doc/guix.texi:409
 msgid "Guix comes with a distribution of the GNU system consisting entirely of free software@footnote{The term ``free'' here refers to the @url{https://www.gnu.org/philosophy/free-sw.html,freedom provided to users of that software}.}.  The distribution can be installed on its own (@pxref{System Installation}), but it is also possible to install Guix as a package manager on top of an installed GNU/Linux system (@pxref{Installation}).  When we need to distinguish between the two, we refer to the standalone distribution as Guix@tie{}System."
 msgstr ""
+"O Guix vem com uma distribuição do sistema GNU que consiste inteiramente de "
+"software livre@footnote{O termo ``free'' em ``free software`` se refere à "
+"@url{https://www.gnu.org/philosophy/free-sw.html,liberdade fornecida aos "
+"usuários desse software}. A ambiguidade no termo em inglês não ocorre na "
+"tradução para português ``livre``.}. A distribuição pode ser instalada por "
+"conta própria (@pxref{Instalação do sistema}), mas também é possível "
+"instalar o Guix como um gerenciador de pacotes em cima de um sistema GNU/"
+"Linux instalado (@pxref{Instalação}). Quando precisamos distinguir entre os "
+"dois, nos referimos à distribuição independente como Guix@tie{}System."
 
 #. type: Plain text
 #: doc/guix.texi:415
 msgid "The distribution provides core GNU packages such as GNU libc, GCC, and Binutils, as well as many GNU and non-GNU applications.  The complete list of available packages can be browsed @url{https://www.gnu.org/software/guix/packages,on-line} or by running @command{guix package} (@pxref{Invoking guix package}):"
 msgstr ""
+"A distribuição fornece pacotes GNU principais, como GNU libc, GCC e "
+"Binutils, além de muitos aplicativos GNU e não GNU. A lista completa de "
+"pacotes disponíveis pode ser acessada @url{https://www.gnu.org/software/guix/"
+"packages,online} ou executando @command{guix package} (@pxref{Invocando guix "
+"package}):"
 
 #. type: example
 #: doc/guix.texi:418
@@ -3215,23 +3232,26 @@ msgstr "guix package --list-available\n"
 #: doc/guix.texi:424
 msgid "Our goal is to provide a practical 100% free software distribution of Linux-based and other variants of GNU, with a focus on the promotion and tight integration of GNU components, and an emphasis on programs and tools that help users exert that freedom."
 msgstr ""
+"Nosso objetivo é fornecer uma distribuição prática e 100% de software livre, "
+"baseada em Linux e outras variantes do GNU, com foco na promoção e forte "
+"integração de componentes do GNU e ênfase em programas e ferramentas que "
+"ajudam os usuários a exercer essa liberdade."
 
 #. type: Plain text
 #: doc/guix.texi:426
-#, fuzzy
 msgid "Packages are currently available on the following platforms:"
-msgstr "Os seguintes pacotes não estão disponíveis para instalação: %s"
+msgstr "Os pacotes estão atualmente disponíveis nas seguintes plataformas:"
 
 #. type: item
 #: doc/guix.texi:429 doc/guix.texi:1877
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "x86_64-linux"
-msgstr ";;; (\"x86_64-linux\")\n"
+msgstr "x86_64-linux"
 
 #. type: table
 #: doc/guix.texi:431
 msgid "Intel/AMD @code{x86_64} architecture, Linux-Libre kernel;"
-msgstr ""
+msgstr "Arquitetura @code{x86_64} da Intel/AMD, kernel Linux-Libre;"
 
 #. type: item
 #: doc/guix.texi:432 doc/guix.texi:1880
@@ -3242,69 +3262,81 @@ msgstr "i686-linux"
 #. type: table
 #: doc/guix.texi:434
 msgid "Intel 32-bit architecture (IA32), Linux-Libre kernel;"
-msgstr ""
+msgstr "Arquitetura 32 bits da Intel (IA32), kernel Linux-Libre;"
 
 #. type: item
 #: doc/guix.texi:435
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "armhf-linux"
-msgstr ""
-"guix build --system=armhf-linux --rounds=2 hello\n"
-"guix build --system=aarch64-linux --rounds=2 hello\n"
-"guix build --system=mips64el-linux --rounds=2 hello\n"
+msgstr "armhf-linux"
 
 #. type: table
 #: doc/guix.texi:439
 msgid "ARMv7-A architecture with hard float, Thumb-2 and NEON, using the EABI hard-float application binary interface (ABI), and Linux-Libre kernel."
 msgstr ""
+"Arquitetura ARMv7-A com hard float, Thumb-2 e NEON, usando a interface "
+"binária de aplicativos EABI hard-float (ABI) e o kernel Linux-Libre."
 
 #. type: item
 #: doc/guix.texi:440
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "aarch64-linux"
-msgstr ""
-"guix build --system=armhf-linux --rounds=2 hello\n"
-"guix build --system=aarch64-linux --rounds=2 hello\n"
-"guix build --system=mips64el-linux --rounds=2 hello\n"
+msgstr "aarch64-linux"
 
 #. type: table
 #: doc/guix.texi:444
 msgid "little-endian 64-bit ARMv8-A processors, Linux-Libre kernel.  This is currently in an experimental stage, with limited support.  @xref{Contributing}, for how to help!"
 msgstr ""
+"Processadores ARMv8-A de 64 bits little-endian, kernel Linux-Libre. "
+"Atualmente, está em fase experimental, com suporte limitado. "
+"@xref{Contribuindo}, para saber como ajudar!"
 
 #. type: item
 #: doc/guix.texi:445
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "mips64el-linux"
-msgstr ""
-"guix build --system=armhf-linux --rounds=2 hello\n"
-"guix build --system=aarch64-linux --rounds=2 hello\n"
-"guix build --system=mips64el-linux --rounds=2 hello\n"
+msgstr "mips64el-linux"
 
 #. type: table
 #: doc/guix.texi:448
 msgid "little-endian 64-bit MIPS processors, specifically the Loongson series, n32 ABI, and Linux-Libre kernel."
 msgstr ""
+"Processadores MIPS de 64 bits little-endian, especificamente a série "
+"Loongson, ABI n32 e kernel Linux-Libre."
 
 #. type: Plain text
 #: doc/guix.texi:458
 msgid "With Guix@tie{}System, you @emph{declare} all aspects of the operating system configuration and Guix takes care of instantiating the configuration in a transactional, reproducible, and stateless fashion (@pxref{System Configuration}).  Guix System uses the Linux-libre kernel, the Shepherd initialization system (@pxref{Introduction,,, shepherd, The GNU Shepherd Manual}), the well-known GNU utilities and tool chain, as well as the graphical environment or system services of your choice."
 msgstr ""
+"Com o Guix@tie{}System, você @emph{declara} todos os aspectos da "
+"configuração do sistema operacional, e o Guix cuida de instanciar a "
+"configuração de maneira transacional, reproduzível e sem estado (@pxref{"
+"Configuração do sistema}). O Guix System usa o kernel Linux-libre, o sistema "
+"de inicialização Shepherd (@pxref{Introduction ,,, shepherd, The GNU "
+"Shepherd Manual}), os conhecidos utilitários do GNU e cadeia de ferramentas, "
+"bem como o ambiente gráfico ou os serviços de sistema do sua escolha."
 
 #. type: Plain text
 #: doc/guix.texi:461
 msgid "Guix System is available on all the above platforms except @code{mips64el-linux}."
 msgstr ""
+"O Guix System está disponível em todas as plataformas acima, exceto @code"
+"{mips64el-linux}."
 
 #. type: Plain text
 #: doc/guix.texi:465
 msgid "For information on porting to other architectures or kernels, @pxref{Porting}."
 msgstr ""
+"Para obter informações sobre como portar para outras arquiteturas ou "
+"kernels, @pxref{Portando}."
 
 #. type: Plain text
 #: doc/guix.texi:468
 msgid "Building this distribution is a cooperative effort, and you are invited to join! @xref{Contributing}, for information about how you can help."
 msgstr ""
+"A construção desta distribuição é um esforço cooperativo e você está "
+"convidado a participar! @xref{Contribuindo}, para obter informações sobre "
+"como você pode ajudar."
 
 #. type: cindex
 #: doc/guix.texi:474
@@ -3606,19 +3638,22 @@ msgstr "substitutos, autenticação dela"
 
 #. type: enumerate
 #: doc/guix.texi:677
-#, fuzzy
 #| msgid "To use substitutes from @code{hydra.gnu.org} or one of its mirrors (@pxref{Substitutes}), authorize them:"
 msgid "To use substitutes from @code{@value{SUBSTITUTE-SERVER}} or one of its mirrors (@pxref{Substitutes}), authorize them:"
-msgstr "Para usar substitutos de @code{hydra.gnu.org} ou um de seus espelhos (@pxref{Substitutos}), autorize-os:"
+msgstr ""
+"Para usar substitutos de @code{@value{SUBSTITUTE-SERVER}} ou um de seus "
+"espelhos (@pxref{Substitutos}), autorize-os:"
 
 #. type: example
 #: doc/guix.texi:681
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid "# guix archive --authorize < ~root/.guix-profile/share/guix/hydra.gnu.org.pub\n"
 msgid ""
 "# guix archive --authorize < \\\n"
 "     ~root/.config/guix/current/share/guix/@value{SUBSTITUTE-SERVER}.pub\n"
-msgstr "# guix archive --authorize < ~root/.guix-profile/share/guix/hydra.gnu.org.pub\n"
+msgstr ""
+"# guix archive --authorize < \\\n"
+"     ~root/.config/guix/current/share/guix/@value{SUBSTITUTE-SERVER}.pub\n"
 
 #. type: enumerate
 #: doc/guix.texi:686
@@ -3637,10 +3672,10 @@ msgstr "Você pode confirmar que o Guix está funcionando instalando um pacote d
 
 #. type: example
 #: doc/guix.texi:695
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid "# guix package -i hello\n"
 msgid "# guix install hello\n"
-msgstr "Instalação do GNU Guix"
+msgstr "# guix install hello\n"
 
 #. type: Plain text
 #: doc/guix.texi:699
@@ -3661,12 +3696,14 @@ msgstr "...@: que, por sua vez, executa:"
 
 #. type: example
 #: doc/guix.texi:710
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid "guix pack -s @var{system} --localstatedir guix\n"
 msgid ""
 "guix pack -s @var{system} --localstatedir \\\n"
 "  --profile-name=current-guix guix\n"
-msgstr "guix pack -s @var{sistema} --localstatedir guix\n"
+msgstr ""
+"guix pack -s @var{system} --localstatedir \\\n"
+"  --profile-name=current-guix guix\n"
 
 #. type: Plain text
 #: doc/guix.texi:713
@@ -3680,17 +3717,18 @@ msgstr "Esta seção lista os requisitos ao compilar o Guix a partir do fonte. O
 
 #. type: cindex
 #: doc/guix.texi:722
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid "Official Substitute Server"
 msgid "official website"
-msgstr "O site oficial. Tente usar o formulário mais básico de um URL i.e. http://exemplo.com.br em vez de http://exemplo.com.br/index.html."
+msgstr "site oficial"
 
 #. type: Plain text
 #: doc/guix.texi:725
-#, fuzzy
 #| msgid "GNU Guix is available for download from its website at @url{http://www.gnu.org/software/guix/}.  This section describes the software requirements of Guix, as well as how to install it and get ready to use it."
 msgid "GNU Guix is available for download from its website at @url{https://www.gnu.org/software/guix/}."
-msgstr "O GNU Guix está disponível para download em seu site em @url{http://www.gnu.org/software/guix/}. Esta seção descreve os requisitos de software do Guix, além de como instalá-lo e prepará-lo para usá-lo."
+msgstr ""
+"O GNU Guix está disponível para download em seu site em @url{http://www.gnu."
+"org/software/guix/}."
 
 #. type: Plain text
 #: doc/guix.texi:727
@@ -3699,37 +3737,39 @@ msgstr "GNU Guix depende dos seguintes pacotes:"
 
 #. type: item
 #: doc/guix.texi:729
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid "@url{http://gnu.org/software/guile/, GNU Guile}, version 2.0.13 or"
 msgid "@url{https://gnu.org/software/guile/, GNU Guile}, version 2.2.x;"
-msgstr "@url{http://gnu.org/software/guile/, GNU Guile}, versão 2.0.13 ou"
+msgstr "@url{https://gnu.org/software/guile/, GNU Guile}, versão 2.2.x;"
 
 #. type: item
 #: doc/guix.texi:730
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid "@url{http://gnu.org/software/guile/, GNU Guile}, version 2.0.13 or"
 msgid "@url{https://notabug.org/cwebber/guile-gcrypt, Guile-Gcrypt}, version"
-msgstr "@url{http://gnu.org/software/guile/, GNU Guile}, versão 2.0.13 ou"
+msgstr "@url{https://notabug.org/cwebber/guile-gcrypt, Guile-Gcrypt}, versão"
 
 #. type: itemize
 #: doc/guix.texi:732
-#, fuzzy
 msgid "0.1.0 or later;"
-msgstr "Mais _tarde"
+msgstr "0.1.0 ou posterior;"
 
 #. type: itemize
 #: doc/guix.texi:736
-#, fuzzy
 #| msgid "@uref{http://gnutls.org/, GnuTLS}, specifically its Guile bindings (@pxref{Guile Preparations, how to install the GnuTLS bindings for Guile,, gnutls-guile, GnuTLS-Guile});"
 msgid "@uref{https://gnutls.org/, GnuTLS}, specifically its Guile bindings (@pxref{Guile Preparations, how to install the GnuTLS bindings for Guile,, gnutls-guile, GnuTLS-Guile});"
-msgstr "@uref{http://gnutls.org/, GnuTLS}, especificamente suas associações com Guile (@pxref{Guile Preparations, how to install the GnuTLS bindings for Guile,, gnutls-guile, GnuTLS-Guile});"
+msgstr ""
+"@uref{https://gnutls.org/, GnuTLS}, especificamente suas associações com "
+"Guile (@pxref{Guile Preparations, how to install the GnuTLS bindings for "
+"Guile,, gnutls-guile, GnuTLS-Guile});"
 
 #. type: itemize
 #: doc/guix.texi:739
-#, fuzzy
 #| msgid "@uref{https://gitlab.com/guile-git/guile-git, Guile-Git}, from August 2017 or later;"
 msgid "@uref{https://notabug.org/guile-sqlite3/guile-sqlite3, Guile-SQLite3}, version 0.1.0 or later;"
-msgstr "@uref{https://gitlab.com/guile-git/guile-git, Guile-Git}, de agosto de 2017 ou posterior;"
+msgstr ""
+"@uref{https://notabug.org/guile-sqlite3/guile-sqlite3, Guile-SQLite3}, "
+"versão 0.1.0 ou posterior;"
 
 #. type: itemize
 #: doc/guix.texi:743
@@ -3740,21 +3780,21 @@ msgstr "@uref{https://gitlab.com/guile-git/guile-git, Guile-Git}, de agosto de 2
 #: doc/guix.texi:743
 #, no-wrap
 msgid "@uref{https://savannah.nongnu.org/projects/guile-json/, Guile-JSON};"
-msgstr ""
+msgstr "@uref{https://savannah.nongnu.org/projects/guile-json/, Guile-JSON};"
 
 #. type: item
 #: doc/guix.texi:744
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid "@url{http://zlib.net, zlib};"
 msgid "@url{https://zlib.net, zlib};"
-msgstr "Somente https:// é permitido como URL de servidor\n"
+msgstr "@url{https://zlib.net, zlib};"
 
 #. type: item
 #: doc/guix.texi:745
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid "@url{http://www.gnu.org/software/make/, GNU Make}."
 msgid "@url{https://www.gnu.org/software/make/, GNU Make}."
-msgstr "@url{http://www.gnu.org/software/make/, GNU Make}."
+msgstr "@url{https://www.gnu.org/software/make/, GNU Make}."
 
 #. type: Plain text
 #: doc/guix.texi:749
@@ -3778,24 +3818,24 @@ msgstr "A menos que @code{--disable-daemon} tenha sido passado para @command{con
 
 #. type: item
 #: doc/guix.texi:767
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid "@url{http://gnupg.org/, GNU libgcrypt};"
 msgid "@url{https://gnupg.org/, GNU libgcrypt};"
-msgstr "@url{http://gnupg.org/, GNU libgcrypt};"
+msgstr "@url{https://gnupg.org/, GNU libgcrypt};"
 
 #. type: item
 #: doc/guix.texi:768
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid "@url{http://sqlite.org, SQLite 3};"
 msgid "@url{https://sqlite.org, SQLite 3};"
-msgstr "@url{http://sqlite.org, SQLite 3};"
+msgstr "@url{https://sqlite.org, SQLite 3};"
 
 #. type: item
 #: doc/guix.texi:769
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid "@url{http://gcc.gnu.org, GCC's g++}, with support for the"
 msgid "@url{https://gcc.gnu.org, GCC's g++}, with support for the"
-msgstr "@url{http://gcc.gnu.org, GCC's g++}, com suporte ao"
+msgstr "@url{https://gcc.gnu.org, GCC's g++}, com suporte ao"
 
 #. type: itemize
 #: doc/guix.texi:771
@@ -3821,10 +3861,13 @@ msgstr "Nix, compatibilidade"
 
 #. type: Plain text
 #: doc/guix.texi:787
-#, fuzzy
 #| msgid "When a working installation of @url{http://nixos.org/nix/, the Nix package manager} is available, you can instead configure Guix with @code{--disable-daemon}.  In that case, Nix replaces the three dependencies above."
 msgid "When a working installation of @url{https://nixos.org/nix/, the Nix package manager} is available, you can instead configure Guix with @code{--disable-daemon}.  In that case, Nix replaces the three dependencies above."
-msgstr "Quando uma instalação funcional de @url{http://nixos.org/nix/, o gerenciador de pacotes Nix} estiver disponível, você pode configurar o Guix com @code{--disable-daemon}. Nesse caso, o Nix substitui as três dependências acima."
+msgstr ""
+"Quando uma instalação funcional de @url{https://nixos.org/nix/, o "
+"gerenciador de pacotes Nix} estiver disponível, você pode configurar o Guix "
+"com @code{--disable-daemon}. Nesse caso, o Nix substitui as três "
+"dependências acima."
 
 #. type: Plain text
 #: doc/guix.texi:797
@@ -4008,54 +4051,80 @@ msgstr "Dessa forma, o daemon inicia os processos de compilação em um chroot, 
 #: doc/guix.texi:960
 msgid "a minimal @code{/dev} directory, created mostly independently from the host @code{/dev}@footnote{``Mostly'', because while the set of files that appear in the chroot's @code{/dev} is fixed, most of these files can only be created if the host has them.};"
 msgstr ""
+"um diretório @code{/dev} mínimo, criado principalmente independentemente do "
+"@code{/dev} do hospedeiro@footnote{``Principalmente'' porque enquanto o "
+"conjunto de arquivos que aparece no @code{/dev} do chroot é corrigido, a "
+"maioria desses arquivos só pode ser criada se o hospedeiro os possuir.};"
 
 #. type: itemize
 #: doc/guix.texi:964
 msgid "the @code{/proc} directory; it only shows the processes of the container since a separate PID name space is used;"
 msgstr ""
+"o diretório @code{/proc}; mostra apenas os processos do contêiner desde que "
+"um espaço de nome PID separado é usado;"
 
 #. type: itemize
 #: doc/guix.texi:968
 msgid "@file{/etc/passwd} with an entry for the current user and an entry for user @file{nobody};"
 msgstr ""
+"@file{/etc/passwd} com uma entrada para o usuário atual e uma entrada para o "
+"usuário @file{nobody};"
 
 #. type: itemize
 #: doc/guix.texi:971
-#, fuzzy
 msgid "@file{/etc/group} with an entry for the user's group;"
-msgstr "A propriedade de usuário e/ou grupo do arquivo %s não é preservada.\n"
+msgstr "@file{/etc/group} com uma entrada para o grupo de usuários;"
 
 #. type: itemize
 #: doc/guix.texi:975
 msgid "@file{/etc/hosts} with an entry that maps @code{localhost} to @code{127.0.0.1};"
 msgstr ""
+"@file{/etc/hosts} com uma entrada que mapeia @code{localhost} para "
+"@code{127.0.0.1};"
 
 #. type: itemize
 #: doc/guix.texi:978
-#, fuzzy
 msgid "a writable @file{/tmp} directory."
-msgstr "Arquivo em um diretório com permissão de escrita para o grupo"
+msgstr "um diretório @file{/tmp} com permissão de escrita."
 
 #. type: Plain text
 #: doc/guix.texi:987
 msgid "You can influence the directory where the daemon stores build trees @i{via} the @code{TMPDIR} environment variable.  However, the build tree within the chroot is always called @file{/tmp/guix-build-@var{name}.drv-0}, where @var{name} is the derivation name---e.g., @code{coreutils-8.24}.  This way, the value of @code{TMPDIR} does not leak inside build environments, which avoids discrepancies in cases where build processes capture the name of their build tree."
 msgstr ""
+"Você pode influenciar o diretório em que o daemon armazena árvores de "
+"compilação @i{via} a variável de ambiente @code{TMPDIR}. No entanto, a "
+"árvore de compilação no chroot é sempre chamada @file{/tmp/guix-"
+"build-@var{nome}.drv-0}, sendo @var{nome} o nome da derivação -- por "
+"exemplo, @code{coreutils-8.24}. Dessa forma, o valor de @code{TMPDIR} não "
+"vaza para dentro dos ambientes de compilação, o que evita discrepâncias nos "
+"casos em que os processos de compilação capturam o nome de sua árvore de "
+"compilação."
 
 #. type: vindex
 #: doc/guix.texi:988 doc/guix.texi:3261
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "http_proxy"
-msgstr "Proxy HTTP"
+msgstr "http_proxy"
 
 #. type: Plain text
 #: doc/guix.texi:992
 msgid "The daemon also honors the @code{http_proxy} environment variable for HTTP downloads it performs, be it for fixed-output derivations (@pxref{Derivations}) or for substitutes (@pxref{Substitutes})."
 msgstr ""
+"O daemon também respeita a variável de ambiente @code{http_proxy} pelos "
+"downloads HTTP realizados, seja por derivações de saída fixa "
+"(@pxref{Derivações}) ou por substitutos (@pxref{Substitutos})."
 
 #. type: Plain text
 #: doc/guix.texi:1000
 msgid "If you are installing Guix as an unprivileged user, it is still possible to run @command{guix-daemon} provided you pass @code{--disable-chroot}.  However, build processes will not be isolated from one another, and not from the rest of the system.  Thus, build processes may interfere with each other, and may access programs, libraries, and other files available on the system---making it much harder to view them as @emph{pure} functions."
 msgstr ""
+"Se você estiver instalando o Guix como um usuário sem privilégios, ainda é "
+"possível executar o @command{guix-daemon}, desde que você passe @code"
+"{--disable-chroot}. No entanto, os processos de compilação não serão "
+"isolados um do outro e não do resto do sistema. Portanto, os processos de "
+"compilação podem interferir entre si e acessar programas, bibliotecas e "
+"outros arquivos disponíveis no sistema -- dificultando muito a visualização "
+"deles como funções @emph{puras}."
 
 #. type: subsection
 #: doc/guix.texi:1003
@@ -4065,25 +4134,38 @@ msgstr "Usando o recurso de descarregamento"
 
 #. type: cindex
 #: doc/guix.texi:1005
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "offloading"
-msgstr "Descarregando compilações para máquinas remotas."
+msgstr "descarregamento"
 
 #. type: cindex
 #: doc/guix.texi:1006 doc/guix.texi:1367
 #, no-wrap
 msgid "build hook"
-msgstr "build hook"
+msgstr "hook de compilação"
 
 #. type: Plain text
 #: doc/guix.texi:1020
 msgid "When desired, the build daemon can @dfn{offload} derivation builds to other machines running Guix, using the @code{offload} @dfn{build hook}@footnote{This feature is available only when @uref{https://github.com/artyom-poptsov/guile-ssh, Guile-SSH} is present.}.  When that feature is enabled, a list of user-specified build machines is read from @file{/etc/guix/machines.scm}; every time a build is requested, for instance via @code{guix build}, the daemon attempts to offload it to one of the machines that satisfy the constraints of the derivation, in particular its system type---e.g., @file{x86_64-linux}.  Missing prerequisites for the build are copied over SSH to the target machine, which then proceeds with the build; upon success the output(s) of the build are copied back to the initial machine."
 msgstr ""
+"Quando desejado, o daemon de compilação pode @dfn{descarregar} compilações "
+"derivadas para outras máquinas executando o Guix, usando o @dfn{hook de "
+"compilação} @code{offload}@footnote{Esse recurso está disponível apenas "
+"quando o @uref{https://github.com/artyom-poptsov/guile-ssh, Guile-SSH} está "
+"presente.}. Quando esse recurso é ativado, uma lista de máquinas de "
+"compilação especificadas pelo usuário é lida em @file{/etc/guix/"
+"machines.scm}; sempre que uma compilação é solicitada, por exemplo, através "
+"de @code{guix build}, o daemon tenta descarregá-la para uma das máquinas que "
+"satisfazem as restrições da derivação, em particular seu tipo de sistema. "
+"Por exemplo, @file{x86_64-linux}. Os pré-requisitos ausentes para a "
+"compilação são copiados no SSH para a máquina de destino, que prossegue com "
+"a compilação; após o sucesso, os resultados da compilação são copiados de "
+"volta para a máquina inicial."
 
 #. type: Plain text
 #: doc/guix.texi:1022
 msgid "The @file{/etc/guix/machines.scm} file typically looks like this:"
-msgstr ""
+msgstr "O arquivo @file{/etc/guix/machines.scm} geralmente se parece com isso:"
 
 #. type: example
 #: doc/guix.texi:1030
@@ -4131,22 +4213,35 @@ msgstr ""
 #: doc/guix.texi:1045
 msgid "In the example above we specify a list of two build machines, one for the @code{x86_64} architecture and one for the @code{mips64el} architecture."
 msgstr ""
+"No exemplo acima, especificamos uma lista de duas máquinas de compilação, "
+"uma para a arquitetura @code{x86_64} e outra para a arquitetura "
+"@code{mips64el}."
 
 #. type: Plain text
 #: doc/guix.texi:1054
 msgid "In fact, this file is---not surprisingly!---a Scheme file that is evaluated when the @code{offload} hook is started.  Its return value must be a list of @code{build-machine} objects.  While this example shows a fixed list of build machines, one could imagine, say, using DNS-SD to return a list of potential build machines discovered in the local network (@pxref{Introduction, Guile-Avahi,, guile-avahi, Using Avahi in Guile Scheme Programs}).  The @code{build-machine} data type is detailed below."
 msgstr ""
+"De fato, esse arquivo é -- não surpreendentemente! -- um arquivo de esquema "
+"que é avaliado quando o hook @code{offload} é iniciado. Seu valor de retorno "
+"deve ser uma lista de objetos de @code{build-machine}. Embora este exemplo "
+"mostre uma lista fixa de máquinas de compilação, pode-se imaginar, digamos, "
+"usando DNS-SD para retornar uma lista de possíveis máquinas de compilação "
+"descobertas na rede local (@pxref{Introduction, Guile-Avahi ,, guile-avahi, "
+"Using Avahi in Guile Scheme Programs}). O tipo de dados de @code{build-"
+"machine} está detalhado abaixo."
 
 #. type: deftp
 #: doc/guix.texi:1055
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "{Data Type} build-machine"
-msgstr "máquina na qual o pacote foi compilado"
+msgstr "build-machine {Data Type}"
 
 #. type: deftp
 #: doc/guix.texi:1058
 msgid "This data type represents build machines to which the daemon may offload builds.  The important fields are:"
 msgstr ""
+"Esse tipo de dados representa máquinas de compilação nas quais o daemon pode "
+"descarregar compilações. Os campos importantes são:"
 
 #. type: item
 #: doc/guix.texi:1061 doc/guix.texi:5337 doc/guix.texi:11004
@@ -4155,19 +4250,18 @@ msgstr ""
 #: doc/guix.texi:18938 doc/guix.texi:18979 doc/guix.texi:23523
 #: doc/guix.texi:23540 doc/guix.texi:23833 doc/guix.texi:25130
 #: doc/guix.texi:25336
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "name"
-msgstr "nome"
+msgstr "name"
 
 #. type: table
 #: doc/guix.texi:1063
-#, fuzzy
 msgid "The host name of the remote machine."
-msgstr "Impossível conectar ao servidor remoto."
+msgstr "O nome de host da máquina remota."
 
 #. type: item
 #: doc/guix.texi:1064
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "system"
 msgstr "system"
 
@@ -4175,44 +4269,58 @@ msgstr "system"
 #: doc/guix.texi:1066
 msgid "The system type of the remote machine---e.g., @code{\"x86_64-linux\"}."
 msgstr ""
+"O tipo de sistema da máquina remota -- por exemplo, @code{\"x86_64-linux\"}."
 
 #. type: code{#1}
 #: doc/guix.texi:1067 doc/guix.texi:12907
 #, no-wrap
 msgid "user"
-msgstr "usuário"
+msgstr "user"
 
 #. type: table
 #: doc/guix.texi:1071
 msgid "The user account to use when connecting to the remote machine over SSH.  Note that the SSH key pair must @emph{not} be passphrase-protected, to allow non-interactive logins."
 msgstr ""
+"A conta de usuário a ser usada ao conectar-se à máquina remota por SSH. "
+"Observe que o par de chaves SSH deve @emph{não} protegido por senha, para "
+"permitir logins não interativos."
 
 #. type: item
 #: doc/guix.texi:1072
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "host-key"
-msgstr "Falha em obter a chave do host: %s"
+msgstr "host-key"
 
 #. type: table
 #: doc/guix.texi:1076
 msgid "This must be the machine's SSH @dfn{public host key} in OpenSSH format.  This is used to authenticate the machine when we connect to it.  It is a long string that looks like this:"
 msgstr ""
+"Essa deve ser a SSH @dfn{chave pública do do host} da máquina no formato "
+"OpenSSH. Isso é usado para autenticar a máquina quando nos conectamos a ela. "
+"É uma string longa que se parece com isso:"
 
 #. type: example
 #: doc/guix.texi:1079
 #, no-wrap
 msgid "ssh-ed25519 AAAAC3NzaC@dots{}mde+UhL hint@@example.org\n"
-msgstr ""
+msgstr "ssh-ed25519 AAAAC3NzaC@dots{}mde+UhL hint@@example.org\n"
 
 #. type: table
 #: doc/guix.texi:1084
 msgid "If the machine is running the OpenSSH daemon, @command{sshd}, the host key can be found in a file such as @file{/etc/ssh/ssh_host_ed25519_key.pub}."
 msgstr ""
+"Se a máquina estiver executando o daemon OpenSSH, @command{sshd}, a chave do "
+"host poderá ser encontrada em um arquivo como @file{/etc/ssh/"
+"ssh_host_ed25519_key.pub}."
 
 #. type: table
 #: doc/guix.texi:1089
 msgid "If the machine is running the SSH daemon of GNU@tie{}lsh, @command{lshd}, the host key is in @file{/etc/lsh/host-key.pub} or a similar file.  It can be converted to the OpenSSH format using @command{lsh-export-key} (@pxref{Converting keys,,, lsh, LSH Manual}):"
 msgstr ""
+"Se a máquina estiver executando o daemon SSH do GNU@tie{}lsh, @command{lshd}, "
+"a chave do host estará em @file{/etc/lsh/host-key.pub} ou em um arquivo "
+"semelhante. Ele pode ser convertido para o formato OpenSSH usando o @command"
+"{lsh-export-key} (@pxref{Converting keys,,, lsh, LSH Manual}):"
 
 #. type: example
 #: doc/guix.texi:1093
@@ -4221,232 +4329,288 @@ msgid ""
 "$ lsh-export-key --openssh < /etc/lsh/host-key.pub \n"
 "ssh-rsa AAAAB3NzaC1yc2EAAAAEOp8FoQAAAQEAs1eB46LV@dots{}\n"
 msgstr ""
+"$ lsh-export-key --openssh < /etc/lsh/host-key.pub \n"
+"ssh-rsa AAAAB3NzaC1yc2EAAAAEOp8FoQAAAQEAs1eB46LV@dots{}\n"
 
 #. type: deftp
 #: doc/guix.texi:1098
 msgid "A number of optional fields may be specified:"
-msgstr ""
+msgstr "Vários campos opcionais podem ser especificados:"
 
 #. type: item
 #: doc/guix.texi:1101
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "@code{port} (default: @code{22})"
-msgstr "@code{porta} (default: @code{6667})"
+msgstr "@code{port} (padrão: @code{22})"
 
 #. type: table
 #: doc/guix.texi:1103
-#, fuzzy
 msgid "Port number of SSH server on the machine."
-msgstr "O número da porta para o servidor proxy usado para feeds e conteúdos."
+msgstr "O número da porta para o servidor SSH na máquina."
 
 #. type: item
 #: doc/guix.texi:1104
 #, no-wrap
 msgid "@code{private-key} (default: @file{~root/.ssh/id_rsa})"
-msgstr ""
+msgstr "@code{private-key} (padrão: @file{~root/.ssh/id_rsa})"
 
 #. type: table
 #: doc/guix.texi:1107
 msgid "The SSH private key file to use when connecting to the machine, in OpenSSH format.  This key must not be protected with a passphrase."
 msgstr ""
+"O arquivo de chave privada SSH a ser usado ao conectar-se à máquina, no "
+"formato OpenSSH. Esta chave não deve ser protegida com uma senha."
 
 #. type: table
 #: doc/guix.texi:1110
 msgid "Note that the default value is the private key @emph{of the root account}.  Make sure it exists if you use the default."
 msgstr ""
+"Observe que o valor padrão é a chave privada @emph{da usuário root}. "
+"Verifique se ele existe se você usar o padrão."
 
 #. type: item
 #: doc/guix.texi:1111
 #, no-wrap
 msgid "@code{compression} (default: @code{\"zlib@@openssh.com,zlib\"})"
-msgstr ""
+msgstr "@code{compression} (padrão: @code{\"zlib@@openssh.com,zlib\"})"
 
 #. type: item
 #: doc/guix.texi:1112 doc/guix.texi:12200
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "@code{compression-level} (default: @code{3})"
-msgstr "@code{log-level} (default: @code{'info})"
+msgstr "@code{compression-level} (padrão: @code{3})"
 
 #. type: table
 #: doc/guix.texi:1114
 msgid "The SSH-level compression methods and compression level requested."
 msgstr ""
+"Os métodos de compactação no nível SSH e o nível de compactação solicitado."
 
 #. type: table
 #: doc/guix.texi:1117
 msgid "Note that offloading relies on SSH compression to reduce bandwidth usage when transferring files to and from build machines."
 msgstr ""
+"Observe que o descarregamento depende da compactação SSH para reduzir o uso "
+"da largura de banda ao transferir arquivos de e para máquinas de compilação."
 
 #. type: item
 #: doc/guix.texi:1118
 #, no-wrap
 msgid "@code{daemon-socket} (default: @code{\"/var/guix/daemon-socket/socket\"})"
 msgstr ""
+"@code{daemon-socket} (padrão: @code{\"/var/guix/daemon-socket/socket\"})"
 
 #. type: table
 #: doc/guix.texi:1121
 msgid "File name of the Unix-domain socket @command{guix-daemon} is listening to on that machine."
 msgstr ""
+"O nome do arquivo do soquete do domínio Unix @command{guix-daemon} está "
+"escutando nessa máquina."
 
 #. type: item
 #: doc/guix.texi:1122
 #, no-wrap
 msgid "@code{parallel-builds} (default: @code{1})"
-msgstr ""
+msgstr "@code{parallel-builds} (padrão: @code{1})"
 
 #. type: table
 #: doc/guix.texi:1124
 msgid "The number of builds that may run in parallel on the machine."
 msgstr ""
+"O número de compilações que podem ser executadas paralelamente na máquina."
 
 #. type: item
 #: doc/guix.texi:1125
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "@code{speed} (default: @code{1.0})"
-msgstr "@code{mount?} (default: @code{#t})"
+msgstr "@code{speed} (padrão: @code{1.0})"
 
 #. type: table
 #: doc/guix.texi:1128
 msgid "A ``relative speed factor''.  The offload scheduler will tend to prefer machines with a higher speed factor."
 msgstr ""
+"Um ``fator de velocidade relativo''. O agendador de descarregamento tenderá "
+"a preferir máquinas com um fator de velocidade mais alto."
 
 #. type: item
 #: doc/guix.texi:1129
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "@code{features} (default: @code{'()})"
-msgstr "@code{password} (default: @code{#f})"
+msgstr "@code{features} (padrão: @code{'()})"
 
 #. type: table
 #: doc/guix.texi:1134
 msgid "A list of strings denoting specific features supported by the machine.  An example is @code{\"kvm\"} for machines that have the KVM Linux modules and corresponding hardware support.  Derivations can request features by name, and they will be scheduled on matching build machines."
 msgstr ""
+"Uma lista de strgins que denotam recursos específicos suportados pela "
+"máquina. Um exemplo é @code{\"kvm\"} para máquinas que possuem os módulos "
+"KVM Linux e o suporte de hardware correspondente. As derivações podem "
+"solicitar recursos pelo nome e serão agendadas nas máquinas de compilação "
+"correspondentes."
 
 #. type: Plain text
 #: doc/guix.texi:1140
 msgid "The @command{guix} command must be in the search path on the build machines.  You can check whether this is the case by running:"
 msgstr ""
+"O comando @command{guix} deve estar no caminho de pesquisa nas máquinas de "
+"compilação. Você pode verificar se este é o caso executando:"
 
 #. type: example
 #: doc/guix.texi:1143
 #, no-wrap
 msgid "ssh build-machine guix repl --version\n"
-msgstr ""
+msgstr "ssh build-machine guix repl --version\n"
 
 #. type: Plain text
 #: doc/guix.texi:1150
 msgid "There is one last thing to do once @file{machines.scm} is in place.  As explained above, when offloading, files are transferred back and forth between the machine stores.  For this to work, you first need to generate a key pair on each machine to allow the daemon to export signed archives of files from the store (@pxref{Invoking guix archive}):"
 msgstr ""
+"Há uma última coisa a fazer quando o @file{machines.scm} está em vigor. Como "
+"explicado acima, ao descarregar, os arquivos são transferidos entre os "
+"armazenamentos da máquina. Para que isso funcione, primeiro você precisa "
+"gerar um par de chaves em cada máquina para permitir que o daemon exporte "
+"arquivos assinados de arquivos do armazenamento (@pxref{Invocando guix "
+"archive}):"
 
 #. type: example
 #: doc/guix.texi:1153
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "# guix archive --generate-key\n"
-msgstr "Invocando @command{guix archive}"
+msgstr "# guix archive --generate-key\n"
 
 #. type: Plain text
 #: doc/guix.texi:1158
 msgid "Each build machine must authorize the key of the master machine so that it accepts store items it receives from the master:"
 msgstr ""
+"Cada máquina de construção deve autorizar a chave da máquina principal para "
+"que ela aceite itens de loja que recebe do mestre:"
 
 #. type: example
 #: doc/guix.texi:1161
 #, no-wrap
 msgid "# guix archive --authorize < master-public-key.txt\n"
-msgstr ""
+msgstr "# guix archive --authorize < master-public-key.txt\n"
 
 #. type: Plain text
 #: doc/guix.texi:1165
 msgid "Likewise, the master machine must authorize the key of each build machine."
 msgstr ""
+"Da mesma forma, a máquina principal deve autorizar a chave de cada máquina "
+"de compilação."
 
 #. type: Plain text
 #: doc/guix.texi:1171
 msgid "All the fuss with keys is here to express pairwise mutual trust relations between the master and the build machines.  Concretely, when the master receives files from a build machine (and @i{vice versa}), its build daemon can make sure they are genuine, have not been tampered with, and that they are signed by an authorized key."
 msgstr ""
+"Todo esse barulho com as chaves está aqui para expressar relações de "
+"confiança mútua de pares entre a máquina mestre e as de compilação. "
+"Concretamente, quando o mestre recebe arquivos de uma máquina de compilação ("
+"e @i{vice-versa}), seu daemon de compilação pode garantir que eles sejam "
+"genuínos, não tenham sido violados e que sejam assinados por uma chave "
+"autorizada."
 
+# Não traduzir, é um comando do Guix
 #. type: cindex
 #: doc/guix.texi:1172
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "offload test"
-msgstr "_Testar"
+msgstr "offload test"
 
 #. type: Plain text
 #: doc/guix.texi:1175
 msgid "To test whether your setup is operational, run this command on the master node:"
 msgstr ""
+"Para testar se sua configuração está operacional, execute este comando no nó "
+"principal:"
 
 #. type: example
 #: doc/guix.texi:1178
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "# guix offload test\n"
-msgstr "Configuração de descarregamento de daemon"
+msgstr "# guix offload test\n"
 
 #. type: Plain text
 #: doc/guix.texi:1184
 msgid "This will attempt to connect to each of the build machines specified in @file{/etc/guix/machines.scm}, make sure Guile and the Guix modules are available on each machine, attempt to export to the machine and import from it, and report any error in the process."
 msgstr ""
+"Isso tentará conectar-se a cada uma das máquinas de compilação especificadas "
+"em @file{/etc/guix/machines.scm}, verifique se o Guile e os módulos Guix "
+"estão disponíveis em cada máquina, tente exportar para a máquina e importá-"
+"la, e relate qualquer erro no processo."
 
 #. type: Plain text
 #: doc/guix.texi:1187
 msgid "If you want to test a different machine file, just specify it on the command line:"
 msgstr ""
+"Se você quiser testar um arquivo de máquina diferente, basta especificá-lo "
+"na linha de comando:"
 
 #. type: example
 #: doc/guix.texi:1190
 #, no-wrap
 msgid "# guix offload test machines-qualif.scm\n"
-msgstr ""
+msgstr "# guix offload test machines-qualif.scm\n"
 
 #. type: Plain text
 #: doc/guix.texi:1194
 msgid "Last, you can test the subset of the machines whose name matches a regular expression like this:"
 msgstr ""
+"Por fim, você pode testar o subconjunto das máquinas cujo nome corresponde a "
+"uma expressão regular como esta:"
 
 #. type: example
 #: doc/guix.texi:1197
 #, no-wrap
 msgid "# guix offload test machines.scm '\\.gnu\\.org$'\n"
-msgstr ""
+msgstr "# guix offload test machines.scm '\\.gnu\\.org$'\n"
 
+# Não traduzir, é um comando do Guix
 #. type: cindex
 #: doc/guix.texi:1199
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "offload status"
-msgstr "Configuração de descarregamento de daemon"
+msgstr "offload status"
 
 #. type: Plain text
 #: doc/guix.texi:1202
 msgid "To display the current load of all build hosts, run this command on the main node:"
 msgstr ""
+"Para exibir o carregamento atual de todos os hosts de compilação, execute "
+"este comando no nó principal:"
 
 #. type: example
 #: doc/guix.texi:1205
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "# guix offload status\n"
-msgstr "Configuração de descarregamento de daemon"
+msgstr "# guix offload status\n"
 
 #. type: cindex
 #: doc/guix.texi:1211
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "SELinux, daemon policy"
-msgstr "Usando um política SELinux para o daemon."
+msgstr "SELinux, política de daemons"
 
 #. type: cindex
 #: doc/guix.texi:1212
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "mandatory access control, SELinux"
-msgstr "Controle de acesso"
+msgstr "controle de acesso obrigatório, SELinux"
 
 #. type: cindex
 #: doc/guix.texi:1213
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "security, guix-daemon"
-msgstr "Invocando guix-daemon"
+msgstr "segurança, guix-daemon"
 
 #. type: Plain text
 #: doc/guix.texi:1219
 msgid "Guix includes an SELinux policy file at @file{etc/guix-daemon.cil} that can be installed on a system where SELinux is enabled, in order to label Guix files and to specify the expected behavior of the daemon.  Since Guix System does not provide an SELinux base policy, the daemon policy cannot be used on Guix System."
 msgstr ""
+"O Guix inclui um arquivo de políticas do SELinux em @file{etc/guix-"
+"daemon.cil} que pode ser instalado em um sistema em que o SELinux está "
+"ativado, para rotular os arquivos do Guix e especificar o comportamento "
+"esperado do daemon. Como o Guix System não fornece uma política básica do "
+"SELinux, a política do daemon não pode ser usada no Guix System."
 
 #. type: subsubsection
 #: doc/guix.texi:1220
@@ -4462,74 +4626,112 @@ msgstr "SELinux, instalação de política"
 
 #. type: Plain text
 #: doc/guix.texi:1223
-#, fuzzy
 msgid "To install the policy run this command as root:"
-msgstr ""
-"Executa COMANDO com o diretório raiz modificado para NOVORAIZ.\n"
-"\n"
+msgstr "Para instalar a política, execute esse comando como root:"
 
 #. type: example
 #: doc/guix.texi:1226
 #, no-wrap
 msgid "semodule -i etc/guix-daemon.cil\n"
-msgstr ""
+msgstr "semodule -i etc/guix-daemon.cil\n"
 
 #. type: Plain text
 #: doc/guix.texi:1230
 msgid "Then relabel the file system with @code{restorecon} or by a different mechanism provided by your system."
 msgstr ""
+"Em seguida, altere o rótulo do sistema de arquivos com @code{restorecon} ou "
+"por um mecanismo diferente fornecido pelo seu sistema."
 
 #. type: Plain text
 #: doc/guix.texi:1235
 msgid "Once the policy is installed, the file system has been relabeled, and the daemon has been restarted, it should be running in the @code{guix_daemon_t} context.  You can confirm this with the following command:"
 msgstr ""
+"Depois que a política é instalada, o sistema de arquivos foi rotulado "
+"novamente e o daemon foi reiniciado, ele deve estar em execução no contexto "
+"@code{guix_daemon_t}. Você pode confirmar isso com o seguinte comando:"
 
 #. type: example
 #: doc/guix.texi:1238
 #, no-wrap
 msgid "ps -Zax | grep guix-daemon\n"
-msgstr ""
+msgstr "ps -Zax | grep guix-daemon\n"
 
 #. type: Plain text
 #: doc/guix.texi:1243
 msgid "Monitor the SELinux log files as you run a command like @code{guix build hello} to convince yourself that SELinux permits all necessary operations."
 msgstr ""
+"Monitore os arquivos de log do SELinux enquanto executa um comando como "
+"@code{guix build hello} para se convencer de que o SELinux permite todas as "
+"operações necessárias."
 
 #. type: cindex
 #: doc/guix.texi:1245
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "SELinux, limitations"
-msgstr "Limitações"
+msgstr "SELinux, limitações"
 
 #. type: Plain text
 #: doc/guix.texi:1250
 msgid "This policy is not perfect.  Here is a list of limitations or quirks that should be considered when deploying the provided SELinux policy for the Guix daemon."
 msgstr ""
+"Esta política não é perfeita. Aqui está uma lista de limitações ou "
+"peculiaridades que devem ser consideradas ao implementar a política SELinux "
+"fornecida para o daemon Guix."
 
 #. type: enumerate
 #: doc/guix.texi:1257
 msgid "@code{guix_daemon_socket_t} isn’t actually used.  None of the socket operations involve contexts that have anything to do with @code{guix_daemon_socket_t}.  It doesn’t hurt to have this unused label, but it would be preferrable to define socket rules for only this label."
 msgstr ""
+"@code{guix_daemon_socket_t} não é realmente usado. Nenhuma das operações de "
+"soquete envolve contextos que têm algo a ver com @code{guix_daemon_socket_t}"
+". Não faz mal ter esse rótulo não utilizado, mas seria preferível definir "
+"regras de soquete apenas para esse rótulo."
 
 #. type: enumerate
 #: doc/guix.texi:1268
 msgid "@code{guix gc} cannot access arbitrary links to profiles.  By design, the file label of the destination of a symlink is independent of the file label of the link itself.  Although all profiles under $localstatedir are labelled, the links to these profiles inherit the label of the directory they are in.  For links in the user’s home directory this will be @code{user_home_t}.  But for links from the root user’s home directory, or @file{/tmp}, or the HTTP server’s working directory, etc, this won’t work.  @code{guix gc} would be prevented from reading and following these links."
 msgstr ""
+"@code{guix gc} não pode acessar links arbitrários para perfis. Por design, o "
+"rótulo do arquivo do destino de um link simbólico é independente do rótulo "
+"do arquivo do próprio link. Embora todos os perfis em $localstatedir estejam "
+"rotulados, os links para esses perfis herdam o rótulo do diretório em que "
+"estão. Para os links no diretório inicial do usuário, será @code{user_home_t}"
+". Mas, para links do diretório inicial do usuário raiz, ou @file{/tmp}, ou "
+"do diretório de trabalho do servidor HTTP etc., isso não funcionará. @code{"
+"guix gc} seria impedido de ler e seguir esses links."
 
 #. type: enumerate
 #: doc/guix.texi:1273
 msgid "The daemon’s feature to listen for TCP connections might no longer work.  This might require extra rules, because SELinux treats network sockets differently from files."
 msgstr ""
+"O recurso do daemon de escutar conexões TCP pode não funcionar mais. Isso "
+"pode exigir regras extras, porque o SELinux trata os soquetes de rede de "
+"maneira diferente dos arquivos."
 
 #. type: enumerate
 #: doc/guix.texi:1284
 msgid "Currently all files with a name matching the regular expression @code{/gnu/store/.+-(guix-.+|profile)/bin/guix-daemon} are assigned the label @code{guix_daemon_exec_t}; this means that @emph{any} file with that name in any profile would be permitted to run in the @code{guix_daemon_t} domain.  This is not ideal.  An attacker could build a package that provides this executable and convince a user to install and run it, which lifts it into the @code{guix_daemon_t} domain.  At that point SELinux could not prevent it from accessing files that are allowed for processes in that domain."
 msgstr ""
+"Atualmente, todos os arquivos com um nome correspondente à expressão regular "
+"@code{/gnu/store/.+-(guix-.+|profile)/bin/guix-daemon} recebem o rótulo "
+"@code{guix_daemon_exec_t}; isso significa que @emph{qualquer} arquivo com "
+"esse nome em qualquer perfil poderá ser executado no domínio de "
+"@code{guix_daemon_t}. Isto não é o ideal. Um invasor pode criar um pacote "
+"que forneça esse executável e convencer um usuário a instalar e executá-lo, "
+"o que o eleva ao domínio de @code{guix_daemon_t}. Nesse ponto, o SELinux não "
+"poderia impedir o acesso a arquivos permitidos para processos nesse domínio."
 
 #. type: enumerate
 #: doc/guix.texi:1292
 msgid "We could generate a much more restrictive policy at installation time, so that only the @emph{exact} file name of the currently installed @code{guix-daemon} executable would be labelled with @code{guix_daemon_exec_t}, instead of using a broad regular expression.  The downside is that root would have to install or upgrade the policy at installation time whenever the Guix package that provides the effectively running @code{guix-daemon} executable is upgraded."
 msgstr ""
+"Poderíamos gerar uma política muito mais restritiva no momento da "
+"instalação, para que apenas o nome do arquivo @emph{exato} do executável "
+"@code{guix-daemon} atualmente instalado seja rotulado com "
+"@code{guix_daemon_exec_t}, em vez de usar um amplo expressão regular. A "
+"desvantagem é que o root precisaria instalar ou atualizar a política no "
+"momento da instalação sempre que o pacote Guix que fornece o executável @code"
+"{guix-daemon} em execução efetiva for atualizado."
 
 #. type: section
 #: doc/guix.texi:1295
@@ -4541,82 +4743,118 @@ msgstr "Invocando @command{guix-daemon}"
 #: doc/guix.texi:1301
 msgid "The @command{guix-daemon} program implements all the functionality to access the store.  This includes launching build processes, running the garbage collector, querying the availability of a build result, etc.  It is normally run as @code{root} like this:"
 msgstr ""
+"O programa @command{guix-daemon} implementa todas as funcionalidades para "
+"acessar a loja. Isso inclui iniciar processos de compilação, executar o "
+"coletor de lixo, consultar a disponibilidade de um resultado da compilação "
+"etc. É normalmente executado como @code{root}, assim:"
 
 #. type: Plain text
 #: doc/guix.texi:1308
 msgid "For details on how to set it up, @pxref{Setting Up the Daemon}."
-msgstr ""
+msgstr "Para detalhes sobre como configurá-lo, @pxref{Configurando o daemon}."
 
 #. type: cindex
 #: doc/guix.texi:1310
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "container, build environment"
-msgstr "No ambiente de compilação"
+msgstr "contêiner, ambiente de compilação"
 
 #. type: cindex
 #: doc/guix.texi:1312 doc/guix.texi:2561 doc/guix.texi:3242 doc/guix.texi:9773
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "reproducible builds"
-msgstr "[Criações Reproduzíveis](Reproducible_Builds) Como usar as ferramentas do F-Droid para facilitar a criação de reproduções."
+msgstr "compilações reproduzíveis"
 
 #. type: Plain text
 #: doc/guix.texi:1324
 msgid "By default, @command{guix-daemon} launches build processes under different UIDs, taken from the build group specified with @code{--build-users-group}.  In addition, each build process is run in a chroot environment that only contains the subset of the store that the build process depends on, as specified by its derivation (@pxref{Programming Interface, derivation}), plus a set of specific system directories.  By default, the latter contains @file{/dev} and @file{/dev/pts}.  Furthermore, on GNU/Linux, the build environment is a @dfn{container}: in addition to having its own file system tree, it has a separate mount name space, its own PID name space, network name space, etc.  This helps achieve reproducible builds (@pxref{Features})."
 msgstr ""
+"Por padrão, o @command{guix-daemon} inicia os processos de compilação sob "
+"diferentes UIDs, obtidos do grupo de compilações especificado com @code"
+"{--build-users-group}. Além disso, cada processo de compilação é executado "
+"em um ambiente chroot que contém apenas o subconjunto do armazenamento do "
+"qual o processo de construção depende, conforme especificado por sua "
+"derivação (@pxref{Interface de programação, derivação}), além de um conjunto "
+"de diretórios específicos do sistema. Por padrão, o último contém @file{/dev}"
+" e @file{/dev/pts}. Além disso, no GNU/Linux, o ambiente de compilação é um "
+"@dfn{contêiner}: além de ter sua própria árvore de sistema de arquivos, "
+"possui um espaço de nomes de montagem separado, seu próprio espaço de nomes "
+"de PID, espaço de nomes de rede etc. Isso ajuda obter compilações "
+"reproduzíveis (@pxref{Recursos})."
 
 #. type: Plain text
 #: doc/guix.texi:1330
 msgid "When the daemon performs a build on behalf of the user, it creates a build directory under @file{/tmp} or under the directory specified by its @code{TMPDIR} environment variable.  This directory is shared with the container for the duration of the build, though within the container, the build tree is always called @file{/tmp/guix-build-@var{name}.drv-0}."
 msgstr ""
+"Quando o daemon executa uma compilação em nome do usuário, ele cria um "
+"diretório de compilação em @file{/tmp} ou no diretório especificado por sua "
+"variável de ambiente @code{TMPDIR}. Esse diretório é compartilhado com o "
+"contêiner pela duração da compilação, embora, dentro do contêiner, a árvore "
+"de compilação seja sempre chamada @file{/tmp/guix-build-@var{nome}.drv-0}."
 
 #. type: Plain text
 #: doc/guix.texi:1334
 msgid "The build directory is automatically deleted upon completion, unless the build failed and the client specified @option{--keep-failed} (@pxref{Invoking guix build, @option{--keep-failed}})."
 msgstr ""
+"O diretório da compilação é excluído automaticamente após a conclusão, a "
+"menos que a compilação falhe e o cliente especifique @option{--keep-failed} "
+"(@pxref{Invocando guix build, @option{--keep-fail}})."
 
 #. type: Plain text
 #: doc/guix.texi:1340
 msgid "The daemon listens for connections and spawns one sub-process for each session started by a client (one of the @command{guix} sub-commands.)  The @command{guix processes} command allows you to get an overview of the activity on your system by viewing each of the active sessions and clients.  @xref{Invoking guix processes}, for more information."
 msgstr ""
+"O daemon escuta conexões e gera um subprocesso para cada sessão iniciada por "
+"um cliente (um dos subcomandos do @comand{guix}.) O comando @comand{guix "
+"process} permite obter uma visão geral da atividade em seu sistema "
+"visualizando cada uma das sessões e clientes ativos. @xref{Invocando guix "
+"processes}, para mais informações."
 
 #. type: Plain text
 #: doc/guix.texi:1342
-#, fuzzy
 msgid "The following command-line options are supported:"
-msgstr "OPÇÕES DE LINHA DE COMANDO"
+msgstr "As seguintes opções de linha de comando são suportadas:"
 
 #. type: item
 #: doc/guix.texi:1344
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "--build-users-group=@var{group}"
-msgstr "# guix-daemon --build-users-group=guixbuild\n"
+msgstr "--build-users-group=@var{grupo}"
 
 #. type: table
 #: doc/guix.texi:1347
 msgid "Take users from @var{group} to run build processes (@pxref{Setting Up the Daemon, build users})."
 msgstr ""
+"Obtém os usuários do @var{grupo} para executar os processos de compilação "
+"(@pxref{Configurando o daemon, usuários de compilação})."
 
 #. type: item
 #: doc/guix.texi:1348 doc/guix.texi:7723
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "--no-substitutes"
-msgstr "Substitutos"
+msgstr "--no-substitutes"
 
 #. type: cindex
 #: doc/guix.texi:1349 doc/guix.texi:2573 doc/guix.texi:3103
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "substitutes"
-msgstr "Substitutos"
+msgstr "substitutos"
 
 #. type: table
 #: doc/guix.texi:1353 doc/guix.texi:7727
 msgid "Do not use substitutes for build products.  That is, always build things locally instead of allowing downloads of pre-built binaries (@pxref{Substitutes})."
 msgstr ""
+"Não use substitutos para compilar produtos. Ou seja, sempre crie coisas "
+"localmente, em vez de permitir downloads de binários pré-compilados "
+"(@pxref{Substitutos})."
 
 #. type: table
 #: doc/guix.texi:1357
 msgid "When the daemon runs with @code{--no-substitutes}, clients can still explicitly enable substitution @i{via} the @code{set-build-options} remote procedure call (@pxref{The Store})."
 msgstr ""
+"Quando o daemon é executado com @code {--no-substitutes}, os clientes ainda "
+"podem habilitar explicitamente a substituição @i{via} a chamada de "
+"procedimento remoto @code{set-build-options} (@pxref{O armazenamento})."
 
 #. type: item
 #: doc/guix.texi:1358 doc/guix.texi:7710 doc/guix.texi:9317 doc/guix.texi:9898
@@ -4634,11 +4872,16 @@ msgstr "daemon-substitute-urls"
 #: doc/guix.texi:1363
 msgid "Consider @var{urls} the default whitespace-separated list of substitute source URLs.  When this option is omitted, @indicateurl{https://@value{SUBSTITUTE-SERVER}} is used."
 msgstr ""
+"Considere @var{urls} a lista padrão separada por espaços em branco de URLs "
+"de fontes substitutos. Quando essa opção é omitida, "
+"@indicateurl{https://@value{SERVIDOR-SUBSTITUTO}} é usado."
 
 #. type: table
 #: doc/guix.texi:1366
 msgid "This means that substitutes may be downloaded from @var{urls}, as long as they are signed by a trusted signature (@pxref{Substitutes})."
 msgstr ""
+"Isso significa que os substitutos podem ser baixados de @var{urls}, desde "
+"que assinados por uma assinatura confiável (@pxref{Substitutos})."
 
 #. type: item
 #: doc/guix.texi:1368 doc/guix.texi:7748
@@ -4648,30 +4891,39 @@ msgstr "--no-build-hook"
 
 #. type: table
 #: doc/guix.texi:1370
-#, fuzzy
 msgid "Do not use the @dfn{build hook}."
-msgstr "não usa o \"hook de compilação\""
+msgstr "Não usa o @dfn{hook de compilação}."
 
 #. type: table
 #: doc/guix.texi:1374
 msgid "The build hook is a helper program that the daemon can start and to which it submits build requests.  This mechanism is used to offload builds to other machines (@pxref{Daemon Offload Setup})."
 msgstr ""
+"O hook de compilação é um programa auxiliar que o daemon pode iniciar e ao "
+"qual envia solicitações de compilação. Esse mecanismo é usado para "
+"descarregar compilações em outras máquinas (@pxref{Configuração de "
+"descarregamento de daemon})."
 
 #. type: item
 #: doc/guix.texi:1375
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "--cache-failures"
-msgstr "armazena em cache as falhas de compilação"
+msgstr "--cache-failures"
 
 #. type: table
 #: doc/guix.texi:1377
 msgid "Cache build failures.  By default, only successful builds are cached."
 msgstr ""
+"Armazena em cache as compilações que falharam. Por padrão, apenas "
+"compilações bem-sucedidas são armazenadas em cache."
 
 #. type: table
 #: doc/guix.texi:1382
 msgid "When this option is used, @command{guix gc --list-failures} can be used to query the set of store items marked as failed; @command{guix gc --clear-failures} removes store items from the set of cached failures.  @xref{Invoking guix gc}."
 msgstr ""
+"Quando essa opção é usada, o @command{guix gc --list-failures} pode ser "
+"usado para consultar o conjunto de itens da loja marcados como com falha; O "
+"@command{guix gc --clear-failures} remove os itens de armazenamento do "
+"conjunto de falhas em cache. @xref{Invocando guix gc}."
 
 #. type: item
 #: doc/guix.texi:1383 doc/guix.texi:7777
@@ -4687,25 +4939,31 @@ msgstr "-c @var{n}"
 
 #. type: table
 #: doc/guix.texi:1387
-#, fuzzy
 msgid "Use @var{n} CPU cores to build each derivation; @code{0} means as many as available."
-msgstr "usa N núcleos de CPU para compilar cada derivação; 0 significa todos disponíveis"
+msgstr ""
+"Usa @var{n} núcleos de CPU para compilar cada derivação; @code{0} significa "
+"todos disponíveis."
 
 #. type: table
 #: doc/guix.texi:1391
 msgid "The default value is @code{0}, but it may be overridden by clients, such as the @code{--cores} option of @command{guix build} (@pxref{Invoking guix build})."
 msgstr ""
+"O valor padrão é @code{0}, mas pode ser substituído pelos clientes, como a "
+"opção @code{--cores} do @comand{guix build} (@pxref{Invocando guix build})."
 
 #. type: table
 #: doc/guix.texi:1395
 msgid "The effect is to define the @code{NIX_BUILD_CORES} environment variable in the build process, which can then use it to exploit internal parallelism---for instance, by running @code{make -j$NIX_BUILD_CORES}."
 msgstr ""
+"O efeito é definir a variável de ambiente @code{NIX_BUILD_CORES} no processo "
+"de compilação, que pode ser usada para explorar o paralelismo interno -- por "
+"exemplo, executando @code{make -j$NIX_BUILD_CORES}."
 
 #. type: item
 #: doc/guix.texi:1396 doc/guix.texi:7782
 #, no-wrap
 msgid "--max-jobs=@var{n}"
-msgstr ""
+msgstr "--max-jobs=@var{n}"
 
 #. type: itemx
 #: doc/guix.texi:1397 doc/guix.texi:7783
@@ -4717,43 +4975,55 @@ msgstr "-M @var{n}"
 #: doc/guix.texi:1402
 msgid "Allow at most @var{n} build jobs in parallel.  The default value is @code{1}.  Setting it to @code{0} means that no builds will be performed locally; instead, the daemon will offload builds (@pxref{Daemon Offload Setup}), or simply fail."
 msgstr ""
+"Permite no máximo @var{n} tarefas de compilação em paralelo. O valor padrão "
+"é @code{1}. Definir como @code{0} significa que nenhuma compilação será "
+"executada localmente; em vez disso, o daemon descarregará as compilações "
+"(@pxref{Configuração de descarregamento de daemon}) ou simplesmente falhará."
 
 #. type: item
 #: doc/guix.texi:1403 doc/guix.texi:7753
 #, no-wrap
 msgid "--max-silent-time=@var{seconds}"
-msgstr ""
+msgstr "--max-silent-time=@var{segundos}"
 
 #. type: table
 #: doc/guix.texi:1406 doc/guix.texi:7756
 msgid "When the build or substitution process remains silent for more than @var{seconds}, terminate it and report a build failure."
 msgstr ""
+"Quando o processo de compilação ou substituição permanecer em silêncio por "
+"mais de @var{segundos}, encerra-o e relata uma falha de compilação."
 
 #. type: table
 #: doc/guix.texi:1408 doc/guix.texi:1417
 msgid "The default value is @code{0}, which disables the timeout."
-msgstr ""
+msgstr "O valor padrão é @code{0}, que desativa o tempo limite."
 
 #. type: table
 #: doc/guix.texi:1411
 msgid "The value specified here can be overridden by clients (@pxref{Common Build Options, @code{--max-silent-time}})."
 msgstr ""
+"O valor especificado aqui pode ser substituído pelos clientes (@pxref{Opções "
+"de compilação comum, @code{--max-silent-time}})."
 
 #. type: item
 #: doc/guix.texi:1412 doc/guix.texi:7760
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "--timeout=@var{seconds}"
-msgstr "`timeout: <segundos>`\n"
+msgstr "--timeout=@var{segundos}"
 
 #. type: table
 #: doc/guix.texi:1415 doc/guix.texi:7763
 msgid "Likewise, when the build or substitution process lasts for more than @var{seconds}, terminate it and report a build failure."
 msgstr ""
+"Da mesma forma, quando o processo de compilação ou substituição durar mais "
+"que @var{segundos}, encerra-o e relata uma falha de compilação."
 
 #. type: table
 #: doc/guix.texi:1420
 msgid "The value specified here can be overridden by clients (@pxref{Common Build Options, @code{--timeout}})."
 msgstr ""
+"O valor especificado aqui pode ser substituído pelos clientes (@pxref{Opções "
+"de compilação comum, @code{--timeout}})."
 
 #. type: item
 #: doc/guix.texi:1421
