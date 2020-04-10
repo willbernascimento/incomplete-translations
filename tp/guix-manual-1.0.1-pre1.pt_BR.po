@@ -1,14 +1,14 @@
 # Brazilian Portuguese translations for guix package
 # Traduções em português brasileiro para o pacote guix
-# Copyright (C) 2019 Ludovic Courtès
+# Copyright (C) 2020 Ludovic Courtès
 # This file is distributed under the same license as the guix package.
-# Rafael Fontenelle <rafaelff@gnome.org>, 2019.
+# Rafael Fontenelle <rafaelff@gnome.org>, 2019, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: guix-manual 1.0.1-pre1\n"
 "Report-Msgid-Bugs-To: ludo@gnu.org\n"
 "POT-Creation-Date: 2019-05-10 20:53+0200\n"
-"PO-Revision-Date: 2019-12-18 07:03-0200\n"
+"PO-Revision-Date: 2020-03-10 02:15-0300\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge.net>"
 "\n"
@@ -5035,144 +5035,174 @@ msgstr "--rounds=@var{N}"
 #: doc/guix.texi:1426
 msgid "Build each derivation @var{n} times in a row, and raise an error if consecutive build results are not bit-for-bit identical.  Note that this setting can be overridden by clients such as @command{guix build} (@pxref{Invoking guix build})."
 msgstr ""
+"Compila cada derivação @var{n} vezes seguidas e gera um erro se os "
+"resultados consecutivos da compilação não forem idênticos bit a bit. Observe "
+"que essa configuração pode ser substituída por clientes como @command{guix "
+"build} (@pxref{Invocando guix build})."
 
 #. type: table
 #: doc/guix.texi:1430 doc/guix.texi:8122
 msgid "When used in conjunction with @option{--keep-failed}, the differing output is kept in the store, under @file{/gnu/store/@dots{}-check}.  This makes it easy to look for differences between the two results."
 msgstr ""
+"quando usado em conjunto com @option{--keep-failed}, uma saída de comparação "
+"é mantida no armazenamento, sob  @file{/gnu/store/@dots{}-check}. Isso "
+"facilita procurar por diferenças entre os dois resultados."
 
 #. type: item
 #: doc/guix.texi:1431
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "--debug"
-msgstr "Depuração: "
+msgstr "--debug"
 
 #. type: table
 #: doc/guix.texi:1433
-#, fuzzy
 msgid "Produce debugging output."
-msgstr "produz saída de depuração"
+msgstr "Produz uma saída de depuração."
 
 #. type: table
 #: doc/guix.texi:1437
 msgid "This is useful to debug daemon start-up issues, but then it may be overridden by clients, for example the @code{--verbosity} option of @command{guix build} (@pxref{Invoking guix build})."
 msgstr ""
+"Isso é útil para depurar problemas de inicialização de daemon, mas pode ser "
+"substituído pelos clientes, por exemplo, a opção @code{--verbosity} de "
+"@command{guix build} (@pxref{Invocando guix build})."
 
 #. type: item
 #: doc/guix.texi:1438
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "--chroot-directory=@var{dir}"
-msgstr " -r, --chroot <dir>         altera a raiz para o diretório dado\n"
+msgstr "--chroot-directory=@var{dir}"
 
 #. type: table
 #: doc/guix.texi:1440
-#, fuzzy
 msgid "Add @var{dir} to the build chroot."
-msgstr "adiciona DIR ao chroot de compilação"
+msgstr "adiciona @var{dir} ao chroot de compilação."
 
 #. type: table
 #: doc/guix.texi:1446
 msgid "Doing this may change the result of build processes---for instance if they use optional dependencies found in @var{dir} when it is available, and not otherwise.  For that reason, it is not recommended to do so.  Instead, make sure that each derivation declares all the inputs that it needs."
 msgstr ""
+"Isso pode alterar o resultado dos processos de compilação -- por exemplo, se "
+"eles usam dependências opcionais encontradas em @var{dir} quando estão "
+"disponíveis, e não o contrário. Por esse motivo, não é recomendável fazê-lo. "
+"Em vez disso, verifique se cada derivação declara todas as entradas "
+"necessárias."
 
 #. type: item
 #: doc/guix.texi:1447
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "--disable-chroot"
-msgstr "desabilita compilações em chroot"
+msgstr "--disable-chroot"
 
 #. type: table
 #: doc/guix.texi:1449
-#, fuzzy
 msgid "Disable chroot builds."
-msgstr "desabilita compilações em chroot"
+msgstr "Desabilita compilações em chroot."
 
 #. type: table
 #: doc/guix.texi:1454
 msgid "Using this option is not recommended since, again, it would allow build processes to gain access to undeclared dependencies.  It is necessary, though, when @command{guix-daemon} is running under an unprivileged user account."
 msgstr ""
+"O uso dessa opção não é recomendado, pois, novamente, isso permitiria que os "
+"processos de compilação obtivessem acesso a dependências não declaradas. "
+"Porém, é necessário quando o @comand{guix-daemon} está sendo executado em "
+"uma conta de usuário sem privilégios."
 
 #. type: item
 #: doc/guix.texi:1455
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "--log-compression=@var{type}"
-msgstr "Tipo de compressão desconhecida %d\n"
+msgstr "--log-compression=@var{tipo}"
 
 #. type: table
 #: doc/guix.texi:1458
 msgid "Compress build logs according to @var{type}, one of @code{gzip}, @code{bzip2}, or @code{none}."
 msgstr ""
+"Compacta logs de compilação de aconrdo com @var{tipo}, que pode ser um entre "
+"@code{gzip}, @code{bzip2} e @code{none}."
 
 #. type: table
 #: doc/guix.texi:1462
 msgid "Unless @code{--lose-logs} is used, all the build logs are kept in the @var{localstatedir}.  To save space, the daemon automatically compresses them with bzip2 by default."
 msgstr ""
+"A menos que @code{--lose-logs} seja usado, todos os logs de compilação são "
+"mantidos no @var{localstatedir}. Para economizar espaço, o daemon os "
+"compacta automaticamente com o bzip2 por padrão."
 
 #. type: item
 #: doc/guix.texi:1463
 #, no-wrap
 msgid "--disable-deduplication"
-msgstr ""
+msgstr "--disable-deduplication"
 
 #. type: cindex
 #: doc/guix.texi:1464 doc/guix.texi:3576
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "deduplication"
-msgstr "As resenhas (digests) estão desabilitadas; não se encontrará registros duplicados para serem removidos.\n"
+msgstr "deduplicação"
 
 #. type: table
 #: doc/guix.texi:1466
-#, fuzzy
 msgid "Disable automatic file ``deduplication'' in the store."
-msgstr "desabilita \"deduplicação\" automática de arquivo no armazenamento"
+msgstr "Desabilita ``deduplicação'' automática de arquivo no armazenamento."
 
 #. type: table
 #: doc/guix.texi:1473
 msgid "By default, files added to the store are automatically ``deduplicated'': if a newly added file is identical to another one found in the store, the daemon makes the new file a hard link to the other file.  This can noticeably reduce disk usage, at the expense of slightly increased input/output load at the end of a build process.  This option disables this optimization."
 msgstr ""
+"Por padrão, os arquivos adicionados à loja são automaticamente "
+"``deduplicados'': se um arquivo recém-adicionado for idêntico a outro "
+"encontrado na loja, o daemon tornará o novo arquivo um link físico para o "
+"outro arquivo. Isso pode reduzir notavelmente o uso do disco, às custas de "
+"um leve aumento na carga de entrada/saída no final de um processo de "
+"criação. Esta opção desativa essa otimização."
 
 #. type: item
 #: doc/guix.texi:1474
 #, no-wrap
 msgid "--gc-keep-outputs[=yes|no]"
-msgstr ""
+msgstr "--gc-keep-outputs[=yes|no]"
 
 #. type: table
 #: doc/guix.texi:1477
-#, fuzzy
 msgid "Tell whether the garbage collector (GC) must keep outputs of live derivations."
-msgstr "diz se o GC deve manter as derivações correspondentes às saídas vivas"
+msgstr ""
+"Diz se o coletor de lixo (GC) deve manter as saídas de derivações vivas."
 
 #. type: cindex
 #: doc/guix.texi:1478 doc/guix.texi:3393
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "GC roots"
-msgstr "Torta de raízes"
+msgstr "raízes de GC"
 
 #. type: cindex
 #: doc/guix.texi:1479 doc/guix.texi:3394
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "garbage collector roots"
-msgstr ""
-"Registra raízes de coletor de lixo --- isto é, armazena\n"
-"itens que não serão recuperados pelo coletor de lixo."
+msgstr "raízes de coletor de lixo"
 
 #. type: table
 #: doc/guix.texi:1484
 msgid "When set to ``yes'', the GC will keep the outputs of any live derivation available in the store---the @code{.drv} files.  The default is ``no'', meaning that derivation outputs are kept only if they are reachable from a GC root.  @xref{Invoking guix gc}, for more on GC roots."
 msgstr ""
+"Quando definido como ``yes'', o GC manterá as saídas de qualquer derivação "
+"ativa disponível no armazenamento -- os arquivos @code{.drv}. O padrão é ``"
+"no'', o que significa que as saídas de derivação são mantidas apenas se "
+"forem alcançáveis a partir de uma raiz do GC. @xref{Invocando guix gc}, para "
+"saber mais sobre as raízes do GC."
 
 #. type: item
 #: doc/guix.texi:1485
 #, no-wrap
 msgid "--gc-keep-derivations[=yes|no]"
-msgstr ""
+msgstr "--gc-keep-derivations[=yes|no]"
 
 #. type: table
 #: doc/guix.texi:1488
-#, fuzzy
 msgid "Tell whether the garbage collector (GC) must keep derivations corresponding to live outputs."
-msgstr "diz se o GC deve manter as derivações correspondentes às saídas vivas"
+msgstr ""
+"Diz se o coletor de lixo (GC) deve manter as derivações correspondentes às "
+"saídas vivas."
 
 #. type: table
 #: doc/guix.texi:1493
